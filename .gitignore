@@ -1,0 +1,27 @@
+# Python build artefacts
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# Generated intermediate HTML (regenerable from scripts)
+/audition_call.html
+/audition_packet_trimmed.html
+/sides_templates.html
+/scene_index.html
+/production_summary.html
+/_pdf_tmp.html
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local builds
+/build/
+/dist/
