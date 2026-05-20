@@ -32,6 +32,10 @@ scripts/                               Python build pipeline (uses Playwright + 
 
 data/
 └── role_stats.json                    Per-character speech counts and word counts across the production
+
+docs/
+└── director-notes/                    Working reflections on the play — what it is, how the parts read,
+                                       where productions tend to go wrong. Opinions, not blocking.
 ```
 
 ---
