@@ -27,6 +27,11 @@ outputs/
 │                                       role sections, each with the full character
 │                                       description and ~2 pages of dialogue pulled
 │                                       byte-identically from the play. ~27 pages.
+├── audition_checklist.pdf             Director's working checklist for the audition room.
+│                                       One page per role with checkboxes (reading,
+│                                       signature & arc, voice & body, notes), plus an
+│                                       auditioner-info form and a general assessment
+│                                       page. Bring this to every audition. ~16 pages.
 └── production_summary.pdf             One-page publication blurb for press, programme,
                                         festival listings, and company announcements.
 
@@ -35,6 +40,7 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 ├── build_actor_script.py              → six_characters_actor_script.html (then make_pdf
 │                                       renders it to outputs/six_characters_actor_script.pdf)
 ├── build_audition_unified.py          → outputs/audition_unified.pdf
+├── build_audition_checklist.py        → outputs/audition_checklist.pdf
 ├── build_summary.py                   → outputs/production_summary.pdf
 ├── recount_stats.py                   → recounts per-character speech/word counts and
 │                                       updates the stats blocks in the HTML and
@@ -80,6 +86,7 @@ PDF_OUT=outputs/six_characters_actor_script.pdf \
   python scripts/make_pdf.py                # render actor-script PDF
 
 python scripts/build_audition_unified.py    # render audition_unified.pdf
+python scripts/build_audition_checklist.py  # render audition_checklist.pdf
 python scripts/build_summary.py             # render production_summary.pdf
 ```
 
