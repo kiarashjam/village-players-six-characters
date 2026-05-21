@@ -412,7 +412,7 @@ def build():
         except ValueError as e:
             print(f"  !! {e}")
 
-    body = COVER_HTML + INTRO_HTML + HOW_TO_AUDITION_HTML + "".join(sections)
+    body = COVER_HTML + HOW_TO_AUDITION_HTML + "".join(sections)
 
     html = f"""<!DOCTYPE html>
 <html lang="en">
