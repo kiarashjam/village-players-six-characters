@@ -14,6 +14,7 @@ venv/
 /production_summary.html
 /_pdf_tmp.html
 /outputs/*.html
+/six_characters_actor_script.html
 
 # Editor / OS noise
 .DS_Store
