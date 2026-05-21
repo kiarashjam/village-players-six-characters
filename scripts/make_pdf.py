@@ -6,11 +6,14 @@ Adds a small print-only override stylesheet to:
 - Hide interactive UI (controls, progress strip, act pin)
 - Set page margins and page breaks
 """
+import os
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
-SRC = Path("/home/claude/six_characters.html")
-OUT = Path("/home/claude/six_characters.pdf")
+HERE = Path(__file__).resolve().parent.parent
+SRC = Path(os.environ.get("PDF_SRC", HERE / "six_characters_village_players.html"))
+OUT = Path(os.environ.get("PDF_OUT", HERE / "outputs" / "six_characters.pdf"))
+CHROMIUM = os.environ.get("CHROMIUM_PATH")  # optional override
 
 PRINT_CSS = """
 <style id="print-overrides">
@@ -49,13 +52,16 @@ if "</head>" in html:
 else:
     html_with_overrides = PRINT_CSS + html
 
-TMP = Path("/home/claude/_pdf_tmp.html")
+TMP = SRC.parent / "_pdf_tmp.html"
 TMP.write_text(html_with_overrides)
 
 print(f"Rendering {SRC.name} → PDF via Chromium…")
 
 with sync_playwright() as p:
-    browser = p.chromium.launch()
+    launch_kwargs = {}
+    if CHROMIUM:
+        launch_kwargs["executable_path"] = CHROMIUM
+    browser = p.chromium.launch(**launch_kwargs)
     page = browser.new_page()
     page.goto(f"file://{TMP.resolve()}", wait_until="networkidle", timeout=60000)
     page.wait_for_timeout(1200)
