@@ -15,6 +15,7 @@ venv/
 /_pdf_tmp.html
 /outputs/*.html
 /six_characters_actor_script.html
+/outputs/audition_unified.html
 
 # Editor / OS noise
 .DS_Store
