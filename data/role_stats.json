@@ -1,39 +1,39 @@
 {
   "The Manager": {
-    "speeches": 194,
-    "words": 3659
+    "speeches": 198,
+    "words": 3714
   },
   "Player 2": {
-    "speeches": 31,
-    "words": 285
+    "speeches": 37,
+    "words": 381
   },
   "Player 3": {
     "speeches": 25,
-    "words": 286
+    "words": 441
   },
   "Player 1": {
-    "speeches": 36,
-    "words": 422
+    "speeches": 40,
+    "words": 532
   },
   "The Father": {
-    "speeches": 160,
-    "words": 4779
+    "speeches": 161,
+    "words": 4828
   },
   "The Step-Daughter": {
-    "speeches": 106,
-    "words": 2937
+    "speeches": 109,
+    "words": 3028
   },
   "All Three Players": {
-    "speeches": 6,
-    "words": 21
+    "speeches": 5,
+    "words": 50
   },
   "The Mother": {
     "speeches": 36,
-    "words": 541
+    "words": 544
   },
   "The Son": {
     "speeches": 37,
-    "words": 775
+    "words": 778
   },
   "The Manager and The Father": {
     "speeches": 1,
@@ -41,6 +41,10 @@
   },
   "Two Players": {
     "speeches": 2,
-    "words": 3
+    "words": 8
+  },
+  "The Other Players": {
+    "speeches": 1,
+    "words": 9
   }
 }
