@@ -2,8 +2,14 @@
 """Build a one-page publication summary PDF for the production.
 Suitable for press releases, programme notes, festival listings, or
 the company's own announcements."""
+import os
 from pathlib import Path
 from playwright.sync_api import sync_playwright
+
+HERE = Path(__file__).resolve().parent.parent
+OUT_DIR = Path(os.environ.get("OUT_DIR", HERE / "outputs"))
+OUT_DIR.mkdir(parents=True, exist_ok=True)
+CHROMIUM = os.environ.get("CHROMIUM_PATH")
 
 HTML = """<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
@@ -142,12 +148,13 @@ HTML = """<!DOCTYPE html>
 </body></html>
 """
 
-HTML_PATH = Path("/home/claude/production_summary.html")
+HTML_PATH = OUT_DIR / "production_summary.html"
 HTML_PATH.write_text(HTML)
 
-OUT = Path("/home/claude/production_summary.pdf")
+OUT = OUT_DIR / "production_summary.pdf"
 with sync_playwright() as p:
-    browser = p.chromium.launch()
+    launch_kwargs = {"executable_path": CHROMIUM} if CHROMIUM else {}
+    browser = p.chromium.launch(**launch_kwargs)
     page = browser.new_page()
     page.goto(f"file://{HTML_PATH.resolve()}", wait_until="networkidle", timeout=30000)
     page.wait_for_timeout(600)
@@ -156,6 +163,9 @@ with sync_playwright() as p:
              print_background=True, prefer_css_page_size=True)
     browser.close()
 
-from pypdf import PdfReader
-r = PdfReader(str(OUT))
-print(f"Done: {OUT} ({OUT.stat().st_size:,} bytes) · {len(r.pages)} pages")
+try:
+    from pypdf import PdfReader
+    r = PdfReader(str(OUT))
+    print(f"Done: {OUT} ({OUT.stat().st_size:,} bytes) · {len(r.pages)} pages")
+except BaseException:
+    print(f"Done: {OUT} ({OUT.stat().st_size:,} bytes)")

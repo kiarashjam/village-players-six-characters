@@ -5,12 +5,19 @@ Source: the user's director's edition (six_characters.html) of Pirandello's
 public-domain 1921 play (Storer 1922 translation via Project Gutenberg
 Australia, explicitly cited in the source document's colophon), with the
 extensive directorial modifications made across this project."""
+import os
 from pathlib import Path
 import json, re
 from playwright.sync_api import sync_playwright
 
-src_html = Path("/home/claude/six_characters.html").read_text()
-stats = json.loads(Path("/home/claude/role_stats.json").read_text())
+HERE = Path(__file__).resolve().parent.parent
+SRC = Path(os.environ.get("PLAY_SRC", HERE / "six_characters_village_players.html"))
+STATS = Path(os.environ.get("STATS_SRC", HERE / "data" / "role_stats.json"))
+OUT_DIR = Path(os.environ.get("OUT_DIR", HERE / "outputs"))
+CHROMIUM = os.environ.get("CHROMIUM_PATH")
+
+src_html = SRC.read_text()
+stats = json.loads(STATS.read_text())
 
 
 def find_speech_by_opener(opener):
@@ -297,13 +304,15 @@ HTML = f"""<!DOCTYPE html>
 </html>
 """
 
-HTML_PATH = Path("/home/claude/audition_call.html")
+OUT_DIR.mkdir(parents=True, exist_ok=True)
+HTML_PATH = OUT_DIR / "audition_call.html"
 HTML_PATH.write_text(HTML)
 print(f"Wrote {HTML_PATH} ({HTML_PATH.stat().st_size:,} bytes)")
 
-OUT = Path("/home/claude/audition_call.pdf")
+OUT = OUT_DIR / "audition_call.pdf"
 with sync_playwright() as p:
-    browser = p.chromium.launch()
+    launch_kwargs = {"executable_path": CHROMIUM} if CHROMIUM else {}
+    browser = p.chromium.launch(**launch_kwargs)
     page = browser.new_page()
     page.goto(f"file://{HTML_PATH.resolve()}", wait_until="networkidle", timeout=30000)
     page.wait_for_timeout(800)
@@ -312,6 +321,9 @@ with sync_playwright() as p:
              print_background=True, prefer_css_page_size=True)
     browser.close()
 
-from pypdf import PdfReader
-r = PdfReader(str(OUT))
-print(f"Done: {OUT} ({OUT.stat().st_size:,} bytes) · {len(r.pages)} pages")
+try:
+    from pypdf import PdfReader
+    r = PdfReader(str(OUT))
+    print(f"Done: {OUT} ({OUT.stat().st_size:,} bytes) · {len(r.pages)} pages")
+except BaseException:
+    print(f"Done: {OUT} ({OUT.stat().st_size:,} bytes)")

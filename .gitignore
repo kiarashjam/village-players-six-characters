@@ -13,6 +13,7 @@ venv/
 /scene_index.html
 /production_summary.html
 /_pdf_tmp.html
+/outputs/*.html
 
 # Editor / OS noise
 .DS_Store

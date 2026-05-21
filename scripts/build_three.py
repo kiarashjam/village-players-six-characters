@@ -5,13 +5,20 @@
 2. sides_templates.pdf — 8 one-page blanks the user fills in locally.
 3. scene_index.pdf — a one-page reference listing the speech locations
    (number + short ctrl-F fingerprint) for each role's likely sides."""
+import os
 from pathlib import Path
 import re, json
 from playwright.sync_api import sync_playwright
 
-SRC = Path("/home/claude/six_characters_village_players.html")
+HERE = Path(__file__).resolve().parent.parent
+SRC = Path(os.environ.get("PLAY_SRC", HERE / "six_characters_village_players.html"))
+STATS = Path(os.environ.get("STATS_SRC", HERE / "data" / "role_stats.json"))
+OUT_DIR = Path(os.environ.get("OUT_DIR", HERE / "outputs"))
+OUT_DIR.mkdir(parents=True, exist_ok=True)
+CHROMIUM = os.environ.get("CHROMIUM_PATH")
+
 src_html = SRC.read_text()
-stats = json.loads(Path("/home/claude/role_stats.json").read_text())
+stats = json.loads(STATS.read_text())
 
 # ---------------------------------------------------------------------------
 # Build numbered speech index from the working file
@@ -107,7 +114,7 @@ SHARED_CSS = """
 # ===========================================================================
 # PDF 1 — Trimmed audition packet (cover + summary + role cards + silent note)
 # ===========================================================================
-existing = Path("/home/claude/audition_call.html").read_text()
+existing = (OUT_DIR / "audition_call.html").read_text()
 
 # Remove the entire <section class="front">...</section>
 trimmed = re.sub(r'<section class="front">.*?</section>', '', existing, count=1, flags=re.DOTALL)
@@ -171,7 +178,7 @@ SUMMARY_CSS = """
 """
 trimmed = trimmed.replace('</style>', SUMMARY_CSS + '\n</style>', 1)
 
-Path("/home/claude/audition_packet_trimmed.html").write_text(trimmed)
+(OUT_DIR / "audition_packet_trimmed.html").write_text(trimmed)
 
 # ===========================================================================
 # PDF 2 — Sides templates (8 one-page blanks)
@@ -246,7 +253,7 @@ TEMPLATE_HTML = TEMPLATES_HEAD + "".join(render_template(r) for r in [
     "The Manager", "Player 1", "Player 2", "Player 3"
 ]) + "</body></html>"
 
-Path("/home/claude/sides_templates.html").write_text(TEMPLATE_HTML)
+(OUT_DIR / "sides_templates.html").write_text(TEMPLATE_HTML)
 
 # ===========================================================================
 # PDF 3 — Scene index (one or two pages of pointers)
@@ -311,14 +318,15 @@ INDEX_HTML = f"""<!DOCTYPE html>
 </body></html>
 """
 
-Path("/home/claude/scene_index.html").write_text(INDEX_HTML)
+(OUT_DIR / "scene_index.html").write_text(INDEX_HTML)
 
 # ===========================================================================
 # Render all three to PDF
 # ===========================================================================
 def render(html_path, pdf_path):
     with sync_playwright() as p:
-        browser = p.chromium.launch()
+        launch_kwargs = {"executable_path": CHROMIUM} if CHROMIUM else {}
+        browser = p.chromium.launch(**launch_kwargs)
         page = browser.new_page()
         page.goto(f"file://{Path(html_path).resolve()}", wait_until="networkidle", timeout=30000)
         page.wait_for_timeout(600)
@@ -329,13 +337,17 @@ def render(html_path, pdf_path):
         )
         browser.close()
 
-OUT_DIR = Path("/home/claude")
 render(OUT_DIR/"audition_packet_trimmed.html", OUT_DIR/"audition_packet_trimmed.pdf")
 render(OUT_DIR/"sides_templates.html", OUT_DIR/"sides_templates.pdf")
 render(OUT_DIR/"scene_index.html", OUT_DIR/"scene_index.pdf")
 
-from pypdf import PdfReader
-for name in ["audition_packet_trimmed.pdf", "sides_templates.pdf", "scene_index.pdf"]:
-    p = OUT_DIR / name
-    r = PdfReader(str(p))
-    print(f"  {name}: {p.stat().st_size:,} bytes · {len(r.pages)} pages")
+try:
+    from pypdf import PdfReader
+    for name in ["audition_packet_trimmed.pdf", "sides_templates.pdf", "scene_index.pdf"]:
+        p = OUT_DIR / name
+        r = PdfReader(str(p))
+        print(f"  {name}: {p.stat().st_size:,} bytes · {len(r.pages)} pages")
+except BaseException:
+    for name in ["audition_packet_trimmed.pdf", "sides_templates.pdf", "scene_index.pdf"]:
+        p = OUT_DIR / name
+        print(f"  {name}: {p.stat().st_size:,} bytes")
