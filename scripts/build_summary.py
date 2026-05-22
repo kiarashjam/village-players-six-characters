@@ -125,14 +125,11 @@ HTML = """<!DOCTYPE html>
   <section class="timeline">
     <h2 class="timeline-heading">Production timeline</h2>
     <dl class="tl-list">
-      <dt>June 2026</dt>
-      <dd>Open auditions in Lausanne. Casting for the eight live tracks.</dd>
+      <dt>Thursdays, 18 June – 30 July 2026</dt>
+      <dd>Audition-and-table-work block at SSA Lausanne. Seven weekly evenings: open auditions, callbacks, full company read-through, act-by-act table work, walk-through of the light & sound score and the intimacy protocol, closing read-through with cues. No staging in this phase.</dd>
 
-      <dt>Late June – July 2026</dt>
-      <dd>Line readings with cast members as availability allows. Initial table work and dramaturgical conversations.</dd>
-
-      <dt>August – November 2026</dt>
-      <dd>Weekly rehearsals through the autumn, building toward opening. Cast and creative team commit to a single weekly call.</dd>
+      <dt>Mid-August – November 2026</dt>
+      <dd>Weekly staging rehearsals through the autumn — blocking, intimacy choreography, technical and dress rehearsals — building toward opening.</dd>
 
       <dt>Opening</dt>
       <dd>Late autumn 2026. A short run of three or four performances. Dates and venue to be announced.</dd>

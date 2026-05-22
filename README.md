@@ -126,10 +126,12 @@ The base translation is Edward Storer's 1922 English version of Pirandello's *Si
 
 | Phase | Dates |
 |---|---|
-| Open auditions in Lausanne | June 2026 |
-| Line readings (cast as available) | Late June – July 2026 |
-| Weekly rehearsals | August – November 2026 |
+| Audition & table-work block — seven Thursday evenings at SSA Lausanne | Thu 18 June – Thu 30 July 2026 |
+| August break — memorisation, dramaturgical rest, technical prep | Early August 2026 |
+| Weekly staging rehearsals through opening | Mid-August – November 2026 |
 | Opening — short run of 3–4 performances | Late autumn 2026 |
+
+The seven Thursdays in June–July are the audition-plus-table-work arc — see the *Rehearsal Schedule* section in the Director's Copy for the per-session plan (open auditions → callbacks → first cold read → Acts 1 / 2 / 3 table work → full read-through with cues). No staging in this phase; what gets set is the company's shared understanding of the play, the intimacy protocol, and the light & sound cues. August is when bodies start to move.
 
 ---
 
