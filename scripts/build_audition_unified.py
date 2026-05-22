@@ -35,7 +35,7 @@ SIDES = [
     {
         "role": "The Father",
         "tag": "the brain of the family",
-        "context": "Act One — his confession. The Step-Daughter has just exposed the hundred francs at Madame Pace's shop. The Father attempts to explain himself; the philosophy cracks; the handkerchief is out.",
+        "context": "Act One — his confession. The Step-Daughter has just exposed the hundred francs at Madame Pace's shop. The Father attempts to explain himself; the philosophy cracks; the body gives him away.",
         "from_speaker": "The Father",
         "from_opener": "Naturally enough. I would ask you",
         "to_speaker": "The Father",
@@ -71,7 +71,7 @@ SIDES = [
     {
         "role": "The Manager",
         "tag": "the director on a deadline",
-        "context": "Act One — the opening rehearsal. He bickers with the Leading Man about the cook's cap, insults the playwright, and sets the company in motion. The clipboard is under his arm.",
+        "context": "Act One — the opening rehearsal. He bickers with the Leading Man about the cook's cap, insults the playwright, and sets the company in motion.",
         "from_speaker": "The Manager",
         "from_opener": "I can't see a thing in here",
         "to_speaker": "The Manager",
@@ -80,7 +80,7 @@ SIDES = [
     {
         "role": "Player 1",
         "tag": "one character in five hats — the faded Leading Man",
-        "context": "Act Two, Part III — the Leading Man takes the platform and plays the Father in the shop scene. Practised gallantry meets a woman half his age who has been through the actual room. The comb is out.",
+        "context": "Act Two, Part III — the Leading Man takes the platform and plays the Father in the shop scene. Practised gallantry meets a woman half his age who has been through the actual room.",
         "from_speaker": "The Manager",
         "from_opener": "See here! The scene between you and Madame Pace",
         "to_speaker": "Player 1",
@@ -347,9 +347,9 @@ HOW_TO_AUDITION_HTML = """
 
   <h3>Format</h3>
   <ul>
-    <li>Each side is presented exactly as it appears in the production script, including stage directions and the signature gestures the production scores (the Father's handkerchief, the Manager's clipboard, Player 1's comb, Player 2's reading glasses on a chain, etc.). You do not need to perform every gesture — they are there so you can read the moment the way the production reads it.</li>
+    <li>Each side is presented exactly as it appears in the production script, including the bracketed stage directions that name what the body should be doing — heat at the brow, a small grooming gesture, the chin lifting, the breath catching, the bearing arriving. You do not need to perform every gesture — they are there so you can read the moment the way the production reads it.</li>
     <li>For multi-speaker scenes, the auditioning actor reads <em>their character's lines only</em>. A reader will give you the cues.</li>
-    <li>Where stage directions specify physical actions (e.g., <em>[the handkerchief is out of the breast pocket for the first time]</em>), feel free to mark them or ignore them — they are a guide to the moment, not a test of mime.</li>
+    <li>Where stage directions specify physical actions (e.g., <em>[a hand goes to his brow, almost despite himself]</em>), feel free to mark them or ignore them — they are a guide to the moment, not a test of mime.</li>
   </ul>
 
   <h3>What we're looking for</h3>
