@@ -21,6 +21,7 @@ venv/
 /outputs/audition_checklist.html
 /outputs/assistant_director_pack.html
 /outputs/stage_manager_pack.html
+/outputs/intimacy_protocol.html
 
 # Editor / OS noise
 .DS_Store

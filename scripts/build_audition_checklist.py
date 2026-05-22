@@ -50,7 +50,7 @@ CHARACTERS = [
                 "Comfortable with shame as a visible physiological event",
                 "Holds stillness when he is losing the argument",
                 "Movement is specific, not generalised",
-                "Available for the Step-Daughter's proximity within the production's intimacy protocol",
+                "Available for the Step-Daughter's close-proximity blocking on stage",
             ]),
             ("Direction-taking & range", [
                 "Takes an adjustment between takes and holds it",
@@ -81,7 +81,7 @@ CHARACTERS = [
                 "Body is specific — the actor has decided what the Mother's hands are doing at every moment",
                 "Comfortable holding the bundle for long stretches",
                 "Comfortable with the chair-and-coat as the second child",
-                "Available for the intimacy protocol around the Father raising her veil",
+                "Available for the staged moment where the Father raises her veil",
                 "Eyes can stay on the floor for extended periods without dropping focus",
             ]),
             ("Direction-taking & range", [
@@ -114,7 +114,7 @@ CHARACTERS = [
                 "Reads young — the audience must see the age difference with the Father",
                 "Knows how to use a room without flirting",
                 "Comfortable with the bundle as her sister",
-                "Available for the intimacy protocol with the Father actor",
+                "Available for the staged close-proximity work with the Father actor",
             ]),
             ("Direction-taking & range", [
                 "Available for the line read in two registers (open, attacking)",
@@ -144,7 +144,7 @@ CHARACTERS = [
             ("Body & presence", [
                 "Stillness reads as presence, not blankness",
                 "Has chosen what the body is doing during long silences and committed to it",
-                "Comfortable being physically restrained by the Father within the intimacy protocol",
+                "Comfortable being held by the shoulders by the Father in the Act Three confrontation",
                 "Available to be looked at by other characters without performing a reaction",
             ]),
             ("Direction-taking & range", [
@@ -207,7 +207,7 @@ CHARACTERS = [
             ("Body & presence", [
                 "Physical specificity across the costume changes",
                 "Comfortable with comic exposure — being laughed at without becoming sour",
-                "Available for the shop-scene playing within the production's intimacy protocol",
+                "Available for the shop-scene playing on the upper platform",
             ]),
             ("Direction-taking & range", [
                 "Takes notes about smaller — can dial vanity down without losing comedy",
@@ -237,7 +237,7 @@ CHARACTERS = [
             ("Body & presence", [
                 "Comfortable flipping between Leading Lady and Property Man within a single scene",
                 "Physical authority — reads as the senior actor in the company",
-                "Available for the shop-scene playing within the production's intimacy protocol",
+                "Available for the shop-scene playing on the upper platform",
                 "Comfortable with stage objects (hats, screen, table, pegs)",
             ]),
             ("Direction-taking & range", [
@@ -268,7 +268,7 @@ CHARACTERS = [
             ("Body & presence", [
                 "Available for full physical transformation — wig, heels, powder",
                 "Body inhabits Madame Pace fully; the audience reads a different person from the Juvenile Lead",
-                "Available for the touching protocol with the Step-Daughter actor (hand under chin, briefly, no further)",
+                "Available for the staged hand-under-chin moment with the Step-Daughter (brief, dressmaker-to-customer framing)",
                 "Comfortable with the prompter's box for extended periods",
             ]),
             ("Direction-taking & range", [
@@ -391,8 +391,9 @@ AUDITIONER_FORM = """
   <div class="field"><span class="label">Open to</span><span class="line"></span></div>
 
   <h3>Availability</h3>
-  <div class="field"><span class="label">Thursdays 18:00 – 21:00, SSA Lausanne (18 June – 30 July 2026)</span><span class="line"></span></div>
-  <div class="field"><span class="label">Mid-August – November 2026 (weekly rehearsals)</span><span class="line"></span></div>
+  <div class="field"><span class="label">Audition: Tue 2 / Fri 5 / Wed 10 June 2026, 18:00 – 21:00, SSA Lausanne</span><span class="line"></span></div>
+  <div class="field"><span class="label">Table-work: Thursdays 18 June – 30 July 2026, 18:00 – 21:00, SSA Lausanne</span><span class="line"></span></div>
+  <div class="field"><span class="label">Staging: 5 August – 1 November 2026 (weekly + some weekends)</span><span class="line"></span></div>
   <div class="field"><span class="label">Late autumn 2026 (performance run)</span><span class="line"></span></div>
   <div class="field"><span class="label">Known conflicts (specific dates)</span><span class="line"></span></div>
 
@@ -441,7 +442,7 @@ GENERAL_ASSESSMENT = """
           <li><span class="box"></span><span>Specific gesture (not generalised)</span></li>
           <li><span class="box"></span><span>Spatial awareness of scene partners</span></li>
           <li><span class="box"></span><span>Comfortable with the chair-and-coat / bundle conventions</span></li>
-          <li><span class="box"></span><span>Has read and accepted the intimacy protocol</span></li>
+          <li><span class="box"></span><span>Available for all scheduled rehearsal dates</span></li>
         </ul>
       </div>
 

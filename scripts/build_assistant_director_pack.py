@@ -3,7 +3,8 @@
 
 A standalone brief for the person taking the Assistant Director role:
 what they do, what they do not do, how they work with the Stage Manager,
-the intimacy-protocol third-party role, and the production timeline.
+and the full production timeline (audition block, table-work block,
+staging block).
 """
 import os
 from pathlib import Path
@@ -103,8 +104,9 @@ HTML = """<!DOCTYPE html>
       <dt>The play</dt><dd>Pirandello's 1921 metatheatrical masterpiece; three acts, three parts per act.</dd>
       <dt>Cast</dt><dd>Eight live performers. Two stage objects in place of the two youngest characters (the chair-and-coat for the Boy; the wrapped bundle for the Child). Three brief projections on the rear wall.</dd>
       <dt>Settings</dt><dd>Three stripped settings — the rehearsal room (Act I), the dressmaker's shop (Act II), the garden with fountain (Act III).</dd>
-      <dt>Audition block</dt><dd>Seven Thursdays at SSA Lausanne, 18:00 – 21:00 each evening, 18 June – 30 July 2026. Auditions, callbacks, table work, light & sound walk-through, intimacy protocol walk-through, closing read-through.</dd>
-      <dt>Staging block</dt><dd>Weekly rehearsals mid-August through November 2026.</dd>
+      <dt>Audition block</dt><dd>Three sessions at SSA Lausanne, 18:00 – 21:00: Tue 2 June, Fri 5 June, Wed 10 June 2026.</dd>
+      <dt>Table-work block</dt><dd>Seven Thursdays at SSA Lausanne, 18:00 – 21:00 each evening, 18 June – 30 July 2026.</dd>
+      <dt>Staging block</dt><dd>Thirteen weeks of weekly rehearsals, 5 August – 1 November 2026.</dd>
       <dt>Opening</dt><dd>Late autumn 2026. A short run of three or four performances.</dd>
     </dl>
   </section>
@@ -112,7 +114,7 @@ HTML = """<!DOCTYPE html>
   <section>
     <h2>The role</h2>
     <p>The Assistant Director is the director's second pair of eyes and the director's voice when the director is not in the room. In an amateur company this is most often a colleague from the Village Players, or a friend with directing experience who has been brought in to support the production. You do not direct; you assist directing. Where you are present, the director can focus on the moment in front of them while the rest of the production continues to move forward.</p>
-    <p>Your work falls into six areas. The list below is complete; nothing here is optional once the role has been accepted.</p>
+    <p>Your work falls into five areas. The list below is complete; nothing here is optional once the role has been accepted.</p>
   </section>
 
   <section>
@@ -126,32 +128,17 @@ HTML = """<!DOCTYPE html>
   </section>
 
   <section>
-    <h2>3. With the intimacy protocol</h2>
-    <p>The production's intimacy protocol requires a third party at every intimacy rehearsal. The Assistant Director is one valid candidate for that role, provided you are not yourself in the scene being worked.</p>
-    <p>Where you are the third party:</p>
-    <ul>
-      <li>You are present, attentive, and silent during the rehearsal itself.</li>
-      <li>You do not direct from the side.</li>
-      <li>You raise any concerns with the director afterwards, in writing if needed.</li>
-      <li>You never become the only adult in the intimacy room — if the Stage Manager is not also available, the rehearsal is rescheduled.</li>
-    </ul>
-    <div class="callout">
-      <p>The protocol is absolute. No role on the production is senior to it — not the director's, not yours. If anything during an intimacy rehearsal feels wrong to you, you stop the rehearsal. That authority is built into the role.</p>
-    </div>
-  </section>
-
-  <section>
-    <h2>4. In technical and dress rehearsals</h2>
+    <h2>3. In technical and dress rehearsals</h2>
     <p>A second pair of eyes from the house — watching the play as the audience will see it, with the light and sound cues running. You flag anything that does not read: a stage direction that is not landing, a cue arriving too early or too late, a sightline blocked, an actor not lit, the pianist's tempo off, the shower-light missing its mark. The director cannot direct and watch the play at the same time; the Assistant Director makes the second pair of eyes possible.</p>
   </section>
 
   <section>
-    <h2>5. During the run of performances</h2>
+    <h2>4. During the run of performances</h2>
     <p>You watch each performance from the house. You take notes — what landed, what is drifting, what each actor needs to know before the next show. You feed the notes to the director the next morning. You handle the day-to-day communication with the cast so the director can think about the play.</p>
   </section>
 
   <section>
-    <h2>6. Between rehearsals — communication</h2>
+    <h2>5. Between rehearsals — communication</h2>
     <p>You are the director's voice when the director is not on call. Email and message follow-up with cast. Coordination with the Stage Manager on scheduling, room changes, missing material. Distribution of any revised pages. Reading the room for energy and morale across the production; flagging anything significant to the director directly.</p>
   </section>
 
@@ -161,40 +148,51 @@ HTML = """<!DOCTYPE html>
       <li>Cast the production — the director casts.</li>
       <li>Block the show — the director blocks.</li>
       <li>Give acting notes directly to actors during a director's session — notes go through the director.</li>
-      <li>Override the intimacy protocol in any way — the protocol is absolute, and no role on the production is senior to it.</li>
     </ul>
   </section>
 
   <section class="page-break">
     <h2>Working with the Stage Manager</h2>
-    <p>The Assistant Director and the Stage Manager are different roles with overlapping territory. In a small company they often work as a pair. Communication between you is daily during the rehearsal block: who is in the room, what changed, what props are still missing, what each actor needs before next session, who is the third party at the next intimacy rehearsal. The director should not be the message router between you; you speak directly to one another, and you tell the director the outcome — not the other way around.</p>
-    <p>Where your responsibilities overlap — intimacy-rehearsal third-party presence, cast scheduling communication, calendar logistics, the prompt book, room access — you decide between yourselves who handles what for each given week, and you tell the director. The principle: the director should have to think about the play. Everything else flows through these two roles.</p>
-    <p>One specific overlap to name: where the Stage Manager is the third party at an intimacy rehearsal, you may carry the prompt-book and rehearsal-log work for that session so the Stage Manager can be fully present in the room. Likewise where you are the third party, the Stage Manager carries the room.</p>
+    <p>The Assistant Director and the Stage Manager are different roles with overlapping territory. In a small company they often work as a pair. Communication between you is daily during the rehearsal block: who is in the room, what changed, what props are still missing, what each actor needs before next session. The director should not be the message router between you; you speak directly to one another, and you tell the director the outcome — not the other way around.</p>
+    <p>Where your responsibilities overlap — cast scheduling communication, calendar logistics, the prompt book, room access — you decide between yourselves who handles what for each given week, and you tell the director. The principle: the director should have to think about the play. Everything else flows through these two roles.</p>
   </section>
 
   <section>
-    <h2>The seven Thursdays — your job in each</h2>
+    <h2>The audition block — 2 / 5 / 10 June 2026</h2>
+    <p>Three audition sessions at SSA Lausanne, 18:00 – 21:00.</p>
+    <ul>
+      <li><strong>Tuesday 2 June 2026 — Open auditions, session 1.</strong> You sit beside the director. You greet auditioners. You hold the audition checklist for the director when needed. You note auditioner reactions to the room, energy, follow-up worth scheduling.</li>
+      <li><strong>Friday 5 June 2026 — Open auditions, session 2.</strong> Additional slot for auditioners who could not attend the Tuesday.</li>
+      <li><strong>Wednesday 10 June 2026 — Callbacks &amp; final casting.</strong> Callbacks for borderline decisions. The confirmed cast is announced at end of evening.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>The seven Thursdays — table-work block, 18 June – 30 July 2026</h2>
     <p>All sessions at SSA Lausanne, 18:00 – 21:00.</p>
     <ul>
-      <li><strong>Thursday 18 June 2026 — Open auditions.</strong> You sit beside the director. You hold the audition checklist for the director when needed. You note auditioner reactions to the room, energy, follow-up worth scheduling. You are not yet the AD of a confirmed cast — but the eyes start here.</li>
-      <li><strong>Thursday 25 June 2026 — Callbacks &amp; first company meeting.</strong> You help with logistics: signing in arrivals, distributing the Director's Copy and the intimacy protocol, ensuring every performer signs the protocol before leaving. You take attendance for the production's first formal record.</li>
-      <li><strong>Thursday 2 July 2026 — First cold read-through.</strong> You sit slightly back from the table and watch the company as a whole. The director will be inside the reading; you watch the room — who is reading freely, who is struggling, who is reading <em>at</em> the others vs. <em>with</em> them. Notes to the director afterwards.</li>
-      <li><strong>Thursday 9 July 2026 — Act One table work.</strong> Note-taking, prompt-book annotation, watching for off-message comedy in the Players' Lausanne register. The Step-Daughter / Mother dynamic needs particular protection at this stage — flag any drift toward coquettishness or sentimentality.</li>
-      <li><strong>Thursday 16 July 2026 — Act Two table work.</strong> The intimacy protocol is re-walked in detail this session. <strong>You are in the room for the protocol walk-through itself.</strong> The third party for August intimacy rehearsals is confirmed by name on this Thursday. The voice-recording schedule for the Step-Daughter's projected monologue is set.</li>
-      <li><strong>Thursday 23 July 2026 — Act Three table work.</strong> The hardest material in the play. Watch how the actors land the Father's philosophical stretch — there is a tendency for it to drift toward lecture. Note the moments where the Son's silence is doing real work vs. where it has gone empty.</li>
+      <li><strong>Thursday 18 June 2026 — First table reading.</strong> You help with logistics: signing in arrivals, distributing the Director's Copy and the Actor Rehearsal Script. You take attendance for the production's first formal record. The director runs the reading; you watch the company as a whole — who is reading freely, who is struggling, who is reading <em>at</em> the others vs. <em>with</em> them.</li>
+      <li><strong>Thursday 25 June 2026 — Production walk-through.</strong> The chair-and-coat and the bundle are introduced as physical conventions. You make sure the Mother and the Step-Daughter have the objects with them at the table. Notes on how the company is receiving the conventions.</li>
+      <li><strong>Thursday 2 July 2026 — Act One table work.</strong> Note-taking, prompt-book annotation, watching for off-message comedy in the Players' Lausanne register. The Step-Daughter / Mother dynamic needs particular protection at this stage — flag any drift toward coquettishness or sentimentality.</li>
+      <li><strong>Thursday 9 July 2026 — Act Two table work.</strong> Player 3's transformation work begins. The voice-recording schedule for the Step-Daughter's projected monologue is set; you book the recording session in the production calendar.</li>
+      <li><strong>Thursday 16 July 2026 — Act Three table work.</strong> The hardest material in the play. Watch how the actors land the Father's philosophical stretch — there is a tendency for it to drift toward lecture. Note the moments where the Son's silence is doing real work vs. where it has gone empty.</li>
+      <li><strong>Thursday 23 July 2026 — Light &amp; Sound walk-through, difficult scenes.</strong> The full cue list walked through with the stage manager. Hard scenes returned to. You take notes on cue placement and pace.</li>
       <li><strong>Thursday 30 July 2026 — Full read-through with cues.</strong> End-to-end read with the Stage Manager calling cues aloud. You take detailed notes in real time: every cue that landed, every cue that did not, every actor who needs a specific thing before August. Your notes go to the director that same night.</li>
     </ul>
   </section>
 
   <section>
-    <h2>The August–November block</h2>
-    <p>Weekly staging rehearsals. Your work intensifies. Block-by-block:</p>
+    <h2>The staging block — 5 August – 1 November 2026</h2>
+    <p>Thirteen weeks. Primary sessions Thursdays 18:00 – 21:00 at SSA Lausanne, with additional weekend sessions where the room requires it.</p>
     <ul>
-      <li><strong>Mid-August.</strong> Blocking begins. You carry the prompt book during blocking sessions, recording every position, every movement, every staged beat. You and the Stage Manager confirm who carries the prompt book on which day. You run sub-rehearsals when the director is working on a parallel scene.</li>
-      <li><strong>Intimacy rehearsals (multiple, named in the calendar).</strong> Either you or the Stage Manager is the third party. The non-third-party of the two carries other work that session. The intimacy rehearsals are <em>not</em> closed; they are bounded.</li>
-      <li><strong>October.</strong> Run-throughs begin. You watch from the house with notes. You are the production's first audience.</li>
-      <li><strong>Tech &amp; dress.</strong> You are the house-eyes — every sightline, every cue, every actor's lighting. Your notes feed directly into the production's last-mile adjustments.</li>
-      <li><strong>Performance run (3–4 nights).</strong> One performance, one set of notes, delivered to the director the next morning. The director needs to keep the show shaped across the run; you give them the data to do that.</li>
+      <li><strong>Wed 5 Aug – Thu 20 Aug.</strong> Act One blocking. You carry the prompt book during blocking sessions, recording every position, every movement, every staged beat. You and the Stage Manager confirm who carries the prompt book on which day. You run sub-rehearsals when the director is working on a parallel scene.</li>
+      <li><strong>Thu 27 Aug – Thu 3 Sep.</strong> Act Two: Madame Pace's aria and the doubled scene. The Step-Daughter / Mother / Father / Player 1 / Player 2 / Player 3 work block. Detailed prompt-book entries on every staged beat.</li>
+      <li><strong>Thu 10 Sep – Thu 24 Sep.</strong> Act Three: the argument over reality, the Son's refusal, the fountain. The hardest material on its feet for the first time.</li>
+      <li><strong>Thu 1 Oct – Thu 15 Oct.</strong> Run-throughs begin. You watch from the house with notes. You are the production's first audience. Costumes integrated for the principals.</li>
+      <li><strong>Thu 22 Oct — Technical rehearsal.</strong> You are the house-eyes — every sightline, every cue, every actor's lighting. Your notes feed directly into the production's last-mile adjustments.</li>
+      <li><strong>Thu 29 Oct — Dress rehearsal.</strong> Full costume, full cues, played as if for an audience. Notes for the next day are minimal.</li>
+      <li><strong>Sun 1 Nov — Final dress / preview.</strong> Closing session of the staging block. Whatever the production needs before opening.</li>
+      <li><strong>Performance run (3–4 nights, late autumn).</strong> One performance, one set of notes, delivered to the director the next morning. The director needs to keep the show shaped across the run; you give them the data to do that.</li>
     </ul>
   </section>
 

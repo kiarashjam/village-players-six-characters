@@ -362,11 +362,14 @@ HOW_TO_AUDITION_HTML = """
   <h3>Optional</h3>
   <p>If you have a short monologue you have already prepared — anything modern, any language — bring it. We are interested in how you sound when you are working from material you have lived with. The side will tell us how you read the production's specific text. Your prepared piece tells us who you are when you are alone with a script.</p>
 
-  <h3>One thing to know before you audition</h3>
-  <p>This production carries an <strong>intimacy and consent protocol</strong>. Two of the roles (the Father and the Step-Daughter) play a scene with bounded physical contact between them; the Mother is touched by the Father in a separate moment with the veil. Every physical contact in the production is named in advance, choreographed, and may be vetoed by any performer at any time. A third party (the Assistant Director or the Stage Manager) is present at every intimacy rehearsal. The protocol is absolute and no role on the production is senior to it. The full protocol is in the Director's Copy. If you are cast, you will read it and sign it before the first rehearsal.</p>
-
   <h3>When and where</h3>
-  <p>Auditions are at <strong>SSA Lausanne</strong> on the seven Thursday evenings between 18 June and 30 July 2026, <strong>18:00 – 21:00</strong>. The open audition is on <strong>Thursday 18 June 2026</strong>. Callbacks (where needed) are on <strong>Thursday 25 June 2026</strong>. Rehearsals run weekly from mid-August through November 2026. The production opens late autumn 2026 — a short run of three or four performances.</p>
+  <p>Auditions are at <strong>SSA Lausanne</strong>, <strong>18:00 – 21:00</strong>, on three evenings:</p>
+  <ul>
+    <li><strong>Tuesday 2 June 2026</strong> — open audition, session 1.</li>
+    <li><strong>Friday 5 June 2026</strong> — open audition, session 2 (for those who could not attend the Tuesday).</li>
+    <li><strong>Wednesday 10 June 2026</strong> — callbacks and final casting.</li>
+  </ul>
+  <p>Once the cast is confirmed, table-work runs Thursdays from <strong>18 June through 30 July 2026</strong> at SSA Lausanne, 18:00 – 21:00 each evening. The staging block runs from <strong>5 August through 1 November 2026</strong>. The production opens late autumn 2026 — a short run of three or four performances.</p>
 </section>
 """
 

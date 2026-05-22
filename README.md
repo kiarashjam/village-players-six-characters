@@ -4,7 +4,7 @@
 
 **Rewritten and directed by Kiarash Jamshidi.**
 
-A director's edition of Luigi Pirandello's *Sei personaggi in cerca d'autore* (1921), in the Edward Storer 1922 English translation, prepared for a Lausanne staging by the Village Players. Every directorial reading, scoring, adaptation, and production decision in this edition — the chair-and-coat and the bundle as the Boy and the Child, the Lausanne anchoring, the four-stage Father arc, the Step-Daughter's three cuts, the Mother's three silences, the Manager as the audience's body on stage, the Madame Pace arc from comic to chilling, the seven-Thursday rehearsal schedule, the Light & Sound score, the intimacy and consent protocol, and every part-note throughout — is the work of Kiarash Jamshidi. Pirandello supplied the play; everything else around it is his.
+A director's edition of Luigi Pirandello's *Sei personaggi in cerca d'autore* (1921), in the Edward Storer 1922 English translation, prepared for a Lausanne staging by the Village Players. Every directorial reading, scoring, adaptation, and production decision in this edition — the chair-and-coat and the bundle as the Boy and the Child, the Lausanne anchoring, the four-stage Father arc, the Step-Daughter's three cuts, the Mother's three silences, the Manager as the audience's body on stage, the Madame Pace arc from comic to chilling, the production calendar, the Light & Sound score, and every part-note throughout — is the work of Kiarash Jamshidi. Pirandello supplied the play; everything else around it is his.
 
 Eight live performers, two stage objects, three brief projections, three stripped settings. A short run of three or four performances.
 
@@ -20,7 +20,7 @@ six_characters_village_players.html   The Director's Copy — open in any browse
 outputs/
 ├── directors_copy.pdf                 Director's Copy PDF — full master version with
 │                                       portraits, part-notes, staging notes, light & sound
-│                                       score, intimacy protocol, all dialogue. ~105 pages.
+│                                       score, all dialogue. ~105 pages.
 ├── actor_script.pdf                   Actor Rehearsal Script — stripped working pages for
 │                                       the room: cast list, dialogue, necessary stage
 │                                       directions, projection and sound cues. No essays.
@@ -35,14 +35,17 @@ outputs/
 │                                       auditioner-info form and a general assessment
 │                                       page. Bring this to every audition. ~16 pages.
 ├── assistant_director_pack.pdf        Assistant Director Pack — what the AD does, the
-│                                       six areas of work, the third-party role in the
-│                                       intimacy protocol, the seven-Thursday plan, and
-│                                       the August–November block.
+│                                       five areas of work, the audition / table-work /
+│                                       staging blocks broken down session by session.
 ├── stage_manager_pack.pdf             Stage Manager Pack — what the SM does, the master
 │                                       prop list, the master costume list, the full Light
-│                                       & Sound cue list (called from the prompt book), the
-│                                       intimacy-protocol third-party role, performance-
-│                                       day running order, and the seven-Thursday plan.
+│                                       & Sound cue list (called from the prompt book),
+│                                       performance-day running order, and the production
+│                                       calendar session by session.
+├── intimacy_protocol.pdf              The production's intimacy and consent protocol —
+│                                       the standalone contract, separate from script and
+│                                       production notes. Every performer signs it before
+│                                       the first rehearsal; the director countersigns.
 └── production_summary.pdf             One-page publication blurb for press, programme,
                                         festival listings, and company announcements.
 
@@ -54,6 +57,7 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 ├── build_audition_checklist.py        → outputs/audition_checklist.pdf
 ├── build_assistant_director_pack.py   → outputs/assistant_director_pack.pdf
 ├── build_stage_manager_pack.py        → outputs/stage_manager_pack.pdf
+├── build_intimacy_protocol.py         → outputs/intimacy_protocol.pdf
 ├── build_summary.py                   → outputs/production_summary.pdf
 ├── recount_stats.py                   → recounts per-character speech/word counts and
 │                                       updates the stats blocks in the HTML and
@@ -102,6 +106,7 @@ python scripts/build_audition_pack.py              # render audition_pack.pdf
 python scripts/build_audition_checklist.py         # render audition_checklist.pdf
 python scripts/build_assistant_director_pack.py    # render assistant_director_pack.pdf
 python scripts/build_stage_manager_pack.py         # render stage_manager_pack.pdf
+python scripts/build_intimacy_protocol.py          # render intimacy_protocol.pdf
 python scripts/build_summary.py                    # render production_summary.pdf
 ```
 
@@ -116,7 +121,7 @@ The Director's Copy is the single source of truth. It contains, in order:
 - **Cover, cast list, character portraits** (Father, Mother, Step-Daughter, Son, Boy, Child, Manager, Players 1–3, Madame Pace), each with the specific reading the actor must commit to and the signature physical object that scores the role across the production.
 - **Production note** — eight performers, two stage objects, three projections, three stripped settings, the way Player 3 becomes Madame Pace, how the speaker tags work.
 - **Light and Sound score** — per-act lighting (white → amber → red in Act One; the pianist and the shower in Act Two; the fountain-light and one bare bulb in Act Three) with specific track suggestions.
-- **Touching, Intimacy, and the Shop Scene** — the production's consent protocol. Every physical contact is named and bounded; the Step-Daughter has absolute veto; intimacy rehearsals are not closed; the production carries the moral weight so the bodies do not have to.
+- **Intimacy and consent protocol** — the protocol lives in its own dedicated document (`outputs/intimacy_protocol.pdf`), not in the Director's Copy. It is a contract, signed by every performer before the first rehearsal and countersigned by the director.
 - **The play itself** — three acts × three parts each, with directorial part-notes before each part (narrative, stats, "for the rehearsal room" beats, performance scoring).
 
 ---
@@ -135,7 +140,7 @@ The Director's Copy is the single source of truth. It contains, in order:
 
 The base translation is Edward Storer's 1922 English version of Pirandello's *Six Characters in Search of an Author*, sourced from Project Gutenberg Australia (eBook No. 0608521h.html, November 2006).
 
-All directorial commentary, casting notes, part-notes, performance scoring, projection and sound cues, light score, intimacy protocol, and creative adaptations — the Lausanne relocation, the modernised English, the compressed casting structure, the broken-beat rhythm, the stage-objects-for-children, the audience-symbol Manager, the four-stage Father arc, the Step-Daughter's three cuts, the Mother's three silences, the Madame Pace arc, the seven-Thursday rehearsal plan, the Assistant Director and Stage Manager role notes — are the original work of **Kiarash Jamshidi**, the director of this production. The ideas in this edition belong to him.
+All directorial commentary, casting notes, part-notes, performance scoring, projection and sound cues, light score, intimacy and consent protocol, and creative adaptations — the Lausanne relocation, the modernised English, the compressed casting structure, the broken-beat rhythm, the stage-objects-for-children, the audience-symbol Manager, the four-stage Father arc, the Step-Daughter's three cuts, the Mother's three silences, the Madame Pace arc, the production calendar (audition / table-work / staging blocks), the Assistant Director and Stage Manager role notes — are the original work of **Kiarash Jamshidi**, the director of this production. The ideas in this edition belong to him.
 
 ---
 
@@ -143,12 +148,12 @@ All directorial commentary, casting notes, part-notes, performance scoring, proj
 
 | Phase | Dates |
 |---|---|
-| Audition & table-work block — seven Thursday evenings at SSA Lausanne | Thu 18 June – Thu 30 July 2026 |
-| August break — memorisation, dramaturgical rest, technical prep | Early August 2026 |
-| Weekly staging rehearsals through opening | Mid-August – November 2026 |
+| Audition block — three sessions, SSA Lausanne 18:00–21:00 | Tue 2 / Fri 5 / Wed 10 June 2026 |
+| Table-work block — seven Thursdays, SSA Lausanne 18:00–21:00 | Thu 18 June – Thu 30 July 2026 |
+| Staging block — thirteen weeks at SSA Lausanne | Wed 5 August – Sun 1 November 2026 |
 | Opening — short run of 3–4 performances | Late autumn 2026 |
 
-The seven Thursdays in June–July are the audition-plus-table-work arc — see the *Rehearsal Schedule* section in the Director's Copy for the per-session plan (open auditions → callbacks → first cold read → Acts 1 / 2 / 3 table work → full read-through with cues). No staging in this phase; what gets set is the company's shared understanding of the play, the intimacy protocol, and the light & sound cues. August is when bodies start to move.
+The three June audition dates are open auditions plus callbacks. The seven Thursdays from 18 June through 30 July are pure table work — first reading, production walk-through, Acts 1 / 2 / 3 table work, Light & Sound walk-through, full read-through with cues. The staging block from 5 August to 1 November is thirteen weeks of blocking, run-throughs, technical and dress rehearsals — see the *Rehearsal Schedule* section in the Director's Copy and the *Stage Manager Pack* for the per-session breakdown.
 
 ---
 

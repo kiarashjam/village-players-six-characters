@@ -126,29 +126,38 @@ HTML = """<!DOCTYPE html>
   <section class="timeline">
     <h2 class="timeline-heading">Production timeline</h2>
     <dl class="tl-list">
+      <dt>Tue 2 June 2026 · 18:00–21:00 · SSA Lausanne</dt>
+      <dd>Open auditions, session 1. Eight tracks to fill: Father, Mother, Step-Daughter, Son, Manager, Players 1 / 2 / 3.</dd>
+
+      <dt>Fri 5 June 2026 · 18:00–21:00 · SSA Lausanne</dt>
+      <dd>Open auditions, session 2. Additional slot for auditioners who could not attend the Tuesday.</dd>
+
+      <dt>Wed 10 June 2026 · 18:00–21:00 · SSA Lausanne</dt>
+      <dd>Callbacks and final casting. Confirmed cast announced at end of evening.</dd>
+
       <dt>Thu 18 June 2026 · 18:00–21:00 · SSA Lausanne</dt>
-      <dd>Open auditions. Eight tracks to fill: Father, Mother, Step-Daughter, Son, Manager, Players 1 / 2 / 3. Callbacks scheduled at end of evening.</dd>
+      <dd>First table reading. Full company gathers for the first time; round-table introductions; full play read aloud around a table. No staging, no music — just hearing the play together for the first time.</dd>
 
       <dt>Thu 25 June 2026 · 18:00–21:00 · SSA Lausanne</dt>
-      <dd>Callbacks and first company meeting. Round-table introductions; distribution of the Director's Copy and the intimacy protocol; every performer signs the protocol before leaving.</dd>
+      <dd>Production walk-through. Eight performers, two stage objects, three projections, three stripped settings; chair-and-coat and bundle introduced as conventions.</dd>
 
       <dt>Thu 2 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
-      <dd>First cold read-through. Full play read aloud by the company around a table. No staging, no music — just hearing the play together for the first time.</dd>
-
-      <dt>Thu 9 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
       <dd>Act One table work. Per-part discussion; Light &amp; Sound for Act One walked through (white → amber → red, the radio in the wings).</dd>
 
-      <dt>Thu 16 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
-      <dd>Act Two table work. Step-Daughter's projected monologue scheduled; pianist confirmed; intimacy protocol re-walked in detail; third party named for August intimacy rehearsals.</dd>
+      <dt>Thu 9 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
+      <dd>Act Two table work. Step-Daughter's projected monologue scheduled; pianist confirmed; the Madame Pace bookkeeping aria introduced.</dd>
 
-      <dt>Thu 23 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
+      <dt>Thu 16 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
       <dd>Act Three table work. The Father's philosophical debate, the Son's refusal, the fountain. Light &amp; Sound for Act Three: dark stage, fountain, hanging bulb, cello drone, Pärt at the curtain.</dd>
 
-      <dt>Thu 30 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
-      <dd>Full read-through with cues — end-to-end read with the stage manager calling light and sound cues aloud. Notes session afterwards; confirmation of the August–November weekly calendar.</dd>
+      <dt>Thu 23 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
+      <dd>Light &amp; Sound walk-through, difficult scenes. Full cue list walked through with the stage manager and the company; hardest scenes returned to.</dd>
 
-      <dt>Mid-August – November 2026</dt>
-      <dd>Weekly staging rehearsals through the autumn — blocking, intimacy choreography, technical and dress rehearsals — building toward opening.</dd>
+      <dt>Thu 30 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
+      <dd>Full read-through with cues — end-to-end read with the stage manager calling light and sound cues aloud. Notes session afterwards; confirmation of the staging-block calendar.</dd>
+
+      <dt>5 August – 1 November 2026 · SSA Lausanne</dt>
+      <dd>Staging block. Thirteen weeks of rehearsals — blocking, run-throughs, technical and dress rehearsals — building toward opening. Primary sessions Thursdays 18:00–21:00, with weekend sessions where needed.</dd>
 
       <dt>Opening</dt>
       <dd>Late autumn 2026. A short run of three or four performances. Dates and venue to be announced.</dd>

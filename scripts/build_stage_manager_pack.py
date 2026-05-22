@@ -4,8 +4,7 @@
 A standalone brief for the person taking the Stage Manager role:
 what they do, what they do not do, working with the Assistant Director,
 the master prop list, the master costume list, the Light & Sound
-cue list called from the prompt book, the intimacy-protocol third-party
-role, and the production timeline.
+cue list called from the prompt book, and the production timeline.
 """
 import os
 from pathlib import Path
@@ -130,8 +129,9 @@ HTML = """<!DOCTYPE html>
       <dt>Cast on stage</dt><dd>Eight live performers (Father, Mother, Step-Daughter, Son, Manager, Players 1 / 2 / 3) plus a credited pianist for Act II.</dd>
       <dt>Stage objects</dt><dd>The Boy is a wooden chair with a black coat folded over the back, schoolboy's cap on seat, leather satchel at the leg. The Child is a small wrapped bundle of white cloth with a black silk sash.</dd>
       <dt>Projections</dt><dd>Three brief projections on the rear wall — silent in Act I; audible (recorded Step-Daughter voice) in Act II; a single ten-second image in Act III.</dd>
-      <dt>Audition block</dt><dd>Seven Thursdays at SSA Lausanne, 18:00 – 21:00 each evening, 18 June – 30 July 2026.</dd>
-      <dt>Staging block</dt><dd>Weekly rehearsals mid-August through November 2026.</dd>
+      <dt>Audition block</dt><dd>Three sessions at SSA Lausanne, 18:00 – 21:00: Tue 2 June, Fri 5 June, Wed 10 June 2026.</dd>
+      <dt>Table-work block</dt><dd>Seven Thursdays at SSA Lausanne, 18:00 – 21:00 each evening, 18 June – 30 July 2026.</dd>
+      <dt>Staging block</dt><dd>Thirteen weeks of rehearsals, 5 August – 1 November 2026.</dd>
       <dt>Opening</dt><dd>Late autumn 2026. A short run of three or four performances.</dd>
     </dl>
   </section>
@@ -144,7 +144,7 @@ HTML = """<!DOCTYPE html>
 
   <section>
     <h2>1. Before the first rehearsal</h2>
-    <p>Room bookings at SSA Lausanne for the seven Thursday evenings, 18:00 – 21:00 (18 June – 30 July 2026), and the August–November weekly block. The full rehearsal calendar communicated to the cast — email, calendar invite, and a shared document everyone can see. Distribution: every cast member receives the Director's Copy, the Actor Rehearsal Script, the intimacy protocol, and the calendar before the first read-through. Logistics: keys, room access, working lights, water, any administrative paperwork the company needs. Initial contact with the pianist and (where applicable) the light/sound/projection operators.</p>
+    <p>Room bookings at SSA Lausanne for the three audition sessions (Tue 2 / Fri 5 / Wed 10 June 2026, 18:00 – 21:00), the seven Thursday table-work evenings (18 June – 30 July 2026, 18:00 – 21:00), and the staging block (5 August – 1 November 2026). The full rehearsal calendar communicated to the cast — email, calendar invite, and a shared document everyone can see. Distribution: every cast member receives the Director's Copy, the Actor Rehearsal Script, and the calendar before the first read-through. Logistics: keys, room access, working lights, water, any administrative paperwork the company needs. Initial contact with the pianist and (where applicable) the light/sound/projection operators.</p>
   </section>
 
   <section>
@@ -184,28 +184,51 @@ HTML = """<!DOCTYPE html>
 
   <section>
     <h2>Working with the Assistant Director</h2>
-    <p>The Stage Manager and the Assistant Director are different roles with overlapping territory. In a small company you often work as a pair. Communication between you is daily during the rehearsal block. Where your responsibilities overlap — intimacy-rehearsal third-party presence, cast scheduling communication, calendar logistics, the prompt book, room access — you decide between yourselves who handles what for each given week, and you tell the director. The principle: the director should have to think about the play. Everything else flows through these two roles.</p>
-  </section>
-
-  <section>
-    <h2>Intimacy protocol — the third-party role</h2>
-    <p>The protocol requires a third party at every intimacy rehearsal. You are one valid candidate, on the same terms as the Assistant Director: not in the scene yourself, briefed on the protocol, present and silent during the rehearsal, raising any concerns with the director afterwards in writing if needed. Where you are the third party, the Assistant Director may carry the prompt-book and rehearsal-log work for that session so you can be fully present in the room.</p>
-    <div class="callout">
-      <p>The protocol is absolute. No role on the production is senior to it. If anything during an intimacy rehearsal feels wrong to you, you stop the rehearsal. That authority is built into the role.</p>
-    </div>
+    <p>The Stage Manager and the Assistant Director are different roles with overlapping territory. In a small company you often work as a pair. Communication between you is daily during the rehearsal block. Where your responsibilities overlap — cast scheduling communication, calendar logistics, the prompt book, room access — you decide between yourselves who handles what for each given week, and you tell the director. The principle: the director should have to think about the play. Everything else flows through these two roles.</p>
   </section>
 
   <section class="page-break">
-    <h2>The seven Thursdays — what we do, in order</h2>
+    <h2>The audition block — 2 / 5 / 10 June 2026</h2>
+    <p>Three audition sessions at SSA Lausanne, 18:00 – 21:00.</p>
+    <ul>
+      <li><strong>Tuesday 2 June 2026 — Open auditions, session 1.</strong> Your job: greet, sign in, distribute sides, keep the schedule moving, log timing per audition, take environmental notes (energy, what was tried, who came back).</li>
+      <li><strong>Friday 5 June 2026 — Open auditions, session 2.</strong> Additional slot for auditioners who could not attend the Tuesday. Same setup, same job.</li>
+      <li><strong>Wednesday 10 June 2026 — Callbacks &amp; final casting.</strong> Callbacks for borderline decisions. The confirmed cast announced at end of evening. Your job: log the final cast, open the production roster, schedule the next session.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>The table-work block — seven Thursdays, 18 June – 30 July 2026</h2>
     <p>All sessions at SSA Lausanne, 18:00 – 21:00.</p>
     <ul>
-      <li><strong>Thursday 18 June 2026 — Open auditions.</strong> All-evening audition session. The director runs the room from the <em>Audition Checklist</em>. Auditioners read sides from the <em>Audition Pack</em>. Eight tracks to fill: Father, Mother, Step-Daughter, Son, Manager, Players 1 / 2 / 3. Your job: greet, sign in, distribute sides, keep the schedule moving, log timing per audition, take environmental notes (energy, what was tried, who came back twice). Callbacks scheduled at end of evening.</li>
-      <li><strong>Thursday 25 June 2026 — Callbacks &amp; first company meeting.</strong> Earlier in the evening: callbacks for borderline casting decisions. Later: the full confirmed company gathers for the first time. Round-table introductions, distribution of the Director's Copy, walk-through of the production concept (eight performers, two stage objects, three projections, three stripped settings), distribution of the intimacy protocol with the third-party intimacy-rehearsal arrangement named. Every performer signs the protocol before leaving. Your job: distribute the documents, collect the signed protocols, open the prompt book, open the rehearsal log, take attendance for the production's first formal record.</li>
-      <li><strong>Thursday 2 July 2026 — First cold read-through.</strong> The full play read out loud by the company in order, around a table. No staging. No light. No music. Just hearing the play as a company for the first time. Director's brief production-concept walkthrough at the start; a short notes-and-discussion at the end. The Step-Daughter and the Mother are asked to keep the bundle and the chair-and-coat by them throughout, even at the table, so the company sees the conventions from the first reading. Your job: log the reading, note where the play landed and where it stalled, hold timing per act, manage the table layout, ensure water and breaks.</li>
-      <li><strong>Thursday 9 July 2026 — Act One table work.</strong> Per-part discussion using the Act One part-notes. The Father's four-stage arc and the autobiographical-as-metaphysical reading. The Step-Daughter's exposure. The Mother's veil and her three silences. The Players' Lausanne register. Light &amp; Sound concept for Act One walked through with you: white → amber → red across the three parts, the radio in the wings. Your job: log every directorial decision into the prompt book; begin the Act One cue list.</li>
-      <li><strong>Thursday 16 July 2026 — Act Two table work.</strong> The Step-Daughter's projected monologue — voice-recording session schedule confirmed. Player 3's transformation work begins. The pianist score introduced (Satie's <em>Gymnopédie No. 1</em>, Weill's <em>Bilbao Song</em>, Mistinguett's <em>Mon Homme</em>); the pianist is confirmed for the production. <strong>Intimacy protocol re-walked in detail for the Madame Pace scene and the shop-scene replay.</strong> The third party for August intimacy rehearsals is confirmed by name. Your job: log Act Two cues into the prompt book; book the voice-recording session; confirm the pianist's availability across August–November; calendar the intimacy rehearsals.</li>
-      <li><strong>Thursday 23 July 2026 — Act Three table work.</strong> The Father's philosophical stretch, the Son's refusal, the fountain. Light &amp; Sound for Act Three walked through with you: dark stage, fountain lit from inside, single hanging bulb above the Manager's table, the cello drone, the silence, the gunshot in real silence, the Arvo Pärt at the closing. Your job: log Act Three cues; source or confirm the fountain basin and the bare hanging bulb; confirm the prop revolver and the gunshot effect; locate or commission the cello drone recording and the Pärt clip.</li>
-      <li><strong>Thursday 30 July 2026 — Full read-through with cues.</strong> End-to-end read of the play with light and sound cues called aloud by you from the prompt book. Notes session afterwards: what landed, what didn't, what each actor still needs to find before August. Confirmation of the August–November weekly rehearsal calendar — including the dates and durations of the dedicated intimacy rehearsals, the technical rehearsal, the dress, and the run dates. Your job: deliver the first end-to-end cue call; distribute the August calendar to every member of the company before they leave the room.</li>
+      <li><strong>Thursday 18 June 2026 — First table reading.</strong> The full confirmed company gathers for the first time. Round-table introductions, distribution of the Director's Copy and the Actor Rehearsal Script. The full play read out loud by the company in order, around a table. No staging, no music. Just hearing the play together for the first time. Your job: distribute the documents, open the prompt book, open the rehearsal log, take attendance for the production's first formal record, log timing per act, manage table layout, ensure water and breaks.</li>
+      <li><strong>Thursday 25 June 2026 — Production walk-through.</strong> Walk-through of the production concept (eight performers, two stage objects, three projections, three stripped settings). The chair-and-coat (Boy) and the bundle (Child) introduced as physical conventions. Your job: source or confirm a placeholder chair-and-coat and a placeholder bundle for the table-work block; log the company's questions on the conventions.</li>
+      <li><strong>Thursday 2 July 2026 — Act One table work.</strong> Per-part discussion using the Act One part-notes. Light &amp; Sound concept for Act One walked through with you: white → amber → red across the three parts, the radio in the wings. Your job: log every directorial decision into the prompt book; begin the Act One cue list.</li>
+      <li><strong>Thursday 9 July 2026 — Act Two table work.</strong> The Step-Daughter's projected monologue — voice-recording session schedule confirmed. Player 3's transformation work begins. The pianist score introduced (Satie's <em>Gymnopédie No. 1</em>, Weill's <em>Bilbao Song</em>, Mistinguett's <em>Mon Homme</em>); the pianist is confirmed for the production. Your job: log Act Two cues into the prompt book; book the voice-recording session; confirm the pianist's availability across August–November.</li>
+      <li><strong>Thursday 16 July 2026 — Act Three table work.</strong> The Father's philosophical stretch, the Son's refusal, the fountain. Light &amp; Sound for Act Three walked through with you: dark stage, fountain lit from inside, single hanging bulb above the Manager's table, the cello drone, the silence, the gunshot in real silence, the Arvo Pärt at the closing. Your job: log Act Three cues; source or confirm the fountain basin and the bare hanging bulb; confirm the prop revolver and the gunshot effect; locate or commission the cello drone recording and the Pärt clip.</li>
+      <li><strong>Thursday 23 July 2026 — Light &amp; Sound walk-through, difficult scenes.</strong> The full cue list walked through with you and the company — every light, every sound, every projection, every piano cue. The hardest scenes returned to: the Madame Pace aria, the shop-scene replay, the fountain. Your job: bring the full cue list in working draft to the room; revise live during the session; close the session with the working cue list distributed to the operators and the pianist.</li>
+      <li><strong>Thursday 30 July 2026 — Full read-through with cues.</strong> End-to-end read of the play with light and sound cues called aloud by you from the prompt book. Notes session afterwards: what landed, what didn't, what each actor still needs to find before August. Confirmation of the staging-block calendar (5 August – 1 November 2026). Your job: deliver the first end-to-end cue call; distribute the August calendar to every member of the company before they leave the room.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>The staging block — 5 August – 1 November 2026</h2>
+    <p>Thirteen weeks. Primary sessions Thursdays 18:00 – 21:00 at SSA Lausanne. Additional weekend sessions where the room requires them — booked ahead and communicated to the cast at least two weeks in advance.</p>
+    <ul>
+      <li><strong>Wed 5 Aug — Re-orientation, Act One blocking begins.</strong> The company returns from the August break. Floor markings begin (you tape them). First blocking work on Act One Part I (the rehearsal) and Part II (the family's arrival).</li>
+      <li><strong>Thu 13 Aug — Act One blocking continues.</strong> Part III (the bargain): the slow drift to deep red, the Step-Daughter's <em>hundred francs</em>, the act-end silence.</li>
+      <li><strong>Thu 20 Aug — Act One run, Act Two blocking begins.</strong> First end-to-end run of Act One on its feet. Act Two Part I introduced: the projection, the shower, the pianist's first entrance.</li>
+      <li><strong>Thu 27 Aug — Act Two Part II: Madame Pace's aria.</strong> Player 3's transformation rehearsed to performance level. The pianist's Weimar vamp. The shower light called in.</li>
+      <li><strong>Thu 3 Sep — Act Two Part III: the doubled scene and the Mother's cry.</strong> The shop-scene replay between Leading Lady and Leading Man. The Mother's keystone line and the shower falling on her.</li>
+      <li><strong>Thu 10 Sep — Act Three Part I: the argument over reality.</strong> The Father's four-stage arc on his feet. The Step-Daughter's three cuts. The cello drone underneath.</li>
+      <li><strong>Thu 17 Sep — Act Three Part II: the Son's refusal.</strong> Mirror speech, closing exchange, the silence that does the work.</li>
+      <li><strong>Thu 24 Sep — Act Three Part III: the fountain.</strong> The basin lit from inside, the gunshot in real silence, the Pärt at the curtain.</li>
+      <li><strong>Thu 1 Oct — First full run-through.</strong> End-to-end run of the play. No stopping for notes inside the run; full notes session afterwards.</li>
+      <li><strong>Thu 8 Oct — Second full run-through.</strong> Tighten what the first run revealed.</li>
+      <li><strong>Thu 15 Oct — Third run-through, costume integration.</strong> Costumes introduced for the principals.</li>
+      <li><strong>Thu 22 Oct — Technical rehearsal.</strong> Full cue call with the operators, in the venue. Light operator, sound operator, projectionist, pianist all in their positions for the first time. <em>Your night.</em></li>
+      <li><strong>Thu 29 Oct — Dress rehearsal.</strong> Full costume, full cues, played as if for an audience.</li>
+      <li><strong>Sun 1 Nov — Final dress / preview.</strong> Closing session of the staging block.</li>
     </ul>
   </section>
 
