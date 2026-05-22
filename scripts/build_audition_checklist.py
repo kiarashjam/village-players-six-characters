@@ -27,226 +27,254 @@ CHARACTERS = [
     {
         "role": "The Father",
         "tag": "the brain of the family",
-        "summary": "A well-educated middle-class man whose intellectual elegance is his shield against shame. The philosophy is autobiographical, disguised as metaphysics. Fighting for his existence, not lecturing.",
+        "summary": "A well-educated middle-class man whose intellectual elegance is his shield against shame. The philosophy is autobiographical, disguised as metaphysics. The role lives or dies on the actor's ability to fight for his own existence in real time.",
         "sections": [
-            ("Reading", [
-                "Plays him as a man fighting for his existence, not lecturing",
-                "Intellectual elegance reads as shield against shame",
-                "The philosophy lands as autobiographical, not abstract",
-                "Mellifluous when controlling the rhythm; violent when it breaks",
-                "Believes every paradox in real time",
+            ("Voice & breath", [
+                "Vocal range and stamina to carry the long Act One and Act Three speeches without strain",
+                "Breath control under intellectual pressure — does not run out at the end of a clause",
+                "Can move from mellifluous to violent without losing register",
+                "Voice breaks honestly at the right moments (does not pre-load the break)",
+                "Earned pauses, not filler",
+                "Specificity of word choice — discovers each key word as he says it",
             ]),
-            ("Signature & arc", [
-                "The handkerchief appears at moments of greatest shame",
-                "Handkerchief out at <em>hundred francs</em>",
-                "Handkerchief gripped at <em>proof that I am a man</em>",
-                "Four-stage arc visible: control → injury → attack → horror",
-                "<em>Can you tell me who you are?</em> — turns out to the house",
-                "<em>Because I suffer, sir</em> — the cry breaks through philosophy",
-                "<em>Our reality cannot change</em> — closing stillness is paralysis, not composure",
+            ("Character & text", [
+                "Plays the speeches as defence and survival, not as lecture",
+                "Believes every paradox he speaks, in real time",
+                "Holds the contradiction between his elegance and his shame",
+                "Audience can hear the philosophy as autobiographical",
+                "Available for a four-stage arc: composure → injury → attack → exposure",
+                "Listens to the Step-Daughter as she cuts him; does not anticipate her",
+                "Holds the silence after each of her cuts — does not rescue himself too fast",
             ]),
-            ("Voice & body", [
-                "Voice carries the long speeches without strain",
-                "Listens to the Step-Daughter as she cuts him",
-                "Does not anticipate the Step-Daughter's attacks",
-                "Comfortable with stillness",
-                "Comfortable with the Step-Daughter's proximity inside the intimacy protocol",
+            ("Body & presence", [
+                "Comfortable with shame as a visible physiological event",
+                "Holds stillness when he is losing the argument",
+                "Movement is specific, not generalised",
+                "Available for the Step-Daughter's proximity within the production's intimacy protocol",
+            ]),
+            ("Direction-taking & range", [
+                "Takes an adjustment between takes and holds it",
+                "Available for the line read in three different registers (light, urgent, broken)",
+                "Asks specific questions about the text rather than general questions about the play",
             ]),
         ],
     },
     {
         "role": "The Mother",
         "tag": "silence that finally screams",
-        "summary": "Silence is her language. The body does her acting — hands, veil, the bundle, the chair-and-coat. The keystone line <em>It's taking place now</em> must land like a stone learning to speak.",
+        "summary": "Silence is her language. The body does her acting. Most of the part is not text. The role needs an actor who is alive when she is not speaking, and who can deliver the keystone line without performing it.",
         "sections": [
-            ("Reading", [
-                "Heavy under the veil — the veil does her listening for her",
-                "Not crushed in the sentimental way; pressed down for so long it has lost the muscle for its own posture",
-                "Three silences distinguishable (Act 1 / Act 2 / Act 3)",
-                "Holds both children at once in Act 3 — the bundle and the chair-and-coat",
+            ("Voice & breath", [
+                "Voice carries the cry at Madame Pace and at the fountain without being pushed",
+                "Keystone line — <em>It's taking place now. It happens all the time</em> — lands without ornament",
+                "Speech is humble, peasant-class register; uncomplicated rhythm",
+                "Available for long stretches of silence without filling them with sound",
             ]),
-            ("Signature & arc", [
-                "Hands score the part: grip tightens at <em>illusion</em>, at <em>reality</em>, at <em>he always knew exactly where to find me</em>",
-                "The veil — lifted once by the Father against her will; lifted once on her own at the fountain",
-                "Eyes mostly on the floor",
-                "<em>It's taking place now. It happens all the time</em> — lands like a stone learning to speak",
-                "<em>My son! My son!</em> — the voice has been waiting an entire production to use itself",
+            ("Character & text", [
+                "Does not perform sympathy or grief; plays the suffering itself",
+                "Three different silences distinguishable (Act 1 — does not yet believe she will be heard / Act 2 — being made to watch / Act 3 — holding both children at once)",
+                "Available to be looked at without flinching",
+                "Listens to everyone on stage — including those she is not facing",
             ]),
-            ("Voice & body", [
-                "Available for long stillness without restlessness",
-                "Cry (the eruption at Madame Pace, the cry at the fountain) carries without being pushed",
-                "Body is specific, not generic",
-                "Does not perform sympathy",
+            ("Body & presence", [
+                "Stillness reads as presence, not passivity",
+                "Body is specific — the actor has decided what the Mother's hands are doing at every moment",
+                "Comfortable holding the bundle for long stretches",
+                "Comfortable with the chair-and-coat as the second child",
+                "Available for the intimacy protocol around the Father raising her veil",
+                "Eyes can stay on the floor for extended periods without dropping focus",
+            ]),
+            ("Direction-taking & range", [
+                "Available for delicate adjustment without breaking the stillness",
+                "Resists the temptation to make the role bigger",
+                "Trusts the script to do the work",
             ]),
         ],
     },
     {
         "role": "The Step-Daughter",
         "tag": "the one who refuses to let it be made beautiful",
-        "summary": "The moral centre of the play. Sharp, in control, never coquettish. The seduction is exposure, not flirtation. Cuts the Father three times across the philosophy stretch — level, flat, never screamed.",
+        "summary": "The moral centre of the play. The role lives or dies on whether the actor can be sharp without being shrill, funny because furious, and direct without ornament. Refuses to be made delicate.",
         "sections": [
-            ("Reading", [
-                "Sharp, in control, never apologetic, never coquettish",
-                "The wit is real; the wit is rage",
-                "Refuses to let the Father become the hero of the scene",
-                "Tenderness for the Child (bundle) is unbearably real",
-                "Contempt for the Boy (chair-and-coat) reads as the same wound, pointed the other way",
+            ("Voice & breath", [
+                "Voice level and unforced in the surgical cuts against the Father",
+                "Can land a long speech (the Madame Pace recall, the bundle monologue) without becoming theatrical",
+                "Has range from cold flat delivery to the bundle-tenderness in the same scene",
+                "Earned pauses; does not pad the lines",
             ]),
-            ("Signature & arc", [
-                "Three cuts against the Father, each colder than the philosophy:",
-                "&nbsp;&nbsp;1. <em>His <strong>reality</strong>. He always knew exactly where to find me.</em>",
-                "&nbsp;&nbsp;2. <em>He was real that afternoon. With his hundred francs. He was very real.</em>",
-                "&nbsp;&nbsp;3. <em>His doesn't change. Mine doesn't either. He should know.</em>",
-                "<em>Worse? Listen.</em> — early exposure lands cold, not theatrical",
-                "<em>I am dying to live that scene</em> — disgust and revenge in the same beat",
-                "<em>Cry out, mother. Cry out as you did then.</em> — physical contact is choreographed and bounded",
+            ("Character & text", [
+                "Sharp without being shrill",
+                "Comedy and pain in the same beat — the wit is real, the wit is rage",
+                "Refuses to be played as delicate or victimised",
+                "Refuses to soften her own line",
+                "Tenderness for the bundle is unbearably real, not sentimental",
+                "Holds the cuts against the Father as moral intervention, not as taunt",
             ]),
-            ("Voice & body", [
-                "Voice level, never raised in the cuts",
-                "Holds the bundle as if its stillness depends on her",
-                "Available for the intimacy protocol (knows it, has read it)",
-                "Comfortable refusing to soften her own line",
+            ("Body & presence", [
+                "Reads young — the audience must see the age difference with the Father",
+                "Knows how to use a room without flirting",
+                "Comfortable with the bundle as her sister",
+                "Available for the intimacy protocol with the Father actor",
+            ]),
+            ("Direction-taking & range", [
+                "Available for the line read in two registers (open, attacking)",
+                "Takes a note about coldness specifically — can dial intensity down without losing the line",
+                "Trusts the audience to read her without help",
             ]),
         ],
     },
     {
         "role": "The Son",
         "tag": "the one who will not act",
-        "summary": "The production's most modern figure. The adult child who has been told to show up for a parent's narrative and has decided no. Hands in pockets. Eyes on the floor. The mirror speech surprises him.",
+        "summary": "The production's most modern figure. The adult child who refuses to participate in a parent's narrative. The role lives or dies on the actor's ability to hold stillness as presence and to let two moments — the mirror speech, the fountain narration — break out of him.",
         "sections": [
-            ("Reading", [
-                "Quiet, cold, with the energy of someone who would leave if he could",
-                "Every line is a door closing",
-                "Agrees with the author who abandoned them — <em>Exactly what it was, sir; exactly that</em>",
-                "Refusal is aesthetic and ethical, not stubbornness",
-                "Becomes more himself the more he is held in place",
+            ("Voice & breath", [
+                "Quiet voice that carries",
+                "Mirror speech earns its own cry mid-sentence (does not pre-load)",
+                "Fountain narration available in broken beats, not flowing prose",
+                "Comfortable with monosyllables",
             ]),
-            ("Signature & arc", [
-                "Hands in his pockets the entire part",
-                "Never looks at the chair-and-coat or the bundle",
-                "Looks at the floor, the wall, the wings — not at the Manager unless he has to",
-                "The one moment of looking up: <em>Exactly what it was, sir. Exactly that.</em>",
-                "<em>Delighted! Delighted!</em> — tries to leave",
-                "<em>I act nothing</em> — the body finally still, a kind of dignity arrives",
-                "Mirror speech: surprises him on the word <em>horrible</em>, not before",
-                "Fountain narration: breaks out of him because he cannot keep it inside any longer",
+            ("Character & text", [
+                "Refusal is an aesthetic and ethical position — not stubbornness or sulk",
+                "Cold without disengagement; cares without showing it",
+                "Reads ~22 (or convincingly so) — modern, recognisable",
+                "Available for stretches of stage time without speaking",
+                "Two moments where the wound breaks out (the mirror speech, the fountain narration) — earns both",
             ]),
-            ("Voice & body", [
-                "Stillness reads as presence, not passivity",
-                "Voice carries the mirror speech without melodrama",
-                "Fountain narration delivered in broken beats",
-                "Available for being physically restrained by the Father",
+            ("Body & presence", [
+                "Stillness reads as presence, not blankness",
+                "Has chosen what the body is doing during long silences and committed to it",
+                "Comfortable being physically restrained by the Father within the intimacy protocol",
+                "Available to be looked at by other characters without performing a reaction",
+            ]),
+            ("Direction-taking & range", [
+                "Available to dial up and down — refusal can be quieter or louder without losing meaning",
+                "Takes adjustment without becoming defensive about the character's coldness",
+                "Trusts that not doing is doing",
             ]),
         ],
     },
     {
         "role": "The Manager",
         "tag": "the symbol of the audience itself",
-        "summary": "The Manager is the audience, concretely. Everything he does is what the audience does in their seats. The clipboard is their program. His verbal tics are their thoughts. He delivers, in the closing line, what they were going to say themselves.",
+        "summary": "He is the audience, concretely. Everything he does is what the audience does in their seats. The role lives or dies on the actor's ability to be practical, warm, and recognisable — not theatrical, not directorial in cliché.",
         "sections": [
-            ("Reading", [
-                "Plays him as the audience itself, not a director-on-deadline cliché",
-                "Cynicism is technique; compassion is real",
+            ("Voice & breath", [
+                "Working-director voice — practical, not declamatory",
+                "Carries the rhythm of a real rehearsal room",
+                "Comic timing without commenting on the joke",
+                "Closing line played straight, with no irony — the most demanding single line in the part",
+            ]),
+            ("Character & text", [
+                "Plays him as the audience proxy throughout",
+                "Cynicism is technique; compassion is real — both visible in the same scene",
                 "Almost understands what he is watching; never quite admits it",
-                "Not a buffoon",
+                "Curiosity wins out over the schedule by Act Two",
+                "Almost names Pirandello in Act Three Part Two and stops himself",
+                "Pivot moment (setting the chair-and-coat behind the fountain) carries the weight of accessory, not just stage business",
             ]),
-            ("Signature & arc", [
-                "The clipboard signature — under the arm, on the table, in the hand",
-                "Clipboard goes down on <em>By Jove, it tempts me</em>",
-                "Picks it back up when the action becomes unbearable",
-                "Audience-like verbal tics: <em>I don't understand at all / Let's hear them out / Damned good / Effect certain</em>",
-                "The pivot: stands, picks up the chair-and-coat himself, walks it to the fountain",
-                "The closing line played straight — no commentary, no irony",
-                "Walks off the stage the way a man leaves a theatre",
+            ("Body & presence", [
+                "Sits the way the audience sits — forward, half-engaged",
+                "Comfortable being looked at across long Act 3 stretches",
+                "Movement is functional, not theatrical",
+                "Available for long Act 3 stretches without losing energy or focus",
             ]),
-            ("Voice & body", [
-                "Practical, working-director voice — not theatrical",
-                "Sits at the table forward, slightly bored, half-engaged — the audience's posture",
-                "Almost says <em>Pirandello</em> in Act 3 Part II and stops himself",
-                "Available for the long Act 3 stretch without losing energy",
+            ("Direction-taking & range", [
+                "Takes adjustment on temperature (warmer / cooler) without losing the role",
+                "Available for the line read with three different relationships to the audience",
+                "Generous with scene partners — does not pull focus when the Father or Step-Daughter are speaking",
             ]),
         ],
     },
     {
         "role": "Player 1",
-        "tag": "one character in five hats — the faded Leading Man",
-        "summary": "A once-promising Anglo actor who came to Lausanne thinking it was a stepping stone to Paris. Paris did not happen. Vanity is now a defense mechanism. He plays five roles but always as himself.",
+        "tag": "one character in five hats — the Leading Man underneath",
+        "summary": "The role asks an actor to play five different functions (Leading Man, L'Ingénue, Door-keeper, Machinist, Third Actor) as the same vain Anglo Leading Man underneath, without losing the spine. Vanity as defence, with affection beneath it. He does not know he is funny.",
         "sections": [
-            ("Reading", [
-                "Plays five roles, but always as himself",
-                "Anglo English (he thinks of it as classical; audience reads as English)",
-                "Vanity is defence; affection underneath",
-                "He does not know he is funny",
+            ("Voice & breath", [
+                "Anglo-classical diction that the production can read as English-in-Lausanne",
+                "Comic timing without anticipating the laugh",
+                "Vocal flexibility across the five roles without losing the spine",
+                "Earned theatricality in the shop-scene playing — the gallantry must sound rehearsed, not improvised",
             ]),
-            ("Signature & arc", [
-                "The comb signature — small, in the breast pocket",
-                "Comb out at <em>I have a reputation in this canton</em>",
-                "Comb out as the Door-keeper (out of habit)",
-                "Comb out at <em>By me, if you've no objection</em>",
-                "Comb pressed to chest like a small cross when Madame Pace materialises",
-                "<em>Neither am I. I am through with this scene</em> — two steps toward exit, calculation crosses face, he stops",
-                "Plays the Father in the shop scene with practised gallantry",
+            ("Character & text", [
+                "Plays five roles as the same man underneath — the audience reads one character, five hats",
+                "Vanity is defence; affection is real",
+                "Does not know he is funny",
+                "Self-correction at <em>I am through with this scene</em> reads as economic, not punchline",
+                "Available to play the Leading Man playing the Father in the shop scene without losing his own ego under the role",
             ]),
-            ("Voice & body", [
-                "Carries five distinct hats without losing the spine",
-                "Comfortable with comic exposure",
-                "Pretentious in his Stanislavski-talk without naming Stanislavski",
-                "Available for the shop-scene playing within the intimacy protocol",
+            ("Body & presence", [
+                "Physical specificity across the costume changes",
+                "Comfortable with comic exposure — being laughed at without becoming sour",
+                "Available for the shop-scene playing within the production's intimacy protocol",
+            ]),
+            ("Direction-taking & range", [
+                "Takes notes about smaller — can dial vanity down without losing comedy",
+                "Available to read each of the five hats in audition (one or two short beats apiece)",
+                "Generous in scene with Player 2 in the shop-scene replay",
             ]),
         ],
     },
     {
         "role": "Player 2",
         "tag": "the diva and the props",
-        "summary": "The veteran character actress who actually is what Player 1 pretends to be. Has done leads at every Lausanne house. Knows the audience by name. Also does the props because the budget is small.",
+        "summary": "The veteran character actress who actually is what Player 1 pretends to be. The role asks for two registers in one body — the Leading Lady's wounded vanity and the Property Man's practical irritation — without losing the same woman in both.",
         "sections": [
-            ("Reading", [
-                "Senior actor in the company — does not need to say so",
-                "Diva is real, earned, tired",
-                "Property Man is the same woman with the chain raised",
-                "Both registers, one body",
+            ("Voice & breath", [
+                "Range from the diva's wounded indignation to the Property Man's quick functional dispatch",
+                "Earned vanity in the voice (not defensive vanity)",
+                "Comic timing that lands and then steps aside",
+                "Available for a Step-Daughter line read inside the shop-scene replay without parodying",
             ]),
-            ("Signature & arc", [
-                "Reading glasses on a long silver chain",
-                "Glasses down to inspect a prop, read a cue, give an appraising look",
-                "Glasses up when she is being looked at",
-                "<em>I insist on being treated with respect — and reasonable lighting — otherwise I go</em>",
-                "The wound: the Step-Daughter laughs at her attempt to play the Step-Daughter",
-                "<em>I have been made a fool of — believe me — by considerably better</em> — the glasses come off",
-                "Act 3: would like to be at home with the cat",
-            ]),
-            ("Voice & body", [
-                "Comfortable flipping between Leading Lady and Property Man inside a single scene",
-                "Wounded pride lands without histrionics",
-                "Available for the shop-scene playing within the intimacy protocol",
+            ("Character & text", [
+                "Two registers, one woman — audience reads the same person across both",
+                "Vanity is earned, not Player 1's defensive vanity",
+                "The wound when the Step-Daughter laughs at her attempt lands as real, not as schtick",
+                "<em>I have been made a fool of — believe me — by considerably better</em> — said meaning it",
                 "Practical, no-nonsense Property Man bearing",
+            ]),
+            ("Body & presence", [
+                "Comfortable flipping between Leading Lady and Property Man within a single scene",
+                "Physical authority — reads as the senior actor in the company",
+                "Available for the shop-scene playing within the production's intimacy protocol",
+                "Comfortable with stage objects (hats, screen, table, pegs)",
+            ]),
+            ("Direction-taking & range", [
+                "Takes adjustment on the wound — can play the Step-Daughter's laugh at her as private hurt or public offence",
+                "Available to read across both registers in audition",
+                "Generous in scene with Player 1",
             ]),
         ],
     },
     {
         "role": "Player 3",
         "tag": "the youngest, and Madame Pace",
-        "summary": "The earnest one. Carries the Juvenile Lead, the Prompter, and the production's most theatrically demanding moment — Madame Pace, who arrives comic and exits chilling.",
+        "summary": "The earnest one. Carries the Juvenile Lead and the Prompter, plus the production's most theatrically demanding moment — Madame Pace, who arrives comic and exits chilling. The role lives or dies on the actor's willingness to fully transform, and on whether the dialect can hold meaning.",
         "sections": [
-            ("Reading", [
-                "Earnest, genuinely curious about the Characters",
-                "Juvenile Lead — the most theatrically open of the three Players",
-                "Prompter — meticulous, slightly older, in the box",
-                "Madame Pace — comic on arrival, chilling on exit",
+            ("Voice & breath", [
+                "Earnest, open Juvenile Lead voice",
+                "Quiet, meticulous Prompter voice (slightly older, in the box)",
+                "Half-Italian, half-French dialect for Madame Pace that carries meaning, not just sound",
+                "The Madame Pace arc — vocal warmth on entry, cold by exit, smile never dropped",
             ]),
-            ("Signature & arc", [
-                "Player 3 transformation is the production's most demanding moment",
-                "<em>Buongiorno, buongiorno, signor</em> — comic entry, full theatricality",
-                "<em>He clean. He polite. He pay cash</em> — the bookkeeping of shame",
-                "Smile never drops; only what she is saying changes",
-                "<em>Sì sì, certo. I go. I go.</em> — exit not furious, unhurried",
-                "<em>Don't you forget the name. La Pace.</em> — parting threat",
+            ("Character & text", [
+                "Three distinct people, recognisably the same actor",
+                "Earnest, genuinely curious in the Juvenile Lead beats",
+                "Madame Pace: audience must laugh on the first line, regret laughing by the last",
+                "The bookkeeping aria — <em>he clean, he polite, he pay cash</em> — lands as a transactional list, not theatrical menace",
+                "Threat at the exit (<em>Don't you forget the name</em>) carried by stillness, not raised voice",
             ]),
-            ("Voice & body", [
-                "Half-Italian, half-French dialect carried without losing meaning",
-                "Audience must laugh on her first line, regret laughing by her last",
-                "Available for the wig, the heels, the powder — full physical transformation",
-                "Available for the touching protocol with the Step-Daughter (hand under chin, briefly)",
+            ("Body & presence", [
+                "Available for full physical transformation — wig, heels, powder",
+                "Body inhabits Madame Pace fully; the audience reads a different person from the Juvenile Lead",
+                "Available for the touching protocol with the Step-Daughter actor (hand under chin, briefly, no further)",
+                "Comfortable with the prompter's box for extended periods",
+            ]),
+            ("Direction-taking & range", [
+                "Available for adjustment on dialect — clearer or thicker",
+                "Takes notes about the chill — can sharpen the cold register without losing the comedy",
+                "Available to read short beats from each of the three roles in audition",
             ]),
         ],
     },
@@ -328,7 +356,8 @@ COVER = """
   <div class="instructions">
     <h3>How to use these pages</h3>
     <p>One page per role, plus an auditioner-info form at the front and a general assessment page at the back. Tick the boxes during the audition. Write the auditioner's name and date at the top of each role page so the pages don't get mixed up across the morning.</p>
-    <p>Each role's checklist is divided into <strong>Reading</strong> (does the actor understand who this is?), <strong>Signature &amp; arc</strong> (did they handle the specific moves the production scores?), and <strong>Voice &amp; body</strong> (the technical performance).</p>
+    <p>Each role page assesses an actor's <strong>capacity</strong> for the role across four standard categories: <strong>Voice &amp; breath</strong>, <strong>Character &amp; text</strong>, <strong>Body &amp; presence</strong>, and <strong>Direction-taking &amp; range</strong>. The items are role-specific (the Father has long philosophical speeches; the Mother holds long silences; the Step-Daughter needs to be sharp without being shrill) but the categories are the same throughout. They are the questions any audition is trying to answer.</p>
+    <p>The general assessment page at the back covers the fundamentals across all roles — voice &amp; speech, body &amp; presence, text work, acting fundamentals, direction-taking, ensemble &amp; practical, and the bigger questions for this production specifically.</p>
     <p>The final box on each page — <em>Yes / Maybe / No</em> — is your snap impression. Use the lined notes area for anything more specific.</p>
   </div>
 </section>
@@ -383,53 +412,93 @@ GENERAL_ASSESSMENT = """
       <span class="label">Date</span><span class="line" style="max-width:30mm;"></span>
     </div>
     <h2>Overall impression</h2>
-    <p class="tag">After the role-specific pages — a summary of voice, body, working temperament, and the bigger questions.</p>
+    <p class="tag">After the role-specific pages — the actor's fundamentals across voice, body, text, ensemble, and direction-taking.</p>
   </div>
 
   <div class="two-col">
     <div>
       <div class="checklist-section">
-        <h3>Voice</h3>
+        <h3>Voice &amp; speech</h3>
         <ul>
-          <li><span class="box"></span><span>Clear projection</span></li>
-          <li><span class="box"></span><span>Range and colour</span></li>
-          <li><span class="box"></span><span>Available for verse rhythms / broken-beat work</span></li>
-          <li><span class="box"></span><span>English diction</span></li>
-          <li><span class="box"></span><span>French diction / accent comfort</span></li>
-          <li><span class="box"></span><span>Listens with the voice</span></li>
+          <li><span class="box"></span><span>Audible projection to the back of the room</span></li>
+          <li><span class="box"></span><span>Clear diction</span></li>
+          <li><span class="box"></span><span>Vocal range and colour</span></li>
+          <li><span class="box"></span><span>Breath control on long lines</span></li>
+          <li><span class="box"></span><span>Tempo &amp; pitch variation (not one-note)</span></li>
+          <li><span class="box"></span><span>Earned pauses, not filler</span></li>
+          <li><span class="box"></span><span>English diction comfortable</span></li>
+          <li><span class="box"></span><span>French diction / accent comfort (for Players' Lausanne texture)</span></li>
         </ul>
       </div>
 
       <div class="checklist-section">
-        <h3>Body</h3>
+        <h3>Body &amp; presence</h3>
         <ul>
-          <li><span class="box"></span><span>Stage presence</span></li>
+          <li><span class="box"></span><span>Centred posture; comfortable on stage</span></li>
           <li><span class="box"></span><span>Listens with the body</span></li>
           <li><span class="box"></span><span>Comfortable with stillness</span></li>
+          <li><span class="box"></span><span>Specific gesture (not generalised)</span></li>
+          <li><span class="box"></span><span>Spatial awareness of scene partners</span></li>
           <li><span class="box"></span><span>Comfortable with the chair-and-coat / bundle conventions</span></li>
-          <li><span class="box"></span><span>Available for intimacy protocol</span></li>
+          <li><span class="box"></span><span>Has read and accepted the intimacy protocol</span></li>
+        </ul>
+      </div>
+
+      <div class="checklist-section">
+        <h3>Text work</h3>
+        <ul>
+          <li><span class="box"></span><span>Comprehends what they're saying</span></li>
+          <li><span class="box"></span><span>Discovers the word as they say it (not pre-loaded)</span></li>
+          <li><span class="box"></span><span>Makes images, not just sounds</span></li>
+          <li><span class="box"></span><span>Specific operative words</span></li>
+          <li><span class="box"></span><span>Available for verse / broken-beat rhythms</span></li>
         </ul>
       </div>
     </div>
 
     <div>
       <div class="checklist-section">
-        <h3>Working together</h3>
+        <h3>Acting fundamentals</h3>
         <ul>
-          <li><span class="box"></span><span>Takes direction</span></li>
-          <li><span class="box"></span><span>Generous in scene</span></li>
-          <li><span class="box"></span><span>Asks specific questions</span></li>
-          <li><span class="box"></span><span>Available for full rehearsal arc</span></li>
+          <li><span class="box"></span><span>Listens to scene partner; reacts in real time</span></li>
+          <li><span class="box"></span><span>Specific choices, not generalised emotion</span></li>
+          <li><span class="box"></span><span>Believes the words as they speak them</span></li>
+          <li><span class="box"></span><span>Range — can shift register within a scene</span></li>
+          <li><span class="box"></span><span>Risk-taking / vulnerability available</span></li>
+          <li><span class="box"></span><span>Comedy timing without commenting on the joke</span></li>
+          <li><span class="box"></span><span>Emotional honesty</span></li>
+          <li><span class="box"></span><span>Stakes are felt, not announced</span></li>
         </ul>
       </div>
 
       <div class="checklist-section">
-        <h3>Bigger questions</h3>
+        <h3>Direction-taking</h3>
+        <ul>
+          <li><span class="box"></span><span>Open to adjustment; willing to try the line again</span></li>
+          <li><span class="box"></span><span>Holds an adjustment to the second take</span></li>
+          <li><span class="box"></span><span>Range of changes available</span></li>
+          <li><span class="box"></span><span>Asks specific questions, not vague ones</span></li>
+          <li><span class="box"></span><span>Resilient under correction; does not become defensive</span></li>
+        </ul>
+      </div>
+
+      <div class="checklist-section">
+        <h3>Ensemble &amp; practical</h3>
+        <ul>
+          <li><span class="box"></span><span>Generous in scene; does not pull focus</span></li>
+          <li><span class="box"></span><span>Easy to work with in the room</span></li>
+          <li><span class="box"></span><span>Punctual / prepared</span></li>
+          <li><span class="box"></span><span>Headshot / résumé received</span></li>
+          <li><span class="box"></span><span>Available for full rehearsal arc</span></li>
+          <li><span class="box"></span><span>Available for callbacks</span></li>
+        </ul>
+      </div>
+
+      <div class="checklist-section">
+        <h3>Bigger questions for this production</h3>
         <ul>
           <li><span class="box"></span><span>Can hold the Characters' register (timeless, serious, ghost-like)</span></li>
           <li><span class="box"></span><span>Can hold the Players' register (local, modern, amateur in the best sense)</span></li>
-          <li><span class="box"></span><span>Has read the intimacy protocol</span></li>
-          <li><span class="box"></span><span>Has read the Light &amp; Sound score</span></li>
           <li><span class="box"></span><span>Brings something we did not know we needed</span></li>
         </ul>
       </div>
@@ -444,7 +513,7 @@ GENERAL_ASSESSMENT = """
   <div class="verdict">
     <span class="label">Overall</span>
     <div class="options">
-      <span class="option"><span class="box"></span><span>Yes</span></span>
+      <span class="option"><span class="box"></span><span>Yes — cast</span></span>
       <span class="option"><span class="box"></span><span>Maybe — call back</span></span>
       <span class="option"><span class="box"></span><span>No</span></span>
       <span class="option"><span class="box"></span><span>Open for another role</span></span>
