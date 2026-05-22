@@ -39,7 +39,7 @@ NEW_COVER_INNER = """
       <p>Village Players, Lausanne</p>
     </div>
 
-    <p class="cast-sub" style="margin-top:32px;">Working script for rehearsal. Dialogue, stage directions, and cues only. The director's full notes &mdash; concept, portraits, part&#8209;notes, alternatives &mdash; live in the Director's Copy.</p>
+    <p class="cast-sub" style="margin-top:32px;">Working script for rehearsal. Dialogue, stage directions, and cues only.</p>
     <p class="cast-sub" style="margin-top:14px; font-size:9.5pt;">All directorial readings, scorings, and production decisions in this edition are the work of Kiarash Jamshidi. Pirandello supplied the play; everything else around it is his.</p>
 """
 
@@ -97,7 +97,7 @@ def build_actor_html():
     # --- Append a small print stylesheet so the script reads clean on paper
     extra_style = soup.new_tag("style")
     extra_style.string = """
-/* Actor Rehearsal Script — additions over the Director's Copy stylesheet */
+/* Actor Rehearsal Script — additions over the base stylesheet */
 .actor-production-note { max-width: 720px; margin: 64px auto 48px; padding: 32px 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
 .actor-production-note h2 { font-family: 'Cormorant Unicase', serif; font-weight: 600; font-size: 11pt; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin: 0 0 18px 0; text-align: center; }
 .actor-production-note p { margin: 0 0 12px 0; line-height: 1.65; font-size: 11pt; }
