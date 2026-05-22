@@ -12,7 +12,7 @@ from playwright.sync_api import sync_playwright
 
 HERE = Path(__file__).resolve().parent.parent
 SRC = Path(os.environ.get("PDF_SRC", HERE / "six_characters_village_players.html"))
-OUT = Path(os.environ.get("PDF_OUT", HERE / "outputs" / "six_characters.pdf"))
+OUT = Path(os.environ.get("PDF_OUT", HERE / "outputs" / "directors_copy.pdf"))
 CHROMIUM = os.environ.get("CHROMIUM_PATH")  # optional override
 
 PRINT_CSS = """

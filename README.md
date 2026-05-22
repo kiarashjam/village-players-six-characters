@@ -18,14 +18,14 @@ six_characters_village_players.html   The Director's Copy — open in any browse
                                        generated from it.
 
 outputs/
-├── six_characters.pdf                 Director's Copy PDF — full master version with
+├── directors_copy.pdf                 Director's Copy PDF — full master version with
 │                                       portraits, part-notes, staging notes, light & sound
 │                                       score, intimacy protocol, all dialogue. ~105 pages.
-├── six_characters_actor_script.pdf    Actor Rehearsal Script — stripped working pages for
+├── actor_script.pdf                   Actor Rehearsal Script — stripped working pages for
 │                                       the room: cast list, dialogue, necessary stage
 │                                       directions, projection and sound cues. No essays.
 │                                       ~55 pages.
-├── audition_unified.pdf               Audition Pack — cover, how-to-audition, and eight
+├── audition_pack.pdf                  Audition Pack — cover, how-to-audition, and eight
 │                                       role sections, each with the full character
 │                                       description and ~2 pages of dialogue pulled
 │                                       byte-identically from the play. ~27 pages.
@@ -34,25 +34,36 @@ outputs/
 │                                       signature & arc, voice & body, notes), plus an
 │                                       auditioner-info form and a general assessment
 │                                       page. Bring this to every audition. ~16 pages.
+├── assistant_director_pack.pdf        Assistant Director Pack — what the AD does, the
+│                                       six areas of work, the third-party role in the
+│                                       intimacy protocol, the seven-Thursday plan, and
+│                                       the August–November block.
+├── stage_manager_pack.pdf             Stage Manager Pack — what the SM does, the master
+│                                       prop list, the master costume list, the full Light
+│                                       & Sound cue list (called from the prompt book), the
+│                                       intimacy-protocol third-party role, performance-
+│                                       day running order, and the seven-Thursday plan.
 └── production_summary.pdf             One-page publication blurb for press, programme,
                                         festival listings, and company announcements.
 
 scripts/                               Build pipeline (Python + Playwright + Chromium)
-├── make_pdf.py                        → outputs/six_characters.pdf
-├── build_actor_script.py              → six_characters_actor_script.html (then make_pdf
-│                                       renders it to outputs/six_characters_actor_script.pdf)
-├── build_audition_unified.py          → outputs/audition_unified.pdf
+├── make_pdf.py                        → outputs/directors_copy.pdf
+├── build_actor_script.py              → actor_script.html (then make_pdf
+│                                       renders it to outputs/actor_script.pdf)
+├── build_audition_pack.py             → outputs/audition_pack.pdf
 ├── build_audition_checklist.py        → outputs/audition_checklist.pdf
+├── build_assistant_director_pack.py   → outputs/assistant_director_pack.pdf
+├── build_stage_manager_pack.py        → outputs/stage_manager_pack.pdf
 ├── build_summary.py                   → outputs/production_summary.pdf
 ├── recount_stats.py                   → recounts per-character speech/word counts and
 │                                       updates the stats blocks in the HTML and
 │                                       data/role_stats.json
 ├── build_audition.py                  Legacy. Builds older-style casting packet
 │                                       (audition_call). Kept for reference; the canonical
-│                                       audition document is now audition_unified.pdf.
+│                                       audition document is now audition_pack.pdf.
 ├── build_three.py                     Legacy. Builds audition_packet_trimmed.pdf,
 │                                       sides_templates.pdf, scene_index.pdf. Kept for
-│                                       reference; superseded by audition_unified.pdf.
+│                                       reference; superseded by audition_pack.pdf.
 └── history/                           Record of one-off transformations from earlier
                                        editorial passes. Audit trail, not needed for
                                        rebuilds.
@@ -79,17 +90,19 @@ pip install playwright pypdf beautifulsoup4
 playwright install chromium
 
 # 2. From the repository root:
-python scripts/recount_stats.py             # refresh stats in HTML + JSON
-python scripts/build_actor_script.py        # generate actor-script HTML
-python scripts/make_pdf.py                  # render six_characters.pdf
+python scripts/recount_stats.py                    # refresh stats in HTML + JSON
+python scripts/build_actor_script.py               # generate actor_script.html
+python scripts/make_pdf.py                         # render directors_copy.pdf
 
-PDF_SRC=six_characters_actor_script.html \
-PDF_OUT=outputs/six_characters_actor_script.pdf \
-  python scripts/make_pdf.py                # render actor-script PDF
+PDF_SRC=actor_script.html \
+PDF_OUT=outputs/actor_script.pdf \
+  python scripts/make_pdf.py                       # render actor_script.pdf
 
-python scripts/build_audition_unified.py    # render audition_unified.pdf
-python scripts/build_audition_checklist.py  # render audition_checklist.pdf
-python scripts/build_summary.py             # render production_summary.pdf
+python scripts/build_audition_pack.py              # render audition_pack.pdf
+python scripts/build_audition_checklist.py         # render audition_checklist.pdf
+python scripts/build_assistant_director_pack.py    # render assistant_director_pack.pdf
+python scripts/build_stage_manager_pack.py         # render stage_manager_pack.pdf
+python scripts/build_summary.py                    # render production_summary.pdf
 ```
 
 If your local Chromium install lives at a non-default path, set `CHROMIUM_PATH=/path/to/chrome` in front of each command.

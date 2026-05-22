@@ -433,11 +433,11 @@ def build():
 </html>
 """
 
-    out_html = OUT_DIR / "audition_unified.html"
+    out_html = OUT_DIR / "audition_pack.html"
     out_html.write_text(html)
     print(f"\nWrote {out_html.name} ({out_html.stat().st_size // 1024} KB)")
 
-    out_pdf = OUT_DIR / "audition_unified.pdf"
+    out_pdf = OUT_DIR / "audition_pack.pdf"
     from playwright.sync_api import sync_playwright
     with sync_playwright() as p:
         launch_kwargs = {"executable_path": CHROMIUM} if CHROMIUM else {}

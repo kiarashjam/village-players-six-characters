@@ -15,7 +15,7 @@ from bs4 import BeautifulSoup, NavigableString
 
 HERE = Path(__file__).resolve().parent.parent
 SRC = Path(os.environ.get("PLAY_SRC", HERE / "six_characters_village_players.html"))
-OUT = Path(os.environ.get("ACTOR_OUT", HERE / "six_characters_actor_script.html"))
+OUT = Path(os.environ.get("ACTOR_OUT", HERE / "actor_script.html"))
 
 
 # ---------------------------------------------------------------------------

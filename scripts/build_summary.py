@@ -126,8 +126,26 @@ HTML = """<!DOCTYPE html>
   <section class="timeline">
     <h2 class="timeline-heading">Production timeline</h2>
     <dl class="tl-list">
-      <dt>Thursdays, 18 June – 30 July 2026</dt>
-      <dd>Audition-and-table-work block at SSA Lausanne. Seven weekly evenings: open auditions, callbacks, full company read-through, act-by-act table work, walk-through of the light & sound score and the intimacy protocol, closing read-through with cues. No staging in this phase.</dd>
+      <dt>Thu 18 June 2026 · 18:00–21:00 · SSA Lausanne</dt>
+      <dd>Open auditions. Eight tracks to fill: Father, Mother, Step-Daughter, Son, Manager, Players 1 / 2 / 3. Callbacks scheduled at end of evening.</dd>
+
+      <dt>Thu 25 June 2026 · 18:00–21:00 · SSA Lausanne</dt>
+      <dd>Callbacks and first company meeting. Round-table introductions; distribution of the Director's Copy and the intimacy protocol; every performer signs the protocol before leaving.</dd>
+
+      <dt>Thu 2 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
+      <dd>First cold read-through. Full play read aloud by the company around a table. No staging, no music — just hearing the play together for the first time.</dd>
+
+      <dt>Thu 9 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
+      <dd>Act One table work. Per-part discussion; Light &amp; Sound for Act One walked through (white → amber → red, the radio in the wings).</dd>
+
+      <dt>Thu 16 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
+      <dd>Act Two table work. Step-Daughter's projected monologue scheduled; pianist confirmed; intimacy protocol re-walked in detail; third party named for August intimacy rehearsals.</dd>
+
+      <dt>Thu 23 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
+      <dd>Act Three table work. The Father's philosophical debate, the Son's refusal, the fountain. Light &amp; Sound for Act Three: dark stage, fountain, hanging bulb, cello drone, Pärt at the curtain.</dd>
+
+      <dt>Thu 30 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
+      <dd>Full read-through with cues — end-to-end read with the stage manager calling light and sound cues aloud. Notes session afterwards; confirmation of the August–November weekly calendar.</dd>
 
       <dt>Mid-August – November 2026</dt>
       <dd>Weekly staging rehearsals through the autumn — blocking, intimacy choreography, technical and dress rehearsals — building toward opening.</dd>

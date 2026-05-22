@@ -14,9 +14,13 @@ venv/
 /production_summary.html
 /_pdf_tmp.html
 /outputs/*.html
+/actor_script.html
 /six_characters_actor_script.html
+/outputs/audition_pack.html
 /outputs/audition_unified.html
 /outputs/audition_checklist.html
+/outputs/assistant_director_pack.html
+/outputs/stage_manager_pack.html
 
 # Editor / OS noise
 .DS_Store
