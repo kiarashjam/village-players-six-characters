@@ -103,7 +103,7 @@ HTML = """<!DOCTYPE html>
       <dt>The play</dt><dd>Pirandello's 1921 metatheatrical masterpiece; three acts, three parts per act.</dd>
       <dt>Cast</dt><dd>Eight live performers. Two stage objects in place of the two youngest characters (the chair-and-coat for the Boy; the wrapped bundle for the Child). Three brief projections on the rear wall.</dd>
       <dt>Settings</dt><dd>Three stripped settings — the rehearsal room (Act I), the dressmaker's shop (Act II), the garden with fountain (Act III).</dd>
-      <dt>Audition block</dt><dd>Seven Thursdays at SSA Lausanne, 18 June – 30 July 2026. Auditions, callbacks, table work, light & sound walk-through, intimacy protocol walk-through, closing read-through.</dd>
+      <dt>Audition block</dt><dd>Seven Thursdays at SSA Lausanne, 18:00 – 21:00 each evening, 18 June – 30 July 2026. Auditions, callbacks, table work, light & sound walk-through, intimacy protocol walk-through, closing read-through.</dd>
       <dt>Staging block</dt><dd>Weekly rehearsals mid-August through November 2026.</dd>
       <dt>Opening</dt><dd>Late autumn 2026. A short run of three or four performances.</dd>
     </dl>
@@ -174,14 +174,15 @@ HTML = """<!DOCTYPE html>
 
   <section>
     <h2>The seven Thursdays — your job in each</h2>
+    <p>All sessions at SSA Lausanne, 18:00 – 21:00.</p>
     <ul>
-      <li><strong>Thu 18 June — Open auditions.</strong> You sit beside the director. You hold the audition checklist for the director when needed. You note auditioner reactions to the room, energy, follow-up worth scheduling. You are not yet the AD of a confirmed cast — but the eyes start here.</li>
-      <li><strong>Thu 25 June — Callbacks &amp; first company meeting.</strong> You help with logistics: signing in arrivals, distributing the Director's Copy and the intimacy protocol, ensuring every performer signs the protocol before leaving. You take attendance for the production's first formal record.</li>
-      <li><strong>Thu 2 July — First cold read-through.</strong> You sit slightly back from the table and watch the company as a whole. The director will be inside the reading; you watch the room — who is reading freely, who is struggling, who is reading <em>at</em> the others vs. <em>with</em> them. Notes to the director afterwards.</li>
-      <li><strong>Thu 9 July — Act One table work.</strong> Note-taking, prompt-book annotation, watching for off-message comedy in the Players' Lausanne register. The Step-Daughter / Mother dynamic needs particular protection at this stage — flag any drift toward coquettishness or sentimentality.</li>
-      <li><strong>Thu 16 July — Act Two table work.</strong> The intimacy protocol is re-walked in detail this session. <strong>You are in the room for the protocol walk-through itself.</strong> The third party for August intimacy rehearsals is confirmed by name on this Thursday. The voice-recording schedule for the Step-Daughter's projected monologue is set.</li>
-      <li><strong>Thu 23 July — Act Three table work.</strong> The hardest material in the play. Watch how the actors land the Father's philosophical stretch — there is a tendency for it to drift toward lecture. Note the moments where the Son's silence is doing real work vs. where it has gone empty.</li>
-      <li><strong>Thu 30 July — Full read-through with cues.</strong> End-to-end read with the Stage Manager calling cues aloud. You take detailed notes in real time: every cue that landed, every cue that did not, every actor who needs a specific thing before August. Your notes go to the director that same night.</li>
+      <li><strong>Thursday 18 June 2026 — Open auditions.</strong> You sit beside the director. You hold the audition checklist for the director when needed. You note auditioner reactions to the room, energy, follow-up worth scheduling. You are not yet the AD of a confirmed cast — but the eyes start here.</li>
+      <li><strong>Thursday 25 June 2026 — Callbacks &amp; first company meeting.</strong> You help with logistics: signing in arrivals, distributing the Director's Copy and the intimacy protocol, ensuring every performer signs the protocol before leaving. You take attendance for the production's first formal record.</li>
+      <li><strong>Thursday 2 July 2026 — First cold read-through.</strong> You sit slightly back from the table and watch the company as a whole. The director will be inside the reading; you watch the room — who is reading freely, who is struggling, who is reading <em>at</em> the others vs. <em>with</em> them. Notes to the director afterwards.</li>
+      <li><strong>Thursday 9 July 2026 — Act One table work.</strong> Note-taking, prompt-book annotation, watching for off-message comedy in the Players' Lausanne register. The Step-Daughter / Mother dynamic needs particular protection at this stage — flag any drift toward coquettishness or sentimentality.</li>
+      <li><strong>Thursday 16 July 2026 — Act Two table work.</strong> The intimacy protocol is re-walked in detail this session. <strong>You are in the room for the protocol walk-through itself.</strong> The third party for August intimacy rehearsals is confirmed by name on this Thursday. The voice-recording schedule for the Step-Daughter's projected monologue is set.</li>
+      <li><strong>Thursday 23 July 2026 — Act Three table work.</strong> The hardest material in the play. Watch how the actors land the Father's philosophical stretch — there is a tendency for it to drift toward lecture. Note the moments where the Son's silence is doing real work vs. where it has gone empty.</li>
+      <li><strong>Thursday 30 July 2026 — Full read-through with cues.</strong> End-to-end read with the Stage Manager calling cues aloud. You take detailed notes in real time: every cue that landed, every cue that did not, every actor who needs a specific thing before August. Your notes go to the director that same night.</li>
     </ul>
   </section>
 

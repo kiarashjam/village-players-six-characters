@@ -391,7 +391,7 @@ AUDITIONER_FORM = """
   <div class="field"><span class="label">Open to</span><span class="line"></span></div>
 
   <h3>Availability</h3>
-  <div class="field"><span class="label">Thursdays 18 June – 30 July 2026 (table work)</span><span class="line"></span></div>
+  <div class="field"><span class="label">Thursdays 18:00 – 21:00, SSA Lausanne (18 June – 30 July 2026)</span><span class="line"></span></div>
   <div class="field"><span class="label">Mid-August – November 2026 (weekly rehearsals)</span><span class="line"></span></div>
   <div class="field"><span class="label">Late autumn 2026 (performance run)</span><span class="line"></span></div>
   <div class="field"><span class="label">Known conflicts (specific dates)</span><span class="line"></span></div>
