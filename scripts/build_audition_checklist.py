@@ -351,6 +351,7 @@ COVER = """
   <p class="italian">Sei personaggi in cerca d'autore</p>
   <p class="credit">Luigi Pirandello &nbsp;·&nbsp; trans. Edward Storer (1922)</p>
   <p class="credit">Village Players · Lausanne</p>
+  <p class="credit"><strong>Director: Kiarash Jamshidi</strong></p>
   <p class="company">Director's working pages</p>
 
   <div class="instructions">

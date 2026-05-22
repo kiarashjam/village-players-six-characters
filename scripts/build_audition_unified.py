@@ -278,6 +278,7 @@ COVER_HTML = """
   <p class="italian">Sei personaggi in cerca d'autore</p>
   <p class="credit">Luigi Pirandello &nbsp;·&nbsp; trans. Edward Storer (1922)</p>
   <p class="credit">Director's edition — Village Players, Lausanne</p>
+  <p class="credit"><strong>Rewritten and directed by Kiarash Jamshidi</strong></p>
   <p class="company">Auditions for the production</p>
 </section>
 """

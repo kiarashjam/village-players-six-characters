@@ -93,6 +93,7 @@ HTML = """<!DOCTYPE html>
     <h1>Six Characters<br>in Search of an Author</h1>
     <p class="italian">Sei personaggi in cerca d'autore</p>
     <p class="credit">A Village Players production &nbsp;·&nbsp; Lausanne</p>
+    <p class="credit" style="margin-top:6px;">Rewritten and directed by <strong>Kiarash Jamshidi</strong></p>
   </div>
 
   <p class="tagline">A rehearsal is interrupted by six people no one invited.</p>

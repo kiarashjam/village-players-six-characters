@@ -35,10 +35,12 @@ NEW_COVER_INNER = """
 
     <div class="director-credit">
       <p>Luigi Pirandello &nbsp;·&nbsp; trans. Edward Storer (1922)</p>
+      <p>Rewritten and directed by <strong>Kiarash Jamshidi</strong></p>
       <p>Village Players, Lausanne</p>
     </div>
 
     <p class="cast-sub" style="margin-top:32px;">Working script for rehearsal. Dialogue, stage directions, and cues only. The director's full notes &mdash; concept, portraits, part&#8209;notes, alternatives &mdash; live in the Director's Copy.</p>
+    <p class="cast-sub" style="margin-top:14px; font-size:9.5pt;">All directorial readings, scorings, and production decisions in this edition are the work of Kiarash Jamshidi. Pirandello supplied the play; everything else around it is his.</p>
 """
 
 PRODUCTION_NOTE = """

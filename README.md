@@ -2,7 +2,9 @@
 
 **A Village Players production · Lausanne · late autumn 2026**
 
-A director's edition of Luigi Pirandello's *Sei personaggi in cerca d'autore* (1921), in the Edward Storer 1922 English translation, prepared for a Lausanne staging by the Village Players. The English has been tightened and modernised; the production is set in Lausanne (Madame Pace's atelier off the rue de Bourg, francs instead of lire); the Players are compressed to three tracks doubling several roles each; the staging is stripped to one defining visual per act; the light and music are scored beat by beat; the intimacy and consent protocol is part of the casting contract.
+**Rewritten and directed by Kiarash Jamshidi.**
+
+A director's edition of Luigi Pirandello's *Sei personaggi in cerca d'autore* (1921), in the Edward Storer 1922 English translation, prepared for a Lausanne staging by the Village Players. Every directorial reading, scoring, adaptation, and production decision in this edition — the chair-and-coat and the bundle as the Boy and the Child, the Lausanne anchoring, the four-stage Father arc, the Step-Daughter's three cuts, the Mother's three silences, the Manager as the audience's body on stage, the Madame Pace arc from comic to chilling, the seven-Thursday rehearsal schedule, the Light & Sound score, the intimacy and consent protocol, and every part-note throughout — is the work of Kiarash Jamshidi. Pirandello supplied the play; everything else around it is his.
 
 Eight live performers, two stage objects, three brief projections, three stripped settings. A short run of three or four performances.
 
@@ -116,9 +118,11 @@ The Director's Copy is the single source of truth. It contains, in order:
 
 ---
 
-## Source
+## Source and attribution
 
-The base translation is Edward Storer's 1922 English version of Pirandello's *Six Characters in Search of an Author*, sourced from Project Gutenberg Australia (eBook No. 0608521h.html, November 2006). All directorial commentary, casting notes, part-notes, performance scoring, projection and sound cues, light score, intimacy protocol, and creative adaptations (Lausanne relocation, modernised English, compressed casting structure, broken-beat rhythm, stage-objects-for-children) are this production's own work.
+The base translation is Edward Storer's 1922 English version of Pirandello's *Six Characters in Search of an Author*, sourced from Project Gutenberg Australia (eBook No. 0608521h.html, November 2006).
+
+All directorial commentary, casting notes, part-notes, performance scoring, projection and sound cues, light score, intimacy protocol, and creative adaptations — the Lausanne relocation, the modernised English, the compressed casting structure, the broken-beat rhythm, the stage-objects-for-children, the audience-symbol Manager, the four-stage Father arc, the Step-Daughter's three cuts, the Mother's three silences, the Madame Pace arc, the seven-Thursday rehearsal plan, the Assistant Director and Stage Manager role notes — are the original work of **Kiarash Jamshidi**, the director of this production. The ideas in this edition belong to him.
 
 ---
 
