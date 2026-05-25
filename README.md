@@ -46,6 +46,13 @@ outputs/
 │                                       the standalone contract, separate from script and
 │                                       production notes. Every performer signs it before
 │                                       the first rehearsal; the director countersigns.
+├── directors_handbook.pdf             Director's Handbook — a comprehensive field manual
+│                                       for the director, in seven parts: the play and its
+│                                       demands, directing technique (Stanislavski, blocking,
+│                                       coaching the actor), staging technique for this
+│                                       production, working with the company, Pirandello in
+│                                       particular, practical director's work, and what the
+│                                       director must hold across the production. ~44 pages.
 └── production_summary.pdf             One-page publication blurb for press, programme,
                                         festival listings, and company announcements.
 
@@ -58,6 +65,7 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 ├── build_assistant_director_pack.py   → outputs/assistant_director_pack.pdf
 ├── build_stage_manager_pack.py        → outputs/stage_manager_pack.pdf
 ├── build_intimacy_protocol.py         → outputs/intimacy_protocol.pdf
+├── build_directors_handbook.py        → outputs/directors_handbook.pdf
 ├── build_summary.py                   → outputs/production_summary.pdf
 ├── recount_stats.py                   → recounts per-character speech/word counts and
 │                                       updates the stats blocks in the HTML and
@@ -107,6 +115,7 @@ python scripts/build_audition_checklist.py         # render audition_checklist.p
 python scripts/build_assistant_director_pack.py    # render assistant_director_pack.pdf
 python scripts/build_stage_manager_pack.py         # render stage_manager_pack.pdf
 python scripts/build_intimacy_protocol.py          # render intimacy_protocol.pdf
+python scripts/build_directors_handbook.py         # render directors_handbook.pdf
 python scripts/build_summary.py                    # render production_summary.pdf
 ```
 
