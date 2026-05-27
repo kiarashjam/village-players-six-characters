@@ -645,7 +645,7 @@ HTML = r"""<!DOCTYPE html>
     <ul>
       <li>Three audition sessions (Tue 2 / Fri 5 / Wed 10 June 2026, 18:00–21:00).</li>
       <li>Seven Thursday table-work evenings (18 June – 30 July 2026, 18:00–21:00).</li>
-      <li>Thirteen weeks of staging (5 August – 1 November 2026), Thursdays plus weekend sessions as needed.</li>
+      <li>Staging (20 August – 1 November 2026), Thursdays plus weekend sessions as needed. (5 &amp; 13 August are the company's summer break — no rehearsal.)</li>
       <li>Performance run in late autumn 2026.</li>
     </ul>
     <p>This is more rehearsal time than many amateur productions, less than any professional one. Plan accordingly. Do not over-block in early sessions; do not leave key beats until the last fortnight.</p>
@@ -848,11 +848,11 @@ HTML = r"""<!DOCTYPE html>
     </ul>
     <p>Nothing has yet been blocked. What has been set is what blocking will be in service of.</p>
 
-    <h3>22.2 The staging block — pacing of the thirteen weeks</h3>
-    <p>(See full week-by-week in the Director's Copy and the SM Pack.)</p>
-    <h4>22.2.1 First three weeks (Aug 5–20)</h4>
-    <p>Act One on its feet. Big strokes first, specifics second. Do not over-block Act One Part I; the comedy needs room.</p>
-    <h4>22.2.2 Middle four weeks (Aug 27 – Sep 17)</h4>
+    <h3>22.2 The staging block — pacing</h3>
+    <p>(See full week-by-week in the Director's Copy and the SM Pack. Note: 5 &amp; 13 August are the company's summer break — staging starts 20 August.)</p>
+    <h4>22.2.1 First session (Thu 20 Aug)</h4>
+    <p>Re-orientation after the break, then Act One on its feet. Big strokes first, specifics second. Do not over-block Act One Part I; the comedy needs room.</p>
+    <h4>22.2.2 Aug 27 – Sep 17</h4>
     <p>Acts Two and Three blocked. The hardest material. The pianist joins; the projections are timed in; the shower is placed.</p>
     <h4>22.2.3 Run-through weeks (Sep 24 – Oct 15)</h4>
     <p>Full run-throughs. Notes only between runs. Costumes for principals introduced.</p>

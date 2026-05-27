@@ -156,8 +156,8 @@ HTML = """<!DOCTYPE html>
       <dt>Thu 30 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
       <dd>Full read-through with cues — end-to-end read with the stage manager calling light and sound cues aloud. Notes session afterwards; confirmation of the staging-block calendar.</dd>
 
-      <dt>5 August – 1 November 2026 · SSA Lausanne</dt>
-      <dd>Staging block. Thirteen weeks of rehearsals — blocking, run-throughs, technical and dress rehearsals — building toward opening. Primary sessions Thursdays 18:00–21:00, with weekend sessions where needed.</dd>
+      <dt>20 August – 1 November 2026 · SSA Lausanne</dt>
+      <dd>Staging block — blocking, run-throughs, technical and dress rehearsals, building toward opening. (5 &amp; 13 August are the company's summer break — no rehearsal.) Primary sessions Thursdays 18:00–21:00, with weekend sessions where needed.</dd>
 
       <dt>Opening</dt>
       <dd>Late autumn 2026. A short run of three or four performances. Dates and venue to be announced.</dd>

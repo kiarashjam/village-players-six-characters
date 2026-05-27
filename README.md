@@ -166,10 +166,11 @@ All directorial commentary, casting notes, part-notes, performance scoring, proj
 |---|---|
 | Audition block — three sessions, SSA Lausanne 18:00–21:00 | Tue 2 / Fri 5 / Wed 10 June 2026 |
 | Table-work block — seven Thursdays, SSA Lausanne 18:00–21:00 | Thu 18 June – Thu 30 July 2026 |
-| Staging block — thirteen weeks at SSA Lausanne | Wed 5 August – Sun 1 November 2026 |
+| Summer break — no rehearsal | 5 & 13 August 2026 |
+| Staging block — weekly Thursdays at SSA Lausanne | Thu 20 August – Sun 1 November 2026 |
 | Opening — short run of 3–4 performances | Late autumn 2026 |
 
-The three June audition dates are open auditions plus callbacks. The seven Thursdays from 18 June through 30 July are pure table work — first reading, production walk-through, Acts 1 / 2 / 3 table work, Light & Sound walk-through, full read-through with cues. The staging block from 5 August to 1 November is thirteen weeks of blocking, run-throughs, technical and dress rehearsals — see the *Rehearsal Schedule* section in the Director's Copy and the *Stage Manager Pack* for the per-session breakdown.
+The three June audition dates are open auditions plus callbacks. The seven Thursdays from 18 June through 30 July are pure table work — first reading, production walk-through, Acts 1 / 2 / 3 table work, Light & Sound walk-through, full read-through with cues. The first two weeks of August (the 5th and 13th) are the company's summer break — no rehearsal. The staging block from 20 August to 1 November is blocking, run-throughs, technical and dress rehearsals — see the *Rehearsal Schedule* section in the Director's Copy and the *Stage Manager Pack* for the per-session breakdown.
 
 ---
 

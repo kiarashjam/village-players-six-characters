@@ -160,7 +160,7 @@ HTML = r"""<!DOCTYPE html>
       <dt>Stage objects</dt><dd>The Boy is a wooden chair with a coat; the Child is a wrapped bundle of cloth. Two of the six "characters" are objects, not performers.</dd>
       <dt>Settings</dt><dd>Three stripped settings — the rehearsal room (Act I), the dressmaker's shop with a two-level set (Act II), the garden with a fountain (Act III).</dd>
       <dt>Special elements</dt><dd>Three video projections; a tight "shower" light special; a water fountain lit from inside; a single bare hanging bulb that swings; a gunshot; an on-stage upright piano.</dd>
-      <dt>Calendar</dt><dd>Auditions Tue 2 / Fri 5 / Wed 10 June 2026. Table-work Thursdays 18 June – 30 July 2026. Staging block 5 August – 1 November 2026. Opening late autumn 2026, a short run of 3–4 performances. All audition, table-work, and staging-rehearsal sessions are 18:00 – 21:00.</dd>
+      <dt>Calendar</dt><dd>Auditions Tue 2 / Fri 5 / Wed 10 June 2026. Table-work Thursdays 18 June – 30 July 2026. Staging block 20 August – 1 November 2026 (5 &amp; 13 August are the summer break — no rehearsal). Opening late autumn 2026, a short run of 3–4 performances. All audition, table-work, and staging-rehearsal sessions are 18:00 – 21:00.</dd>
       <dt>Rehearsal home</dt><dd>SSA Lausanne — auditions, table-work, and staging rehearsals (see Section 4 for the full booking list and times).</dd>
       <dt>Performance venue</dt><dd>To be announced — hosts get-in, tech, dress, and the run.</dd>
       <dt>Company</dt><dd>Village Players, Lausanne — English-language amateur company.</dd>
@@ -225,10 +225,10 @@ HTML = r"""<!DOCTYPE html>
     <ul class="need">
       <li><strong>Audition block — 3 evenings.</strong> Tue 2 June, Fri 5 June, Wed 10 June 2026.</li>
       <li><strong>Table-work block — 7 Thursdays.</strong> 18 June, 25 June, 2 July, 9 July, 16 July, 23 July, 30 July 2026.</li>
-      <li><strong>Staging block — 11 weekly sessions.</strong> Wed 5 August, then Thursdays 13 Aug, 20 Aug, 27 Aug, 3 Sep, 10 Sep, 17 Sep, 24 Sep, 1 Oct, 8 Oct, 15 Oct 2026.</li>
-      <li><strong>Staging block — weekend sessions as needed</strong> across August–October for intensive blocking, dedicated intimacy rehearsals, and extra run-throughs. Estimate and book these early so the dates are held.</li>
+      <li><strong>Staging block — 9 weekly Thursdays.</strong> 20 Aug, 27 Aug, 3 Sep, 10 Sep, 17 Sep, 24 Sep, 1 Oct, 8 Oct, 15 Oct 2026. (<strong>5 &amp; 13 August are the summer break — no rehearsal, no booking.</strong>)</li>
+      <li><strong>Staging block — weekend sessions as needed</strong> across late August–October for intensive blocking, dedicated intimacy rehearsals, and extra run-throughs. Estimate and book these early so the dates are held.</li>
     </ul>
-    <p>That is a minimum of <strong>21 evening sessions (18:00 – 21:00) at SSA Lausanne</strong>, plus the weekend sessions. After 15 October the company moves to the performance venue.</p>
+    <p>That is a minimum of <strong>19 evening sessions (18:00 – 21:00) at SSA Lausanne</strong>, plus the weekend sessions. After 15 October the company moves to the performance venue.</p>
 
     <h3>Performance venue (TBA) — what we need it for</h3>
     <ul class="need">
@@ -242,7 +242,7 @@ HTML = r"""<!DOCTYPE html>
 
     <h3>What to ask</h3>
     <ul class="ask">
-      <li>Can SSA Lausanne confirm all 21 evening sessions plus the weekend holds now?</li>
+      <li>Can SSA Lausanne confirm all 19 evening sessions plus the weekend holds now?</li>
       <li>Which performance venue, and is it confirmed? If not, what is the shortlist and the decision date?</li>
       <li>What are the exact performance dates (3–4 shows, late autumn 2026)?</li>
       <li>How many days do we get in the performance venue before tech — when is the get-in?</li>
@@ -263,14 +263,14 @@ HTML = r"""<!DOCTYPE html>
     </ul>
     <h3>What to ask</h3>
     <ul class="ask">
-      <li>Does the venue availability fit our staging block (5 Aug – 1 Nov) and opening?</li>
+      <li>Does the venue availability fit our staging block (20 Aug – 1 Nov) and opening?</li>
       <li>When is the get-in? When is the technical rehearsal? When is the dress?</li>
       <li>What are the order deadlines for set, projector, piano, costume, and the fountain build?</li>
       <li>When do we need the projection content finished so it can be tested in the room?</li>
       <li>When does each crew member need to be confirmed and contracted?</li>
     </ul>
     <div class="callout">
-      <p>The fixed dates the PM is planning around: auditions 2 / 5 / 10 June; table-work Thursdays 18 June – 30 July; staging block 5 August – 1 November; opening late autumn. <strong>All audition, table-work, and staging-rehearsal sessions run 18:00 – 21:00 at SSA Lausanne</strong> — the complete list of SSA booking dates is in Section 4. Tech, dress, and the run are in the performance venue. The full per-session breakdown is in the Director's Copy and the Stage Manager Pack.</p>
+      <p>The fixed dates the PM is planning around: auditions 2 / 5 / 10 June; table-work Thursdays 18 June – 30 July; staging block 20 August – 1 November (5 &amp; 13 Aug are the summer break); opening late autumn. <strong>All audition, table-work, and staging-rehearsal sessions run 18:00 – 21:00 at SSA Lausanne</strong> — the complete list of SSA booking dates is in Section 4. Tech, dress, and the run are in the performance venue. The full per-session breakdown is in the Director's Copy and the Stage Manager Pack.</p>
     </div>
   </section>
 
@@ -511,7 +511,7 @@ HTML = r"""<!DOCTYPE html>
 
     <h3>Stage 0 — Pre-production (now → end May 2026)</h3>
     <ul class="need">
-      <li>All SSA Lausanne sessions booked (21 evenings, 18:00 – 21:00, plus weekend holds — see Section 4).</li>
+      <li>All SSA Lausanne sessions booked (19 evenings, 18:00 – 21:00, plus weekend holds — see Section 4).</li>
       <li>Performance venue named and booked; performance dates locked.</li>
       <li>Budget agreed and departments allocated.</li>
       <li>Set designer, lighting designer, sound designer engaged.</li>
@@ -534,7 +534,7 @@ HTML = r"""<!DOCTYPE html>
       <li>Costume design under way; Madame Pace transformation planned.</li>
     </ul>
 
-    <h3>Stage 3 — Staging block at SSA Lausanne (Wed 5 Aug – Thu 15 Oct 2026, 18:00 – 21:00 + weekends)</h3>
+    <h3>Stage 3 — Staging block at SSA Lausanne (Thu 20 Aug – Thu 15 Oct 2026, 18:00 – 21:00 + weekends; 5 &amp; 13 Aug are the summer break)</h3>
     <ul class="need">
       <li>Real props in the room as they are built — the chair-and-coat, the bundle, the revolver replica.</li>
       <li>A rehearsal-room mock-up of the two-level platform for blocking (the real set goes into the performance venue at get-in).</li>
@@ -593,7 +593,7 @@ HTML = r"""<!DOCTYPE html>
     <h2>24. Decisions to leave with today</h2>
     <p>Walk out of the meeting with these settled, or with a named owner and a date for each.</p>
     <ul class="check">
-      <li>SSA Lausanne booked — all 21 evening sessions (18:00 – 21:00) plus weekend holds.</li>
+      <li>SSA Lausanne booked — all 19 evening sessions (18:00 – 21:00) plus weekend holds.</li>
       <li>Performance venue confirmed (or shortlist + decision date).</li>
       <li>Performance dates locked.</li>
       <li>Top-line budget agreed; contingency and authority clear.</li>

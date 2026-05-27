@@ -106,7 +106,7 @@ HTML = """<!DOCTYPE html>
       <dt>Settings</dt><dd>Three stripped settings — the rehearsal room (Act I), the dressmaker's shop (Act II), the garden with fountain (Act III).</dd>
       <dt>Audition block</dt><dd>Three sessions at SSA Lausanne, 18:00 – 21:00: Tue 2 June, Fri 5 June, Wed 10 June 2026.</dd>
       <dt>Table-work block</dt><dd>Seven Thursdays at SSA Lausanne, 18:00 – 21:00 each evening, 18 June – 30 July 2026.</dd>
-      <dt>Staging block</dt><dd>Thirteen weeks of weekly rehearsals, 5 August – 1 November 2026.</dd>
+      <dt>Staging block</dt><dd>20 August – 1 November 2026 (5 &amp; 13 August are the summer break — no rehearsal).</dd>
       <dt>Opening</dt><dd>Late autumn 2026. A short run of three or four performances.</dd>
     </dl>
   </section>
@@ -182,10 +182,11 @@ HTML = """<!DOCTYPE html>
   </section>
 
   <section>
-    <h2>The staging block — 5 August – 1 November 2026</h2>
-    <p>Thirteen weeks. Primary sessions Thursdays 18:00 – 21:00 at SSA Lausanne, with additional weekend sessions where the room requires it.</p>
+    <h2>The staging block — 20 August – 1 November 2026</h2>
+    <p>The first two weeks of August are the company's summer break — <strong>no rehearsal on 5 or 13 August.</strong> Staging begins 20 August. Primary sessions Thursdays 18:00 – 21:00 at SSA Lausanne, with additional weekend sessions where the room requires it.</p>
     <ul>
-      <li><strong>Wed 5 Aug – Thu 20 Aug.</strong> Act One blocking. You carry the prompt book during blocking sessions, recording every position, every movement, every staged beat. You and the Stage Manager confirm who carries the prompt book on which day. You run sub-rehearsals when the director is working on a parallel scene.</li>
+      <li><strong>5 &amp; 13 Aug — summer break.</strong> No rehearsal. The company returns on 20 August.</li>
+      <li><strong>Thu 20 Aug.</strong> Re-orientation and Act One blocking (all three parts). You carry the prompt book during blocking sessions, recording every position, every movement, every staged beat. You and the Stage Manager confirm who carries the prompt book on which day. You run sub-rehearsals when the director is working on a parallel scene.</li>
       <li><strong>Thu 27 Aug – Thu 3 Sep.</strong> Act Two: Madame Pace's aria and the doubled scene. The Step-Daughter / Mother / Father / Player 1 / Player 2 / Player 3 work block. Detailed prompt-book entries on every staged beat.</li>
       <li><strong>Thu 10 Sep – Thu 24 Sep.</strong> Act Three: the argument over reality, the Son's refusal, the fountain. The hardest material on its feet for the first time.</li>
       <li><strong>Thu 1 Oct – Thu 15 Oct.</strong> Run-throughs begin. You watch from the house with notes. You are the production's first audience. Costumes integrated for the principals.</li>
