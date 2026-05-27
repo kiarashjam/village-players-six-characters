@@ -127,7 +127,7 @@ HTML = r"""<!DOCTYPE html>
       <li>The production at a glance</li>
       <li>The five items to solve first</li>
       <li>Budget &amp; finance</li>
-      <li>Venue &amp; dates</li>
+      <li>Venues &amp; dates — SSA + performance venue (with all SSA booking times)</li>
       <li>Schedule &amp; calendar</li>
       <li>Set &amp; staging</li>
       <li>The fountain (water on stage)</li>
@@ -160,8 +160,10 @@ HTML = r"""<!DOCTYPE html>
       <dt>Stage objects</dt><dd>The Boy is a wooden chair with a coat; the Child is a wrapped bundle of cloth. Two of the six "characters" are objects, not performers.</dd>
       <dt>Settings</dt><dd>Three stripped settings — the rehearsal room (Act I), the dressmaker's shop with a two-level set (Act II), the garden with a fountain (Act III).</dd>
       <dt>Special elements</dt><dd>Three video projections; a tight "shower" light special; a water fountain lit from inside; a single bare hanging bulb that swings; a gunshot; an on-stage upright piano.</dd>
-      <dt>Calendar</dt><dd>Auditions Tue 2 / Fri 5 / Wed 10 June 2026. Table-work Thursdays 18 June – 30 July 2026. Staging block 5 August – 1 November 2026. Opening late autumn 2026, a short run of 3–4 performances.</dd>
-      <dt>Company</dt><dd>Village Players, Lausanne — English-language amateur company at SSA Lausanne.</dd>
+      <dt>Calendar</dt><dd>Auditions Tue 2 / Fri 5 / Wed 10 June 2026. Table-work Thursdays 18 June – 30 July 2026. Staging block 5 August – 1 November 2026. Opening late autumn 2026, a short run of 3–4 performances. All audition, table-work, and staging-rehearsal sessions are 18:00 – 21:00.</dd>
+      <dt>Rehearsal home</dt><dd>SSA Lausanne — auditions, table-work, and staging rehearsals (see Section 4 for the full booking list and times).</dd>
+      <dt>Performance venue</dt><dd>To be announced — hosts get-in, tech, dress, and the run.</dd>
+      <dt>Company</dt><dd>Village Players, Lausanne — English-language amateur company.</dd>
     </dl>
   </section>
 
@@ -185,8 +187,8 @@ HTML = r"""<!DOCTYPE html>
       <p>Two need content <em>created</em> ahead of time: filming the Six arriving (Projection 1) and recording the Step-Daughter's voice (Projection 2). Plus a projector bright enough to read under amber/red light, a rear-wall surface, and sync with live performers. Content production has a lead time — start it in the table-work block.</p>
     </div>
     <div class="flag">
-      <p class="flag-label">Flag 5 — The venue is not yet named</p>
-      <p>"Dates and venue to be announced." Almost every other decision (set size, rig, get-in time, water feasibility, projection throw) depends on the room. Locking the venue is the meeting's highest-value outcome.</p>
+      <p class="flag-label">Flag 5 — The performance venue is not yet named</p>
+      <p>The rehearsal home is settled — SSA Lausanne, with all dates and times known (Section 4). But the <em>performance</em> venue is still "to be announced." Almost every other decision (set size, rig, get-in time, water feasibility, projection throw, performance dates) depends on that room. Locking the performance venue is the meeting's highest-value outcome.</p>
     </div>
   </section>
 
@@ -211,22 +213,44 @@ HTML = r"""<!DOCTYPE html>
   </section>
 
   <section>
-    <h2>4. Venue &amp; dates</h2>
-    <h3>What I need</h3>
-    <ul class="need">
-      <li>The venue named and booked, with get-in and performance dates locked.</li>
-      <li>The technical specification of the room: stage dimensions, rig, power, wing space, get-in access, seating capacity.</li>
+    <h2>4. Venues &amp; dates — two rooms, not one</h2>
+    <p>The production uses <strong>two</strong> venues. Be precise with the PM about which is which, because they have different booking owners, costs, and deadlines.</p>
+    <ul>
+      <li><strong>SSA Lausanne — the rehearsal home.</strong> Auditions, table-work, and the staging rehearsals all happen here. We know the exact dates and times (below). These bookings can be confirmed now.</li>
+      <li><strong>The performance venue — to be announced.</strong> Get-in, the technical rehearsal, the dress, and the run happen here. Not yet named or booked. Confirming it is the meeting's highest-value outcome.</li>
     </ul>
+
+    <h3>SSA Lausanne — the exact room bookings we need</h3>
+    <p>Every session is <strong>18:00 – 21:00</strong>. We need the room booked for:</p>
+    <ul class="need">
+      <li><strong>Audition block — 3 evenings.</strong> Tue 2 June, Fri 5 June, Wed 10 June 2026.</li>
+      <li><strong>Table-work block — 7 Thursdays.</strong> 18 June, 25 June, 2 July, 9 July, 16 July, 23 July, 30 July 2026.</li>
+      <li><strong>Staging block — 11 weekly sessions.</strong> Wed 5 August, then Thursdays 13 Aug, 20 Aug, 27 Aug, 3 Sep, 10 Sep, 17 Sep, 24 Sep, 1 Oct, 8 Oct, 15 Oct 2026.</li>
+      <li><strong>Staging block — weekend sessions as needed</strong> across August–October for intensive blocking, dedicated intimacy rehearsals, and extra run-throughs. Estimate and book these early so the dates are held.</li>
+    </ul>
+    <p>That is a minimum of <strong>21 evening sessions (18:00 – 21:00) at SSA Lausanne</strong>, plus the weekend sessions. After 15 October the company moves to the performance venue.</p>
+
+    <h3>Performance venue (TBA) — what we need it for</h3>
+    <ul class="need">
+      <li><strong>Get-in</strong> — set, rig, fountain install, around the week of 19 October 2026.</li>
+      <li><strong>Technical rehearsal</strong> — Thu 22 October 2026, in the venue, full cue call with the operators.</li>
+      <li><strong>Dress rehearsal</strong> — Thu 29 October 2026.</li>
+      <li><strong>Final dress / preview</strong> — Sun 1 November 2026.</li>
+      <li><strong>The run</strong> — 3–4 performances, late autumn 2026, dates to be confirmed.</li>
+      <li><strong>Get-out / strike</strong> — immediately after the closing performance.</li>
+    </ul>
+
     <h3>What to ask</h3>
     <ul class="ask">
-      <li>Which venue, and is it confirmed? If not, what is the shortlist and the decision date?</li>
-      <li>What are the exact performance dates (the run is 3–4 shows, late autumn 2026)?</li>
-      <li>How many days do we have for get-in, tech, and dress in the venue itself?</li>
-      <li>Stage dimensions, height to the grid, available rig and dimmers, power supply?</li>
-      <li>Can the room take a water feature (drainage, floor protection)?</li>
-      <li>What is the projection throw distance and is there a usable rear wall or do we need a screen?</li>
-      <li>House capacity and sightlines — are there seats from which the two-level set or the fountain will not read?</li>
-      <li>What does the venue require of us — insurance, technical staff, licences, noise limits?</li>
+      <li>Can SSA Lausanne confirm all 21 evening sessions plus the weekend holds now?</li>
+      <li>Which performance venue, and is it confirmed? If not, what is the shortlist and the decision date?</li>
+      <li>What are the exact performance dates (3–4 shows, late autumn 2026)?</li>
+      <li>How many days do we get in the performance venue before tech — when is the get-in?</li>
+      <li>Performance-venue stage dimensions, height to the grid, available rig and dimmers, power supply, wing space, get-in access?</li>
+      <li>Can the performance venue take a water feature (drainage, floor protection)?</li>
+      <li>Projection throw distance — is there a usable rear wall, or do we need a screen?</li>
+      <li>House capacity and sightlines — any seats from which the two-level set or the fountain will not read?</li>
+      <li>What does each venue require of us — insurance, technical staff, licences, noise limits?</li>
     </ul>
   </section>
 
@@ -246,7 +270,7 @@ HTML = r"""<!DOCTYPE html>
       <li>When does each crew member need to be confirmed and contracted?</li>
     </ul>
     <div class="callout">
-      <p>The fixed dates the PM is planning around: auditions 2/5/10 June; table-work Thursdays 18 June – 30 July (18:00–21:00, SSA Lausanne); staging block 5 August – 1 November; opening late autumn. The full per-session breakdown is in the Director's Copy and the Stage Manager Pack.</p>
+      <p>The fixed dates the PM is planning around: auditions 2 / 5 / 10 June; table-work Thursdays 18 June – 30 July; staging block 5 August – 1 November; opening late autumn. <strong>All audition, table-work, and staging-rehearsal sessions run 18:00 – 21:00 at SSA Lausanne</strong> — the complete list of SSA booking dates is in Section 4. Tech, dress, and the run are in the performance venue. The full per-session breakdown is in the Director's Copy and the Stage Manager Pack.</p>
     </div>
   </section>
 
@@ -474,10 +498,10 @@ HTML = r"""<!DOCTYPE html>
     <h2>21. Get-in, get-out, strike</h2>
     <h3>What to ask</h3>
     <ul class="ask">
-      <li>When is the get-in, and how long do we have in the venue before tech?</li>
+      <li>When is the get-in to the performance venue, and how long do we have before tech?</li>
       <li>What is the get-out / strike plan — who, when, returning what to whom?</li>
       <li>How do hired items (projector, piano, lighting, the fountain build) get returned, and by when?</li>
-      <li>Who is responsible for leaving the venue as found?</li>
+      <li>Who is responsible for leaving both the performance venue and SSA Lausanne as found?</li>
     </ul>
   </section>
 
@@ -487,20 +511,21 @@ HTML = r"""<!DOCTYPE html>
 
     <h3>Stage 0 — Pre-production (now → end May 2026)</h3>
     <ul class="need">
-      <li>Venue named and booked; dates locked.</li>
+      <li>All SSA Lausanne sessions booked (21 evenings, 18:00 – 21:00, plus weekend holds — see Section 4).</li>
+      <li>Performance venue named and booked; performance dates locked.</li>
       <li>Budget agreed and departments allocated.</li>
       <li>Set designer, lighting designer, sound designer engaged.</li>
       <li>Big-ticket order deadlines identified (set, projector, piano, fountain).</li>
       <li>Music-licensing process started.</li>
     </ul>
 
-    <h3>Stage 1 — Audition block (2 / 5 / 10 June 2026)</h3>
+    <h3>Stage 1 — Audition block (Tue 2 / Fri 5 / Wed 10 June 2026, SSA Lausanne, 18:00 – 21:00)</h3>
     <ul class="need">
-      <li>Audition room booked at SSA Lausanne, 18:00–21:00.</li>
+      <li>Audition room booked at SSA Lausanne for the three evenings.</li>
       <li>Nothing technical yet — but the PM confirms the pianist approach and the projection-content plan are moving.</li>
     </ul>
 
-    <h3>Stage 2 — Table-work block (Thursdays 18 June – 30 July 2026)</h3>
+    <h3>Stage 2 — Table-work block (7 Thursdays, 18 June – 30 July 2026, SSA Lausanne, 18:00 – 21:00)</h3>
     <ul class="need">
       <li>Pianist confirmed by 16 July; piano sourcing under way.</li>
       <li>Projection content production begins — filming and the voice recording session scheduled.</li>
@@ -509,19 +534,19 @@ HTML = r"""<!DOCTYPE html>
       <li>Costume design under way; Madame Pace transformation planned.</li>
     </ul>
 
-    <h3>Stage 3 — Staging block (5 August – 1 November 2026)</h3>
+    <h3>Stage 3 — Staging block at SSA Lausanne (Wed 5 Aug – Thu 15 Oct 2026, 18:00 – 21:00 + weekends)</h3>
     <ul class="need">
       <li>Real props in the room as they are built — the chair-and-coat, the bundle, the revolver replica.</li>
-      <li>Set built and available for blocking (or a rehearsal-room mock-up of the platform).</li>
+      <li>A rehearsal-room mock-up of the two-level platform for blocking (the real set goes into the performance venue at get-in).</li>
       <li>Projection content finished and tested.</li>
       <li>Pianist rehearsing with the company.</li>
       <li>Costumes ready for the run-throughs in October.</li>
       <li>Crew confirmed and contracted. Risk assessment complete.</li>
     </ul>
 
-    <h3>Stage 4 — Get-in &amp; technical rehearsal (around 22 October)</h3>
+    <h3>Stage 4 — Get-in &amp; technical rehearsal (performance venue, week of 19 Oct; tech Thu 22 Oct 2026)</h3>
     <ul class="need">
-      <li>Set into the venue; rig focused; the shower special set; the fountain installed and water-tested; the swinging bulb rigged.</li>
+      <li>Set into the performance venue; rig focused; the shower special set; the fountain installed and water-tested; the swinging bulb rigged.</li>
       <li>All cues built into the prompt book and walked with the operators.</li>
       <li>Projector tested under the real light states.</li>
       <li>Gunshot and water-isolation safety signed off.</li>
@@ -568,7 +593,8 @@ HTML = r"""<!DOCTYPE html>
     <h2>24. Decisions to leave with today</h2>
     <p>Walk out of the meeting with these settled, or with a named owner and a date for each.</p>
     <ul class="check">
-      <li>Venue confirmed (or shortlist + decision date).</li>
+      <li>SSA Lausanne booked — all 21 evening sessions (18:00 – 21:00) plus weekend holds.</li>
+      <li>Performance venue confirmed (or shortlist + decision date).</li>
       <li>Performance dates locked.</li>
       <li>Top-line budget agreed; contingency and authority clear.</li>
       <li>Fountain: live water or substitute — decided.</li>
