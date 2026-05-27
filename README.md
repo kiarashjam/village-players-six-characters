@@ -46,6 +46,11 @@ outputs/
 │                                       the standalone contract, separate from script and
 │                                       production notes. Every performer signs it before
 │                                       the first rehearsal; the director countersigns.
+├── production_meeting_brief.pdf       Production Meeting Brief — the director's brief for
+│                                       the meeting with the Production Manager: the show at
+│                                       a glance, what the production needs, area-by-area
+│                                       questions to ask, a stage-by-stage walk-through, and
+│                                       a decisions checklist. ~16 pages.
 ├── directors_handbook.pdf             Director's Handbook — a comprehensive field manual
 │                                       for the director, in seven parts: the play and its
 │                                       demands, directing technique (Stanislavski, blocking,
@@ -65,6 +70,7 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 ├── build_assistant_director_pack.py   → outputs/assistant_director_pack.pdf
 ├── build_stage_manager_pack.py        → outputs/stage_manager_pack.pdf
 ├── build_intimacy_protocol.py         → outputs/intimacy_protocol.pdf
+├── build_production_meeting_brief.py  → outputs/production_meeting_brief.pdf
 ├── build_directors_handbook.py        → outputs/directors_handbook.pdf
 ├── build_summary.py                   → outputs/production_summary.pdf
 ├── recount_stats.py                   → recounts per-character speech/word counts and
@@ -115,6 +121,7 @@ python scripts/build_audition_checklist.py         # render audition_checklist.p
 python scripts/build_assistant_director_pack.py    # render assistant_director_pack.pdf
 python scripts/build_stage_manager_pack.py         # render stage_manager_pack.pdf
 python scripts/build_intimacy_protocol.py          # render intimacy_protocol.pdf
+python scripts/build_production_meeting_brief.py   # render production_meeting_brief.pdf
 python scripts/build_directors_handbook.py         # render directors_handbook.pdf
 python scripts/build_summary.py                    # render production_summary.pdf
 ```
