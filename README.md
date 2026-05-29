@@ -29,6 +29,11 @@ outputs/
 │                                       role sections, each with the full character
 │                                       description and ~2 pages of dialogue pulled
 │                                       byte-identically from the play. ~27 pages.
+├── audition_twohanders.pdf            Audition Two-Hander Pack — a paired side for every
+│                                       pairing of the eight speaking roles, only those two
+│                                       speaking. Organised by character (each role's section
+│                                       has a scene with every other role); Character–Player
+│                                       pairings use the metatheatrical frame. ~34 pages.
 ├── audition_checklist.pdf             Director's working checklist for the audition room.
 │                                       One page per role with checkboxes (reading,
 │                                       signature & arc, voice & body, notes), plus an
@@ -66,6 +71,7 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 ├── build_actor_script.py              → actor_script.html (then make_pdf
 │                                       renders it to outputs/actor_script.pdf)
 ├── build_audition_pack.py             → outputs/audition_pack.pdf
+├── build_audition_twohanders.py       → outputs/audition_twohanders.pdf
 ├── build_audition_checklist.py        → outputs/audition_checklist.pdf
 ├── build_assistant_director_pack.py   → outputs/assistant_director_pack.pdf
 ├── build_stage_manager_pack.py        → outputs/stage_manager_pack.pdf
@@ -117,6 +123,7 @@ PDF_OUT=outputs/actor_script.pdf \
   python scripts/make_pdf.py                       # render actor_script.pdf
 
 python scripts/build_audition_pack.py              # render audition_pack.pdf
+python scripts/build_audition_twohanders.py        # render audition_twohanders.pdf
 python scripts/build_audition_checklist.py         # render audition_checklist.pdf
 python scripts/build_assistant_director_pack.py    # render assistant_director_pack.pdf
 python scripts/build_stage_manager_pack.py         # render stage_manager_pack.pdf
