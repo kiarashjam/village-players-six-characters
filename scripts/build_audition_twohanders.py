@@ -154,11 +154,11 @@ SCENES = {
         ],
     },
     key("SD", "S"): {
-        "context": "She taunts him for refusing to rise even for his mother; she names the drowning he watched. He insists his refusal is freedom — she calls it the same chain that binds them all.",
+        "context": "She taunts him for refusing to rise even for his mother; she names the moment at the fountain when he was the only one of them with feet to move, and didn't. He insists his refusal is freedom — she calls it the same chain that binds them all.",
         "lines": [
             ("STEP-DAUGHTER", "Look at him. He will not even rise from that chair for his own mother — the one person in this whole room who has never once done him a single wrong."),
             ("SON", "Leave me out of your performance. I did not ask to be in your story, and I will not be dragged into the middle of it now, for you or for anyone."),
-            ("STEP-DAUGHTER", "It is not a performance, it is the truth, and you are standing in the very middle of it whether you open your mouth or keep it shut. The Child drowned in the fountain in your garden while you stood at the edge of it and watched. That is yours. Not mine. Yours."),
+            ("STEP-DAUGHTER", "It is not a performance, it is the truth, and you are standing in the very middle of it whether you open your mouth or keep it shut. The Child drowned in your father's garden, and you were the one of us who almost moved. You ran toward her. You were a single step from the water. And then you stopped, and you watched a boy watching his sister die, and you did not take that step. That is yours. Not mine. Yours."),
             ("SON", "I am bound to nothing, and to no one. I never once agreed to belong to this invented family."),
             ("STEP-DAUGHTER", "You are bound to this chain exactly as the rest of us are — you only flatter yourself that the chain is a decision you have made. I am the one who runs from this house when the worst of it happens, and even I am still here, still inside it. So are you. So you always will be."),
             ("SON", "Better to stand still and apart than to put myself on display the way you do — for strangers, for a director with his notebook, for whoever has paid to watch."),
