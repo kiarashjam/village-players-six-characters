@@ -133,7 +133,7 @@ HTML = r"""<!DOCTYPE html>
       <li>The fountain (water on stage)</li>
       <li>Lighting</li>
       <li>Sound</li>
-      <li>Projection / video</li>
+      <li>The two stage objects (chair-and-coat, bundle)</li>
       <li>The gunshot &amp; the prop revolver</li>
       <li>Props</li>
       <li>Costume &amp; the Madame Pace transformation</li>
@@ -159,7 +159,7 @@ HTML = r"""<!DOCTYPE html>
       <dt>On stage</dt><dd>Eight live performers (Father, Mother, Step-Daughter, Son, Manager, Players 1 / 2 / 3) plus a credited pianist for Act Two.</dd>
       <dt>Stage objects</dt><dd>The Boy is a wooden chair with a coat; the Child is a wrapped bundle of cloth. Two of the six "characters" are objects, not performers.</dd>
       <dt>Settings</dt><dd>Three stripped settings — the rehearsal room (Act I), the dressmaker's shop with a two-level set (Act II), the garden with a fountain (Act III).</dd>
-      <dt>Special elements</dt><dd>Three video projections; a tight "shower" light special; a water fountain lit from inside; a single bare hanging bulb that swings; a gunshot; an on-stage upright piano.</dd>
+      <dt>Special elements</dt><dd>A tight "shower" light special; a water fountain lit from inside; a single bare hanging bulb that swings; a gunshot; an on-stage upright piano. No projection, no screen.</dd>
       <dt>Calendar</dt><dd>Auditions Tue 2 / Fri 5 / Wed 10 June 2026. Table-work Thursdays 18 June – 30 July 2026. Staging block 20 August – 1 November 2026 (5 &amp; 13 August are the summer break — no rehearsal). Opening late autumn 2026, a short run of 3–4 performances. All audition, table-work, and staging-rehearsal sessions are 18:00 – 21:00.</dd>
       <dt>Rehearsal home</dt><dd>SSA Lausanne — auditions, table-work, and staging rehearsals (see Section 4 for the full booking list and times).</dd>
       <dt>Performance venue</dt><dd>To be announced — hosts get-in, tech, dress, and the run.</dd>
@@ -183,12 +183,12 @@ HTML = r"""<!DOCTYPE html>
       <p>An upper platform (the rehearsal stage) above a lower floor (the watching company). Working at height: structural load, access, edge protection, sightlines. This is the largest build in the show.</p>
     </div>
     <div class="flag">
-      <p class="flag-label">Flag 4 — Three video projections</p>
-      <p>Two need content <em>created</em> ahead of time: filming the Six arriving (Projection 1) and recording the Step-Daughter's voice (Projection 2). Plus a projector bright enough to read under amber/red light, a rear-wall surface, and sync with live performers. Content production has a lead time — start it in the table-work block.</p>
+      <p class="flag-label">Flag 4 — The two stage objects (chair-and-coat, bundle)</p>
+      <p>Two of the six "characters" are not played by performers. The Boy is a wooden chair with a black coat over its back, a schoolboy's cap on the seat, and a small leather satchel by the leg. The Child is a small wrapped bundle of white cloth with a black silk sash. Both must be built (or sourced) early — the Step-Daughter rehearses with both from the August staging block onward, and both must be sturdy enough to be carried, dragged, lowered into the fountain, and lifted as a body in the final scene.</p>
     </div>
     <div class="flag">
       <p class="flag-label">Flag 5 — The performance venue is not yet named</p>
-      <p>The rehearsal home is settled — SSA Lausanne, with all dates and times known (Section 4). But the <em>performance</em> venue is still "to be announced." Almost every other decision (set size, rig, get-in time, water feasibility, projection throw, performance dates) depends on that room. Locking the performance venue is the meeting's highest-value outcome.</p>
+      <p>The rehearsal home is settled — SSA Lausanne, with all dates and times known (Section 4). But the <em>performance</em> venue is still "to be announced." Almost every other decision (set size, rig, get-in time, water feasibility, performance dates) depends on that room. Locking the performance venue is the meeting's highest-value outcome.</p>
     </div>
   </section>
 
@@ -197,7 +197,7 @@ HTML = r"""<!DOCTYPE html>
     <h3>What I need</h3>
     <ul class="need">
       <li>A top-line production budget and the spending authority within it.</li>
-      <li>A breakdown by department: set, lighting, sound, projection, props, costume, piano, crew, venue, marketing, contingency.</li>
+      <li>A breakdown by department: set, lighting, sound, props (including the two stage objects), costume, piano, crew, venue, marketing, contingency.</li>
       <li>Clarity on what is hired vs. built vs. borrowed.</li>
     </ul>
     <h3>What to ask</h3>
@@ -248,8 +248,7 @@ HTML = r"""<!DOCTYPE html>
       <li>How many days do we get in the performance venue before tech — when is the get-in?</li>
       <li>Performance-venue stage dimensions, height to the grid, available rig and dimmers, power supply, wing space, get-in access?</li>
       <li>Can the performance venue take a water feature (drainage, floor protection)?</li>
-      <li>Projection throw distance — is there a usable rear wall, or do we need a screen?</li>
-      <li>House capacity and sightlines — any seats from which the two-level set or the fountain will not read?</li>
+      <li>House capacity and sightlines — any seats from which the two-level set, the fountain, or the chair-and-coat at the edge of the stage will not read?</li>
       <li>What does each venue require of us — insurance, technical staff, licences, noise limits?</li>
     </ul>
   </section>
@@ -265,8 +264,7 @@ HTML = r"""<!DOCTYPE html>
     <ul class="ask">
       <li>Does the venue availability fit our staging block (20 Aug – 1 Nov) and opening?</li>
       <li>When is the get-in? When is the technical rehearsal? When is the dress?</li>
-      <li>What are the order deadlines for set, projector, piano, costume, and the fountain build?</li>
-      <li>When do we need the projection content finished so it can be tested in the room?</li>
+      <li>What are the order deadlines for set, piano, costume, the chair-and-coat and bundle, and the fountain build?</li>
       <li>When does each crew member need to be confirmed and contracted?</li>
     </ul>
     <div class="callout">
@@ -337,24 +335,29 @@ HTML = r"""<!DOCTYPE html>
     <h3>What to ask</h3>
     <ul class="ask">
       <li>Who is the sound designer / operator? What is the venue's PA and playback setup?</li>
-      <li>Do we need the recorded cues (chanson, drone, water, Pärt, gunshot, Projection 2 voice) produced and assembled in advance — by whom, by when?</li>
+      <li>Do we need the recorded cues (chanson, cello drone, fountain water, Pärt, gunshot, the offstage piano "slap" note in Act Three) produced and assembled in advance — by whom, by when?</li>
       <li>Does the live piano need reinforcement, or does the room carry it?</li>
       <li>How do we trigger the gunshot cleanly in total silence?</li>
     </ul>
   </section>
 
   <section>
-    <h2>10. Projection / video</h2>
+    <h2>10. The two stage objects (chair-and-coat, bundle)</h2>
     <div class="flag">
-      <p class="flag-label">Lead time — content must be created early</p>
-      <p>Three projections on the rear wall. Two require produced content: filming the Six arriving (Projection 1) and recording the Step-Daughter's voice over a held image (Projection 2). Projection 3 is a single held photograph. Start content production during the table-work block so it can be tested in the room before tech.</p>
+      <p class="flag-label">Built early — these are the children of the play</p>
+      <p>The Boy and the Child are not played by performers. They are physical objects on the stage from the moment the Six walk on. The audience reads each as a child because the company treats each as a child — so both objects have to be in the rehearsal room from the very first staging session.</p>
     </div>
+    <h3>What I need</h3>
+    <ul class="need">
+      <li><strong>The chair-and-coat (the Boy).</strong> A plain wooden chair, sturdy enough to be carried as a body in the final scene. A folded black coat over the back, a schoolboy's cap on the seat, and a small leather satchel by the leg. The coat must have a pocket deep enough to hold the prop revolver and concealed enough that the audience does not see it until the Step-Daughter pulls it out in Act Two.</li>
+      <li><strong>The bundle (the Child).</strong> A small wrapped bundle of white cloth, the shape and weight of a swaddled four-year-old, with a black silk sash tied around it at the waist. Must hold its form when held, when kissed, when set down, when lifted as if it were a body, and when lowered into the fountain basin in Act Three (so: water-resistant outer wrap, or a duplicate kept dry).</li>
+    </ul>
     <h3>What to ask</h3>
     <ul class="ask">
-      <li>Who creates the projection content — filming, editing, the voice recording session?</li>
-      <li>What projector and surface do we need, and is it bright enough under amber/red light?</li>
-      <li>How do the projections sync with the live performers standing below them?</li>
-      <li>When must content be locked so it can be tested in the venue?</li>
+      <li>Who builds / sources the chair-and-coat, the coat, the cap, the satchel?</li>
+      <li>Who makes the bundle, and how is it constructed so that it survives being lowered into water and lifted back out at every performance?</li>
+      <li>Can both objects be in the room from the first staging session on Thu 20 August? (Director's Copy asks for placeholder versions even earlier, in the table-work block.)</li>
+      <li>How are both stored between performances and reset before each show?</li>
     </ul>
   </section>
 
@@ -419,7 +422,7 @@ HTML = r"""<!DOCTYPE html>
     <h2>15. Crew &amp; personnel</h2>
     <h3>What I need</h3>
     <ul class="need">
-      <li>Lighting operator, sound operator, projectionist, stage crew for changes, a dresser if needed — plus the Stage Manager and Assistant Director already in place.</li>
+      <li>Lighting operator, sound operator, stage crew for changes, a dresser if needed — plus the Stage Manager and Assistant Director already in place.</li>
     </ul>
     <h3>What to ask</h3>
     <ul class="ask">
@@ -464,7 +467,7 @@ HTML = r"""<!DOCTYPE html>
     <ul class="ask">
       <li>The base text is the public-domain Storer 1922 translation — confirm we are clear on performance rights for our adapted edition.</li>
       <li>Music: the Satie is public domain; Weill, Mistinguett, Aznavour/Piaf recordings, and the Arvo Pärt are likely <em>not</em>. What performance/sync licences do we need, and who clears them?</li>
-      <li>Do we need any clearance for the projection content we create ourselves?</li>
+      <li>Any rights / clearance needed for recorded audio cues we produce ourselves (e.g. the cello drone, the gunshot effect)?</li>
     </ul>
     <div class="flag">
       <p class="flag-label">Watch — music licensing</p>
@@ -522,23 +525,21 @@ HTML = r"""<!DOCTYPE html>
     <h3>Stage 1 — Audition block (Tue 2 / Fri 5 / Wed 10 June 2026, SSA Lausanne, 18:00 – 21:00)</h3>
     <ul class="need">
       <li>Audition room booked at SSA Lausanne for the three evenings.</li>
-      <li>Nothing technical yet — but the PM confirms the pianist approach and the projection-content plan are moving.</li>
+      <li>Nothing technical yet — but the PM confirms the pianist approach is moving and the chair-and-coat and bundle prototypes are in build.</li>
     </ul>
 
     <h3>Stage 2 — Table-work block (7 Thursdays, 18 June – 30 July 2026, SSA Lausanne, 18:00 – 21:00)</h3>
     <ul class="need">
       <li>Pianist confirmed by 16 July; piano sourcing under way.</li>
-      <li>Projection content production begins — filming and the voice recording session scheduled.</li>
-      <li>Placeholder chair-and-coat and bundle in the room from the production walk-through (25 June).</li>
+      <li>Placeholder chair-and-coat and bundle in the room from the production walk-through (25 June); final versions in build for August.</li>
       <li>Set design locked; build scheduled. Fountain solution decided.</li>
       <li>Costume design under way; Madame Pace transformation planned.</li>
     </ul>
 
     <h3>Stage 3 — Staging block at SSA Lausanne (Thu 20 Aug – Thu 15 Oct 2026, 18:00 – 21:00 + weekends; 5 &amp; 13 Aug are the summer break)</h3>
     <ul class="need">
-      <li>Real props in the room as they are built — the chair-and-coat, the bundle, the revolver replica.</li>
+      <li>Real props in the room as they are built — the chair-and-coat, the bundle (in its final water-tolerant form), the revolver replica.</li>
       <li>A rehearsal-room mock-up of the two-level platform for blocking (the real set goes into the performance venue at get-in).</li>
-      <li>Projection content finished and tested.</li>
       <li>Pianist rehearsing with the company.</li>
       <li>Costumes ready for the run-throughs in October.</li>
       <li>Crew confirmed and contracted. Risk assessment complete.</li>
@@ -579,9 +580,9 @@ HTML = r"""<!DOCTYPE html>
     <p>A running order for the meeting itself — roughly an hour.</p>
     <ol>
       <li><strong>The show in five minutes.</strong> Walk the PM through Section 1 so they have the full picture.</li>
-      <li><strong>The five items to solve first</strong> (Section 2): venue, water, gunshot, two-level set, projections.</li>
+      <li><strong>The five items to solve first</strong> (Section 2): performance venue, water, gunshot, two-level set, the two stage objects.</li>
       <li><strong>Budget &amp; venue</strong> (Sections 3–4) — the decisions everything else hangs on.</li>
-      <li><strong>Department by department</strong> (Sections 6–14): set, fountain, light, sound, projection, props, costume, piano.</li>
+      <li><strong>Department by department</strong> (Sections 6–14): set, fountain, light, sound, the two stage objects, props, costume, piano.</li>
       <li><strong>People &amp; safety</strong> (Sections 15–17): crew, risk, intimacy logistics.</li>
       <li><strong>Rights, insurance, marketing, get-out</strong> (Sections 18–21).</li>
       <li><strong>Confirm the stage-by-stage deadlines</strong> (Section 22).</li>
@@ -600,9 +601,9 @@ HTML = r"""<!DOCTYPE html>
       <li>Fountain: live water or substitute — decided.</li>
       <li>Gunshot: recorded or blank — decided; weapon-prop handling named.</li>
       <li>Two-level set: build or hire — decided; designer engaged.</li>
-      <li>Projection content: who creates it and by when.</li>
+      <li>Chair-and-coat and bundle: who builds them, in what materials, by when.</li>
       <li>Pianist: who approaches, on what terms; piano sourced.</li>
-      <li>Lighting / sound / projection operators identified.</li>
+      <li>Lighting and sound operators identified.</li>
       <li>Music licensing: process started, owner named.</li>
       <li>Risk assessment owner and date set.</li>
       <li>Intimacy: coordinator budgeted or AD/SM confirmed as third party.</li>

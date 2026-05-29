@@ -128,7 +128,7 @@ HTML = """<!DOCTYPE html>
       <dt>The play</dt><dd>Pirandello's 1921 metatheatrical masterpiece; three acts, three parts per act.</dd>
       <dt>Cast on stage</dt><dd>Eight live performers (Father, Mother, Step-Daughter, Son, Manager, Players 1 / 2 / 3) plus a credited pianist for Act II.</dd>
       <dt>Stage objects</dt><dd>The Boy is a wooden chair with a black coat folded over the back, schoolboy's cap on seat, leather satchel at the leg. The Child is a small wrapped bundle of white cloth with a black silk sash.</dd>
-      <dt>Projections</dt><dd>Three brief projections on the rear wall — silent in Act I; audible (recorded Step-Daughter voice) in Act II; a single ten-second image in Act III.</dd>
+      <dt>No projection</dt><dd>There is no rear-wall video and no screen anywhere in the production. The Boy and the Child are objects on the stage from the moment the Six walk on — the chair-and-coat and the wrapped bundle do all the work a projection used to do.</dd>
       <dt>Audition block</dt><dd>Three sessions at SSA Lausanne, 18:00 – 21:00: Tue 2 June, Fri 5 June, Wed 10 June 2026.</dd>
       <dt>Table-work block</dt><dd>Seven Thursdays at SSA Lausanne, 18:00 – 21:00 each evening, 18 June – 30 July 2026.</dd>
       <dt>Staging block</dt><dd>20 August – 1 November 2026 (5 &amp; 13 August are the summer break — no rehearsal).</dd>
@@ -144,7 +144,7 @@ HTML = """<!DOCTYPE html>
 
   <section>
     <h2>1. Before the first rehearsal</h2>
-    <p>Room bookings at SSA Lausanne for the three audition sessions (Tue 2 / Fri 5 / Wed 10 June 2026, 18:00 – 21:00), the seven Thursday table-work evenings (18 June – 30 July 2026, 18:00 – 21:00), and the staging block (20 August – 1 November 2026; 5 &amp; 13 August are the summer break — no booking). The full rehearsal calendar communicated to the cast — email, calendar invite, and a shared document everyone can see. Distribution: every cast member receives the Director's Copy, the Actor Rehearsal Script, and the calendar before the first read-through. Logistics: keys, room access, working lights, water, any administrative paperwork the company needs. Initial contact with the pianist and (where applicable) the light/sound/projection operators.</p>
+    <p>Room bookings at SSA Lausanne for the three audition sessions (Tue 2 / Fri 5 / Wed 10 June 2026, 18:00 – 21:00), the seven Thursday table-work evenings (18 June – 30 July 2026, 18:00 – 21:00), and the staging block (20 August – 1 November 2026; 5 &amp; 13 August are the summer break — no booking). The full rehearsal calendar communicated to the cast — email, calendar invite, and a shared document everyone can see. Distribution: every cast member receives the Director's Copy, the Actor Rehearsal Script, and the calendar before the first read-through. Logistics: keys, room access, working lights, water, any administrative paperwork the company needs. Initial contact with the pianist and (where applicable) the light and sound operators.</p>
   </section>
 
   <section>
@@ -159,7 +159,7 @@ HTML = """<!DOCTYPE html>
 
   <section>
     <h2>4. Technical and dress rehearsals</h2>
-    <p>Cue calling: you call every cue in the play — light, sound, projection, curtain, the pianist's entrances and exits, the shower-light beats, the fountain water, the gunshot, the Pärt at the closing. The prompt book is now the master document for the show. Technical coordination: with the lighting operator, the sound operator, the projectionist, the pianist. Dress: full run with costumes, props, cues; notes taken in real time; problems triaged before opening night.</p>
+    <p>Cue calling: you call every cue in the play — light, sound, curtain, the pianist's entrances and exits, the shower-light beats, the fountain water, the gunshot, the Pärt at the closing. The prompt book is now the master document for the show. Technical coordination: with the lighting operator, the sound operator, the pianist. Dress: full run with costumes, props, cues; notes taken in real time; problems triaged before opening night.</p>
   </section>
 
   <section>
@@ -202,11 +202,11 @@ HTML = """<!DOCTYPE html>
     <p>All sessions at SSA Lausanne, 18:00 – 21:00.</p>
     <ul>
       <li><strong>Thursday 18 June 2026 — First table reading.</strong> The full confirmed company gathers for the first time. Round-table introductions, distribution of the Director's Copy and the Actor Rehearsal Script. The full play read out loud by the company in order, around a table. No staging, no music. Just hearing the play together for the first time. Your job: distribute the documents, open the prompt book, open the rehearsal log, take attendance for the production's first formal record, log timing per act, manage table layout, ensure water and breaks.</li>
-      <li><strong>Thursday 25 June 2026 — Production walk-through.</strong> Walk-through of the production concept (eight performers, two stage objects, three projections, three stripped settings). The chair-and-coat (Boy) and the bundle (Child) introduced as physical conventions. Your job: source or confirm a placeholder chair-and-coat and a placeholder bundle for the table-work block; log the company's questions on the conventions.</li>
+      <li><strong>Thursday 25 June 2026 — Production walk-through.</strong> Walk-through of the production concept (eight performers, two stage objects, three stripped settings — no projection, no screen). The chair-and-coat (Boy) and the bundle (Child) introduced as physical conventions. Your job: source or confirm a placeholder chair-and-coat and a placeholder bundle for the table-work block; log the company's questions on the conventions.</li>
       <li><strong>Thursday 2 July 2026 — Act One table work.</strong> Per-part discussion using the Act One part-notes. Light &amp; Sound concept for Act One walked through with you: white → amber → red across the three parts, the radio in the wings. Your job: log every directorial decision into the prompt book; begin the Act One cue list.</li>
-      <li><strong>Thursday 9 July 2026 — Act Two table work.</strong> The Step-Daughter's projected monologue — voice-recording session schedule confirmed. Player 3's transformation work begins. The pianist score introduced (Satie's <em>Gymnopédie No. 1</em>, Weill's <em>Bilbao Song</em>, Mistinguett's <em>Mon Homme</em>); the pianist is confirmed for the production. Your job: log Act Two cues into the prompt book; book the voice-recording session; confirm the pianist's availability across August–November.</li>
+      <li><strong>Thursday 9 July 2026 — Act Two table work.</strong> The Step-Daughter's solo monologue — staged live, alone in the shower light, with the bundle in her arms and the chair-and-coat beside her. Player 3's transformation work begins. The pianist score introduced (Satie's <em>Gymnopédie No. 1</em>, Weill's <em>Bilbao Song</em>, Mistinguett's <em>Mon Homme</em>); the pianist is confirmed for the production. Your job: log Act Two cues into the prompt book; confirm the pianist's availability across August–November.</li>
       <li><strong>Thursday 16 July 2026 — Act Three table work.</strong> The Father's philosophical stretch, the Son's refusal, the fountain. Light &amp; Sound for Act Three walked through with you: dark stage, fountain lit from inside, single hanging bulb above the Manager's table, the cello drone, the silence, the gunshot in real silence, the Arvo Pärt at the closing. Your job: log Act Three cues; source or confirm the fountain basin and the bare hanging bulb; confirm the prop revolver and the gunshot effect; locate or commission the cello drone recording and the Pärt clip.</li>
-      <li><strong>Thursday 23 July 2026 — Light &amp; Sound walk-through, difficult scenes.</strong> The full cue list walked through with you and the company — every light, every sound, every projection, every piano cue. The hardest scenes returned to: the Madame Pace aria, the shop-scene replay, the fountain. Your job: bring the full cue list in working draft to the room; revise live during the session; close the session with the working cue list distributed to the operators and the pianist.</li>
+      <li><strong>Thursday 23 July 2026 — Light &amp; Sound walk-through, difficult scenes.</strong> The full cue list walked through with you and the company — every light, every sound, every piano cue. The hardest scenes returned to: the Madame Pace aria, the shop-scene replay, the fountain. Your job: bring the full cue list in working draft to the room; revise live during the session; close the session with the working cue list distributed to the operators and the pianist.</li>
       <li><strong>Thursday 30 July 2026 — Full read-through with cues.</strong> End-to-end read of the play with light and sound cues called aloud by you from the prompt book. Notes session afterwards: what landed, what didn't, what each actor still needs to find before August. Confirmation of the staging-block calendar (20 August – 1 November 2026; 5 &amp; 13 August are the summer break). Your job: deliver the first end-to-end cue call; distribute the staging calendar to every member of the company before they leave the room.</li>
     </ul>
   </section>
@@ -217,7 +217,7 @@ HTML = """<!DOCTYPE html>
     <ul>
       <li><strong>5 &amp; 13 Aug — Summer break.</strong> No rehearsal, no booking. The company returns on 20 August.</li>
       <li><strong>Thu 20 Aug — Re-orientation, Act One blocking.</strong> The company returns from the break. Floor markings begin (you tape them). Act One blocked across all three parts — the rehearsal, the family's arrival, the bargain.</li>
-      <li><strong>Thu 27 Aug — Act One run; Act Two Parts I &amp; II.</strong> First end-to-end run of Act One. Act Two Part I (the projection, the shower, the pianist's first entrance) and Part II, Madame Pace's aria: Player 3's transformation, the Weimar vamp, the shower light called in.</li>
+      <li><strong>Thu 27 Aug — Act One run; Act Two Parts I &amp; II.</strong> First end-to-end run of Act One. Act Two Part I (the Step-Daughter's live monologue in the shower light, the pianist's first entrance) and Part II, Madame Pace's aria: Player 3's transformation, the Weimar vamp, the shower light called in.</li>
       <li><strong>Thu 3 Sep — Act Two Part III: the doubled scene and the Mother's cry.</strong> The shop-scene replay between Leading Lady and Leading Man. The Mother's keystone line and the shower falling on her.</li>
       <li><strong>Thu 10 Sep — Act Three Part I: the argument over reality.</strong> The Father's four-stage arc on his feet. The Step-Daughter's three cuts. The cello drone underneath.</li>
       <li><strong>Thu 17 Sep — Act Three Part II: the Son's refusal.</strong> Mirror speech, closing exchange, the silence that does the work.</li>
@@ -225,7 +225,7 @@ HTML = """<!DOCTYPE html>
       <li><strong>Thu 1 Oct — First full run-through.</strong> End-to-end run of the play. No stopping for notes inside the run; full notes session afterwards.</li>
       <li><strong>Thu 8 Oct — Second full run-through.</strong> Tighten what the first run revealed.</li>
       <li><strong>Thu 15 Oct — Third run-through, costume integration.</strong> Costumes introduced for the principals. Last session at SSA before the move to the performance venue.</li>
-      <li><strong>Thu 22 Oct — Technical rehearsal.</strong> Full cue call with the operators, in the performance venue. Light operator, sound operator, projectionist, pianist all in their positions for the first time. <em>Your night.</em></li>
+      <li><strong>Thu 22 Oct — Technical rehearsal.</strong> Full cue call with the operators, in the performance venue. Light operator, sound operator, pianist all in their positions for the first time. <em>Your night.</em></li>
       <li><strong>Thu 29 Oct — Dress rehearsal.</strong> Full costume, full cues, played as if for an audience.</li>
       <li><strong>Sun 1 Nov — Final dress / preview.</strong> The last session of the staging block.</li>
     </ul>
@@ -284,8 +284,7 @@ HTML = """<!DOCTYPE html>
         <tr><td class="cue-id">L01</td><td class="cue-when">Pre-show / curtain up</td><td><em>White working lights up.</em> Cold-white, fluorescent, unflattering — the light of an actual morning rehearsal.</td></tr>
         <tr><td class="cue-id">S01</td><td class="cue-when">Pre-show / curtain up</td><td>Radio in the wings — old French chanson at low volume (Aznavour's <em>La Bohème</em>, or a scratchy Piaf: <em>La Vie en rose</em>, <em>Sous le ciel de Paris</em>). Should feel like the company forgot to turn it off.</td></tr>
         <tr class="act-row"><td colspan="3">Part II — The Family Arrives</td></tr>
-        <tr><td class="cue-id">V01</td><td class="cue-when">Top of Part II</td><td>Projection 1 begins (silent video — the Six arrive, the Boy walks to the chair and leaves his coat, the Step-Daughter sets the Child down).</td></tr>
-        <tr><td class="cue-id">L02</td><td class="cue-when">As V01 begins</td><td><em>White softens to amber / honey gold.</em> The "tenuous light" Pirandello specifies for the Six.</td></tr>
+        <tr><td class="cue-id">L02</td><td class="cue-when">Door-keeper steps onto the stage with the chair-and-coat</td><td><em>White softens to amber / honey gold.</em> The "tenuous light" Pirandello specifies for the Six. The four live Characters walk on inside the warmth; the Step-Daughter is already carrying the wrapped bundle.</td></tr>
         <tr><td class="cue-id">S02</td><td class="cue-when">Door-keeper's first line</td><td>Radio cuts off, mid-bar.</td></tr>
         <tr><td class="cue-id">M01 (live)</td><td class="cue-when">Mid-part</td><td>Step-Daughter sings <em>Prenez garde à Tchou-Tchin-Tchou</em>. Live, unaccompanied. Not a music cue, but recorded in the prompt book.</td></tr>
         <tr class="act-row"><td colspan="3">Part III — The Bargain</td></tr>
@@ -300,11 +299,11 @@ HTML = """<!DOCTYPE html>
     <table class="cues">
       <thead><tr><th class="cue-id">Cue</th><th class="cue-when">When</th><th>What</th></tr></thead>
       <tbody>
-        <tr class="act-row"><td colspan="3">Part I — Under the Projection</td></tr>
-        <tr><td class="cue-id">V02</td><td class="cue-when">Top of Part I</td><td>Projection 2 begins (audible — Step-Daughter's recorded voice addresses the Child and Boy as real children; then the revolver is found in the coat).</td></tr>
-        <tr><td class="cue-id">L06</td><td class="cue-when">As V02 begins</td><td><em>Shower</em> falls on the live Step-Daughter only. Screen behind her is gold-on-grey.</td></tr>
-        <tr><td class="cue-id">M02 (live)</td><td class="cue-when">As V02 begins</td><td>Pianist plays Satie's <em>Gymnopédie No. 1</em> — slow, simple, once through, across the projection.</td></tr>
-        <tr><td class="cue-id">M02-out</td><td class="cue-when">As V02 ends</td><td>Piano ends as projection ends.</td></tr>
+        <tr class="act-row"><td colspan="3">Part I — The Step-Daughter Alone</td></tr>
+        <tr><td class="cue-id">L06</td><td class="cue-when">Top of Part I — Step-Daughter kneels with the bundle</td><td><em>Shower</em> falls on the Step-Daughter only. The rest of the stage drops to dark.</td></tr>
+        <tr><td class="cue-id">M02 (live)</td><td class="cue-when">As L06 settles</td><td>Pianist plays Satie's <em>Gymnopédie No. 1</em> — slow, simple, once through, beneath the monologue.</td></tr>
+        <tr><td class="cue-id">M02-out</td><td class="cue-when">Step-Daughter's last line</td><td>Piano dies on the word. Shower holds one breath, then releases.</td></tr>
+        <tr><td class="cue-id">L06-out</td><td class="cue-when">After M02-out</td><td>Working lights up. Property Man, Machinist, and Manager begin the white-parlour set-up on the upper platform.</td></tr>
         <tr class="act-row"><td colspan="3">Part II — Madame Pace's Aria</td></tr>
         <tr><td class="cue-id">L07</td><td class="cue-when">Madame Pace materialises on the upper platform</td><td><em>Shower</em> falls on Madame Pace as she steps into it.</td></tr>
         <tr><td class="cue-id">M03 (live)</td><td class="cue-when">As Madame Pace enters the shower</td><td>Pianist begins slow Weimar-shop vamp: Weill's <em>Bilbao Song</em> at half tempo, or a vamp on Mistinguett's <em>Mon Homme</em>. Sleazy, comic-cabaret tune. Plays continuously through the aria.</td></tr>
@@ -331,8 +330,10 @@ HTML = """<!DOCTYPE html>
         <tr><td class="cue-id">S04</td><td class="cue-when">Father's line <em>You can force him, sir</em> (as he grabs the Son's arm)</td><td>Single sharp note from the piano — offstage or recorded — like a slap. Then silence again.</td></tr>
         <tr class="act-row"><td colspan="3">Part III — The Fountain</td></tr>
         <tr><td class="cue-id">S05</td><td class="cue-when">Top of Part III</td><td>Sound of water — fountain live if possible, recorded if necessary — fades in. Stays under the part. Slightly louder as the Step-Daughter approaches the basin.</td></tr>
-        <tr><td class="cue-id">V03</td><td class="cue-when">During Part III</td><td>Projection 3 — single ten-second held image of the chair behind the fountain. The act of watching, not the death.</td></tr>
-        <tr><td class="cue-id">S06</td><td class="cue-when">The gunshot</td><td>Real gunshot effect in real silence. Water sound briefly stops with it, then resumes.</td></tr>
+        <tr><td class="cue-id">L10-dim</td><td class="cue-when">Beneath the Son's narration</td><td>Stage lights drop slowly, breath by breath. End state: only the fountain's pale-blue interior and the bare bulb above the Manager's table remain. The chair-and-coat is silhouetted behind the basin. Hold the silhouette for ten seconds.</td></tr>
+        <tr><td class="cue-id">L10-out</td><td class="cue-when">After the ten-second hold</td><td>Full blackout. Even the fountain light cuts. Total dark.</td></tr>
+        <tr><td class="cue-id">S06</td><td class="cue-when">Out of the dark — on cue</td><td>Real gunshot effect in real silence. Water sound briefly stops with it, then resumes. The gunshot comes from where the chair-and-coat is, behind the basin.</td></tr>
+        <tr><td class="cue-id">L10-back</td><td class="cue-when">On the Mother's cry</td><td>Lights snap back up to the Act Three low state — fountain, bulb, basic stage wash. The Boy is never seen.</td></tr>
         <tr><td class="cue-id">S05-out</td><td class="cue-when">Manager's closing line <em>I've lost a whole day over these people. A whole day.</em></td><td>Water sound fades.</td></tr>
         <tr><td class="cue-id">M06</td><td class="cue-when">Immediately after the closing line</td><td>First phrase of Arvo Pärt's <em>Spiegel im Spiegel</em> — about ten seconds. Then lights go.</td></tr>
         <tr><td class="cue-id">L11</td><td class="cue-when">End of M06</td><td>Blackout. End of play.</td></tr>
@@ -348,7 +349,7 @@ HTML = """<!DOCTYPE html>
     <h2>Performance day — running order</h2>
     <ul>
       <li><strong>3 hours before curtain.</strong> Venue access. Working lights up. Pre-set props checked against the master list — every item in its starting position. Costume rail checked. Pianist's instrument tuned / confirmed. Front-of-house briefed on house open and intermission.</li>
-      <li><strong>90 minutes before.</strong> Cast call. Half-hour call follows the standard cycle. Light, sound, projection operators in position. Final prop check.</li>
+      <li><strong>90 minutes before.</strong> Cast call. Half-hour call follows the standard cycle. Light and sound operators in position. Final prop check.</li>
       <li><strong>House open.</strong> Pre-show state up — Act One pre-set (white working lights, French chanson radio at low volume in the wings). House management hands over to you at the time printed in the programme.</li>
       <li><strong>The show.</strong> You call every cue from the prompt book. Two intervals (Acts I → II, II → III). At each interval: pre-set check for the act about to start.</li>
       <li><strong>Curtain.</strong> Blackout held. Bows on a separate light state (warm general wash, no shower, no fountain). Cast clear.</li>

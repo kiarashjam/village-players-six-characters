@@ -157,7 +157,7 @@ HTML = r"""<!DOCTYPE html>
       <li><strong>Part III — Staging Technique for This Production</strong>
         <ol start="10">
           <li>The stage objects (chair-and-coat, bundle)</li>
-          <li>The projections</li>
+          <li>The two stage objects (chair-and-coat, bundle)</li>
           <li>Light as direction</li>
           <li>Sound as direction</li>
         </ol>
@@ -305,14 +305,14 @@ HTML = r"""<!DOCTYPE html>
     <h4>4.1.1 Part I (The Rehearsal)</h4>
     <p>White working lights. A scratchy French chanson in the wings. The Players are rehearsing a play they do not like; the Manager is half present. The audience laughs in the first ten minutes. This is committed comedy. Do not undercut it.</p>
     <h4>4.1.2 Part II (The Family Arrives)</h4>
-    <p>Projection 1 plays — the Six arrive silently on video. The white lights soften to amber. The chanson cuts off mid-bar. The play's tonal hinge is here, in the second part of the first act.</p>
+    <p>The Six walk on, in person, lit by the "tenuous light" Pirandello specifies. The Door-keeper carries the chair-and-coat in and sets it at the edge of the stage; the Step-Daughter is already carrying the wrapped bundle. The white working lights soften to amber. The chanson cuts off mid-bar. The play's tonal hinge is here, in the second part of the first act.</p>
     <h4>4.1.3 Part III (The Bargain)</h4>
     <p>Amber drifts slowly to deep red across the part. The Step-Daughter speaks the words <em>hundred francs</em>; the Father starts to sweat. The act ends in a low blood-coloured wash. No music. The silence is the texture; the next act is the cue.</p>
 
     <h3>4.2 Act Two — staging the unstageable</h3>
-    <p>The longest act. Three parts, each anchored by a single visual device: the projection, the shower, the doubled scene.</p>
-    <h4>4.2.1 Part I (Under the Projection)</h4>
-    <p>The Step-Daughter's recorded voice plays from the projection while her live body stands silent below the screen. Satie's <em>Gymnopédie No. 1</em> on the pianist's piano. The shower light falls on the live Step-Daughter only.</p>
+    <p>The longest act. Three parts, each anchored by a single visual device: the Step-Daughter's solo monologue in the shower light, Madame Pace's aria, and the doubled scene.</p>
+    <h4>4.2.1 Part I (The Step-Daughter Alone)</h4>
+    <p>The Step-Daughter speaks her opening monologue live, alone on the upper platform, with the wrapped bundle in her arms and the chair-and-coat leaning a pace away. Satie's <em>Gymnopédie No. 1</em> on the pianist's piano underneath. The shower light falls on her only.</p>
     <h4>4.2.2 Part II (Madame Pace's Aria)</h4>
     <p>The piano shifts to a Weimar-shop vamp; Madame Pace steps into the shower. The aria is the production's hardest single beat: comic on arrival, chilling on exit. The piano dies on the Mother's line — <em>You old devil. You murderess.</em></p>
     <h4>4.2.3 Part III (The Doubled Scene and the Mother's Cry)</h4>
@@ -546,7 +546,7 @@ HTML = r"""<!DOCTYPE html>
   <!-- ============================================================ -->
 
   <h1 class="part page-break">Part III &middot; Staging Technique for This Production</h1>
-  <p class="part-eyebrow">The chair-and-coat, the bundle, the projections, the shower, the fountain</p>
+  <p class="part-eyebrow">The chair-and-coat, the bundle, the shower, the fountain — no projection, no screen</p>
 
   <section>
     <h2>10. The stage objects</h2>
@@ -564,29 +564,31 @@ HTML = r"""<!DOCTYPE html>
     <p>Track this through the staging. The bundle is held more than the chair-and-coat (because the Child is younger). The chair-and-coat is set down most of the time, and the Step-Daughter or the Mother passes by it as one passes by one's child playing in a corner. The drowning at the fountain happens with the bundle <em>inside</em> the basin — the Step-Daughter bends over it; the drowning is hidden.</p>
 
     <h3>10.3 The Step-Daughter's relationship with the bundle</h3>
-    <p>This is the warmest physical relationship in the play. The Step-Daughter kisses the top of the cloth, gently. She presses the bundle against her shoulder. She lifts and sets down repeatedly across Act Two. The recorded voice in Projection 2 carries the dialogue she would have with a living child; the live body carries the body language.</p>
+    <p>This is the warmest physical relationship in the play. The Step-Daughter kisses the top of the cloth, gently. She presses the bundle against her shoulder. She lifts and sets down repeatedly across Act Two. Her live monologue at the top of Act Two carries the dialogue she would have with a living child; the live body, the bundle in her arms, and the chair-and-coat at her side carry the rest.</p>
 
     <h3>10.4 The drowning at the fountain</h3>
     <p>This is the production's most controlled single sequence. The bundle is set in the basin; the Step-Daughter bends over it; the basin is lit pale-blue from inside; the audience sees the back of the Step-Daughter, not the bundle. Nothing is enacted. Coach the actor to hold the bend for the length of the part — not less, not more.</p>
   </section>
 
   <section>
-    <h2>11. The projections</h2>
+    <h2>11. The two stage objects (chair-and-coat, bundle)</h2>
 
-    <h3>11.1 The three projection beats</h3>
-    <p>One per act. Each does a different job.</p>
-    <h4>11.1.1 Projection 1 — silent, top of Act One Part II</h4>
-    <p>The Six arrive in video. The Boy walks to the chair and leaves his coat. The Step-Daughter sets the Child down and the Child becomes the bundle. The audience watches the convention be established. The live performers are still backstage.</p>
-    <h4>11.1.2 Projection 2 — audible, top of Act Two Part I</h4>
-    <p>The Step-Daughter's recorded voice addresses the Child and the Boy as real children. Then the revolver is found in the coat. The live Step-Daughter stands silent below the screen during this. Two bodies; one speaking.</p>
-    <h4>11.1.3 Projection 3 — a held image, Act Three Part III</h4>
-    <p>A single ten-second image of the chair behind the fountain. Not a video; a photograph held on screen. The image is the act of watching, not the death itself.</p>
+    <p>Two of the six Characters are not played by performers. The Boy is a wooden chair with a folded black coat over its back, a schoolboy's cap on the seat, and a small leather satchel by the leg. The Child is a small wrapped bundle of white cloth with a black silk sash at the waist. There is no projection, no video, no screen anywhere in the production: the audience reads the chair as the Boy and the bundle as the Child because the company does, from their first second on stage. The objects are the children of the play.</p>
 
-    <h3>11.2 The live performer below the projection</h3>
-    <p>In Projection 2, the Step-Daughter stands silent below her own recorded voice. This is the production's most counter-intuitive coaching demand: stand still, do not lip-sync, do not react, let the recording happen. Coach this until the stillness is total. The audience must read two Step-Daughters at once.</p>
+    <h3>11.1 How the convention lands</h3>
+    <p>It lands in the first thirty seconds of the family's arrival, by what hands do — not by anything that is said. The Door-keeper walks on with the chair, sets it at the edge, lays the coat across the back, the cap on the seat, the satchel by the leg, with the precise care of a person settling a child somewhere safe. The Step-Daughter walks on already holding the bundle the way one holds a four-year-old: against the shoulder, the back of the head supported. The four live Characters speak to the chair and the bundle as if they were children. The audience accepts it within seconds, because the bodies on stage have accepted it absolutely.</p>
 
-    <h3>11.3 The screen as the production's third actor</h3>
-    <p>The rear wall of the stage is the third performer in this production. Treat it as such. Confirm in tech that the projector can reach the brightness needed under the amber and red lighting states; confirm the audio levels on Projection 2 are right under house noise.</p>
+    <h3>11.2 The three load-bearing moments</h3>
+    <p>One per act. Each does work a projection used to do.</p>
+    <h4>11.2.1 The arrival (top of Act One Part II)</h4>
+    <p>The convention is set, live, by the Door-keeper's placing of the chair and the Step-Daughter's holding of the bundle. No video. No "becoming." The objects are objects from the first second; the audience reads them as children by the end of the first minute, because the family does.</p>
+    <h4>11.2.2 The Step-Daughter's solo monologue (top of Act Two Part I)</h4>
+    <p>She speaks the speech live, alone in the shower light, the bundle in her arms and the chair-and-coat a pace away. Tender to the bundle as if it were a four-year-old. When the script reaches the moment of the revolver, she turns to the coat hanging on the chair, takes it by the sleeve as she would have taken her brother by the arm, and pulls the revolver from its pocket. The audience does not need a screen: the speech is to the bundle and the chair, and the actor's care for both does all of the work.</p>
+    <h4>11.2.3 The silhouette before the gunshot (Act Three Part III)</h4>
+    <p>The Step-Daughter bends over the bundle inside the basin. Under the Son's narration, the stage lights drop slowly until only the fountain's interior glow and the bare hanging bulb remain. For ten seconds, in that low water-light, the audience sees the silhouette of the chair-and-coat behind the basin — the Boy watching his drowned sister. Then full blackout. Then the gunshot from the darkness. The chair has done in silhouette what a projection used to do in image.</p>
+
+    <h3>11.3 The objects, as objects</h3>
+    <p>Both must be in the rehearsal room from the first staging session (Thu 20 August). They are not props that arrive in tech. They are the play's two silent characters, and the Step-Daughter and Mother must have spent weeks living with them before any audience sees them. Build them so that the bundle survives being lowered into water and lifted back out (water-tolerant outer wrap, or a duplicate kept dry), and so the chair-and-coat is sturdy enough to be lifted as a body in the final scene. Treat the maintenance of both with the same seriousness you would treat the maintenance of a costume on a child performer.</p>
   </section>
 
   <section>
@@ -612,7 +614,7 @@ HTML = r"""<!DOCTYPE html>
     <p>The pianist is the fourth Player. Visible to the audience throughout Act Two. Sits stage-right on the lower floor. Does not speak. Coach the pianist as you would coach an actor: tempo, attack, silence, the moment they enter and the moment they leave.</p>
     <p>Three live cues in Act Two:</p>
     <ul>
-      <li>Satie's <em>Gymnopédie No. 1</em> under Projection 2 in Part I.</li>
+      <li>Satie's <em>Gymnopédie No. 1</em> under the Step-Daughter's solo monologue in Part I.</li>
       <li>The Weimar-shop vamp (Weill / Mistinguett) under the Madame Pace aria in Part II.</li>
       <li>The fragments of the vamp under the doubled scene in Part III, plus the held final chord.</li>
     </ul>
@@ -693,7 +695,7 @@ HTML = r"""<!DOCTYPE html>
     <h2>16. Building the company</h2>
 
     <h3>16.1 The first meeting</h3>
-    <p>This is the first table reading on Thursday 18 June 2026. Set the room as a working table from the first minute — chairs in a circle, the script in front of every reader, water, paper, pencils. Open with a brief production-concept walk-through (eight performers, two stage objects, three projections, three stripped settings); then read the play.</p>
+    <p>This is the first table reading on Thursday 18 June 2026. Set the room as a working table from the first minute — chairs in a circle, the script in front of every reader, water, paper, pencils. Open with a brief production-concept walk-through (eight performers, two stage objects, three stripped settings — no projection, no screen); then read the play.</p>
 
     <h3>16.2 The rehearsal contract</h3>
     <p>An unwritten agreement that you make in the first session and re-state when needed:</p>
@@ -843,7 +845,7 @@ HTML = r"""<!DOCTYPE html>
       <li>The Players' Lausanne register.</li>
       <li>The Light &amp; Sound score across all three acts.</li>
       <li>The chair-and-coat and the bundle as conventions.</li>
-      <li>The three projection beats.</li>
+      <li>The chair-and-coat and the bundle as the Boy and the Child — and the three load-bearing moments where the objects do the work.</li>
       <li>The Madame Pace arc — comic on arrival, chilling on exit.</li>
     </ul>
     <p>Nothing has yet been blocked. What has been set is what blocking will be in service of.</p>
@@ -853,7 +855,7 @@ HTML = r"""<!DOCTYPE html>
     <h4>22.2.1 First session (Thu 20 Aug)</h4>
     <p>Re-orientation after the break, then Act One on its feet. Big strokes first, specifics second. Do not over-block Act One Part I; the comedy needs room.</p>
     <h4>22.2.2 Aug 27 – Sep 17</h4>
-    <p>Acts Two and Three blocked. The hardest material. The pianist joins; the projections are timed in; the shower is placed.</p>
+    <p>Acts Two and Three blocked. The hardest material. The pianist joins; the shower is placed; the fountain silhouette is timed.</p>
     <h4>22.2.3 Run-through weeks (Sep 24 – Oct 15)</h4>
     <p>Full run-throughs. Notes only between runs. Costumes for principals introduced.</p>
     <h4>22.2.4 Tech and dress (Oct 22, Oct 29, Nov 1)</h4>

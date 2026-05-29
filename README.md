@@ -6,7 +6,7 @@
 
 A director's edition of Luigi Pirandello's *Sei personaggi in cerca d'autore* (1921), in the Edward Storer 1922 English translation, prepared for a Lausanne staging by the Village Players. Every directorial reading, scoring, adaptation, and production decision in this edition — the chair-and-coat and the bundle as the Boy and the Child, the Lausanne anchoring, the four-stage Father arc, the Step-Daughter's three cuts, the Mother's three silences, the Manager as the audience's body on stage, the Madame Pace arc from comic to chilling, the production calendar, the Light & Sound score, and every part-note throughout — is the work of Kiarash Jamshidi. Pirandello supplied the play; everything else around it is his.
 
-Eight live performers, two stage objects, three brief projections, three stripped settings. A short run of three or four performances.
+Eight live performers, two stage objects, three stripped settings (no projection, no screen). A short run of three or four performances.
 
 ---
 
@@ -23,7 +23,7 @@ outputs/
 │                                       score, all dialogue. ~105 pages.
 ├── actor_script.pdf                   Actor Rehearsal Script — stripped working pages for
 │                                       the room: cast list, dialogue, necessary stage
-│                                       directions, projection and sound cues. No essays.
+│                                       directions, light and sound cues. No essays.
 │                                       ~55 pages.
 ├── audition_pack.pdf                  Audition Pack — cover, how-to-audition, and eight
 │                                       role sections, each with the full character
@@ -142,7 +142,7 @@ If your local Chromium install lives at a non-default path, set `CHROMIUM_PATH=/
 The Director's Copy is the single source of truth. It contains, in order:
 
 - **Cover, cast list, character portraits** (Father, Mother, Step-Daughter, Son, Boy, Child, Manager, Players 1–3, Madame Pace), each with the specific reading the actor must commit to and the signature physical object that scores the role across the production.
-- **Production note** — eight performers, two stage objects, three projections, three stripped settings, the way Player 3 becomes Madame Pace, how the speaker tags work.
+- **Production note** — eight performers, two stage objects, three stripped settings (no projection, no screen), the way Player 3 becomes Madame Pace, how the speaker tags work.
 - **Light and Sound score** — per-act lighting (white → amber → red in Act One; the pianist and the shower in Act Two; the fountain-light and one bare bulb in Act Three) with specific track suggestions.
 - **Intimacy and consent protocol** — the protocol lives in its own dedicated document (`outputs/intimacy_protocol.pdf`), not in the Director's Copy. It is a contract, signed by every performer before the first rehearsal and countersigned by the director.
 - **The play itself** — three acts × three parts each, with directorial part-notes before each part (narrative, stats, "for the rehearsal room" beats, performance scoring).
@@ -151,7 +151,7 @@ The Director's Copy is the single source of truth. It contains, in order:
 
 ## What's in the other documents
 
-- **Actor Rehearsal Script** — derived from the Director's Copy automatically by `build_actor_script.py`. Strips portraits, part-notes, stats blocks, and the directorial essays. Keeps the cover, a short cast list, a one-paragraph production note on the stage objects and projections, and the full play text including every necessary stage direction, projection cue, and sound/light cue.
+- **Actor Rehearsal Script** — derived from the Director's Copy automatically by `build_actor_script.py`. Strips portraits, part-notes, stats blocks, and the directorial essays. Keeps the cover, a short cast list, a production note on the two stage objects (and the explicit "no projection, no screen" decision), and the full play text including every necessary stage direction and sound/light cue.
 
 - **Audition Pack (audition_unified.pdf)** — cover, a one-page "how to audition" note, then eight role sections. Each section has the full character description (the portrait from the Director's Copy) followed by ~2 pages of consecutive dialogue from the part of the play where that character is most active. The dialogue is pulled byte-identically from the working HTML, so it stays in sync with edits.
 
@@ -163,7 +163,7 @@ The Director's Copy is the single source of truth. It contains, in order:
 
 The base translation is Edward Storer's 1922 English version of Pirandello's *Six Characters in Search of an Author*, sourced from Project Gutenberg Australia (eBook No. 0608521h.html, November 2006).
 
-All directorial commentary, casting notes, part-notes, performance scoring, projection and sound cues, light score, intimacy and consent protocol, and creative adaptations — the Lausanne relocation, the modernised English, the compressed casting structure, the broken-beat rhythm, the stage-objects-for-children, the audience-symbol Manager, the four-stage Father arc, the Step-Daughter's three cuts, the Mother's three silences, the Madame Pace arc, the production calendar (audition / table-work / staging blocks), the Assistant Director and Stage Manager role notes — are the original work of **Kiarash Jamshidi**, the director of this production. The ideas in this edition belong to him.
+All directorial commentary, casting notes, part-notes, performance scoring, light and sound cues, light score, intimacy and consent protocol, and creative adaptations — the Lausanne relocation, the modernised English, the compressed casting structure, the broken-beat rhythm, the stage-objects-for-children (with no projection, no screen), the audience-symbol Manager, the four-stage Father arc, the Step-Daughter's three cuts, the Mother's three silences, the Madame Pace arc, the production calendar (audition / table-work / staging blocks), the Assistant Director and Stage Manager role notes — are the original work of **Kiarash Jamshidi**, the director of this production. The ideas in this edition belong to him.
 
 ---
 

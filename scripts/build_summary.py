@@ -114,7 +114,7 @@ HTML = """<!DOCTYPE html>
 
   <section class="note">
     <h2>Our staging</h2>
-    <p>Eight live performers; three acts; one defining visual per act — a circle of chairs in Act One, a two-level set (rehearsal stage above, watching floor below) in Act Two, a single short fountain basin alone on stage in Act Three. The Boy and the Child, the two youngest of the Six, are not played by performers; they are objects on the stage — a coat-and-chair, a wrapped bundle of white cloth — and appear only briefly in three short video projections on the rear wall.</p>
+    <p>Eight live performers; three acts; one defining visual per act — a circle of chairs in Act One, a two-level set (rehearsal stage above, watching floor below) in Act Two, a single short fountain basin alone on stage in Act Three. The Boy and the Child, the two youngest of the Six, are not played by performers; they are objects on the stage — a coat-and-chair and a wrapped bundle of white cloth — carried, handled, and spoken to throughout the play. There is no projection, no video, no screen: the audience reads each object as a child because the family does.</p>
     <p>A mostly black-box, minimalist staging. Lighting does much of the storytelling — every shift in tone marked by a change in the temperature of the room. The music score carries the scenes where text alone cannot reach, and pulls the audience through the long emotional arc from the opening comedy to whatever it is the last quarter of an hour becomes.</p>
   </section>
 
@@ -139,13 +139,13 @@ HTML = """<!DOCTYPE html>
       <dd>First table reading. Full company gathers for the first time; round-table introductions; full play read aloud around a table. No staging, no music — just hearing the play together for the first time.</dd>
 
       <dt>Thu 25 June 2026 · 18:00–21:00 · SSA Lausanne</dt>
-      <dd>Production walk-through. Eight performers, two stage objects, three projections, three stripped settings; chair-and-coat and bundle introduced as conventions.</dd>
+      <dd>Production walk-through. Eight performers, two stage objects, three stripped settings (no projection, no screen); chair-and-coat and bundle introduced as conventions.</dd>
 
       <dt>Thu 2 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
       <dd>Act One table work. Per-part discussion; Light &amp; Sound for Act One walked through (white → amber → red, the radio in the wings).</dd>
 
       <dt>Thu 9 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
-      <dd>Act Two table work. Step-Daughter's projected monologue scheduled; pianist confirmed; the Madame Pace bookkeeping aria introduced.</dd>
+      <dd>Act Two table work. The Step-Daughter's solo opening monologue staged live in the shower light; pianist confirmed; the Madame Pace bookkeeping aria introduced.</dd>
 
       <dt>Thu 16 July 2026 · 18:00–21:00 · SSA Lausanne</dt>
       <dd>Act Three table work. The Father's philosophical debate, the Son's refusal, the fountain. Light &amp; Sound for Act Three: dark stage, fountain, hanging bulb, cello drone, Pärt at the curtain.</dd>

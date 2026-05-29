@@ -7,7 +7,7 @@ asides (narrative prose, stats, beats), and the reader-UI controls.
 Keeps: cover (relabelled "Rehearsal Script"), the cast list, the
 scene-setting line, a single one-paragraph note on this production's
 two stage objects, and the full play text — every speech, every stage
-direction, every projection cue, every act header, every curtain.
+direction, every cue, every act header, every curtain.
 """
 import os
 from pathlib import Path
@@ -45,10 +45,10 @@ NEW_COVER_INNER = """
 
 PRODUCTION_NOTE = """
 <section class="actor-production-note">
-  <h2>Two stage objects, three projections</h2>
-  <p>In this production the <strong>Boy</strong> is a wooden chair with a black coat folded over its back, a schoolboy's cap on the seat, and a small leather satchel at the chair leg. He is not played by a performer. Where the script asks the Step&#8209;Daughter to seize him or push him forward, she handles the chair and the coat. Where she pulls a revolver from his pocket, she pulls it from the coat hanging on the chair. The chair is at the side of the stage in Acts One and Two, and is moved behind the fountain basin in Act Three; the revolver shot is heard, not seen.</p>
-  <p>The <strong>Child</strong> is a small wrapped bundle of white cloth, like a swaddling, with a black silk sash tied around it. She is carried, kissed, set down, and lifted again by the Step&#8209;Daughter and the Mother. The bundle is silent and motionless; it is moved only by other hands. The drowning at the fountain is hidden by the Step&#8209;Daughter bending over the bundle inside the basin; nothing is seen.</p>
-  <p>Three brief <strong>projections</strong> appear on the rear wall. <em>Projection 1</em>, at the top of Act One, is silent: the Six arrive in video, the Boy walks to the chair and leaves his coat, the Step&#8209;Daughter sets the Child down and the Child becomes the bundle. <em>Projection 2</em>, at the top of Act Two, is the only audible projection: the Step&#8209;Daughter's recorded voice addresses the Child and the Boy as real children, then the revolver is found in the coat. Her live body stands silent below the screen during this. <em>Projection 3</em>, in Act Three, is a single ten&#8209;second held image of the chair behind the fountain &mdash; the act of watching, not the death.</p>
+  <h2>Two stage objects, no projection</h2>
+  <p>In this production the <strong>Boy</strong> is a wooden chair with a black coat folded over its back, a schoolboy's cap on the seat, and a small leather satchel at the chair leg. He is not played by a performer. Where the script asks the Step&#8209;Daughter to seize him or push him forward, she handles the chair and the coat. Where she pulls a revolver from his pocket, she pulls it from the coat hanging on the chair. The chair sits at the edge of the stage from the moment the Six walk on. In Act Three the Manager himself moves it behind the fountain basin; the revolver shot is heard, not seen.</p>
+  <p>The <strong>Child</strong> is a small wrapped bundle of white cloth, like a swaddling, with a black silk sash tied around it. She is carried, kissed, set down, and lifted again by the Step&#8209;Daughter and the Mother, from the moment the Step&#8209;Daughter walks on. The bundle is silent and motionless; it is moved only by other hands. The drowning at the fountain is hidden by the Step&#8209;Daughter bending over the bundle inside the basin; nothing is seen.</p>
+  <p>There is <strong>no projection, no video, no screen</strong> anywhere in the production. The Step&#8209;Daughter's Act Two opening monologue is delivered live, alone in the shower light, with the bundle in her arms and the chair&#8209;and&#8209;coat beside her. At the close of Act Three, as the Son narrates the drowning, the stage lights drop until only the fountain's interior glow and the bare bulb above the Manager's table remain; the chair&#8209;and&#8209;coat is silhouetted behind the basin for ten seconds. Then full blackout. Then the gunshot, from where the chair&#8209;and&#8209;coat is.</p>
   <p>Player 1, Player 2, and Player 3 are the working actors of the Village Players company. Their role labels in the script (Leading Man, Property Man, Prompter, Door&#8209;keeper, Machinist, Madame Pace, etc.) are functions, not separate characters. The cast list overleaf lists which Player carries which functions.</p>
 </section>
 """

@@ -3,7 +3,7 @@
 
 Produces a single PDF with:
   1. A cover and intro (production concept, the eight performers, the
-     stage objects and projections, role list, how to audition).
+     stage objects, role list, how to audition).
   2. One section per role with an audition side pulled byte-identically
      from the play HTML — a real stretch of consecutive dialogue from
      the part where the character is most active. Approximately two
@@ -288,15 +288,12 @@ INTRO_HTML = """
   <h2>About the production</h2>
   <p>This is a director's edition of Pirandello's 1921 play, performed by the Village Players of Lausanne — an English-speaking amateur company based at SSA Lausanne. The text is the Storer 1922 translation, modernised throughout and anchored locally: the Players speak as expat actors in the canton; Madame Pace runs her atelier off the rue de Bourg; the Manager is on a deadline he is already losing.</p>
 
-  <p>The production is built for <strong>eight live performers, two stage objects, three brief projections, and three stripped settings</strong>. Four actors play the family (Father, Mother, Step-Daughter, Son); one plays the Manager; three "Players" cover the dozen company roles (Leading Man, Leading Lady, Juvenile Lead, Prompter, Property Man, Door-keeper, Machinist, L'Ingénue, and the rest), with Player 3 also becoming Madame Pace when she materialises.</p>
+  <p>The production is built for <strong>eight live performers, two stage objects, and three stripped settings</strong> — no projection, no video, no screen. Four actors play the family (Father, Mother, Step-Daughter, Son); one plays the Manager; three "Players" cover the dozen company roles (Leading Man, Leading Lady, Juvenile Lead, Prompter, Property Man, Door-keeper, Machinist, L'Ingénue, and the rest), with Player 3 also becoming Madame Pace when she materialises.</p>
 
   <h3>Two stage objects</h3>
-  <p>The <strong>Boy</strong> (in Pirandello, a silent fourteen-year-old) is, in this production, a wooden chair with a black coat folded over its back, a schoolboy's cap on the seat, and a small leather satchel at the chair leg. He is not played by a performer. Where the Step-Daughter seizes him or pushes him forward, she handles the chair and the coat. Where she pulls a revolver from his pocket, she pulls it from the coat hanging on the chair.</p>
+  <p>The <strong>Boy</strong> (in Pirandello, a silent fourteen-year-old) is, in this production, a wooden chair with a black coat folded over its back, a schoolboy's cap on the seat, and a small leather satchel at the chair leg. He is not played by a performer. The Door-keeper sets the chair at the edge of the stage as the Six walk on, and the family treats it as the Boy from that moment forward. Where the Step-Daughter seizes him or pushes him forward, she handles the chair and the coat. Where she pulls a revolver from his pocket, she pulls it from the coat hanging on the chair.</p>
 
-  <p>The <strong>Child</strong> (Pirandello's silent four-year-old) is a small wrapped bundle of white cloth, like a swaddling, with a black silk sash. She is carried, kissed, set down, and lifted again by the Step-Daughter and the Mother. The bundle is silent and motionless; it is moved only by other hands. The drowning at the fountain is hidden by the Step-Daughter bending over the bundle inside the basin; nothing is seen.</p>
-
-  <h3>Three projections</h3>
-  <p><em>Projection 1</em> — the silent entrance video at the top of Act One: the Six arrive, the Boy walks to the chair and leaves his coat, the Step-Daughter sets the Child down and the Child becomes the bundle. <em>Projection 2</em> — the only audible projection, at the top of Act Two: the Step-Daughter's recorded voice addresses the Child and the Boy as real children, then the revolver is found in the coat. Her live body stands silent below the screen. <em>Projection 3</em> — at the climax of Act Three, a single ten-second held image of the chair behind the fountain. The act of watching, not the death.</p>
+  <p>The <strong>Child</strong> (Pirandello's silent four-year-old) is a small wrapped bundle of white cloth, like a swaddling, with a black silk sash. The Step-Daughter walks on already carrying her, and from then on the bundle is carried, kissed, set down, and lifted again by the Step-Daughter and the Mother. The bundle is silent and motionless; it is moved only by other hands. The drowning at the fountain is hidden by the Step-Daughter bending over the bundle inside the basin; nothing is seen.</p>
 
   <h3>Three stripped settings</h3>
   <p>Act One — a bare stage with a circle of chairs. Act Two — a two-level set; the upper platform is where the family's drama is rehearsed, the lower floor is everywhere else. Act Three — a single short fountain basin centre stage, the chair-and-coat moved behind it, otherwise empty.</p>
