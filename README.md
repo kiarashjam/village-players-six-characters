@@ -70,6 +70,11 @@ outputs/
 │                                       production, working with the company, Pirandello in
 │                                       particular, practical director's work, and what the
 │                                       director must hold across the production. ~44 pages.
+├── synopsis.pdf                       The whole story, beginning to end, in plain narrative
+│                                       voice. Backstory (the marriage, the secretary, the
+│                                       school gate, Madame Pace's shop, the fountain), then
+│                                       what happens on stage act by act. For cast, company,
+│                                       and anyone who hasn't read Pirandello. ~9 pages.
 └── production_summary.pdf             One-page publication blurb for press, programme,
                                         festival listings, and company announcements.
 
@@ -86,6 +91,7 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 ├── build_intimacy_protocol.py         → outputs/intimacy_protocol.pdf
 ├── build_production_meeting_brief.py  → outputs/production_meeting_brief.pdf
 ├── build_directors_handbook.py        → outputs/directors_handbook.pdf
+├── build_synopsis.py                  → outputs/synopsis.pdf
 ├── build_summary.py                   → outputs/production_summary.pdf
 ├── recount_stats.py                   → recounts per-character speech/word counts and
 │                                       updates the stats blocks in the HTML and
@@ -139,6 +145,7 @@ python scripts/build_stage_manager_pack.py         # render stage_manager_pack.p
 python scripts/build_intimacy_protocol.py          # render intimacy_protocol.pdf
 python scripts/build_production_meeting_brief.py   # render production_meeting_brief.pdf
 python scripts/build_directors_handbook.py         # render directors_handbook.pdf
+python scripts/build_synopsis.py                   # render synopsis.pdf
 python scripts/build_summary.py                    # render production_summary.pdf
 ```
 

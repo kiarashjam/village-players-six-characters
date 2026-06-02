@@ -26,6 +26,7 @@ venv/
 /outputs/intimacy_protocol.html
 /outputs/production_meeting_brief.html
 /outputs/directors_handbook.html
+/outputs/synopsis.html
 
 # Editor / OS noise
 .DS_Store
