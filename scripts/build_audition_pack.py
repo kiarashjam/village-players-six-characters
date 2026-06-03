@@ -37,7 +37,7 @@ SIDES = [
         "tag": "the brain of the family",
         "context": "Act One — his confession. The Step-Daughter has just exposed the hundred francs at Madame Pace's shop. The Father attempts to explain himself; the philosophy cracks; the body gives him away.",
         "from_speaker": "The Father",
-        "from_opener": "Naturally enough. I would ask you",
+        "from_opener": "Of course. — Sir. Before you decide",
         "to_speaker": "The Father",
         "to_opener": "Fool! That is the proof that I am a man",
     },
