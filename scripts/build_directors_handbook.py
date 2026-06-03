@@ -325,7 +325,7 @@ HTML = r"""<!DOCTYPE html>
     <h4>4.3.2 Part II (The Refusal)</h4>
     <p>Silence. The Son refuses to play. The Father grabs his arm; a single piano note from offstage like a slap. Silence resumes.</p>
     <h4>4.3.3 Part III (The Fountain)</h4>
-    <p>The basin lit pale-blue from inside. The Step-Daughter bends over the bundle in the basin. A gunshot in real silence. The Manager's last line. Arvo Pärt for ten seconds. Lights go.</p>
+    <p>The basin lit pale-blue from inside. The Step-Daughter bends over the bundle in the basin while the Son narrates the drowning he could not stop. The stage lights drop, breath by breath, until only the fountain's glow and the bare bulb remain; the chair-and-coat is silhouetted behind the basin for ten seconds. Full blackout. Then, out of the dark, the gunshot. <em>"Pretence? Reality, sir, reality!"</em> The Manager walks out on the audience's own thought, said aloud: <em>"I've lost a whole day over these people. A whole day."</em> Arvo Pärt for ten seconds. Lights go.</p>
   </section>
 
   <!-- ============================================================ -->
