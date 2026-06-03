@@ -74,7 +74,14 @@ outputs/
 │                                       voice. Backstory (the marriage, the secretary, the
 │                                       school gate, Madame Pace's shop, the fountain), then
 │                                       what happens on stage act by act. For cast, company,
-│                                       and anyone who hasn't read Pirandello. ~9 pages.
+│                                       and anyone who hasn't read Pirandello. ~11 pages.
+├── two_deaths_note.pdf                One-page production note: how the production stages
+│                                       the deaths of the Child (drowning at the fountain)
+│                                       and the Boy (the gunshot) using only objects, sound,
+│                                       dialogue, and light — no performer asked to die. For
+│                                       the production walk-through so the company shares a
+│                                       vocabulary for how the deaths are "performed" by
+│                                       objects.
 └── production_summary.pdf             One-page publication blurb for press, programme,
                                         festival listings, and company announcements.
 
@@ -92,6 +99,7 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 ├── build_production_meeting_brief.py  → outputs/production_meeting_brief.pdf
 ├── build_directors_handbook.py        → outputs/directors_handbook.pdf
 ├── build_synopsis.py                  → outputs/synopsis.pdf
+├── build_two_deaths_note.py           → outputs/two_deaths_note.pdf
 ├── build_summary.py                   → outputs/production_summary.pdf
 ├── recount_stats.py                   → recounts per-character speech/word counts and
 │                                       updates the stats blocks in the HTML and
@@ -146,6 +154,7 @@ python scripts/build_intimacy_protocol.py          # render intimacy_protocol.pd
 python scripts/build_production_meeting_brief.py   # render production_meeting_brief.pdf
 python scripts/build_directors_handbook.py         # render directors_handbook.pdf
 python scripts/build_synopsis.py                   # render synopsis.pdf
+python scripts/build_two_deaths_note.py            # render two_deaths_note.pdf
 python scripts/build_summary.py                    # render production_summary.pdf
 ```
 
