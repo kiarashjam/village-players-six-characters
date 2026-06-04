@@ -393,7 +393,7 @@ AUDITIONER_FORM = """
   <h3>Availability</h3>
   <div class="field"><span class="label">Audition: Tue 2 / Fri 5 / Wed 10 June 2026, 18:00 – 21:00, SSA Lausanne</span><span class="line"></span></div>
   <div class="field"><span class="label">Table-work: Thursdays 18 June – 30 July 2026, 18:00 – 21:00, SSA Lausanne</span><span class="line"></span></div>
-  <div class="field"><span class="label">Staging: 5 August – 1 November 2026 (weekly + some weekends)</span><span class="line"></span></div>
+  <div class="field"><span class="label">Staging: 20 August – 1 November 2026 (5 &amp; 13 Aug summer break; weekly Thursdays + some weekends)</span><span class="line"></span></div>
   <div class="field"><span class="label">Late autumn 2026 (performance run)</span><span class="line"></span></div>
   <div class="field"><span class="label">Known conflicts (specific dates)</span><span class="line"></span></div>
 

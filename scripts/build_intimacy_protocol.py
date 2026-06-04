@@ -176,7 +176,7 @@ HTML = """<!DOCTYPE html>
   <section class="page-break">
     <h2>Calendar — when intimacy rehearsals happen</h2>
     <p>No intimacy work happens during the audition block (2 / 5 / 10 June 2026) or during the seven-Thursday table-work block (18 June – 30 July 2026). The seven Thursdays are table work only — discussion, reading, walk-through of the production concept. No blocking. No physical work.</p>
-    <p>Intimacy rehearsals are scheduled in the staging block (5 August – 1 November 2026), as separate dedicated sessions outside the standard Thursday rehearsals. The specific dates are confirmed by the Stage Manager once the cast is in place, and shared with the affected performers (the actors playing the Father, the Mother, the Step-Daughter, Player 1, Player 2, and Player 3) at least two weeks in advance.</p>
+    <p>Intimacy rehearsals are scheduled in the staging block (20 August – 1 November 2026; the first two weeks of August, the 5th and 13th, are the company's summer break — no rehearsal of any kind), as separate dedicated sessions outside the standard Thursday rehearsals. The specific dates are confirmed by the Stage Manager once the cast is in place, and shared with the affected performers (the actors playing the Father, the Mother, the Step-Daughter, Player 1, Player 2, and Player 3) at least two weeks in advance.</p>
     <p>Each intimacy moment in the play (listed above) has at least one dedicated rehearsal session, scheduled before any blocking with the rest of the company. The choreography is fixed in that session. The session is short — typically thirty to forty-five minutes — because the work is precise and tiring. The performers walk away knowing exactly what will happen on stage.</p>
   </section>
 
