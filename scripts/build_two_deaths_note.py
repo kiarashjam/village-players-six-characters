@@ -125,7 +125,7 @@ HTML = r"""<!DOCTYPE html>
 
       <h4>Dialogue</h4>
       <p>The Son tells the room what happened, in past tense, as it happens in present tense on the stage:</p>
-      <p><em>"I ran over to her. I was jumping in — to drag her out — when I saw something that froze my blood. The boy. Standing stock still. With eyes like a madman's. Watching his little drowned sister. In the fountain."</em></p>
+      <p><em>"I ran over to her. I was jumping in — to drag her out — when I saw something that stopped me where I stood. The boy. Standing stock still. With a look on his face I will never forget. Watching his little sister, there in the water."</em></p>
 
       <h4>What lands</h4>
       <p>Past-tense narration over present-tense action. The Son's testimony confirms what the Step-Daughter's silhouette is doing. The Child is dead. The audience never saw it. They know.</p>
@@ -136,10 +136,10 @@ HTML = r"""<!DOCTYPE html>
       <h3>The Boy<span class="sub">shoots himself out of the dark, from where the chair-and-coat is</span></h3>
 
       <h4>Object — placed earlier, by the Manager</h4>
-      <p>Earlier in Act Three, <strong>the Manager sets the chair-and-coat behind the fountain basin himself.</strong> This is the production's hinge moment — he stops being audience and becomes accessory. The Boy is now standing where Pirandello's text always said he was: by the basin, watching his drowned sister. He has not moved on his own. He has been put there.</p>
+      <p>Earlier in Act Three, <strong>the Manager sets the chair-and-coat behind the fountain basin himself.</strong> This is the production's hinge moment — he stops being audience and becomes accessory. The Boy is now standing where Pirandello's text always said he was: by the basin, watching his little sister in the water. He has not moved on his own. He has been put there.</p>
 
       <h4>Light — the ten-second silhouette</h4>
-      <p>After the Step-Daughter lowers the bundle into the water, the fountain light holds for <strong>ten seconds</strong> on the silhouette of the chair-and-coat behind the basin. The audience sees, in low water-light, the Boy watching his drowned sister. The image is held just long enough to land — and then long enough to become unbearable.</p>
+      <p>After the Step-Daughter lowers the bundle into the water, the fountain light holds for <strong>ten seconds</strong> on the silhouette of the chair-and-coat behind the basin. The audience sees, in low water-light, the Boy watching his little sister in the water. The image is held just long enough to land — and then long enough to become unbearable.</p>
 
       <h4>Then — full blackout</h4>
       <p>Even the fountain light cuts. Total dark. The audience cannot see anything.</p>

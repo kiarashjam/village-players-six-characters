@@ -110,7 +110,7 @@ HTML = """<!DOCTYPE html>
 
   <section>
     <h2>Why this play needs a protocol</h2>
-    <p>This play has at its centre an unstaged transaction between a middle-aged man and a young woman who is his stepdaughter, in the back room of a dressmaker's shop. The Step-Daughter says, of the moment behind the screen, that she was <em>almost nude</em>. The production does not show this. It does not need to. The Step-Daughter's recounting carries it; the lighting and the screen do the rest.</p>
+    <p>This play has at its centre an unstaged transaction between a middle-aged man and a young woman who is his stepdaughter, in the back room of a dressmaker's shop. The Step-Daughter's account of the moment behind the screen makes plain how exposed she was. The production does not show this. It does not need to. The Step-Daughter's recounting carries it; the lighting and the screen do the rest.</p>
     <p>But the play also requires real physical contact between the actor playing the Father and the actor playing the Step-Daughter — at the shop-scene replay, and at the <em>Cry out mother</em> moment in Act Two. There is also bounded contact between the Father and the Mother (the veil moment), between Madame Pace and the Step-Daughter (a hand under the chin), and between the Father and the Son (held grip in Act Three). Each of those moments must be rehearsed, scored, and consented to, line by line, before they are ever played in front of anyone.</p>
   </section>
 
@@ -121,7 +121,7 @@ HTML = """<!DOCTYPE html>
       <li><strong>The actor playing the Step-Daughter has absolute veto, at any moment, including in performance.</strong> If she signals that a contact is not happening, the contact does not happen, and the production has a substitute in place for it. The same applies to the Mother (the veil moment), the Boy/Child (handled here as object, not as person), and any Player asked to perform intimacy on the upper platform.</li>
       <li><strong>The director does not work intimacy alone with the performers.</strong> A third party — an intimacy consultant where one is available, or a trusted member of the company who is not in the scene — is present at every intimacy rehearsal. Doors are not closed. The Assistant Director and the Stage Manager are both valid third parties when not themselves in the scene.</li>
       <li><strong>Intimacy is rehearsed separately</strong> from the rest of the play, at the start of the staging block, with the full text of the moment laid out and discussed before any blocking. The performers say <em>yes</em> to each beat individually. They are also told, in writing, what they may say <em>no</em> to and how to do it.</li>
-      <li><strong>When the scene requires more than the performers have agreed to, the production carries the weight, not the bodies.</strong> Light, music, the folding screen, the bundle, the chair-and-coat, the wig — these are the production's substitutes. The script's "almost nude" is not a costume note; it is a line the Step-Daughter says about herself. What the audience sees is a young woman fully dressed, in a column of light, behind a folding screen, while a piano plays. The intensity is in the report, not the display.</li>
+      <li><strong>When the scene requires more than the performers have agreed to, the production carries the weight, not the bodies.</strong> Light, music, the folding screen, the bundle, the chair-and-coat, the wig — these are the production's substitutes. What the script suggests about her exposure is not a costume note; it points to something the Step-Daughter conveys about herself. What the audience sees is a young woman fully dressed, in a column of light, behind a folding screen, while a piano plays. The intensity is in the report, not the display.</li>
     </ul>
   </section>
 
@@ -150,7 +150,7 @@ HTML = """<!DOCTYPE html>
 
   <section>
     <h2>When the scene wants more than the actors have agreed to</h2>
-    <p>There will be moments in the rehearsal process when the script appears to ask for more intensity than the choreography delivers — the Step-Daughter's "almost nude," the Father's "in the arms of her," the "fingers tingling with shame." This is a real tension. The production resolves it not by asking more of the bodies but by giving the staging more to do.</p>
+    <p>There will be moments in the rehearsal process when the script appears to ask for more intensity than the choreography delivers — the Step-Daughter's account of the back room, the Father's "in the arms of her," the "fingers tingling with shame." This is a real tension. The production resolves it not by asking more of the bodies but by giving the staging more to do.</p>
     <ul>
       <li><strong>Light carries the heat.</strong> The shower light in Act Two — the narrow column the Step-Daughter and Madame Pace stand inside — does the work of focus that a closer contact would have done.</li>
       <li><strong>Music carries the seduction.</strong> The Weill / Mistinguett vamp under the Madame Pace aria says, in two bars, what no physical proximity should be asked to say.</li>
