@@ -255,7 +255,7 @@ CHARACTERS = [
             ("Voice & breath", [
                 "Earnest, open Juvenile Lead voice",
                 "Quiet, meticulous Prompter voice (slightly older, in the box)",
-                "Half-Italian, half-French dialect for Madame Pace that carries meaning, not just sound",
+                "Thick Italian-Swiss/French accent for Madame Pace (in English) that carries meaning, not just sound",
                 "The Madame Pace arc — vocal warmth on entry, cold by exit, smile never dropped",
             ]),
             ("Character & text", [

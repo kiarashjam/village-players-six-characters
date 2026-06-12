@@ -241,7 +241,7 @@ HTML = r"""<!DOCTYPE html>
     <h3>2.2 What Storer loses</h3>
     <p>Three losses, all worth knowing.</p>
     <h4>2.2.1 The dialect</h4>
-    <p>Madame Pace speaks in Pirandello's original a Italo-Spanish mongrel meant to mark her as a foreigner doing business in Italy. Storer flattens this to a stilted broken English. The production restores the foreignness by making her speak French-tinted English — she is in Lausanne, after all — and giving her the production's most distinct vocal signature.</p>
+    <p>Madame Pace speaks in Pirandello's original a Italo-Spanish mongrel meant to mark her as a foreigner doing business in Italy. Storer flattens this to a stilted broken English. The production restores the foreignness through <em>accent</em>, not vocabulary: she speaks English, but in the thick Italian-Swiss-and-French music of a woman who has run a shop in Lausanne for forty years — broken grammar on the page, the sound supplied by the actor. We do not salt her lines with foreign words; the accent is her vocal signature, the most distinct in the production.</p>
     <h4>2.2.2 The Italian rhythms</h4>
     <p>Italian sentences pulse where English sentences plod. The Storer translation has a tendency to over-formal English ("I should much like to know") where the original is conversational and broken. The director may modernise small phrases as long as the meaning is preserved — but should leave the longer speeches alone.</p>
     <h4>2.2.3 The 1922 vocabulary</h4>
@@ -537,7 +537,7 @@ HTML = r"""<!DOCTYPE html>
     <p>Coach the three Players first as a working company at a morning rehearsal — Lausanne register, local, modern, slightly bored. The comedy in Act One is theirs. By Act Two, the comedy is gone; coach them to hold the room as witnesses. By Act Three, they are watching with the audience.</p>
 
     <h3>9.6 Madame Pace — comic on arrival, chilling on exit</h3>
-    <p>The hardest single coaching job in the production. Player 3 transforms. The arrival is funny — the broken French, the bleached wig, the silver chain. The bookkeeping aria is not funny. The exit is somewhere between threat and confession.</p>
+    <p>The hardest single coaching job in the production. Player 3 transforms. The arrival is funny — the broken accent, the bleached wig, the silver chain. The bookkeeping aria is not funny. The exit is somewhere between threat and confession.</p>
     <p>Specific coaching beats: practice the entry until it is comically physical without being clownish. Practice the aria until the rhythm is bookkeeping (in/out, in/out) rather than seduction. Practice the exit at half-volume — the threat is in the precision, not the menace.</p>
   </section>
 
@@ -935,7 +935,7 @@ HTML = r"""<!DOCTYPE html>
     <p>Not a coquette. Not a victim performing victimhood. A young woman holding the room accountable. The production succeeds or fails on whether the audience reads her this way. Coach every other character against the temptation to soften her.</p>
 
     <h3>25.5 The Madame Pace arc — comedy on arrival, horror on exit</h3>
-    <p>The single hardest beat of the production. The arrival is funny — the broken French, the wig, the bookkeeping. The exit is not. The audience must laugh once and then not be allowed to laugh again. Player 3's transformation is the production's hinge.</p>
+    <p>The single hardest beat of the production. The arrival is funny — the broken accent, the wig, the bookkeeping. The exit is not. The audience must laugh once and then not be allowed to laugh again. Player 3's transformation is the production's hinge.</p>
   </section>
 
   <section>

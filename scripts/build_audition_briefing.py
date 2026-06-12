@@ -439,11 +439,11 @@ HTML = r"""<!DOCTYPE html>
 
     <div class="pace-card">
       <p class="pace-label">Optional &nbsp;·&nbsp; Madame Pace transformation test</p>
-      <p>Run this only if the auditioner is in contention for the role. Ask them to read the following lines aloud — <strong>twice</strong>: first in the half-Italian, half-French broken speech of a foreigner running a shop in Lausanne (a foreigner who has lived here too long to speak the language properly, and not long enough to forget her first); then a second time, in the same voice, but <strong>calmly, smiling, as if reading a column of figures in a ledger.</strong></p>
+      <p>Run this only if the auditioner is in contention for the role. Ask them to read the following lines aloud — <strong>twice</strong>: first in the thick accent of a foreigner running a shop in Lausanne — Italian-Swiss and French worn into her English, the speech of a woman who has lived here too long to sound native and not long enough to lose her first tongue; then a second time, in the same voice, but <strong>calmly, smiling, as if reading a column of figures in a ledger.</strong></p>
       <div class="solo" style="margin-top:3mm;">
-        <p class="solo-text">"Cara — you come back to me. I knew you come back. The young ones, they always come back to Madame Pace, sooner or later, one way or another way. He clean. He polite. He pay cash. The book, you understand, it must balance. Francs do not lie. People — people lie all day long."</p>
+        <p class="solo-text">"My dear — you come back to me. I knew you come back. The young ones, they always come back to Madame Pace, sooner or later, one way or another way. He clean. He polite. He pay cash. The book, you understand, it must balance. Francs do not lie. People — people lie all day long."</p>
       </div>
-      <p style="margin-top:3mm; font-size: 10.5pt;"><strong>What to listen for:</strong> the accent is the gateway, not the role. The first reading tests whether they can carry the dialect without flinching. The second reading tests whether they can be <em>cold</em> inside the comedy — the bookkeeping smile that makes the audience regret having laughed at her first line. If the second reading frightens you a little, you have your Madame Pace.</p>
+      <p style="margin-top:3mm; font-size: 10.5pt;"><strong>What to listen for:</strong> the accent is the gateway, not the role. The first reading tests whether they can carry the accent without flinching. The second reading tests whether they can be <em>cold</em> inside the comedy — the bookkeeping smile that makes the audience regret having laughed at her first line. If the second reading frightens you a little, you have your Madame Pace.</p>
     </div>
   </section>
 

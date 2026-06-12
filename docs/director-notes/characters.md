@@ -56,6 +56,6 @@ The choice we made — the chair-and-coat, the wrapped bundle, the brief silent 
 
 She's the play's most famous theatrical effect — the character who appears because the actors are "necessary" for her to materialise, conjured by stage logic rather than by writing. Most productions play this for spookiness or comedy. Both are right.
 
-But the deeper thing about her is that she's the play's first piece of evidence that characters might be more real than people. She arrives because the situation requires her to. She speaks half-French half-Italian — a real Lausanne immigrant in our version — and she runs a shop, and she has done what she has done to the Step-Daughter, and none of that is invented because the play needed it; it's the way the world is.
+But the deeper thing about her is that she's the play's first piece of evidence that characters might be more real than people. She arrives because the situation requires her to. She speaks English in the thick accent of a real Lausanne immigrant — Italian-Swiss and French worn into it — and she runs a shop, and she has done what she has done to the Step-Daughter, and none of that is invented because the play needed it; it's the way the world is.
 
 The Madame Pace effect tells you something the play won't say out loud: the Six aren't fictional. They're more real than the Players, because they cannot be edited. They are what they are. The Players, by contrast, will go home after this rehearsal and forget all of it by Tuesday.

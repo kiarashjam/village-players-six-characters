@@ -100,9 +100,9 @@ SIDES = [
         "tag": "the youngest, and Madame Pace",
         "context": "Act Two, Part II — Madame Pace materialises on the platform. She arrives comic, exits chilling. Player 3 enters her costume the way an apparition enters a body.",
         "from_speaker": "Player 3",
-        "from_opener": "Buongiorno, buongiorno, signor",
+        "from_opener": "Good morning, good morning, sir",
         "to_speaker": "Player 3",
-        "to_opener": "Sì sì, certo. I go. I go",
+        "to_opener": "Yes yes, of course. I go. I go",
     },
 ]
 
