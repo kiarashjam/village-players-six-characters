@@ -245,7 +245,7 @@ HTML = r"""<!DOCTYPE html>
     <h4>2.2.2 The Italian rhythms</h4>
     <p>Italian sentences pulse where English sentences plod. The Storer translation has a tendency to over-formal English ("I should much like to know") where the original is conversational and broken. The director may modernise small phrases as long as the meaning is preserved — but should leave the longer speeches alone.</p>
     <h4>2.2.3 The 1922 vocabulary</h4>
-    <p>"Capital!" "By Jove!" — these are real bits of 1922 English that the production cannot keep without comedy. The director's edition has already trimmed the worst; a few remain. Trim them as you find them.</p>
+    <p>"Capital!" "By Jove!" — these are real bits of 1922 English that the production cannot keep without comedy. The director's edition has trimmed them from the working text; if any slip back in through future edits, trim them on sight.</p>
 
     <h3>2.3 Where the director must repair the prose</h3>
     <p>The four places to watch:</p>
