@@ -51,9 +51,9 @@ ROLE_NOTE = {
     "SD": "the moral centre — sharp, indicting, never coquettish",
     "S": "the refuser — withholding as an act",
     "MG": "the audience's body on stage — pragmatic, tired",
-    "P1": "the Leading Man — vain, faded, defensive",
-    "P2": "the Leading Lady — practical, professional, employed",
-    "P3": "the youngest, curious one",
+    "P1": "the Leading Man — forties, vain, faded, defensive",
+    "P2": "the Leading Lady — about 35, practical, professional, the one who books the work",
+    "P3": "the youngest — early 20s, curious, happiest in the company",
     "MP": "the businesswoman of shame — comic on arrival, chilling on exit",
 }
 

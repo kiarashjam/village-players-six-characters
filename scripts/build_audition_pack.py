@@ -338,9 +338,9 @@ ROLE_LIST_HTML = """
     <h3>The Village Players &nbsp;·&nbsp; live performers</h3>
     <ul>
       <li><span class="role-name">The Manager</span><span class="role-sub">a Lausanne theatre veteran on a deadline; cynicism is technique, compassion is real</span></li>
-      <li><span class="role-name">Player 1</span><span class="role-sub">Leading Man · L'Ingénue · Door-keeper · Machinist · Third Actor — one character in five hats; the faded Anglo Leading Man</span></li>
-      <li><span class="role-name">Player 2</span><span class="role-sub">Leading Lady · Property Man · Fourth Actor · Second Lady Lead — the veteran character actress; the diva and the props in one body</span></li>
-      <li><span class="role-name">Player 3</span><span class="role-sub">Juvenile Lead · Prompter · An Actor · Fifth Actor — the youngest in the company; curious, eager, the audience's mirror in the second half</span></li>
+      <li><span class="role-name">Player 1</span><span class="role-sub">Leading Man · L'Ingénue · Door-keeper · Machinist · Third Actor — in his forties; one character in five hats; the faded Anglo Leading Man</span></li>
+      <li><span class="role-name">Player 2</span><span class="role-sub">Leading Lady · Property Man · Fourth Actor · Second Lady Lead — about 35; the real working professional Player 1 only impersonates; the diva and the props in one body</span></li>
+      <li><span class="role-name">Player 3</span><span class="role-sub">Juvenile Lead · Prompter · An Actor · Fifth Actor — early 20s, the youngest and happiest in the company; does a bit of everything; the audience's mirror in the second half</span></li>
     </ul>
   </div>
 
