@@ -49,7 +49,7 @@ PRODUCTION_NOTE = """
   <p>Two of the children are stage objects, not performers, and the script calls them by these names. The <strong>Boy&#8209;chair</strong> is a wooden chair with a black coat folded over its back, a schoolboy's cap on the seat, and a small leather satchel at the chair leg. Where the script asks the Step&#8209;Daughter to seize the Boy or push him forward, she handles the chair and the coat; where she takes a revolver from his pocket, she takes it from the coat hanging on the chair. The Boy&#8209;chair stands at the edge of the stage from the moment the Six walk on; in Act Three the Manager himself moves it behind the fountain basin, and the revolver shot is heard, not seen.</p>
   <p>The <strong>Child&#8209;bundle</strong> is a small wrapped bundle of white cloth, like a swaddling, with a black silk sash tied around it. It is carried, kissed, set down, and lifted again by the Step&#8209;Daughter and the Mother, from the moment the Step&#8209;Daughter walks on. It never moves on its own. The drowning at the fountain is hidden by the Step&#8209;Daughter bending over the Child&#8209;bundle inside the basin; nothing is seen.</p>
   <p>There is <strong>no projection, no video, no screen</strong> anywhere in the production. The Step&#8209;Daughter's Act Two opening monologue is delivered live, alone in the shower light, with the Child&#8209;bundle in her arms and the Boy&#8209;chair beside her. At the close of Act Three, as the Son narrates the drowning, the stage lights drop until only the fountain's interior glow and the bare bulb above the Manager's table remain; the Boy&#8209;chair is silhouetted behind the basin for ten seconds. Then full blackout. Then the gunshot, from where the Boy&#8209;chair is.</p>
-  <p>Player 1, Player 2, and Player 3 are the working actors of the Village Players company. Their role labels in the script (Leading Man, Property Man, Prompter, Door&#8209;keeper, Machinist, etc.) are functions, not separate characters. The cast list overleaf lists which Player carries which functions. <strong>Madame Pace</strong> is not a Player function — she is a Character in her own right, carried by her own performer, conjured onto the stage in Act Two; her speeches are tagged simply <em>Madame Pace</em>.</p>
+  <p>Player 1, Player 2, and Player 3 are the working actors of the Village Players company. They carry no separate role names in this script: each plays many small functions across the morning — the actor at the cook&#8209;cap argument, the one at the stage door, the one at the prop trolley, the one in the prompt box, the one who works the curtain — but every line they speak is tagged simply <em>Player 1</em>, <em>Player 2</em>, or <em>Player 3</em>. <strong>Madame Pace</strong> is not a Player — she is a Character in her own right, carried by her own performer, conjured onto the stage in Act Two; her speeches are tagged simply <em>Madame Pace</em>.</p>
 </section>
 """
 
@@ -103,8 +103,8 @@ _ACTION_TRIM = {
         "looking up from the book",
     "she cannot quite stop yet; the voice has been waiting too long":
         "she cannot quite stop yet",
-    "she has been at work for an hour; the Property Man's bearing — shoulders forward, weight on the front foot":
-        "the Property Man's bearing — shoulders forward, weight on the front foot",
+    "she has been at work for an hour; shoulders forward, weight on the front foot":
+        "shoulders forward, weight on the front foot",
     "the cry breaks; afterward the body goes still — not the composure he had at the start of this part, but a different stillness, as if he has just walked into the wall of his own argument she has just shown him":
         "the cry breaks; afterward the body goes still",
     "the diva fully present; she has done a thousand scenes harder than this":

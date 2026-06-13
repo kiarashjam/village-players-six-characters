@@ -1,31 +1,27 @@
 {
   "The Manager": {
-    "speeches": 199,
-    "words": 3681
+    "speeches": 200,
+    "words": 3673
   },
   "Player 2": {
-    "speeches": 42,
-    "words": 469
+    "speeches": 47,
+    "words": 480
   },
   "Player 1": {
-    "speeches": 47,
-    "words": 578
+    "speeches": 56,
+    "words": 608
   },
   "Player 3": {
-    "speeches": 24,
-    "words": 343
+    "speeches": 31,
+    "words": 369
   },
   "The Father": {
-    "speeches": 162,
-    "words": 4630
+    "speeches": 163,
+    "words": 4633
   },
   "The Step-Daughter": {
     "speeches": 117,
     "words": 3141
-  },
-  "All Three Players": {
-    "speeches": 5,
-    "words": 50
   },
   "The Mother": {
     "speeches": 38,
@@ -35,20 +31,8 @@
     "speeches": 37,
     "words": 790
   },
-  "The Manager and The Father": {
-    "speeches": 1,
-    "words": 5
-  },
-  "Two Players": {
-    "speeches": 2,
-    "words": 8
-  },
   "Madame Pace": {
     "speeches": 5,
     "words": 566
-  },
-  "The Other Players": {
-    "speeches": 1,
-    "words": 9
   }
 }
