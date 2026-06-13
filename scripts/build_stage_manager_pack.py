@@ -313,7 +313,7 @@ HTML = """<!DOCTYPE html>
         <tr><td class="cue-id">L08</td><td class="cue-when">Mother's line <em>It's taking place now. It happens all the time.</em></td><td><em>Shower</em> falls on the Mother — the only light in the room is the column she stands in.</td></tr>
         <tr><td class="cue-id">M04-out</td><td class="cue-when">Mother's cry begins</td><td>Piano cuts out. Does not return.</td></tr>
         <tr><td class="cue-id">M05 (live)</td><td class="cue-when">Accidental curtain falls</td><td>Single piano chord, held. Lights go.</td></tr>
-        <tr><td class="cue-id">L09</td><td class="cue-when">After M05</td><td>Blackout. Cue for interval.</td></tr>
+        <tr><td class="cue-id">L09</td><td class="cue-when">After M05</td><td>Blackout behind the fallen curtain. Fast covered change to the fountain — <strong>no interval</strong>; Act Three follows at once.</td></tr>
       </tbody>
     </table>
 
@@ -351,7 +351,7 @@ HTML = """<!DOCTYPE html>
       <li><strong>3 hours before curtain.</strong> Venue access. Working lights up. Pre-set props checked against the master list — every item in its starting position. Costume rail checked. Pianist's instrument tuned / confirmed. Front-of-house briefed on house open and intermission.</li>
       <li><strong>90 minutes before.</strong> Cast call. Half-hour call follows the standard cycle. Light and sound operators in position. Final prop check.</li>
       <li><strong>House open.</strong> Pre-show state up — Act One pre-set (white working lights, French chanson radio at low volume in the wings). House management hands over to you at the time printed in the programme.</li>
-      <li><strong>The show.</strong> You call every cue from the prompt book. Two intervals (Acts I → II, II → III). At each interval: pre-set check for the act about to start.</li>
+      <li><strong>The show.</strong> You call every cue from the prompt book. <strong>One interval, after Act One</strong> (chairs struck, two-level set built); the Act Two → Three change is a fast covered change behind the fallen curtain, not an interval. Pre-set check before Act Two (during the interval) and before Act Three (during the covered change).</li>
       <li><strong>Curtain.</strong> Blackout held. Bows on a separate light state (warm general wash, no shower, no fountain). Cast clear.</li>
       <li><strong>Strike between performances.</strong> Light strike — props back to start positions; bundles returned to the green room; coats and caps reset on the chair. The bulb does not need to be reset; let it swing.</li>
       <li><strong>End of run.</strong> Full strike per Section 6 above.</li>

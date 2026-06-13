@@ -326,6 +326,16 @@ HTML = r"""<!DOCTYPE html>
     <p>Silence. The Son refuses to play. The Father grabs his arm; a single piano note from offstage like a slap. Silence resumes.</p>
     <h4>4.3.3 Part III (The Fountain)</h4>
     <p>The basin lit pale-blue from inside. The Step-Daughter bends over the bundle in the basin while the Son narrates the drowning he could not stop. The stage lights drop, breath by breath, until only the fountain's glow and the bare bulb remain; the chair-and-coat is silhouetted behind the basin for ten seconds. Full blackout. Then, out of the dark, the gunshot. <em>"Pretence? Reality, sir, reality!"</em> The Manager looks at the empty chair-and-coat, says <em>"To hell with it all,"</em> and walks out the way the audience is about to. Arvo Pärt for ten seconds. Lights go.</p>
+
+    <h3>4.4 Pace, the interval, and keeping the audience</h3>
+    <p>The play runs about two hours. At that length the danger is never the clock — it is rhythm. A two-hour show that moves feels like ninety minutes; a ninety-minute show that sits feels like three hours. The text has been trimmed about as far as it can go without cutting the wounds the evening is built on, so the audience's excitement is won by <strong>structure, tempo, and event</strong>, not by further cuts. Five working rules:</p>
+    <ul>
+      <li><strong>One interval, after Act One — and only one.</strong> Break on the bargain (the hundred francs, the deep-red act-end) so the audience leaves on a hook and returns wanting the rest. Then play the whole second half — Acts Two and Three — <em>unbroken</em>: the two-level set strikes to the fountain behind the fallen curtain, a fast covered change, no second break. The back seventy minutes should build in one sweep to the gunshot. A second interval would let the pressure out exactly where you want it rising.</li>
+      <li><strong>Front-load the comedy, and protect it.</strong> The first ten to fifteen minutes — the cook's cap, the Players bickering, the Six's absurd arrival — is the hook. Play it fast and genuinely funny. An audience that laughs in the first quarter-hour will follow you into the dark.</li>
+      <li><strong>Keep the talky stretches urgent.</strong> The two drift-risks are the Father's philosophy (Act One Part II, Act Three Part I) and the reality debate. Direct them fast, overlapping, dangerous — a man fighting for his existence, never a man lecturing — and let the Step-Daughter's cuts land hard across him. Never let a speech sit. (See the four-stage scoring in the Act Three Part I note.)</li>
+      <li><strong>Space the events so attention is re-grabbed every ten minutes or so.</strong> Map them and hold the spacing: the arrival of the Six → the hundred-francs reveal → the shower-light monologue → the pianist's first entrance → Madame Pace conjured → the Mother's eruption → the doubled scene → the accidental curtain → the gunshot. One unmissable thing before the eye can wander.</li>
+      <li><strong>Trust the design to do the re-hooking.</strong> The live pianist, the shower light, the conjured apparition, the two-level set, the real gunshot — each is an event that re-grabs the room. Do not bury them in transitions; let each land clean.</li>
+    </ul>
   </section>
 
   <!-- ============================================================ -->
