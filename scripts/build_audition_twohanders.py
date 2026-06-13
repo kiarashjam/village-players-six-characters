@@ -52,8 +52,8 @@ ROLE_NOTE = {
     "SD": "the moral centre — sharp, indicting, never coquettish",
     "S": "the refuser — withholding as an act",
     "MG": "a tired director — and, without trying, the audience's stand-in",
-    "P1": "the Leading Man — forties, vain, faded, defensive",
-    "P2": "the Leading Lady — about 35, practical, professional, the one who books the work",
+    "P1": "the company's fading star — forties, vain, faded, defensive",
+    "P2": "the leading woman — about 35, practical, professional, the one who books the work",
     "P3": "the youngest — early 20s, curious, happiest in the company",
     "MP": "the businesswoman of shame — comic on arrival, chilling on exit",
 }
@@ -239,11 +239,11 @@ SCENES = {
         ],
     },
     key("MG", "P1"): {
-        "context": "The cook's-cap argument that opens the rehearsal. The vain Leading Man against the tired Manager who has heard the resignation speech before.",
+        "context": "The cook's-cap argument that opens the rehearsal. The vain star against the tired Manager who has heard the resignation speech before.",
         "lines": [
             ("PLAYER 1", "Must I absolutely wear the cook's cap? I ask it as a perfectly serious question, you understand — from an actor with a certain standing in this canton."),
             ("MANAGER", "It is in the script. The very same script you read, and discussed, and signed, and cashed the advance against, some weeks ago now."),
-            ("PLAYER 1", "I have a reputation. Fifteen years I have been the Leading Man of this company. People in this city know my face, sir, and they did not pay to see it under a kitchen cap."),
+            ("PLAYER 1", "I have a reputation. Fifteen years I have carried this company. People in this city know my face, sir, and they did not pay to see it under a kitchen cap."),
             ("MANAGER", "They will know it perfectly well under a cook's cap. Put it on, play the scene, and you may yet keep what is left of the reputation. Argue with me another ten minutes, and I make you no promises about any of it."),
             ("PLAYER 1", "I would sooner resign the whole engagement than be made ridiculous in front of strangers."),
             ("MANAGER", "You threaten to resign every single season — usually somewhere around the first read-through — and every single season you are here on opening night, in precisely whatever hat I have decided to give you."),
@@ -252,7 +252,7 @@ SCENES = {
         ],
     },
     key("MG", "P2"): {
-        "context": "The Manager has no scene yet, only an ending. The practical Leading Lady will act anything the moment he gives her a beginning.",
+        "context": "The Manager has no scene yet, only an ending. Player 2, the practical professional, will act anything the moment he gives her a beginning.",
         "lines": [
             ("MANAGER", "Can we please, for the love of God, just rehearse something? I have lost half a morning now to six strangers and a lecture on the nature of reality."),
             ("PLAYER 2", "We can rehearse the very moment that somebody tells me what the scene actually is. I have been standing here, off-book and ready, for the better part of an hour."),
@@ -282,8 +282,8 @@ SCENES = {
         "lines": [
             ("PLAYER 1", "In my day, a script made sense before the first rehearsal. One read it, one understood it, one performed it beautifully. There was an order to things, a respect."),
             ("PLAYER 2", "In your day. Yes. We have all of us heard a very great deal about your day. It appears to have been a golden age chiefly remarkable for prominently featuring you."),
-            ("PLAYER 1", "I am only observing that a Leading Man requires a part he can take some pride in. Is that vanity? Perhaps it is. It is also, I would remind you, craft."),
-            ("PLAYER 2", "A Leading Man requires an audience to admire him. A working actor requires a wage at the end of the month. I will let you guess which of the two of us actually booked the job this season."),
+            ("PLAYER 1", "I am only observing that an actor of my standing requires a part he can take some pride in. Is that vanity? Perhaps it is. It is also, I would remind you, craft."),
+            ("PLAYER 2", "A man like that requires an audience to admire him. A working actor requires a wage at the end of the month. I will let you guess which of the two of us actually booked the job this season."),
             ("PLAYER 1", "You wound me, you know. You always have, from the very first season we played together."),
             ("PLAYER 2", "I pay my rent, in francs, on the first of the month. Wounding you is merely a little hobby I take up between paying jobs — it costs me nothing, and it has never once let me down."),
             ("PLAYER 1", "...You are a very hard woman, when all is said and done."),
@@ -291,9 +291,9 @@ SCENES = {
         ],
     },
     key("P1", "P3"): {
-        "context": "The senior Leading Man instructs the newest member of the company in how things 'really' work. They keep trying to write it down.",
+        "context": "The senior actor instructs the newest member of the company in how things 'really' work. They keep trying to write it down.",
         "lines": [
-            ("PLAYER 1", "You are new here, so allow me to explain how a company like this one actually works. The Leading Man sets the tone. Everything and everyone else simply arranges itself around that single fact."),
+            ("PLAYER 1", "You are new here, so allow me to explain how a company like this one actually works. The senior man sets the tone. Everything and everyone else simply arranges itself around that single fact."),
             ("PLAYER 3", "Oh — does he? I rather thought that was the director's job. The setting of the tone, I mean to say."),
             ("PLAYER 1", "The director believes, sincerely, that he sets the tone. That is an entirely separate matter — and, frankly, a small kindness that we all agree to extend to him."),
             ("PLAYER 3", "I see. I'll write that down — it sounds rather like the sort of thing one ought to know early."),
@@ -314,7 +314,7 @@ SCENES = {
             ("PLAYER 3", "That sounds a little bleak, put quite like that."),
             ("PLAYER 2", "It is a little true, put quite like that. The bleakness, you will find, comes free with the years; the truth you have to earn, one disappointment at a time, and pay for in full."),
             ("PLAYER 3", "I do hope I am like you in twenty years' time."),
-            ("PLAYER 2", "Aim a good deal higher than that, love. Aim to be employed and entirely unbothered. I have only ever managed the first of the two — and here I still am, at my age, arguing with a Leading Man about a hat."),
+            ("PLAYER 2", "Aim a good deal higher than that, love. Aim to be employed and entirely unbothered. I have only ever managed the first of the two — and here I still am, at my age, arguing with a vain man about a hat."),
         ],
     },
     # ---- Character × Player: the metatheatrical frame ----

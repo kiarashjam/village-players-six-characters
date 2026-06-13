@@ -149,7 +149,7 @@ HTML = r"""<!DOCTYPE html>
       <p>Out of that dark, from exactly where the chair-and-coat is, <strong>a single sharp revolver shot.</strong> The water sound briefly stops with it. Then resumes. Then everything stops.</p>
 
       <h4>Dialogue — the Mother first, then the room</h4>
-      <p>The lights snap back. The Mother runs over toward the sound, the veil still down over her face — she never lifts it herself, not even now: <em>"My son! My son!"</em> The Manager: <em>"Is he really wounded?"</em> Two Players: <em>"He's dead! dead!"</em> Other Players: <em>"No, no, it's only make believe, it's only pretence!"</em> The Father, the only time he raises his voice in the whole play: <em>"Pretence? Reality, sir, reality!"</em></p>
+      <p>The lights snap back. The Mother runs over toward the sound, the veil still down over her face — she never lifts it herself, not even now: <em>"My son! My son!"</em> The Manager: <em>"Is he really wounded?"</em> Players 1 and 2: <em>"He's dead! dead!"</em> Player 3: <em>"No, no, it's only make believe, it's only pretence!"</em> The Father, the only time he raises his voice in the whole play: <em>"Pretence? Reality, sir, reality!"</em></p>
 
       <h4>What lands</h4>
       <p>The actors lift what they think is the Boy's body — which is the chair-and-coat — and carry it off as a body: heavy, careful, terrible. <strong>The chair has become a body.</strong> The audience reads it as a body. The shot came from where they last saw the silhouette. The revolver was in that coat. They have known, since Act Two, that he was going to use it.</p>

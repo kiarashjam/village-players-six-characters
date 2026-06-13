@@ -72,7 +72,7 @@ SIDES = [
     {
         "role": "The Manager",
         "tag": "the director on a deadline",
-        "context": "Act One — the opening rehearsal. He bickers with the Leading Man about the cook's cap, insults the playwright, and sets the company in motion.",
+        "context": "Act One — the opening rehearsal. He bickers with Player 1 about the cook's cap, insults the playwright, and sets the company in motion.",
         "from_speaker": "The Manager",
         "from_opener": "I can't see a thing in here",
         "to_speaker": "The Manager",
@@ -80,8 +80,8 @@ SIDES = [
     },
     {
         "role": "Player 1",
-        "tag": "one character in five hats — the faded Leading Man",
-        "context": "Act Two, Part III — the Leading Man takes the platform and plays the Father in the shop scene. Practised gallantry meets a woman half his age who has been through the actual room.",
+        "tag": "one performer in many hats — the company's faded star",
+        "context": "Act Two, Part III — Player 1 takes the platform and plays the Father in the shop scene. Practised gallantry meets a woman half his age who has been through the actual room.",
         "from_speaker": "The Manager",
         "from_opener": "See here! The scene between you and Madame Pace",
         "to_speaker": "Player 1",
@@ -90,7 +90,7 @@ SIDES = [
     {
         "role": "Player 2",
         "tag": "the diva and the props",
-        "context": "Act Two, Part III — the Leading Lady takes the platform to play the Step-Daughter, and is corrected mid-scene by the woman whose worst hour it actually was. The glasses come off.",
+        "context": "Act Two, Part III — Player 2 takes the platform to play the Step-Daughter, and is corrected mid-scene by the woman whose worst hour it actually was. The glasses come off.",
         "from_speaker": "Player 2",
         "from_opener": "Of course. It's easy enough",
         "to_speaker": "Player 2",
@@ -99,7 +99,7 @@ SIDES = [
     {
         "role": "Player 3",
         "tag": "the youngest, and the curious one",
-        "context": "Act One, Part I — the Prompter takes the play down from the box while the Manager dictates the stage directions. The youngest in the company (a young man or woman), eager to be useful, faintly aware they are too young for the role.",
+        "context": "Act One, Part I — Player 3 takes the play down from the box while the Manager dictates the stage directions. The youngest in the company (a young man or woman), eager to be useful, faintly aware they are too young for the role.",
         "from_speaker": "Player 3",
         "from_opener": '"Leo Gala\'s house. A curious room',
         "to_speaker": "Player 3",
@@ -298,10 +298,10 @@ INTRO_HTML = """
   <h2>About the production</h2>
   <p>This is a director's edition of Pirandello's 1921 play, performed by the Village Players of Lausanne — an English-speaking amateur company based at SSA Lausanne. The text is the Storer 1922 translation, modernised throughout and anchored locally: the Players speak as expat actors in the canton; Madame Pace runs her atelier off the rue de Bourg; the Manager is on a deadline he is already losing.</p>
 
-  <p>The production is built for <strong>nine live performers, two stage objects, and three stripped settings</strong> — no projection, no video, no screen. Four actors play the family (Father, Mother, Step-Daughter, Son); one plays the Manager; three "Players" cover the dozen company roles (Leading Man, Leading Lady, Juvenile Lead, Prompter, Property Man, Door-keeper, Machinist, L'Ingénue, and the rest); and one plays Madame Pace, the Character conjured onto the stage in Act Two, carried by her own performer.</p>
+  <p>The production is built for <strong>nine live performers, two stage objects, and three stripped settings</strong> — no projection, no video, no screen. Four actors play the family (Father, Mother, Step-Daughter, Son); one plays the Manager; three "Players" — Player 1, Player 2, and Player 3 — cover every other figure the morning needs (the company's actors, the door, the props, the prompt box, the stage crew, and the small reading parts); and one plays Madame Pace, the Character conjured onto the stage in Act Two, carried by her own performer.</p>
 
   <h3>Two stage objects</h3>
-  <p>The <strong>Boy</strong> (in Pirandello, a silent fourteen-year-old) is, in this production, a wooden chair with a black coat folded over its back, a schoolboy's cap on the seat, and a small leather satchel at the chair leg. He is not played by a performer. The Door-keeper sets the chair at the edge of the stage as the Six walk on, and the family treats it as the Boy from that moment forward. Where the Step-Daughter seizes him or pushes him forward, she handles the chair and the coat. Where she pulls a revolver from his pocket, she pulls it from the coat hanging on the chair.</p>
+  <p>The <strong>Boy</strong> (in Pirandello, a silent fourteen-year-old) is, in this production, a wooden chair with a black coat folded over its back, a schoolboy's cap on the seat, and a small leather satchel at the chair leg. He is not played by a performer. Player 1 sets the chair at the edge of the stage as the Six walk on, and the family treats it as the Boy from that moment forward. Where the Step-Daughter seizes him or pushes him forward, she handles the chair and the coat. Where she pulls a revolver from his pocket, she pulls it from the coat hanging on the chair.</p>
 
   <p>The <strong>Child</strong> (Pirandello's silent four-year-old) is a small wrapped bundle of white cloth, like a swaddling, with a black silk sash. The Step-Daughter walks on already carrying her, and from then on the bundle is carried, kissed, set down, and lifted again by the Step-Daughter and the Mother. The bundle is silent and motionless; it is moved only by other hands. The drowning at the fountain is hidden by the Step-Daughter bending over the bundle inside the basin; nothing is seen.</p>
 
@@ -339,9 +339,9 @@ ROLE_LIST_HTML = """
     <h3>The Village Players &nbsp;·&nbsp; live performers</h3>
     <ul>
       <li><span class="role-name">The Manager</span><span class="role-sub">a Lausanne theatre veteran on a deadline; cynicism is technique, compassion is real</span></li>
-      <li><span class="role-name">Player 1</span><span class="role-sub">Leading Man · L'Ingénue · Door-keeper · Machinist · Third Actor — in his forties; one character in five hats; the faded Anglo Leading Man</span></li>
-      <li><span class="role-name">Player 2</span><span class="role-sub">Leading Lady · Property Man · Fourth Actor · Second Lady Lead — about 35; the real working professional Player 1 only impersonates; the diva and the props in one body</span></li>
-      <li><span class="role-name">Player 3</span><span class="role-sub">Juvenile Lead · Prompter · An Actor · Fifth Actor — early 20s, the youngest and happiest in the company; does a bit of everything; the audience's mirror in the second half</span></li>
+      <li><span class="role-name">Player 1</span><span class="role-sub">in his forties; one performer in many hats; the faded Anglo star of the company</span></li>
+      <li><span class="role-name">Player 2</span><span class="role-sub">about 35; the real working professional Player 1 only impersonates; the diva and the props in one body</span></li>
+      <li><span class="role-name">Player 3</span><span class="role-sub">early 20s, the youngest and happiest in the company; does a bit of everything; the audience's mirror in the second half</span></li>
     </ul>
   </div>
 

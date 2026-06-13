@@ -306,7 +306,7 @@ HTML = r"""<!DOCTYPE html>
     <h4>4.1.1 Part I (The Rehearsal)</h4>
     <p>White working lights. A scratchy French chanson in the wings. The Players are rehearsing a play they do not like; the Manager is half present. The audience laughs in the first ten minutes. This is committed comedy. Do not undercut it.</p>
     <h4>4.1.2 Part II (The Interruption)</h4>
-    <p>The Six walk on, in person, lit by the "tenuous light" Pirandello specifies. The Door-keeper carries the chair-and-coat in and sets it at the edge of the stage; the Step-Daughter is already carrying the wrapped bundle. The white working lights soften to amber. The chanson cuts off mid-bar. The play's tonal hinge is here, in the second part of the first act.</p>
+    <p>The Six walk on, in person, lit by the "tenuous light" Pirandello specifies. Player 1 carries the chair-and-coat in and sets it at the edge of the stage; the Step-Daughter is already carrying the wrapped bundle. The white working lights soften to amber. The chanson cuts off mid-bar. The play's tonal hinge is here, in the second part of the first act.</p>
     <h4>4.1.3 Part III (The Bargain)</h4>
     <p>Amber drifts slowly to deep red across the part. The Step-Daughter speaks the words <em>hundred francs</em>; the Father starts to sweat. The act ends in a low blood-coloured wash. No music. The silence is the texture; the next act is the cue.</p>
 
@@ -317,7 +317,7 @@ HTML = r"""<!DOCTYPE html>
     <h4>4.2.2 Part II (The Apparition)</h4>
     <p>The piano shifts to a Weimar-shop vamp; Madame Pace steps into the shower. The aria is the production's hardest single beat: comic on arrival, chilling on exit. The piano dies on the Mother's line — <em>You old devil. You murderess.</em></p>
     <h4>4.2.3 Part III (The Substitution)</h4>
-    <p>Leading Lady and Leading Man take the platform to play the shop scene as theatre. The Mother is forced to watch. The shower falls on her on her keystone line — <em>It's taking place now. It happens all the time.</em> The piano cuts on her cry. Accidental curtain.</p>
+    <p>Player 2 and Player 1 take the platform to play the shop scene as theatre. The Mother is forced to watch. The shower falls on her on her keystone line — <em>It's taking place now. It happens all the time.</em> The piano cuts on her cry. Accidental curtain.</p>
 
     <h3>4.3 Act Three — argument → refusal → fountain</h3>
     <p>The shortest act. The darkest. Three parts; the last is the play's true ending.</p>
@@ -588,12 +588,12 @@ HTML = r"""<!DOCTYPE html>
     <p>Two of the six Characters are not played by performers. The Boy is a wooden chair with a folded black coat over its back, a schoolboy's cap on the seat, and a small leather satchel by the leg. The Child is a small wrapped bundle of white cloth with a black silk sash at the waist. There is no projection, no video, no screen anywhere in the production: the audience reads the chair as the Boy and the bundle as the Child because the company does, from their first second on stage. The objects are the children of the play.</p>
 
     <h3>11.1 How the convention lands</h3>
-    <p>It lands in the first thirty seconds of the family's arrival, by what hands do — not by anything that is said. The Door-keeper walks on with the chair, sets it at the edge, lays the coat across the back, the cap on the seat, the satchel by the leg, with the precise care of a person settling a child somewhere safe. The Step-Daughter walks on already holding the bundle the way one holds a four-year-old: against the shoulder, the back of the head supported. The four live Characters speak to the chair and the bundle as if they were children. The audience accepts it within seconds, because the bodies on stage have accepted it absolutely.</p>
+    <p>It lands in the first thirty seconds of the family's arrival, by what hands do — not by anything that is said. Player 1 walks on with the chair, sets it at the edge, lays the coat across the back, the cap on the seat, the satchel by the leg, with the precise care of a person settling a child somewhere safe. The Step-Daughter walks on already holding the bundle the way one holds a four-year-old: against the shoulder, the back of the head supported. The four live Characters speak to the chair and the bundle as if they were children. The audience accepts it within seconds, because the bodies on stage have accepted it absolutely.</p>
 
     <h3>11.2 The three load-bearing moments</h3>
     <p>One per act, and each carries its image live — with light and objects, in the room.</p>
     <h4>11.2.1 The arrival (top of Act One Part II)</h4>
-    <p>The convention is set, live, by the Door-keeper's placing of the chair and the Step-Daughter's holding of the bundle. No video. No "becoming." The objects are objects from the first second; the audience reads them as children by the end of the first minute, because the family does.</p>
+    <p>The convention is set, live, by Player 1's placing of the chair and the Step-Daughter's holding of the bundle. No video. No "becoming." The objects are objects from the first second; the audience reads them as children by the end of the first minute, because the family does.</p>
     <h4>11.2.2 The Step-Daughter's solo monologue (top of Act Two Part I)</h4>
     <p>She speaks the speech live, alone in the shower light, the bundle in her arms and the chair-and-coat a pace away. Tender to the bundle as if it were a four-year-old. When the script reaches the moment of the revolver, she turns to the coat hanging on the chair, takes it by the sleeve as she would have taken her brother by the arm, and pulls the revolver from its pocket. The audience does not need a screen: the speech is to the bundle and the chair, and the actor's care for both does all of the work.</p>
     <h4>11.2.3 The silhouette before the gunshot (Act Three Part III)</h4>
@@ -632,7 +632,7 @@ HTML = r"""<!DOCTYPE html>
     </ul>
 
     <h3>13.2 The radio in the wings</h3>
-    <p>Pre-show and into Act One Part I. An old French chanson, scratchy, low volume. Should feel like the company forgot to turn it off. Cuts mid-bar when the Door-keeper speaks. The cut is the cue for the production to begin.</p>
+    <p>Pre-show and into Act One Part I. An old French chanson, scratchy, low volume. Should feel like the company forgot to turn it off. Cuts mid-bar when Player 1 speaks. The cut is the cue for the production to begin.</p>
 
     <h3>13.3 The cello drone</h3>
     <p>Act Three Part I, low and sustained. The audience should feel a pulse in the room, not hear a note. Coach the operator to keep the volume below the threshold of consciousness. The drone dies on the Step-Daughter's line <em>His reality. He always knew exactly where to find me.</em></p>

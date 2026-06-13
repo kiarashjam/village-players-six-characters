@@ -67,19 +67,19 @@ PICKS = {
         ("Well then, we'll have it in the garden", "Act Three — directing the climax"),
     ],
     "Player 1": [
-        ("What a spectacle. What an absolute treat", "Act One — at the family's arrival (Leading Man)"),
-        ("It's absolutely unheard of", "Act One — outrage (Leading Man)"),
-        ("I only let them in", "Act One curtain — as Door-keeper"),
+        ("What a spectacle. What an absolute treat", "Act One — at the family's arrival"),
+        ("It's absolutely unheard of", "Act One — outrage"),
+        ("I only let them in", "Act One curtain — the man who let them in"),
     ],
     "Player 2": [
-        ("A game! For heaven's sake", "Act Two — refusing the game (Leading Lady)"),
-        ("Nobody has ever dared to laugh at me", "Act Two — wounded vanity (Leading Lady)"),
-        ("One can't hear a word", "Act Two — during the shop scene (Leading Lady)"),
+        ("A game! For heaven's sake", "Act Two — refusing the game"),
+        ("Nobody has ever dared to laugh at me", "Act Two — wounded vanity"),
+        ("One can't hear a word", "Act Two — during the shop scene"),
     ],
     "Player 3": [
-        ("This is rank madness", "Act One — at the family's arrival (Juvenile Lead)"),
-        ("I'm out of it anyway", "Act One — refusing the chaos (Juvenile Lead)"),
-        ("And he takes them seriously", "Act One — disbelief (Juvenile Lead)"),
+        ("This is rank madness", "Act One — at the family's arrival"),
+        ("I'm out of it anyway", "Act One — refusing the chaos"),
+        ("And he takes them seriously", "Act One — disbelief"),
     ],
 }
 
@@ -210,7 +210,7 @@ TEMPLATES_HEAD = f"""<!DOCTYPE html>
 """
 
 def render_template(role_name):
-    s = stats.get(role_name.replace(" (Leading Man)", "").replace(" (Door-keeper)", ""), {"speeches": 0, "words": 0})
+    s = stats.get(role_name, {"speeches": 0, "words": 0})
     # Extract tag from the portrait
     m = re.search(
         r'<h3 class="p-name">' + re.escape(role_name) + r'</h3>\s*<span class="p-tag">([^<]+)</span>',

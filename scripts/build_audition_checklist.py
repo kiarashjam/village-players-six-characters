@@ -189,21 +189,21 @@ CHARACTERS = [
     },
     {
         "role": "Player 1",
-        "tag": "one character in five hats — the Leading Man underneath (forties)",
-        "summary": "In his forties — the eldest of the Players, and the vain faded Anglo Leading Man. The role asks an actor to play five different functions (Leading Man, L'Ingénue, Door-keeper, Machinist, Third Actor) as the same man underneath, without losing the spine. Vanity as defence, with affection beneath it. He performs seniority; Player 2, younger, actually has the standing. He does not know he is funny.",
+        "tag": "one performer in many hats — the company's fading star underneath (forties)",
+        "summary": "In his forties — the eldest of the Players, and the vain faded Anglo star of the company. The role asks an actor to play many small functions (the fading star, a young woman's part, the stage door, the curtain, an odd reading line) as the same man underneath, without losing the spine. Vanity as defence, with affection beneath it. He performs seniority; Player 2, younger, actually has the standing. He does not know he is funny.",
         "sections": [
             ("Voice & breath", [
                 "Anglo-classical diction that the production can read as English-in-Lausanne",
                 "Comic timing without anticipating the laugh",
-                "Vocal flexibility across the five roles without losing the spine",
+                "Vocal flexibility across the many parts without losing the spine",
                 "Earned theatricality in the shop-scene playing — the gallantry must sound rehearsed, not improvised",
             ]),
             ("Character & text", [
-                "Plays five roles as the same man underneath — the audience reads one character, five hats",
+                "Plays many parts as the same man underneath — the audience reads one character, many hats",
                 "Vanity is defence; affection is real",
                 "Does not know he is funny",
                 "Self-correction at <em>I am through with this scene</em> reads as economic, not punchline",
-                "Available to play the Leading Man playing the Father in the shop scene without losing his own ego under the role",
+                "Available to play the fading star playing the Father in the shop scene without losing his own ego under the part",
             ]),
             ("Body & presence", [
                 "Physical specificity across the costume changes",
@@ -212,7 +212,7 @@ CHARACTERS = [
             ]),
             ("Direction-taking & range", [
                 "Takes notes about smaller — can dial vanity down without losing comedy",
-                "Available to read each of the five hats in audition (one or two short beats apiece)",
+                "Available to read several of the hats in audition (one or two short beats apiece)",
                 "Generous in scene with Player 2 in the shop-scene replay",
             ]),
         ],
@@ -220,10 +220,10 @@ CHARACTERS = [
     {
         "role": "Player 2",
         "tag": "the diva and the props (about 35)",
-        "summary": "About thirty-five — the real working professional Player 1 only impersonates; younger than him, and better at the job. The role asks for two registers in one body — the Leading Lady's wounded vanity and the Property Man's practical irritation — without losing the same woman in both.",
+        "summary": "About thirty-five — the real working professional Player 1 only impersonates; younger than him, and better at the job. The role asks for two registers in one body — the diva's wounded vanity and the props hand's practical irritation — without losing the same woman in both.",
         "sections": [
             ("Voice & breath", [
-                "Range from the diva's wounded indignation to the Property Man's quick functional dispatch",
+                "Range from the diva's wounded indignation to the props hand's quick functional dispatch",
                 "Earned vanity in the voice (not defensive vanity)",
                 "Comic timing that lands and then steps aside",
                 "Available for a Step-Daughter line read inside the shop-scene replay without parodying",
@@ -233,10 +233,10 @@ CHARACTERS = [
                 "Vanity is earned, not Player 1's defensive vanity",
                 "The wound when the Step-Daughter laughs at her attempt lands as real, not as schtick",
                 "<em>I have been made a fool of — believe me — by considerably better</em> — said meaning it",
-                "Practical, no-nonsense Property Man bearing",
+                "Practical, no-nonsense props-hand bearing",
             ]),
             ("Body & presence", [
-                "Comfortable flipping between Leading Lady and Property Man within a single scene",
+                "Comfortable flipping between the diva and the props within a single scene",
                 "Physical authority — reads as the most grounded professional in the room, not the eldest",
                 "Available for the shop-scene playing on the upper platform",
                 "Comfortable with stage objects (hats, screen, table, pegs)",
@@ -251,27 +251,27 @@ CHARACTERS = [
     {
         "role": "Player 3",
         "tag": "the youngest in the company",
-        "summary": "Early 20s, the youngest and happiest in the company — a young man or a young woman, the part fits either. Cannot believe they are paid to be in a theatre, and does a bit of everything (prompts, small parts, strikes the set, fetches props). Carries the Juvenile Lead and the Prompter, and is the audience's mirror across the second half — few lines after Act One, but a face that stays alive while watching the horror. Cast for curiosity, not naivety.",
+        "summary": "Early 20s, the youngest and happiest in the company — a young man or a young woman, the part fits either. Cannot believe they are paid to be in a theatre, and does a bit of everything (prompts, small parts, strikes the set, fetches props). Carries a young romantic part and the prompt box, and is the audience's mirror across the second half — few lines after Act One, but a face that stays alive while watching the horror. Cast for curiosity, not naivety.",
         "sections": [
             ("Voice & breath", [
-                "Earnest, open Juvenile Lead voice",
-                "Quiet, meticulous Prompter voice (slightly older, in the box)",
+                "Earnest, open young-romantic voice",
+                "Quiet, meticulous prompt-box voice (slightly older, in the box)",
                 "A young voice, slightly rising at the end of clauses — undecided, but wants you to consider it",
             ]),
             ("Character & text", [
                 "Reads younger than the rest of the company from the back row",
-                "Earnest, genuinely curious in the Juvenile Lead beats — curious, not naive",
+                "Earnest, genuinely curious in the young-romantic beats — curious, not naive",
                 "Stays present as a witness through Act Two and Three without commenting on it",
             ]),
             ("Body & presence", [
                 "Leans in when the Six speak; catches herself and colours",
-                "Comfortable with the prompter's box for extended periods",
+                "Comfortable with the prompt box for extended periods",
                 "The face does the work in the second half — alive while watching",
             ]),
             ("Direction-taking & range", [
                 "Takes the single redirection and shifts cleanly",
                 "Can play earnestness without tipping into cuteness",
-                "Available to read both the Juvenile Lead and Prompter beats in audition",
+                "Available to read both the young-romantic and prompt-box beats in audition",
             ]),
         ],
     },

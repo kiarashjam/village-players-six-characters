@@ -312,7 +312,7 @@ HTML = r"""<!DOCTYPE html>
 
     <div class="solo">
       <p class="solo-label">Three-sentence solo &nbsp;·&nbsp; read alone</p>
-      <p class="solo-text">"I came in this morning to rehearse Pirandello — which my Leading Man already considers a personal affront — and now six strangers in mourning have walked onto my stage to ask, very politely, whether I will put their family on at the weekend. I keep looking at my watch, and the watch insists we are still in the same minute we were in twenty minutes ago, which is, in my professional view, the technical definition of a bad day for a working director. I have a wife expecting me home at a reasonable hour, an electrician I have not paid since the summer, and a Leading Man currently arguing with me about a cook's cap — and yet, against every instinct I have learned in thirty years of this trade, I find I have not thrown them out."</p>
+      <p class="solo-text">"I came in this morning to rehearse Pirandello — which my senior actor already considers a personal affront — and now six strangers in mourning have walked onto my stage to ask, very politely, whether I will put their family on at the weekend. I keep looking at my watch, and the watch insists we are still in the same minute we were in twenty minutes ago, which is, in my professional view, the technical definition of a bad day for a working director. I have a wife expecting me home at a reasonable hour, an electrician I have not paid since the summer, and a senior actor currently arguing with me about a cook's cap — and yet, against every instinct I have learned in thirty years of this trade, I find I have not thrown them out."</p>
     </div>
 
     <div class="listen">
@@ -327,18 +327,18 @@ HTML = r"""<!DOCTYPE html>
 
   <section class="role">
     <div class="role-head">
-      <h2>Player 1 — the Leading Man</h2>
+      <h2>Player 1</h2>
       <p class="role-tag">vain, faded, defensive, and entirely sincere</p>
     </div>
 
     <h3>Look</h3>
-    <p><strong>In his forties.</strong> Looks like a Leading Man who has been a Leading Man for too long — old enough to have been promised a career, young enough that the failure still stings. There is a smartness to him that is half real and half rehearsed. Costume: working clothes of a working actor, but slightly more groomed than the others — collar a bit crisper, hair a bit more arranged. The vanity shows. For the functions he doubles into (the cook's cap, the Door-keeper's cap, L'Ingénue), <strong>the change of hat is the only costume change.</strong> The body remains him.</p>
+    <p><strong>In his forties.</strong> Looks like a star who has been a star for too long — old enough to have been promised a career, young enough that the failure still stings. There is a smartness to him that is half real and half rehearsed. Costume: working clothes of a working actor, but slightly more groomed than the others — collar a bit crisper, hair a bit more arranged. The vanity shows. For the functions he doubles into (the cook's cap, the stage-door cap, the young woman's part), <strong>the change of hat is the only costume change.</strong> The body remains him.</p>
 
     <h3>Behaviour</h3>
-    <p>Vain, faded, defensive, and entirely English in a city that has not given him the career he was promised. He came to Lausanne fifteen years ago believing it was a stepping stone to Paris. Paris did not happen. London does not call. Name-drops productions from years ago that nobody remembers, and one production he was <em>nearly</em> cast in, which was almost the West End. <strong>Believes he is the senior actor in the company.</strong> He is the eldest of the Players, and he performs seniority at every opportunity — but the real standing in the room is Player 2's, who is younger than he is and better than he ever was, a fact he never quite forgives her. Plays five functions, all of them as himself in different hats: the Door-keeper still has his self-importance; the Machinist still has his opinions; L'Ingénue is the joke he doesn't quite get is on him.</p>
+    <p>Vain, faded, defensive, and entirely English in a city that has not given him the career he was promised. He came to Lausanne fifteen years ago believing it was a stepping stone to Paris. Paris did not happen. London does not call. Name-drops productions from years ago that nobody remembers, and one production he was <em>nearly</em> cast in, which was almost the West End. <strong>Believes he is the senior actor in the company.</strong> He is the eldest of the Players, and he performs seniority at every opportunity — but the real standing in the room is Player 2's, who is younger than he is and better than he ever was, a fact he never quite forgives her. Plays many functions, all of them as himself in different hats: the stage-door man still has his self-importance; the one who works the curtain still has his opinions; the young woman's part is the joke he doesn't quite get is on him.</p>
 
     <h3>Tone of speaking</h3>
-    <p>An Anglo English he thinks of as classical and the audience hears as just <em>English</em>. He speaks the way he imagines a Leading Man speaks. The lines stretch — he gives weight to every clause, and believes any sentence he speaks improves on contact with his voice. <em>"I'd sooner resign"</em> — said every season around the first read-through, never delivered. <strong>Play the bluff.</strong> The voice goes higher and slightly faster when he is offended. The chin goes up.</p>
+    <p>An Anglo English he thinks of as classical and the audience hears as just <em>English</em>. He speaks the way he imagines a great actor speaks. The lines stretch — he gives weight to every clause, and believes any sentence he speaks improves on contact with his voice. <em>"I'd sooner resign"</em> — said every season around the first read-through, never delivered. <strong>Play the bluff.</strong> The voice goes higher and slightly faster when he is offended. The chin goes up.</p>
 
     <h3>Coach against</h3>
     <ul>
@@ -364,15 +364,15 @@ HTML = r"""<!DOCTYPE html>
 
   <section class="role">
     <div class="role-head">
-      <h2>Player 2 — the Leading Lady</h2>
+      <h2>Player 2</h2>
       <p class="role-tag">the real working professional Player 1 only impersonates</p>
     </div>
 
     <h3>Look</h3>
-    <p><strong>About thirty-five.</strong> The bearing of the most grounded professional in the room, worn lightly — younger than Player 1, and entirely unbothered by it. Costume: working-rehearsal clothes, slightly less groomed than Player 1, because she does not need to perform standing — she has it. <strong>Shoulders down, weight forward</strong> — the bearing of someone who has been in this exact argument, with this exact Leading Man, more times than she cares to count. For the Leading Lady function: a little more put together. For the Property Man function: sleeves rolled. The flip between the two is in the bearing alone, no prop signals it.</p>
+    <p><strong>About thirty-five.</strong> The bearing of the most grounded professional in the room, worn lightly — younger than Player 1, and entirely unbothered by it. Costume: working-rehearsal clothes, slightly less groomed than Player 1, because she does not need to perform standing — she has it. <strong>Shoulders down, weight forward</strong> — the bearing of someone who has been in this exact argument, with this exact man, more times than she cares to count. In her diva register: a little more put together. With the props: sleeves rolled. The flip between the two is in the bearing alone, no prop signals it.</p>
 
     <h3>Behaviour</h3>
-    <p>Has already played leads at every house in the canton — a Marivaux at Vidy, a Beckett at the Pulloff that they still talk about. Has had drinks with the cantonal arts council. She is not the eldest in the room; she is the one who actually books the work, season after season. Her authority is in her shoulders, not her years. <strong>The diva is real, earned, and — at thirty-five — already a little tired of having to be one.</strong> The Property Man this season because the company could not afford a real one and she would not let the show open without a folding screen — she built the screen herself, out of two old flats and a hinge she bought yesterday. <strong>The wound:</strong> when she climbs onto the upper platform in Act Two to play the Step-Daughter and is laughed at by a much younger woman who has actually been through the room she is being asked to fake. The diva's posture collapses; the voice changes; she has been made a fool of by better, and she means it.</p>
+    <p>Has already played leads at every house in the canton — a Marivaux at Vidy, a Beckett at the Pulloff that they still talk about. Has had drinks with the cantonal arts council. She is not the eldest in the room; she is the one who actually books the work, season after season. Her authority is in her shoulders, not her years. <strong>The diva is real, earned, and — at thirty-five — already a little tired of having to be one.</strong> She took the props on this season because the company could not afford anyone else and she would not let the show open without a folding screen — she built the screen herself, out of two old flats and a hinge she bought yesterday. <strong>The wound:</strong> when she climbs onto the upper platform in Act Two to play the Step-Daughter and is laughed at by a much younger woman who has actually been through the room she is being asked to fake. The diva's posture collapses; the voice changes; she has been made a fool of by better, and she means it.</p>
 
     <h3>Tone of speaking</h3>
     <p><strong>Pragmatic, professional, often dry.</strong> Working-actor vocabulary — <em>rent, wage, professional, the trade.</em> Level voice; she does not raise it. The wit is real but never showy — the wit of a person making the morning tolerable. A note of weariness that has earned its place. Where Player 1 stretches every sentence to make himself important, Player 2 lands hers in the fewest syllables and moves on.</p>
@@ -382,12 +382,12 @@ HTML = r"""<!DOCTYPE html>
       <li><strong>Bitterness.</strong> Player 2 is not bitter; she is level. There is a real warmth under the dryness — coach for that.</li>
       <li><strong>Maternal warmth.</strong> She is not anyone's mother. The warmth is collegial, not parental.</li>
       <li><strong>Camping the working-actor pragmatism.</strong> The lines should sound true, not performed. The audience must believe she actually has rent to pay.</li>
-      <li><strong>Treating the Property Man role as comic relief.</strong> She does the props because she is the only person who will do them properly. She is not a clown in either register.</li>
+      <li><strong>Treating the props as comic relief.</strong> She does the props because she is the only person who will do them properly. She is not a clown in either register.</li>
     </ul>
 
     <div class="solo">
       <p class="solo-label">Three-sentence solo &nbsp;·&nbsp; read alone</p>
-      <p class="solo-text">"I have been at the Village Players for thirty-one years this season — which is, I am told, rather longer than several of the actors currently in this company have been alive, although nobody has yet had the kindness to confirm the figure for me directly. I have played leads at Vidy, at the Pulloff, at every house in this canton that still has a roof on it, and this morning I am building a folding screen out of two old flats and a hinge I bought yesterday from a shop you have never heard of, because the company can no longer afford a Property Man and I would rather build a screen than open a show without one. So when our Leading Man tells me, as he has just now, that he has <em>principles</em> about which hat he will or will not wear in Act One — well, sir, I have a hinge, a script, and a wage to earn before the end of the month, and you can perhaps imagine which of those three things I am proposing we discuss first."</p>
+      <p class="solo-text">"I have been at the Village Players for thirty-one years this season — which is, I am told, rather longer than several of the actors currently in this company have been alive, although nobody has yet had the kindness to confirm the figure for me directly. I have played leads at Vidy, at the Pulloff, at every house in this canton that still has a roof on it, and this morning I am building a folding screen out of two old flats and a hinge I bought yesterday from a shop you have never heard of, because the company can no longer afford anyone to do the props and I would rather build a screen than open a show without one. So when our senior man tells me, as he has just now, that he has <em>principles</em> about which hat he will or will not wear in Act One — well, sir, I have a hinge, a script, and a wage to earn before the end of the month, and you can perhaps imagine which of those three things I am proposing we discuss first."</p>
     </div>
 
     <div class="listen">

@@ -159,11 +159,11 @@ HTML = r"""<!DOCTYPE html>
     <h2 class="section"><span class="roman">Act One</span>The Six arrive at a rehearsal</h2>
     <p class="subheading">The theatre company is interrupted</p>
 
-    <p>The curtain rises on a working theatre company at SSA Lausanne, preparing for an evening's rehearsal. The Manager sits at his table with a script he does not particularly like — Pirandello's <em>Mixing It Up</em>, of all things. His three Players, all working actors, are getting into position. The Leading Man is complaining about being asked to wear a cook's cap in the opening scene. The Leading Lady, who is also doing the props this season because the company can no longer afford a Property Man, is building a folding screen out of two old flats and a hinge she bought yesterday. The youngest in the company, serving as Prompter, is taking dictation about the set in a shorthand she is privately a little proud of. The Manager is arguing with everyone, and behind on the morning.</p>
+    <p>The curtain rises on a working theatre company at SSA Lausanne, preparing for an evening's rehearsal. The Manager sits at his table with a script he does not particularly like — Pirandello's <em>Mixing It Up</em>, of all things. His three Players, all working actors, are getting into position. Player 1, the company's fading star, is complaining about being asked to wear a cook's cap in the opening scene. Player 2, who is also doing the props this season because the company can no longer afford anyone else, is building a folding screen out of two old flats and a hinge she bought yesterday. Player 3, the youngest in the company, taking the play down from the prompt box, is taking dictation about the set in a shorthand they are privately a little proud of. The Manager is arguing with everyone, and behind on the morning.</p>
 
     <p>For the first ten minutes, this is comedy.</p>
 
-    <p>Then the door at the back of the stage opens. The Door-keeper comes in, carrying a wooden chair. He sets the chair at the edge of the stage. He lays a folded black coat over the back of it, places a schoolboy's cap on the seat, and sets a small leather satchel on the floor by the leg. He has not yet spoken. The Manager has not yet looked up.</p>
+    <p>Then the door at the back of the stage opens. Player 1 comes in, carrying a wooden chair. He sets the chair at the edge of the stage. He lays a folded black coat over the back of it, places a schoolboy's cap on the seat, and sets a small leather satchel on the floor by the leg. He has not yet spoken. The Manager has not yet looked up.</p>
 
     <p>Behind him, four figures walk onto the stage in mourning. A man of about fifty. A heavily veiled woman beside him, her eyes downcast. A young woman in elegant black, carrying a small wrapped bundle of white cloth with a black silk sash against her shoulder. A tall young man at the back, who looks — as Pirandello specifies — as if he had come on stage against his will. The chair is the silent fourteen-year-old <strong>Boy</strong>. The bundle is the small four-year-old <strong>Child</strong>. Both are children of this family. Neither will be played by a performer. The audience reads them as the children, within the first minute, because the family does.</p>
 
@@ -192,7 +192,7 @@ HTML = r"""<!DOCTYPE html>
 
     <p>The audience watches a young woman speak with great love to a piece of cloth and with great contempt to a piece of furniture, and decides — quietly, without being asked — to believe both.</p>
 
-    <p>The shop has to be summoned. The Property Man wheels the folding screen into position. The little mahogany table is placed on the upper platform. A row of pegs is set up for hats. A small sign appears against the back wall: <em>robes et manteaux</em>. The Father takes a position outside the screen; the Step-Daughter takes a position inside.</p>
+    <p>The shop has to be summoned. Player 2 wheels the folding screen into position. The little mahogany table is placed on the upper platform. A row of pegs is set up for hats. A small sign appears against the back wall: <em>robes et manteaux</em>. The Father takes a position outside the screen; the Step-Daughter takes a position inside.</p>
 
     <p>And then, in the production's strangest single moment, something the audience does not understand for the next five seconds begins to happen.</p>
 
@@ -204,7 +204,7 @@ HTML = r"""<!DOCTYPE html>
 
     <p>And then, surprising even herself, the Mother breaks her silence for the first time in the play. She has been quiet for an act and a half. She erupts upward, from the lower floor: <em>"You old devil! You murderess!"</em> — and the voice does not stop where it usually would. She names the kitchen, the tea, the Wednesdays and Fridays and sometimes the Sundays, the silk her hands had ruined; she confesses that she half-knew, and let herself not know, because if she had known the children at home would not have eaten. She spends what she has, and the Step-Daughter calms her, and Madame Pace exits — unhurried, smiling, mentioning the girl who comes after, on Tuesday afternoons, who looks a little like her — and the Mother is restored to her silence.</p>
 
-    <p>The company's own Leading Lady and Leading Man then climb onto the upper platform and play the same scene over again as <em>theatre</em>, with the bundle and the chair-and-coat watching from below. The Step-Daughter, on the lower floor now, laughs at the working actors trying to be her. The laugh is the wound. The Leading Lady, who has played leads at every house in this canton, has been made a fool of by better, and she means it.</p>
+    <p>The company's own Player 2 and Player 1 then climb onto the upper platform and play the same scene over again as <em>theatre</em>, with the bundle and the chair-and-coat watching from below. The Step-Daughter, on the lower floor now, laughs at the working actors trying to be her. The laugh is the wound. Player 2, who has played leads at every house in this canton, has been made a fool of by better, and she means it.</p>
 
     <p>The Mother is forced to watch her daughter's worst hour staged in front of her, twice. The column of light falls on her — only on her — and the voice she found earlier with Madame Pace comes back, larger this time, the keystone of the production:</p>
 
