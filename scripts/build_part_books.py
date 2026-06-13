@@ -191,6 +191,13 @@ main.partbook { max-width: none; width: 100%; margin: 0; padding: 0; }
 footer.foot { margin-top:9mm; padding-top:4mm; border-top:1px solid var(--rule); font-size:9.5pt; color:var(--ink-soft); font-style:italic; text-align:center; }
 """
 
+SHOW_OPENING = """
+  <h2>The play, and how it begins</h2>
+  <p><strong>What it is.</strong> Pirandello's <em>Six Characters in Search of an Author</em> (1921). A theatre company's ordinary rehearsal is interrupted by six figures — a Father, a Mother, a Step-Daughter, a Son, and two silent children — who claim to be unfinished Characters, abandoned by their author, and demand that their drama be staged. The evening is the collision between their fixed, unbearable story and a working company's attempt to turn it into theatre.</p>
+  <p><strong>This production.</strong> Set in Lausanne, played by <strong>nine live performers</strong> with <strong>two stage objects</strong> in place of the two youngest children (a coat-and-chair for the Boy, a wrapped bundle for the Child), on three stripped settings — <strong>no projection, no screen</strong>. One interval, after Act One; the second half plays unbroken to the fountain.</p>
+  <p><strong>How it opens.</strong> The curtain is already up on a half-lit working stage. The Village Players are dragging themselves into a rehearsal of another Pirandello play, <em>Mixing It Up</em> — the Manager arrives tired and behind, there is the business of the cook's cap, the Players bicker. Then the working lights soften to a strange amber: the Door-keeper carries in the Boy-chair, and the four family Characters walk on, the Step-Daughter already holding the Child-bundle. From that entrance the play has begun, and it does not let go.</p>
+"""
+
 HOWTO = """
   <h2>How to read this book</h2>
   <p>Everything this role says and does, in performance order, grouped by act and by part. Each speech is preceded by a short <strong>CUE</strong> — the tail of the line before it — so you can find your entrance. Where the role doubles a function, the function is printed beside the line (<em>as Prompter</em>, and so on); chorus lines the company speaks together keep their group tag (<em>All Three Players</em>). Blocking lives in the bracketed action cues inside the speeches. The text is pulled byte-for-byte from the Director's Copy, so it always matches the current script.</p>
@@ -242,7 +249,9 @@ def render_role(role):
       <p class="company">{total_sp} speeches &middot; {total_wd} words across the play</p>
     </section>
     """
-    intro = f'<section class="intro"><h2>Who {name} is</h2><div class="portrait-body">{portrait_body}</div>{HOWTO}</section>'
+    intro = (f'<section class="intro"><h2>Who {name} is</h2>'
+             f'<div class="portrait-body">{portrait_body}</div>'
+             f'{SHOW_OPENING}{HOWTO}</section>')
     foot = (f'<footer class="foot"><strong>Village Players &middot; Lausanne</strong> &nbsp;·&nbsp; '
             f'{name} part book &nbsp;·&nbsp; lines and actions pulled from the Director\'s Copy.</footer>')
 
