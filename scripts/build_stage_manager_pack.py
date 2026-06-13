@@ -284,7 +284,7 @@ HTML = """<!DOCTYPE html>
         <tr class="act-row"><td colspan="3">Part I — The Rehearsal</td></tr>
         <tr><td class="cue-id">L01</td><td class="cue-when">Pre-show / curtain up</td><td><em>White working lights up.</em> Cold-white, fluorescent, unflattering — the light of an actual morning rehearsal.</td></tr>
         <tr><td class="cue-id">S01</td><td class="cue-when">Pre-show / curtain up</td><td>Radio in the wings — old French chanson at low volume (Aznavour's <em>La Bohème</em>, or a scratchy Piaf: <em>La Vie en rose</em>, <em>Sous le ciel de Paris</em>). Should feel like the company forgot to turn it off.</td></tr>
-        <tr class="act-row"><td colspan="3">Part II — The Family Arrives</td></tr>
+        <tr class="act-row"><td colspan="3">Part II — The Interruption</td></tr>
         <tr><td class="cue-id">L02</td><td class="cue-when">Door-keeper steps onto the stage with the chair-and-coat</td><td><em>White softens to amber / honey gold.</em> The "tenuous light" Pirandello specifies for the Six. The four live Characters walk on inside the warmth; the Step-Daughter is already carrying the wrapped bundle.</td></tr>
         <tr><td class="cue-id">S02</td><td class="cue-when">Door-keeper's first line</td><td>Radio cuts off, mid-bar.</td></tr>
         <tr><td class="cue-id">M01 (live)</td><td class="cue-when">Mid-part</td><td>Step-Daughter sings <em>Prenez garde à Tchou-Tchin-Tchou</em>. Live, unaccompanied. Not a music cue, but recorded in the prompt book.</td></tr>
@@ -300,16 +300,16 @@ HTML = """<!DOCTYPE html>
     <table class="cues">
       <thead><tr><th class="cue-id">Cue</th><th class="cue-when">When</th><th>What</th></tr></thead>
       <tbody>
-        <tr class="act-row"><td colspan="3">Part I — The Step-Daughter Alone</td></tr>
+        <tr class="act-row"><td colspan="3">Part I — The Setup</td></tr>
         <tr><td class="cue-id">L06</td><td class="cue-when">Top of Part I — Step-Daughter kneels with the bundle</td><td><em>Shower</em> falls on the Step-Daughter only. The rest of the stage drops to dark.</td></tr>
         <tr><td class="cue-id">M02 (live)</td><td class="cue-when">As L06 settles</td><td>Pianist plays Satie's <em>Gymnopédie No. 1</em> — slow, simple, once through, beneath the monologue.</td></tr>
         <tr><td class="cue-id">M02-out</td><td class="cue-when">Step-Daughter's last line</td><td>Piano dies on the word. Shower holds one breath, then releases.</td></tr>
         <tr><td class="cue-id">L06-out</td><td class="cue-when">After M02-out</td><td>Working lights up. Property Man, Machinist, and Manager begin the white-parlour set-up on the upper platform.</td></tr>
-        <tr class="act-row"><td colspan="3">Part II — Madame Pace's Aria</td></tr>
+        <tr class="act-row"><td colspan="3">Part II — The Apparition</td></tr>
         <tr><td class="cue-id">L07</td><td class="cue-when">Madame Pace materialises on the upper platform</td><td><em>Shower</em> falls on Madame Pace as she steps into it.</td></tr>
         <tr><td class="cue-id">M03 (live)</td><td class="cue-when">As Madame Pace enters the shower</td><td>Pianist begins slow Weimar-shop vamp: Weill's <em>Bilbao Song</em> at half tempo, or a vamp on Mistinguett's <em>Mon Homme</em>. Sleazy, comic-cabaret tune. Plays continuously through the aria.</td></tr>
         <tr><td class="cue-id">M03-out</td><td class="cue-when">Mother's line <em>You old devil. You murderess.</em></td><td>Piano dies on that line, mid-bar. The silence is the wound.</td></tr>
-        <tr class="act-row"><td colspan="3">Part III — The Doubled Scene and the Mother's Cry</td></tr>
+        <tr class="act-row"><td colspan="3">Part III — The Substitution</td></tr>
         <tr><td class="cue-id">M04 (live)</td><td class="cue-when">Leading Lady &amp; Leading Man take the platform</td><td>Pianist re-enters cautiously — fragments of the Madame Pace vamp, in tatters, as if rehearsing the tune badly.</td></tr>
         <tr><td class="cue-id">L08</td><td class="cue-when">Mother's line <em>It's taking place now. It happens all the time.</em></td><td><em>Shower</em> falls on the Mother — the only light in the room is the column she stands in.</td></tr>
         <tr><td class="cue-id">M04-out</td><td class="cue-when">Mother's cry begins</td><td>Piano cuts out. Does not return.</td></tr>
@@ -323,7 +323,7 @@ HTML = """<!DOCTYPE html>
       <thead><tr><th class="cue-id">Cue</th><th class="cue-when">When</th><th>What</th></tr></thead>
       <tbody>
         <tr><td class="cue-id">L10</td><td class="cue-when">Pre-show / curtain up</td><td>Stage is dark. Fountain basin lit from inside — pale blue, faintly rippling. Single bare bulb above the Manager's table, swinging slightly throughout. Performers are in silhouette around the fountain.</td></tr>
-        <tr class="act-row"><td colspan="3">Part I — The Argument over Reality</td></tr>
+        <tr class="act-row"><td colspan="3">Part I — The Trap</td></tr>
         <tr><td class="cue-id">S03</td><td class="cue-when">Top of Part I</td><td>Sustained cello drone — very low, one note, varying barely. Suggested: a sustained C in the cello's lowest register, or a low organ pedal-tone. The audience should feel a pulse in the room, not hear a note.</td></tr>
         <tr><td class="cue-id">S03-out</td><td class="cue-when">Step-Daughter's line <em>His reality. He always knew exactly where to find me.</em></td><td>Drone dies.</td></tr>
         <tr class="act-row"><td colspan="3">Part II — The Refusal</td></tr>

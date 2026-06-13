@@ -305,23 +305,23 @@ HTML = r"""<!DOCTYPE html>
     <p>Three parts.</p>
     <h4>4.1.1 Part I (The Rehearsal)</h4>
     <p>White working lights. A scratchy French chanson in the wings. The Players are rehearsing a play they do not like; the Manager is half present. The audience laughs in the first ten minutes. This is committed comedy. Do not undercut it.</p>
-    <h4>4.1.2 Part II (The Family Arrives)</h4>
+    <h4>4.1.2 Part II (The Interruption)</h4>
     <p>The Six walk on, in person, lit by the "tenuous light" Pirandello specifies. The Door-keeper carries the chair-and-coat in and sets it at the edge of the stage; the Step-Daughter is already carrying the wrapped bundle. The white working lights soften to amber. The chanson cuts off mid-bar. The play's tonal hinge is here, in the second part of the first act.</p>
     <h4>4.1.3 Part III (The Bargain)</h4>
     <p>Amber drifts slowly to deep red across the part. The Step-Daughter speaks the words <em>hundred francs</em>; the Father starts to sweat. The act ends in a low blood-coloured wash. No music. The silence is the texture; the next act is the cue.</p>
 
     <h3>4.2 Act Two — staging the unstageable</h3>
     <p>The longest act. Three parts, each anchored by a single visual device: the Step-Daughter's solo monologue in the shower light, Madame Pace's aria, and the doubled scene.</p>
-    <h4>4.2.1 Part I (The Step-Daughter Alone)</h4>
+    <h4>4.2.1 Part I (The Setup)</h4>
     <p>The Step-Daughter speaks her opening monologue live, alone on the upper platform, with the wrapped bundle in her arms and the chair-and-coat leaning a pace away. Satie's <em>Gymnopédie No. 1</em> on the pianist's piano underneath. The shower light falls on her only.</p>
-    <h4>4.2.2 Part II (Madame Pace's Aria)</h4>
+    <h4>4.2.2 Part II (The Apparition)</h4>
     <p>The piano shifts to a Weimar-shop vamp; Madame Pace steps into the shower. The aria is the production's hardest single beat: comic on arrival, chilling on exit. The piano dies on the Mother's line — <em>You old devil. You murderess.</em></p>
-    <h4>4.2.3 Part III (The Doubled Scene and the Mother's Cry)</h4>
+    <h4>4.2.3 Part III (The Substitution)</h4>
     <p>Leading Lady and Leading Man take the platform to play the shop scene as theatre. The Mother is forced to watch. The shower falls on her on her keystone line — <em>It's taking place now. It happens all the time.</em> The piano cuts on her cry. Accidental curtain.</p>
 
     <h3>4.3 Act Three — argument → refusal → fountain</h3>
     <p>The shortest act. The darkest. Three parts; the last is the play's true ending.</p>
-    <h4>4.3.1 Part I (The Argument over Reality)</h4>
+    <h4>4.3.1 Part I (The Trap)</h4>
     <p>The cello drone, low. The Father's four-stage arc on its feet. The Step-Daughter's three cuts. He ends without having won the philosophy.</p>
     <h4>4.3.2 Part II (The Refusal)</h4>
     <p>Silence. The Son refuses to play. The Father grabs his arm; a single piano note from offstage like a slap. Silence resumes.</p>

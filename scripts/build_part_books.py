@@ -41,15 +41,15 @@ ROLES = [
 ]
 
 PARTS = [
-    ("Act One", "Part I", "Part I of Act One", '<div class="part-eyebrow">Part II of Act One</div>'),
-    ("Act One", "Part II", "Part II of Act One", '<div class="part-eyebrow">Part III of Act One</div>'),
-    ("Act One", "Part III", "Part III of Act One", '<div class="curtain">— End of Act I —</div>'),
-    ("Act Two", "Part I", "Part I of Act Two", '<div class="part-eyebrow">Part II of Act Two</div>'),
-    ("Act Two", "Part II", "Part II of Act Two", '<div class="part-eyebrow">Part III of Act Two</div>'),
-    ("Act Two", "Part III", "Part III of Act Two", '<div class="curtain">— End of Act II —</div>'),
-    ("Act Three", "Part I", "Part I of Act Three", '<div class="part-eyebrow">Part II of Act Three</div>'),
-    ("Act Three", "Part II", "Part II of Act Three", '<div class="part-eyebrow">Part III of Act Three</div>'),
-    ("Act Three", "Part III", "Part III of Act Three", '<div class="curtain">Curtain.</div>'),
+    ("Act One — The Family", "Part I", "Part I of Act One", '<div class="part-eyebrow">Part II of Act One</div>'),
+    ("Act One — The Family", "Part II", "Part II of Act One", '<div class="part-eyebrow">Part III of Act One</div>'),
+    ("Act One — The Family", "Part III", "Part III of Act One", '<div class="curtain">— End of Act I —</div>'),
+    ("Act Two — The Theatre", "Part I", "Part I of Act Two", '<div class="part-eyebrow">Part II of Act Two</div>'),
+    ("Act Two — The Theatre", "Part II", "Part II of Act Two", '<div class="part-eyebrow">Part III of Act Two</div>'),
+    ("Act Two — The Theatre", "Part III", "Part III of Act Two", '<div class="curtain">— End of Act II —</div>'),
+    ("Act Three — The Question", "Part I", "Part I of Act Three", '<div class="part-eyebrow">Part II of Act Three</div>'),
+    ("Act Three — The Question", "Part II", "Part II of Act Three", '<div class="part-eyebrow">Part III of Act Three</div>'),
+    ("Act Three — The Question", "Part III", "Part III of Act Three", '<div class="curtain">Curtain.</div>'),
 ]
 
 
