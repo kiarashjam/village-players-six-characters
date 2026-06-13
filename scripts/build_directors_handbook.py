@@ -228,7 +228,7 @@ HTML = r"""<!DOCTYPE html>
     <p>Every line in the play sits inside one of these four. The Father's philosophical speeches frequently jump between them mid-sentence. The director's job is to know which level a line is operating from, and to make sure the actor knows too.</p>
 
     <h3>1.4 Why the play resists closure</h3>
-    <p>The Manager closes the play with <em>I've lost a whole day over these people. A whole day.</em> That is not catharsis. The Boy is dead, or is he. The Step-Daughter has run off, or has she. The Father is still arguing. The Mother is still grieving. The audience leaves without resolution because the play's logic does not allow resolution: a fixed character cannot resolve itself.</p>
+    <p>The Manager closes the play by looking at the empty Boy-chair, saying <em>To hell with it all,</em> and walking out. That is not catharsis. The Boy is dead, or is he. The Step-Daughter has run off, or has she. The Father is still arguing. The Mother is still grieving. The audience leaves without resolution because the play's logic does not allow resolution: a fixed character cannot resolve itself.</p>
     <p>The director's temptation is to provide what the play withholds — a clear sense of what happened, a sense of moral landing. <em>Resist this</em>. The discomfort the audience walks out with is the play. If they walk out comforted, the production has failed.</p>
   </section>
 
@@ -243,7 +243,7 @@ HTML = r"""<!DOCTYPE html>
     <h4>2.2.1 The dialect</h4>
     <p>Madame Pace speaks in Pirandello's original a Italo-Spanish mongrel meant to mark her as a foreigner doing business in Italy. Storer flattens this to a stilted broken English. The production restores the foreignness through <em>accent</em>, not vocabulary: she speaks English, but in the thick Italian-Swiss-and-French music of a woman who has run a shop in Lausanne for forty years — broken grammar on the page, the sound supplied by the actor. We do not salt her lines with foreign words; the accent is her vocal signature, the most distinct in the production.</p>
     <h4>2.2.2 The Italian rhythms</h4>
-    <p>Italian sentences pulse where English sentences plod. The Storer translation has a tendency to over-formal English ("I should much like to know") where the original is conversational and broken. The director may modernise small phrases as long as the meaning is preserved — but should leave the longer speeches alone.</p>
+    <p>Italian sentences pulse where English sentences plod. The Storer translation has a tendency to over-formal English ("I should much like to know") where the original is conversational and broken. The director may modernise small phrases, and may trim or compress the longer speeches for pace in performance, as long as the meaning and every core idea survive the cut.</p>
     <h4>2.2.3 The 1922 vocabulary</h4>
     <p>"Capital!" "By Jove!" — these are real bits of 1922 English that the production cannot keep without comedy. The director's edition has trimmed them from the working text; if any slip back in through future edits, trim them on sight.</p>
 
@@ -325,7 +325,7 @@ HTML = r"""<!DOCTYPE html>
     <h4>4.3.2 Part II (The Refusal)</h4>
     <p>Silence. The Son refuses to play. The Father grabs his arm; a single piano note from offstage like a slap. Silence resumes.</p>
     <h4>4.3.3 Part III (The Fountain)</h4>
-    <p>The basin lit pale-blue from inside. The Step-Daughter bends over the bundle in the basin while the Son narrates the drowning he could not stop. The stage lights drop, breath by breath, until only the fountain's glow and the bare bulb remain; the chair-and-coat is silhouetted behind the basin for ten seconds. Full blackout. Then, out of the dark, the gunshot. <em>"Pretence? Reality, sir, reality!"</em> The Manager walks out on the audience's own thought, said aloud: <em>"I've lost a whole day over these people. A whole day."</em> Arvo Pärt for ten seconds. Lights go.</p>
+    <p>The basin lit pale-blue from inside. The Step-Daughter bends over the bundle in the basin while the Son narrates the drowning he could not stop. The stage lights drop, breath by breath, until only the fountain's glow and the bare bulb remain; the chair-and-coat is silhouetted behind the basin for ten seconds. Full blackout. Then, out of the dark, the gunshot. <em>"Pretence? Reality, sir, reality!"</em> The Manager looks at the empty chair-and-coat, says <em>"To hell with it all,"</em> and walks out the way the audience is about to. Arvo Pärt for ten seconds. Lights go.</p>
   </section>
 
   <!-- ============================================================ -->
@@ -965,7 +965,7 @@ HTML = r"""<!DOCTYPE html>
     <p>You will spend months inside this play. By opening night the play will be inside you. Your last job, on the night, is to sit in the house and witness it as the audience does. That is not abdication; it is what the play has been waiting for.</p>
 
     <h3>27.2 The audience leaves uncomfortable, by design</h3>
-    <p>The Manager's last line — <em>I've lost a whole day over these people. A whole day.</em> — is not catharsis. The audience walks out into the Lausanne autumn carrying the play with them. Some will be angry. Some will be silent. Some will not know yet what they think. This is the production landing.</p>
+    <p>The Manager's last line — <em>To hell with it all</em>, thrown at the empty Boy-chair as he turns to leave — is not catharsis. The audience walks out into the Lausanne autumn carrying the play with them. Some will be angry. Some will be silent. Some will not know yet what they think. This is the production landing.</p>
 
     <h3>27.3 The play survives every staging</h3>
     <p>It has survived a hostile premiere in 1921, a green-spotlit Pitoëff entrance in 1923, a horror-movie Royal Court in 1963, and a century of productions in between. It will survive this one. Your job is not to honour the play. Your job is to stage it. The play will take care of itself.</p>

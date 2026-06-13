@@ -334,7 +334,7 @@ HTML = """<!DOCTYPE html>
         <tr><td class="cue-id">L10-out</td><td class="cue-when">After the ten-second hold</td><td>Full blackout. Even the fountain light cuts. Total dark.</td></tr>
         <tr><td class="cue-id">S06</td><td class="cue-when">Out of the dark — on cue</td><td>Real gunshot effect in real silence. Water sound briefly stops with it, then resumes. The gunshot comes from where the chair-and-coat is, behind the basin.</td></tr>
         <tr><td class="cue-id">L10-back</td><td class="cue-when">On the Mother's cry</td><td>Lights snap back up to the Act Three low state — fountain, bulb, basic stage wash. The Boy is never seen.</td></tr>
-        <tr><td class="cue-id">S05-out</td><td class="cue-when">Manager's closing line <em>I've lost a whole day over these people. A whole day.</em></td><td>Water sound fades.</td></tr>
+        <tr><td class="cue-id">S05-out</td><td class="cue-when">Manager's closing line <em>To hell with it all.</em></td><td>Water sound fades.</td></tr>
         <tr><td class="cue-id">M06</td><td class="cue-when">Immediately after the closing line</td><td>First phrase of Arvo Pärt's <em>Spiegel im Spiegel</em> — about ten seconds. Then lights go.</td></tr>
         <tr><td class="cue-id">L11</td><td class="cue-when">End of M06</td><td>Blackout. End of play.</td></tr>
       </tbody>
