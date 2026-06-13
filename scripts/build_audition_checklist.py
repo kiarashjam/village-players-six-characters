@@ -250,7 +250,7 @@ CHARACTERS = [
     {
         "role": "Player 3",
         "tag": "the youngest in the company",
-        "summary": "Early 20s, the youngest and happiest in the company — she cannot believe she is paid to be in a theatre, and she does a bit of everything (prompts, small parts, strikes the set, fetches props). Carries the Juvenile Lead and the Prompter, and is the audience's mirror across the second half — few lines after Act One, but a face that stays alive while watching the horror. Cast for curiosity, not naivety.",
+        "summary": "Early 20s, the youngest and happiest in the company — a young man or a young woman, the part fits either. Cannot believe they are paid to be in a theatre, and does a bit of everything (prompts, small parts, strikes the set, fetches props). Carries the Juvenile Lead and the Prompter, and is the audience's mirror across the second half — few lines after Act One, but a face that stays alive while watching the horror. Cast for curiosity, not naivety.",
         "sections": [
             ("Voice & breath", [
                 "Earnest, open Juvenile Lead voice",

@@ -98,7 +98,7 @@ SIDES = [
     {
         "role": "Player 3",
         "tag": "the youngest, and the curious one",
-        "context": "Act One, Part I — the Prompter takes the play down from the box while the Manager dictates the stage directions. The youngest in the company, eager to be useful, faintly aware she is too young for the role.",
+        "context": "Act One, Part I — the Prompter takes the play down from the box while the Manager dictates the stage directions. The youngest in the company (a young man or woman), eager to be useful, faintly aware they are too young for the role.",
         "from_speaker": "Player 3",
         "from_opener": '"Leo Gala\'s house. A curious room',
         "to_speaker": "Player 3",

@@ -264,7 +264,7 @@ SCENES = {
         ],
     },
     key("MG", "P3"): {
-        "context": "The tired Manager and the youngest member of the company, who has never seen a rehearsal turn into this and is half-afraid to admit she loves it.",
+        "context": "The tired Manager and the youngest member of the company, who has never seen a rehearsal turn into this and is half-afraid to admit they love it.",
         "lines": [
             ("PLAYER 3", "Sorry — should I still be taking all of this down? In shorthand, I mean. Only it stopped being the rehearsal quite a while ago, and I honestly wasn't sure whether to keep going."),
             ("MANAGER", "Take everything down. I don't yet know what matters in all this and what doesn't, so for the moment, as far as you are concerned, every word of it matters."),
@@ -290,7 +290,7 @@ SCENES = {
         ],
     },
     key("P1", "P3"): {
-        "context": "The senior Leading Man instructs the newest member of the company in how things 'really' work. She keeps trying to write it down.",
+        "context": "The senior Leading Man instructs the newest member of the company in how things 'really' work. They keep trying to write it down.",
         "lines": [
             ("PLAYER 1", "You are new here, so allow me to explain how a company like this one actually works. The Leading Man sets the tone. Everything and everyone else simply arranges itself around that single fact."),
             ("PLAYER 3", "Oh — does he? I rather thought that was the director's job. The setting of the tone, I mean to say."),
@@ -304,7 +304,7 @@ SCENES = {
         ],
     },
     key("P2", "P3"): {
-        "context": "The veteran and the beginner. The youngest wants every morning to mean something; the elder has made a harder, wiser peace.",
+        "context": "The seasoned professional and the beginner. The youngest wants every morning to mean something; the elder has made a harder, wiser peace.",
         "lines": [
             ("PLAYER 3", "Can I ask you something, honestly? How do you manage to stay so completely calm when the whole morning falls apart like this around us?"),
             ("PLAYER 2", "Practice, mostly. And steadily lowered expectations. If I am being truthful with you, rather more of the second of those than the first."),

@@ -191,20 +191,23 @@ footer.foot { margin-top:10mm; padding-top:4mm; border-top:1px solid var(--rule)
 
 INTRO_HTML = """
 <section class="intro">
-  <h2>Who Player 3 is</h2>
-  <p><strong>The youngest in the company, by a good ten years — early twenties, first proper season.</strong> She is the happiest person in the building; she still cannot quite believe she is being paid (a little) to spend her evenings inside a theatre. She does a bit of everything, and no job is beneath her, because all of it is theatre, and theatre is the thing she loves.</p>
-  <p>Her dominant register is <em>curious</em>. Where Player 1 has opinions and Player 2 has shoulders, Player 3 has questions. <strong>The notebook is her tell:</strong> she writes everything down — and the moment she stops writing is the moment the play has stopped being a curiosity and become something she would rather not have on record.</p>
-  <p><strong>Her arc:</strong> Act One, enthralled by the strangers and a little embarrassed by it — the one Player who says out loud that the Father <em>means</em> every word. Act Two, she stops nodding; the pencil goes still. Act Three, she is the conscience who asks whether someone should stop this, and waits, and is not answered. Her face is the audience's mirror at every horror in the second half.</p>
+  <h2>A note on casting</h2>
+  <p><strong>Player 3 may be played by a young man or a young woman — the part is written for either.</strong> This book uses <em>they</em>; once the role is cast, settle on the pronoun that fits the actor and adjust the handful of stage directions that carry it.</p>
 
-  <h2>The functions she carries</h2>
+  <h2>Who Player 3 is</h2>
+  <p><strong>The youngest in the company, by a good ten years — early twenties, first proper season.</strong> They are the happiest person in the building; they still cannot quite believe they are being paid (a little) to spend their evenings inside a theatre. They do a bit of everything, and no job is beneath them, because all of it is theatre, and theatre is the thing they love.</p>
+  <p>Their dominant register is <em>curious</em>. Where Player 1 has opinions and Player 2 has shoulders, Player 3 has questions. <strong>The notebook is their tell:</strong> they write everything down — and the moment they stop writing is the moment the play has stopped being a curiosity and become something they would rather not have on record.</p>
+  <p><strong>Their arc:</strong> Act One, enthralled by the strangers and a little embarrassed by it — the one Player who says out loud that the Father <em>means</em> every word. Act Two, they stop nodding; the pencil goes still. Act Three, they are the conscience who asks whether someone should stop this, and waits, and is not answered. Their face is the audience's mirror at every horror in the second half.</p>
+
+  <h2>The functions they carry</h2>
   <ul class="funcs">
-    <li><strong>Juvenile Lead</strong> — eager, slightly ridiculous; she has been told she has "stage presence" and heard it as a promise.</li>
-    <li><strong>Prompter</strong> — in the wooden box, frowning at the draught and the shorthand, pleased to be useful, compensating for her youth with seriousness.</li>
-    <li><strong>An Actor</strong> and the <strong>Fifth Actor</strong> — she reads the small parts clean, no pretension, and looks to Player 2 to check she did it right.</li>
+    <li><strong>Juvenile Lead</strong> — eager, slightly ridiculous; told they have "stage presence" and heard it as a promise.</li>
+    <li><strong>Prompter</strong> — in the wooden box, frowning at the draught and the shorthand, pleased to be useful, compensating for their youth with seriousness.</li>
+    <li><strong>An Actor</strong> and the <strong>Fifth Actor</strong> — they read the small parts clean, no pretension, and look to Player 2 to check they did it right.</li>
   </ul>
 
   <h2>How to read this book</h2>
-  <p>Everything Player 3 says and does, in performance order, grouped by act and by part. Each of her speeches is preceded by a short <strong>CUE</strong> — the tail of the line before hers — so you can find your entrance. The function she is in (<em>as Prompter</em>, <em>as Juvenile Lead</em>) is printed beside each line. Her blocking lives in the bracketed action cues inside her speeches. The text is pulled byte-for-byte from the Director's Copy, so it always matches the current script.</p>
+  <p>Everything Player 3 says and does, in performance order, grouped by act and by part. Each of their speeches is preceded by a short <strong>CUE</strong> — the tail of the line before theirs — so you can find your entrance. The function they are in (<em>as Prompter</em>, <em>as Juvenile Lead</em>) is printed beside each line. Their blocking lives in the bracketed action cues inside the speeches. The text is pulled byte-for-byte from the Director's Copy, so it always matches the current script.</p>
 </section>
 """
 
@@ -236,7 +239,7 @@ def render():
             meta = (f'<div class="part-meta">Player 3 here &middot; {n_sp} '
                     f'{"speech" if n_sp == 1 else "speeches"} &middot; {n_wd} words &middot; {funcs}</div>')
         else:
-            meta = '<div class="part-meta none">Player 3 does not speak in this part — she is on the floor with the company, watching.</div>'
+            meta = '<div class="part-meta none">Player 3 does not speak in this part — they are on the floor with the company, watching.</div>'
 
         body = []
         for e in entries:
