@@ -78,6 +78,7 @@ _ACTION_DROP = {
     "interpreting the rising anger of the Company",
     "the threat empty; both of them know it",
     "the only continuous sentence he gives the room; he tells it because he cannot keep it inside any longer",
+    "the word arrives before he can stop it",
 }
 
 # Directions trimmed to their playable part (the psychological gloss removed).
@@ -110,6 +111,8 @@ _ACTION_TRIM = {
         "the diva fully present",
     "the voice short again now, as if she has spent what she had":
         "the voice short again now",
+    "The room hears the word \"naturally\". He does not look up.":
+        "He does not look up.",
 }
 
 _ACTION_DROP_N = {_norm(k) for k in _ACTION_DROP}
@@ -126,10 +129,15 @@ def simplify_stage_directions(soup):
         key = _norm(inner)
         if key in _ACTION_DROP_N:
             prev = span.previous_sibling
+            nxt = span.next_sibling
             span.decompose()
-            # tidy the lone space left between the speaker and the dialogue
             if isinstance(prev, NavigableString) and str(prev).strip() == "":
+                # lone space between speaker and the following ". dialogue"
                 prev.extract()
+            elif (isinstance(prev, NavigableString) and isinstance(nxt, NavigableString)
+                  and str(prev).endswith(" ") and str(nxt).startswith(" ")):
+                # mid-sentence drop: collapse the seam so no double space is left
+                nxt.replace_with(str(nxt)[1:])
             seen.add(key)
         elif key in _ACTION_TRIM_N:
             span.clear()
