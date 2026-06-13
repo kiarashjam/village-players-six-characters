@@ -2,14 +2,14 @@
 """Build the Audition Briefing PDF.
 
 A director's briefing for the audition room — one page per speaking role
-for all eight (Father, Mother, Step-Daughter, Son, Manager, Player 1,
-Player 2, Player 3). Each page gives the look, the behaviour, the tone of
-speaking, what to coach against, plus a three-sentence solo monologue
-the auditioner can read alone, and a "what to listen for" note for the
-director's ear.
+for all nine (Father, Mother, Step-Daughter, Son, Manager, Player 1,
+Player 2, Player 3, Madame Pace). Each page gives the look, the
+behaviour, the tone of speaking, what to coach against, plus a
+three-sentence solo monologue the auditioner can read alone, and a
+"what to listen for" note for the director's ear.
 
-For Player 3, includes a short Madame Pace transformation test on the
-same page.
+Madame Pace is a Character carried by her own performer; her page
+includes the accent-and-ledger test that finds the role.
 """
 import os
 from pathlib import Path
@@ -97,14 +97,6 @@ HTML = r"""<!DOCTYPE html>
                           margin: 0 0 2mm 0; }
   .listen p { margin: 0; font-size: 10.5pt; line-height: 1.6; }
 
-  /* Madame Pace mini-card on Player 3's page */
-  .pace-card { border-top: 1px dashed var(--rule);
-               margin-top: 5mm; padding-top: 4mm;
-               page-break-inside: avoid; }
-  .pace-card .pace-label { font-family:'Cormorant Unicase',serif; font-weight: 600;
-                           font-size: 9pt; letter-spacing: 0.20em;
-                           text-transform: uppercase; color: var(--accent);
-                           margin: 0 0 2mm 0; }
 
   footer.foot { margin-top: 9mm; padding-top: 4mm;
                 border-top: 1px solid var(--rule);
@@ -117,7 +109,7 @@ HTML = r"""<!DOCTYPE html>
 <main>
 
   <div class="masthead">
-    <p class="eyebrow">Audition Briefing &nbsp;·&nbsp; All Eight Speaking Roles</p>
+    <p class="eyebrow">Audition Briefing &nbsp;·&nbsp; All Nine Speaking Roles</p>
     <h1>Six Characters<br>in Search of an Author</h1>
     <p class="play">Sei personaggi in cerca d'autore &nbsp;·&nbsp; Pirandello, trans. Storer 1922</p>
     <p class="credit">A Village Players production &nbsp;·&nbsp; Lausanne &nbsp;·&nbsp; late autumn 2026</p>
@@ -126,14 +118,14 @@ HTML = r"""<!DOCTYPE html>
 
   <section class="intro">
     <h2>What this is</h2>
-    <p>A director's briefing for the audition room, covering all eight speaking roles in the order they appear in the Director's Copy: <strong>the Father, the Mother, the Step-Daughter, the Son, the Manager, Player 1, Player 2, and Player 3</strong>. For each role, one page: what the character should look like, how they should behave, the tone of speaking, what to coach against — and a <strong>three-sentence solo monologue</strong> the auditioner can read alone, cold or prepared. Each solo is written to show the character's whole personality in a minute or less. (The Boy and the Child are stage objects, not played by performers; they are not auditioned.)</p>
+    <p>A director's briefing for the audition room, covering all nine speaking roles in the order they appear in the Director's Copy: <strong>the Father, the Mother, the Step-Daughter, the Son, the Manager, Player 1, Player 2, Player 3, and Madame Pace</strong>. For each role, one page: what the character should look like, how they should behave, the tone of speaking, what to coach against — and a <strong>three-sentence solo monologue</strong> the auditioner can read alone, cold or prepared. Each solo is written to show the character's whole personality in a minute or less. (The Boy and the Child are stage objects, not played by performers; they are not auditioned.)</p>
 
     <h2>How to use it in the room</h2>
     <ul>
       <li><strong>Prepared first.</strong> Let the auditioner read the solo once as they have prepared it. Do not interrupt.</li>
       <li><strong>One adjustment, then read it again.</strong> A single redirection — "play it quieter"; "play the third sentence as if you were telling it to your closest friend"; "start it as if you have just walked in" — tells you more about their range than the first read does.</li>
       <li><strong>Watch the body, not just the voice.</strong> Where does the chin go on a vain line? Where does the breath shorten on a shameful one? Does the auditioner stay still during a silence, or fill it?</li>
-      <li><strong>For Player 3, optionally</strong>, the page also includes a short Madame Pace transformation test. Run it only if the auditioner is in contention for the role — that one tells you whether the transformation is in them.</li>
+      <li><strong>For Madame Pace</strong>, the page includes an accent-and-ledger test: the same lines read twice — once for the accent, once for the cold underneath it. That second reading is the one that finds the role.</li>
     </ul>
 
     <p>These solos are not from the play itself. They are short audition pieces composed for this audition only, in each character's voice as written in the Director's Copy. They will not be performed in the production.</p>
@@ -407,8 +399,8 @@ HTML = r"""<!DOCTYPE html>
 
   <section class="role">
     <div class="role-head">
-      <h2>Player 3 — the youngest, and Madame Pace</h2>
-      <p class="role-tag">curious, leaning in — and the transformation</p>
+      <h2>Player 3 — the youngest in the company</h2>
+      <p class="role-tag">curious, leaning in, the audience's mirror</p>
     </div>
 
     <h3>Look as Player 3</h3>
@@ -424,7 +416,7 @@ HTML = r"""<!DOCTYPE html>
     <ul>
       <li><strong>Becoming a generic ingenue.</strong> She is curious, not naive. There is a difference.</li>
       <li><strong>Cuteness.</strong> She is earnest. Earnestness reads as serious when it is not performed.</li>
-      <li><strong>Treating the Madame Pace transformation as a costume change only.</strong> The youngest body in the room becomes the most frightening one in it. That is the role's range.</li>
+      <li><strong>Disappearing in the second half.</strong> She has few lines after Act One, but her face is the audience's mirror at every horror. Cast someone who stays alive while watching.</li>
     </ul>
 
     <div class="solo">
@@ -437,13 +429,42 @@ HTML = r"""<!DOCTYPE html>
       <p>Young, clear, slightly rising at the end of clauses — the voice of someone who has not decided yet, but wants you to consider it. Resist the urge (theirs or yours) to make her a generic ingenue: she is <strong>curious</strong>, not naive. The audition value is in the last line: can the auditioner <em>promise</em> without becoming cute?</p>
     </div>
 
-    <div class="pace-card">
-      <p class="pace-label">Optional &nbsp;·&nbsp; Madame Pace transformation test</p>
-      <p>Run this only if the auditioner is in contention for the role. Ask them to read the following lines aloud — <strong>twice</strong>: first in the thick accent of a foreigner running a shop in Lausanne — Italian-Swiss and French worn into her English, the speech of a woman who has lived here too long to sound native and not long enough to lose her first tongue; then a second time, in the same voice, but <strong>calmly, smiling, as if reading a column of figures in a ledger.</strong></p>
-      <div class="solo" style="margin-top:3mm;">
-        <p class="solo-text">"My dear — you come back to me. I knew you come back. The young ones, they always come back to Madame Pace, sooner or later, one way or another way. He clean. He polite. He pay cash. The book, you understand, it must balance. Francs do not lie. People — people lie all day long."</p>
-      </div>
-      <p style="margin-top:3mm; font-size: 10.5pt;"><strong>What to listen for:</strong> the accent is the gateway, not the role. The first reading tests whether they can carry the accent without flinching. The second reading tests whether they can be <em>cold</em> inside the comedy — the bookkeeping smile that makes the audience regret having laughed at her first line. If the second reading frightens you a little, you have your Madame Pace.</p>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- MADAME PACE                                                  -->
+  <!-- ============================================================ -->
+
+  <section class="role">
+    <div class="role-head">
+      <h2>Madame Pace — the businesswoman of shame</h2>
+      <p class="role-tag">comic on arrival, chilling on exit — a Character, her own performer</p>
+    </div>
+
+    <h3>Look</h3>
+    <p><strong>Indeterminate middle age — read as older than the company.</strong> Fat, bleach-blonde, rouged and powdered, dressed with a comical elegance in black silk, a long silver chain at the waist ending in a pair of scissors. An Italian-Swiss immigrant who has run an atelier off the rue de Bourg long enough to half-forget her first language and never quite learn her second. She is not played by one of the Players — she is a Character of her own, conjured onto the stage in Act Two by its very arrangement (the hats on the pegs, the shop window, the folding screen). The actor walks through the upstage door and is simply <em>there</em>, as if she had always been.</p>
+
+    <h3>Behaviour</h3>
+    <p><strong>A hostess at her own front door, all evening.</strong> Pleased to be here, generous with the smile, never hurried, never loud. Her danger is that she is calm. She does not threaten; she keeps accounts. The comedy of the accent is the entrance; the bookkeeping is the body of her. <strong>Arc inside one scene:</strong> the room laughs at her first line and is disgusted with itself for having laughed by her last — and the smile never drops, only what she is saying changes.</p>
+
+    <h3>Tone of speaking</h3>
+    <p>A thick accent — Italian-Swiss and French both worn into her English, the speech of a woman who has lived in Lausanne too long to sound native and not long enough to lose her first tongue. Warm, smiling, practical. The cold is in the content, never in the volume. Phrases that land for her: <em>"I am a good woman, sir." "He clean. He polite. He pay cash." "Pace, she always balance the book."</em></p>
+
+    <h3>Coach against</h3>
+    <ul>
+      <li><strong>An accent joke.</strong> The accent is the gateway, not the role. If she is only funny, she has not done her job.</li>
+      <li><strong>Menace played loud.</strong> She never raises her voice. The chill comes from the smile staying exactly where it was.</li>
+      <li><strong>Dropping the comedy too early.</strong> Play the comedy at full strength on arrival so the turn has something to turn from.</li>
+    </ul>
+
+    <div class="solo">
+      <p class="solo-label">Three-sentence solo &nbsp;·&nbsp; read alone</p>
+      <p class="solo-text">"Good morning, good morning, sir — so sorry I am late, the trams in this town, always the same, but here I am, here I am, and Madame Pace she never disappoint a customer. I am a good woman, sir — forty years in this canton and never one bad word about Pace — only, you understand, the lady over there she ruin the silk again, the third time this month, and silk you no pay with the tears, somebody must pay, the mother she pay with the hands or the little one she pay, eh, either way the book she balance. I no wanta be hard — I never wanta be hard — but the polite ones, sir, the ones who keep the count, we are the ones who are still here at the end; the rest, they only weep, and weeping, you will find, it pay nobody nothing."</p>
+    </div>
+
+    <div class="listen">
+      <p class="listen-label">What to listen for</p>
+      <p>Read it twice. First for the accent — can the auditioner carry it without flinching, without apologising for it? Then again, in the same voice but <strong>calm, smiling, as if reading a column of figures in a ledger</strong>. The second reading is the test: can they be <em>cold</em> inside the comedy — the bookkeeping smile that makes the room regret having laughed? If the second reading frightens you a little, you have your Madame Pace.</p>
     </div>
   </section>
 

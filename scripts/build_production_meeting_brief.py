@@ -156,7 +156,7 @@ HTML = r"""<!DOCTYPE html>
     <dl>
       <dt>The play</dt><dd>Pirandello's 1921 metatheatrical drama. Three acts, three parts per act. Runs roughly two hours plus two intervals.</dd>
       <dt>The concept</dt><dd>A working theatre company is interrupted by six characters demanding to be staged. Comedy in the first half-hour; shame and tragedy by the end. Minimalist, near-black-box; light and music carry the weather.</dd>
-      <dt>On stage</dt><dd>Eight live performers (Father, Mother, Step-Daughter, Son, Manager, Players 1 / 2 / 3) plus a credited pianist for Act Two.</dd>
+      <dt>On stage</dt><dd>Nine live performers (Father, Mother, Step-Daughter, Son, Manager, Players 1 / 2 / 3, and Madame Pace) plus a credited pianist for Act Two.</dd>
       <dt>Stage objects</dt><dd>The Boy is a wooden chair with a coat; the Child is a wrapped bundle of cloth. Two of the six "characters" are objects, not performers.</dd>
       <dt>Settings</dt><dd>Three stripped settings — the rehearsal room (Act I), the dressmaker's shop with a two-level set (Act II), the garden with a fountain (Act III).</dd>
       <dt>Special elements</dt><dd>A tight "shower" light special; a water fountain lit from inside; a single bare hanging bulb that swings; a gunshot; an on-stage upright piano. No projection, no screen.</dd>
@@ -388,16 +388,16 @@ HTML = r"""<!DOCTYPE html>
   </section>
 
   <section>
-    <h2>13. Costume &amp; the Madame Pace transformation</h2>
+    <h2>13. Costume &amp; Madame Pace</h2>
     <h3>What I need</h3>
     <ul class="need">
       <li>Mourning costume for the four Characters; the Mother's heavy widow's veil; the Players' working-rehearsal clothes; Madame Pace's wig, black silk, and silver chain.</li>
-      <li>An on-stage transformation: Player 3 becomes Madame Pace in view of the audience.</li>
+      <li>Madame Pace is a Character carried by her own performer — no longer doubled by a Player, and no on-stage quick change. She enters through the upstage door already in costume, conjured by the magic of the stage.</li>
     </ul>
     <h3>What to ask</h3>
     <ul class="ask">
       <li>Who designs and sources costume, and against what deadline?</li>
-      <li>How is the Madame Pace transformation staged — where, how fast, with what help?</li>
+      <li>Where does Madame Pace dress and wait for her Act Two entrance, and who cues her through the upstage door?</li>
       <li>Do we need a dresser for the run?</li>
       <li>Who launders and maintains costume across the run?</li>
     </ul>

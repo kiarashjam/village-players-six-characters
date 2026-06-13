@@ -195,7 +195,7 @@ HTML = r"""<!DOCTYPE html>
 
     <p>And then, in the production's strangest single moment, something the audience does not understand for the next five seconds begins to happen.</p>
 
-    <p>The youngest in the company — who has been keeping shorthand all evening from her box on the lower floor — steps out of the box. She walks up to the platform without looking at anyone. She enters a wig. She enters a corset. She enters a heavy black silk dress and a long silver chain at her waist ending in a pair of scissors. She is no longer the youngest in the company. She is <strong>Madame Pace</strong>, who has been keeping a small dressmaker's shop in Lausanne for forty years, and the front door has rung, and a new customer is here.</p>
+    <p>A door opens at the back of the upper platform, and a woman who was not there a moment ago walks through it. No one called her; no one in the company can say how she came. She is <strong>Madame Pace</strong> — conjured onto the stage by its very arrangement, by the hats on the pegs and the shop window and the folding screen — carried by her own performer, in a wig and a heavy black silk dress and a long silver chain at her waist ending in a pair of scissors. She has been keeping a small dressmaker's shop in Lausanne for forty years, and the front door has rung, and a new customer is here.</p>
 
     <p>She speaks half in Italian, half in French — the broken speech of a foreigner who has lived in this town too long to speak the language properly, and not long enough to forget her first. The audience laughs at her first line. <em>Cara. You come back to me. I knew you come back.</em> The laughter sounds, in the room, like a small accident the audience cannot afterwards explain.</p>
 

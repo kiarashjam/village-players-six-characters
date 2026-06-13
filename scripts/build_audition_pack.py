@@ -2,7 +2,7 @@
 """Build the unified Audition PDF.
 
 Produces a single PDF with:
-  1. A cover and intro (production concept, the eight performers, the
+  1. A cover and intro (production concept, the nine performers, the
      stage objects, role list, how to audition).
   2. One section per role with an audition side pulled byte-identically
      from the play HTML — a real stretch of consecutive dialogue from
@@ -96,12 +96,21 @@ SIDES = [
         "to_opener": "I am not going to stand here being made a fool of",
     },
     {
-        "role": "Player 3 / Madame Pace",
-        "tag": "the youngest, and Madame Pace",
-        "context": "Act Two, Part II — Madame Pace materialises on the platform. She arrives comic, exits chilling. Player 3 enters her costume the way an apparition enters a body.",
+        "role": "Player 3",
+        "tag": "the youngest, and the curious one",
+        "context": "Act One, Part I — the Prompter takes the play down from the box while the Manager dictates the stage directions. The youngest in the company, eager to be useful, faintly aware she is too young for the role.",
         "from_speaker": "Player 3",
-        "from_opener": "Good morning, good morning, sir",
+        "from_opener": '"Leo Gala\'s house. A curious room',
         "to_speaker": "Player 3",
+        "to_opener": "Pardon sir, may I get into my box",
+    },
+    {
+        "role": "Madame Pace",
+        "tag": "the businesswoman of shame",
+        "context": "Act Two, Part II — Madame Pace materialises on the platform, conjured by the magic of the stage. She arrives comic, exits chilling. Her own performer carries the whole arc inside one scene.",
+        "from_speaker": "Madame Pace",
+        "from_opener": "Good morning, good morning, sir",
+        "to_speaker": "Madame Pace",
         "to_opener": "Yes yes, of course. I go. I go",
     },
 ]
@@ -288,7 +297,7 @@ INTRO_HTML = """
   <h2>About the production</h2>
   <p>This is a director's edition of Pirandello's 1921 play, performed by the Village Players of Lausanne — an English-speaking amateur company based at SSA Lausanne. The text is the Storer 1922 translation, modernised throughout and anchored locally: the Players speak as expat actors in the canton; Madame Pace runs her atelier off the rue de Bourg; the Manager is on a deadline he is already losing.</p>
 
-  <p>The production is built for <strong>eight live performers, two stage objects, and three stripped settings</strong> — no projection, no video, no screen. Four actors play the family (Father, Mother, Step-Daughter, Son); one plays the Manager; three "Players" cover the dozen company roles (Leading Man, Leading Lady, Juvenile Lead, Prompter, Property Man, Door-keeper, Machinist, L'Ingénue, and the rest), with Player 3 also becoming Madame Pace when she materialises.</p>
+  <p>The production is built for <strong>nine live performers, two stage objects, and three stripped settings</strong> — no projection, no video, no screen. Four actors play the family (Father, Mother, Step-Daughter, Son); one plays the Manager; three "Players" cover the dozen company roles (Leading Man, Leading Lady, Juvenile Lead, Prompter, Property Man, Door-keeper, Machinist, L'Ingénue, and the rest); and one plays Madame Pace, the Character conjured onto the stage in Act Two, carried by her own performer.</p>
 
   <h3>Two stage objects</h3>
   <p>The <strong>Boy</strong> (in Pirandello, a silent fourteen-year-old) is, in this production, a wooden chair with a black coat folded over its back, a schoolboy's cap on the seat, and a small leather satchel at the chair leg. He is not played by a performer. The Door-keeper sets the chair at the edge of the stage as the Six walk on, and the family treats it as the Boy from that moment forward. Where the Step-Daughter seizes him or pushes him forward, she handles the chair and the coat. Where she pulls a revolver from his pocket, she pulls it from the coat hanging on the chair.</p>
@@ -299,7 +308,7 @@ INTRO_HTML = """
   <p>Act One — a bare stage with a circle of chairs. Act Two — a two-level set; the upper platform is where the family's drama is rehearsed, the lower floor is everywhere else. Act Three — a single short fountain basin centre stage, the Boy-chair moved behind it, otherwise empty.</p>
 
   <h3>What we are casting for</h3>
-  <p>Tone matters more than type. The Characters — Father, Mother, Step-Daughter, Son — must feel timeless, serious, almost ghost-like. The Players — Manager, Player 1, Player 2, Player 3 — must feel modern, local, alive, like a real Village Players rehearsal that has been invaded by a tragedy. The contrast between the two worlds is the production. We are not casting types; we are casting voices that can hold one of those two registers cleanly.</p>
+  <p>Tone matters more than type. The Characters — Father, Mother, Step-Daughter, Son — must feel timeless, serious, almost ghost-like. The Players — Manager, Player 1, Player 2, Player 3 — must feel modern, local, alive, like a real Village Players rehearsal that has been invaded by a tragedy. The contrast between the two worlds is the production. <strong>Madame Pace</strong> is the production's one hybrid — a Character, but a comic-grotesque one who turns chilling; cast her for an actor who can hold both ends of that arc inside a single scene. We are not casting types; we are casting voices that can hold one of those registers cleanly.</p>
 </section>
 """
 
@@ -331,7 +340,14 @@ ROLE_LIST_HTML = """
       <li><span class="role-name">The Manager</span><span class="role-sub">a Lausanne theatre veteran on a deadline; cynicism is technique, compassion is real</span></li>
       <li><span class="role-name">Player 1</span><span class="role-sub">Leading Man · L'Ingénue · Door-keeper · Machinist · Third Actor — one character in five hats; the faded Anglo Leading Man</span></li>
       <li><span class="role-name">Player 2</span><span class="role-sub">Leading Lady · Property Man · Fourth Actor · Second Lady Lead — the veteran character actress; the diva and the props in one body</span></li>
-      <li><span class="role-name">Player 3</span><span class="role-sub">Juvenile Lead · Prompter · Madame Pace · An Actor · Fifth Actor — the youngest, with the most theatrical transformation; comic on entry, chilling on exit</span></li>
+      <li><span class="role-name">Player 3</span><span class="role-sub">Juvenile Lead · Prompter · An Actor · Fifth Actor — the youngest in the company; curious, eager, the audience's mirror in the second half</span></li>
+    </ul>
+  </div>
+
+  <div class="group">
+    <h3>The conjured Character &nbsp;·&nbsp; live performer</h3>
+    <ul>
+      <li><span class="role-name">Madame Pace</span><span class="role-sub">the businesswoman of shame, summoned onto the stage in Act Two by its own arrangement — the production's most theatrical role; comic on entry, chilling on exit. Her own performer.</span></li>
     </ul>
   </div>
 </section>
@@ -354,6 +370,7 @@ HOW_TO_AUDITION_HTML = """
   <ul>
     <li>For the four <strong>Characters</strong> (Father, Mother, Step-Daughter, Son): can you hold a register that is serious without being heavy? Tragic without being theatrical? Can you let the play come through you, rather than perform it?</li>
     <li>For the <strong>Manager</strong> and <strong>Players</strong> (1, 2, 3): can you carry a working rehearsal-room voice — local, modern, amateur in the best sense — and let the tragedy in the room change your face without you commenting on it?</li>
+    <li>For <strong>Madame Pace</strong>: can you make a room laugh on your entrance and regret it by your exit — the accent at full strength, the bookkeeping underneath it colder than the accent is funny — without ever dropping the smile?</li>
   </ul>
 
   <h3>Optional</h3>
@@ -397,7 +414,6 @@ def build():
     sections = []
     for side in SIDES:
         # Portrait — the full character description from the play HTML.
-        # Some entries (Player 3 / Madame Pace) need a single name for portrait lookup.
         portrait_name = side["role"].split(" / ")[0]
         tag, portrait_body = extract_portrait(portrait_name)
         if not portrait_body:
