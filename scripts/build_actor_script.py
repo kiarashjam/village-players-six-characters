@@ -54,6 +54,96 @@ PRODUCTION_NOTE = """
 """
 
 
+# ---------------------------------------------------------------------------
+# Actor-script stage-direction policy
+# ---------------------------------------------------------------------------
+# The Director's Copy keeps every stage direction in full, including the
+# interpretive / psychological notes (why a beat lands, the audience effect,
+# an actor's arc). Those are a director's-notebook layer. In the actor
+# rehearsal script we keep only the playable part: trim the gloss off a
+# direction, or drop one that is wholly interpretive. The Director's Copy
+# source is never touched — this lives only in the actor build.
+
+def _norm(s):
+    """Normalise quotes, dashes and whitespace for robust matching."""
+    for a, b in (("’", "'"), ("‘", "'"), ("“", '"'),
+                 ("”", '"'), ("—", "-"), ("–", "-")):
+        s = s.replace(a, b)
+    return " ".join(s.split()).strip()
+
+
+# Wholly interpretive directions — dropped from the actor script entirely.
+_ACTION_DROP = {
+    "the audience's confusion, on stage",
+    "interpreting the rising anger of the Company",
+    "the threat empty; both of them know it",
+    "the only continuous sentence he gives the room; he tells it because he cannot keep it inside any longer",
+}
+
+# Directions trimmed to their playable part (the psychological gloss removed).
+_ACTION_TRIM = {
+    "stung; it lands because it is half true":
+        "stung",
+    "he is sweating, very slightly, and trying to keep it from being read; the recovery is visible, that is the trouble":
+        "he is sweating, very slightly, and trying to keep it from being read",
+    "He says the line straight — no commentary, no irony, the audience's own thought said aloud by their proxy before they can say it themselves. He turns and leaves the stage the way a man leaves a theatre.":
+        "He says the line straight. He turns and leaves the stage the way a man leaves a theatre.",
+    "He stands. He picks up the Boy-chair himself and walks it across the stage. This is the pivot of his arc: until this gesture he has been the audience, watching from a remove. From this gesture forward he is the audience's complicity made physical. He places the Boy-chair behind the fountain basin, where it is partly hidden by the rim. The audience must read the move land.":
+        "He stands. He picks up the Boy-chair himself and walks it across the stage, and places it behind the fountain basin, where it is partly hidden by the rim.",
+    "a beat — the smallest pause. He did not, in fact, say \"I'm frightfully sorry.\" He said something else. The audience must see the lie being made in real time.":
+        "a beat — the smallest pause.",
+    "beginning to get really interested — leaning slightly forward, the way an audience member does when they have started to listen":
+        "beginning to get really interested — leaning slightly forward",
+    "cupping a hand to his ear, the bearing of a man used to being heard at the back of the house":
+        "cupping a hand to his ear",
+    "he is hooked, in spite of himself; the schedule he came in trying to defend is no longer in his mind":
+        "he is hooked, in spite of himself",
+    "looking up from the book; an unusual request to receive at this hour":
+        "looking up from the book",
+    "she cannot quite stop yet; the voice has been waiting too long":
+        "she cannot quite stop yet",
+    "she has been at work for an hour; the Property Man's bearing — shoulders forward, weight on the front foot":
+        "the Property Man's bearing — shoulders forward, weight on the front foot",
+    "the cry breaks; afterward the body goes still — not the composure he had at the start of this part, but a different stillness, as if he has just walked into the wall of his own argument she has just shown him":
+        "the cry breaks; afterward the body goes still",
+    "the diva fully present; she has done a thousand scenes harder than this":
+        "the diva fully present",
+    "the voice short again now, as if she has spent what she had":
+        "the voice short again now",
+}
+
+_ACTION_DROP_N = {_norm(k) for k in _ACTION_DROP}
+_ACTION_TRIM_N = {_norm(k): v for k, v in _ACTION_TRIM.items()}
+
+
+def simplify_stage_directions(soup):
+    """Keep only the playable part of each stage direction in the actor script."""
+    seen = set()
+    for span in soup.select("span.action"):
+        inner = span.get_text().strip()
+        if inner.startswith("[") and inner.endswith("]"):
+            inner = inner[1:-1].strip()
+        key = _norm(inner)
+        if key in _ACTION_DROP_N:
+            prev = span.previous_sibling
+            span.decompose()
+            # tidy the lone space left between the speaker and the dialogue
+            if isinstance(prev, NavigableString) and str(prev).strip() == "":
+                prev.extract()
+            seen.add(key)
+        elif key in _ACTION_TRIM_N:
+            span.clear()
+            span.append("[" + _ACTION_TRIM_N[key] + "]")
+            seen.add(key)
+    missing = (_ACTION_DROP_N | set(_ACTION_TRIM_N)) - seen
+    if missing:
+        print("WARNING: stage-direction policy keys not matched (Director's Copy reworded?):")
+        for m in sorted(missing):
+            print("   ·", m)
+    else:
+        print(f"Simplified {len(seen)} director-only stage directions for the actor script.")
+
+
 def build_actor_html():
     html = SRC.read_text()
     soup = BeautifulSoup(html, "html.parser")
@@ -82,6 +172,9 @@ def build_actor_html():
     # --- Drop every part-note aside (narrative prose, stats, beats)
     for note in soup.select("aside.part-note"):
         note.decompose()
+
+    # --- Keep only playable stage directions; the psychology stays in the Director's Copy
+    simplify_stage_directions(soup)
 
     # --- Insert the minimal production note right after the cast section
     cast = soup.select_one("section.cast")
