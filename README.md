@@ -25,10 +25,12 @@ outputs/
 │                                       the room: cast list, dialogue, necessary stage
 │                                       directions, light and sound cues. No essays.
 │                                       ~55 pages.
-├── player3_part_book.pdf              Player 3 Part Book — every line Player 3 speaks and
-│                                       every action she performs, in performance order,
-│                                       grouped by act and part, each entry preceded by its
-│                                       cue. An actor's sides for the youngest of the company.
+├── <role>_part_book.pdf               Part Books — one per speaking role (father, mother,
+│                                       step_daughter, son, manager, player1, player2,
+│                                       player3, madame_pace). Every line that role speaks and
+│                                       every action it performs, in performance order, grouped
+│                                       by act and part, each entry preceded by its cue. The
+│                                       intro is the character's portrait, pulled from the play.
 ├── audition_pack.pdf                  Audition Pack — cover, how-to-audition, and nine
 │                                       role sections (the four Characters, the Manager,
 │                                       Players 1–3, and Madame Pace), each with the full
@@ -93,7 +95,7 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 ├── make_pdf.py                        → outputs/directors_copy.pdf
 ├── build_actor_script.py              → actor_script.html (then make_pdf
 │                                       renders it to outputs/actor_script.pdf)
-├── build_player3_partbook.py          → outputs/player3_part_book.pdf
+├── build_part_books.py                → outputs/<role>_part_book.pdf (×9, one per role)
 ├── build_audition_pack.py             → outputs/audition_pack.pdf
 ├── build_audition_twohanders.py       → outputs/audition_twohanders.pdf
 ├── build_audition_briefing.py         → outputs/audition_briefing.pdf
@@ -149,7 +151,7 @@ PDF_SRC=actor_script.html \
 PDF_OUT=outputs/actor_script.pdf \
   python scripts/make_pdf.py                       # render actor_script.pdf
 
-python scripts/build_player3_partbook.py           # render player3_part_book.pdf
+python scripts/build_part_books.py                 # render all nine <role>_part_book.pdf
 python scripts/build_audition_pack.py              # render audition_pack.pdf
 python scripts/build_audition_twohanders.py        # render audition_twohanders.pdf
 python scripts/build_audition_briefing.py          # render audition_briefing.pdf

@@ -8,6 +8,7 @@ walk-through of the whole process, and a decisions checklist.
 """
 import os
 from pathlib import Path
+import _fullbleed
 from playwright.sync_api import sync_playwright
 
 HERE = Path(__file__).resolve().parent.parent
@@ -20,13 +21,13 @@ HTML = r"""<!DOCTYPE html>
 <title>Production Meeting Brief — Six Characters in Search of an Author</title>
 <style>
   :root { --bg:#efe6cf; --ink:#2a201a; --ink-soft:#6b5b48; --accent:#8b3a3a; --rule:rgba(42,32,26,0.18); }
-  @page { size: A4; margin: 20mm 20mm 20mm 20mm; }
+  @page { size: A4; margin: 12mm; }
   *,*::before,*::after { box-sizing: border-box; }
   html, body { background: var(--bg); color: var(--ink);
     font-family: 'EB Garamond','Georgia','Times New Roman',serif;
     font-size: 11pt; line-height: 1.6; margin: 0; padding: 0; }
 
-  main { max-width: 168mm; margin: 0 auto; }
+  main { max-width: none; margin: 0; }
 
   .masthead { text-align: center; margin-bottom: 7mm; padding-bottom: 5mm;
               border-bottom: 1px solid var(--rule); }
@@ -624,7 +625,7 @@ HTML = r"""<!DOCTYPE html>
 """
 
 HTML_PATH = OUT_DIR / "production_meeting_brief.html"
-HTML_PATH.write_text(HTML)
+HTML_PATH.write_text(_fullbleed.apply(HTML))
 
 OUT = OUT_DIR / "production_meeting_brief.pdf"
 with sync_playwright() as p:
@@ -634,7 +635,7 @@ with sync_playwright() as p:
     page.goto(f"file://{HTML_PATH.resolve()}", wait_until="networkidle", timeout=30000)
     page.wait_for_timeout(600)
     page.pdf(path=str(OUT), format="A4",
-             margin={"top":"20mm","right":"20mm","bottom":"20mm","left":"20mm"},
+             margin={"top": "12mm", "right": "12mm", "bottom": "12mm", "left": "12mm"},
              print_background=True, prefer_css_page_size=True)
     browser.close()
 

@@ -16,6 +16,7 @@ time this script is run.
 import os
 import re
 from pathlib import Path
+import _fullbleed
 
 HERE = Path(__file__).resolve().parent.parent
 SRC = Path(os.environ.get("PLAY_SRC", HERE / "six_characters_village_players.html"))
@@ -230,12 +231,12 @@ PLAY_CSS = style_match.group(1) if style_match else ""
 
 EXTRA_CSS = """
 /* Audition pack — additions on top of the play stylesheet */
-@page { size: A4; margin: 22mm 20mm 22mm 20mm; }
+@page { size: A4; margin: 12mm; }
 html, body { background: #efe6cf !important; color: #2a201a !important; }
 body { font-family: 'EB Garamond','Georgia','Times New Roman',serif; font-size: 11pt; line-height: 1.6; }
 .r-controls, .r-progress, .r-act-pin { display: none !important; }
 
-main.audition { max-width: 168mm; margin: 0 auto; }
+main.audition { max-width: none; margin: 0; }
 
 .cover { page-break-after: always; padding-top: 18mm; text-align: center; }
 .cover .eyebrow { font-family:'Cormorant Unicase',serif; font-weight:600; font-size:10pt; letter-spacing:0.28em; text-transform:uppercase; color:var(--accent, #8b3a3a); margin: 0 0 14mm 0; }
@@ -447,7 +448,7 @@ def build():
 """
 
     out_html = OUT_DIR / "audition_pack.html"
-    out_html.write_text(html)
+    out_html.write_text(_fullbleed.apply(html))
     print(f"\nWrote {out_html.name} ({out_html.stat().st_size // 1024} KB)")
 
     out_pdf = OUT_DIR / "audition_pack.pdf"
@@ -460,7 +461,7 @@ def build():
         page.wait_for_timeout(800)
         page.pdf(
             path=str(out_pdf), format="A4",
-            margin={"top": "22mm", "right": "20mm", "bottom": "22mm", "left": "20mm"},
+            margin={"top": "12mm", "right": "12mm", "bottom": "12mm", "left": "12mm"},
             print_background=True, prefer_css_page_size=True,
         )
         browser.close()

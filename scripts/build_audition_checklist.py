@@ -13,6 +13,7 @@ across multiple auditioners.
 """
 import os
 from pathlib import Path
+import _fullbleed
 
 HERE = Path(__file__).resolve().parent.parent
 OUT_DIR = Path(os.environ.get("OUT_DIR", HERE / "outputs"))
@@ -309,11 +310,11 @@ CHARACTERS = [
 # ---------------------------------------------------------------------------
 
 CSS = """
-@page { size: A4; margin: 18mm 20mm 18mm 20mm; }
+@page { size: A4; margin: 12mm; }
 *,*::before,*::after { box-sizing: border-box; }
 html, body { background: #efe6cf; color: #2a201a; font-family: 'EB Garamond','Georgia','Times New Roman',serif; font-size: 11pt; line-height: 1.55; margin: 0; padding: 0; }
 :root { --bg:#efe6cf; --ink:#2a201a; --ink-soft:#6b5b48; --accent:#8b3a3a; --rule:rgba(42,32,26,0.18); }
-main { max-width: 170mm; margin: 0 auto; }
+main { max-width: none; margin: 0; }
 
 .cover { padding-top: 22mm; text-align: center; page-break-after: always; }
 .cover .eyebrow { font-family:'Cormorant Unicase',serif; font-weight:600; font-size:10pt; letter-spacing:0.28em; text-transform:uppercase; color:var(--accent); margin: 0 0 16mm 0; }
@@ -616,7 +617,7 @@ def build():
 """
 
     out_html = OUT_DIR / "audition_checklist.html"
-    out_html.write_text(html)
+    out_html.write_text(_fullbleed.apply(html))
     print(f"Wrote {out_html.name} ({out_html.stat().st_size // 1024} KB)")
 
     out_pdf = OUT_DIR / "audition_checklist.pdf"
@@ -629,7 +630,7 @@ def build():
         page.wait_for_timeout(600)
         page.pdf(
             path=str(out_pdf), format="A4",
-            margin={"top": "18mm", "right": "20mm", "bottom": "18mm", "left": "20mm"},
+            margin={"top": "12mm", "right": "12mm", "bottom": "12mm", "left": "12mm"},
             print_background=True, prefer_css_page_size=True,
         )
         browser.close()

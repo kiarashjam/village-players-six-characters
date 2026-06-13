@@ -10,6 +10,7 @@ are "performed" by objects.
 """
 import os
 from pathlib import Path
+import _fullbleed
 from playwright.sync_api import sync_playwright
 
 HERE = Path(__file__).resolve().parent.parent
@@ -22,12 +23,12 @@ HTML = r"""<!DOCTYPE html>
 <title>Two Deaths, No Performers — Six Characters in Search of an Author</title>
 <style>
   :root { --bg:#efe6cf; --ink:#2a201a; --ink-soft:#6b5b48; --accent:#8b3a3a; --rule:rgba(42,32,26,0.18); }
-  @page { size: A4; margin: 12mm 12mm 12mm 12mm; }
+  @page { size: A4; margin: 12mm; }
   *,*::before,*::after { box-sizing: border-box; }
   html, body { background: var(--bg); color: var(--ink);
     font-family: 'EB Garamond','Georgia','Times New Roman',serif;
     font-size: 8pt; line-height: 1.3; margin: 0; padding: 0; }
-  main { max-width: 186mm; margin: 0 auto; }
+  main { max-width: none; margin: 0; }
 
   .masthead { text-align: center; margin-bottom: 2.5mm; padding-bottom: 2mm;
               border-bottom: 1px solid var(--rule); }
@@ -171,7 +172,7 @@ HTML = r"""<!DOCTYPE html>
 """
 
 HTML_PATH = OUT_DIR / "two_deaths_note.html"
-HTML_PATH.write_text(HTML)
+HTML_PATH.write_text(_fullbleed.apply(HTML))
 
 OUT = OUT_DIR / "two_deaths_note.pdf"
 with sync_playwright() as p:

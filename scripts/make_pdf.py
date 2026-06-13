@@ -17,7 +17,7 @@ CHROMIUM = os.environ.get("CHROMIUM_PATH")  # optional override
 
 PRINT_CSS = """
 <style id="print-overrides">
-  @page { size: A4; margin: 22mm 18mm 22mm 18mm; }
+  @page { size: A4; margin: 12mm; }
 
   html, body { background: #efe6cf !important; color: #2a201a !important; }
   body {
@@ -46,11 +46,16 @@ PRINT_CSS = """
 </style>
 """
 
+import _fullbleed
+
 html = SRC.read_text()
 if "</head>" in html:
     html_with_overrides = html.replace("</head>", PRINT_CSS + "\n</head>", 1)
 else:
     html_with_overrides = PRINT_CSS + html
+
+# Fill the page edge-to-edge (no white border), with a repeating text inset.
+html_with_overrides = _fullbleed.apply(html_with_overrides)
 
 TMP = SRC.parent / "_pdf_tmp.html"
 TMP.write_text(html_with_overrides)
@@ -68,7 +73,7 @@ with sync_playwright() as p:
     page.pdf(
         path=str(OUT),
         format="A4",
-        margin={"top": "22mm", "right": "18mm", "bottom": "22mm", "left": "18mm"},
+        margin={"top": "12mm", "right": "12mm", "bottom": "12mm", "left": "12mm"},
         print_background=True,
         prefer_css_page_size=True,
     )
