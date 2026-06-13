@@ -128,7 +128,7 @@ HTML = """<!DOCTYPE html>
       <dt>The play</dt><dd>Pirandello's 1921 metatheatrical masterpiece; three acts, three parts per act.</dd>
       <dt>Cast on stage</dt><dd>Nine live performers (Father, Mother, Step-Daughter, Son, Manager, Players 1 / 2 / 3, and Madame Pace) plus a credited pianist for Act II.</dd>
       <dt>Stage objects</dt><dd>The Boy is a wooden chair with a black coat folded over the back, schoolboy's cap on seat, leather satchel at the leg. The Child is a small wrapped bundle of white cloth with a black silk sash.</dd>
-      <dt>No projection</dt><dd>There is no rear-wall video and no screen anywhere in the production. The Boy and the Child are objects on the stage from the moment the Six walk on — the chair-and-coat and the wrapped bundle do all the work a projection used to do.</dd>
+      <dt>No projection</dt><dd>There is no rear-wall video and no screen anywhere in the production. The Boy and the Child are objects on the stage from the moment the Six walk on — the chair-and-coat and the wrapped bundle do all the work, live, throughout.</dd>
       <dt>Audition block</dt><dd>Three sessions at SSA Lausanne, 18:00 – 21:00: Tue 2 June, Fri 5 June, Wed 10 June 2026.</dd>
       <dt>Table-work block</dt><dd>Seven Thursdays at SSA Lausanne, 18:00 – 21:00 each evening, 18 June – 30 July 2026.</dd>
       <dt>Staging block</dt><dd>20 August – 1 November 2026 (5 &amp; 13 August are the summer break — no rehearsal).</dd>

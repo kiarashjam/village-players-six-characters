@@ -205,10 +205,10 @@ HTML = r"""<!DOCTYPE html>
       <li>What is the total budget, and what is already committed?</li>
       <li>What is the contingency line, and who authorises drawing on it?</li>
       <li>Which departments are we hiring out, and which are we doing in-house?</li>
-      <li>Are there company assets we already own — flats, a piano, projector, lighting stock?</li>
+      <li>Are there company assets we already own — flats, a piano, lighting stock?</li>
       <li>What does the SSA / venue provide as standard, and what do we bring?</li>
       <li>Is there a grant, sponsor, or cantonal arts support in play, and does it carry obligations (credits, dates, reporting)?</li>
-      <li>What is the deadline for committing the big-ticket items (set build, projector hire, piano)?</li>
+      <li>What is the deadline for committing the big-ticket items (set build, piano, the fountain build)?</li>
     </ul>
   </section>
 
@@ -503,7 +503,7 @@ HTML = r"""<!DOCTYPE html>
     <ul class="ask">
       <li>When is the get-in to the performance venue, and how long do we have before tech?</li>
       <li>What is the get-out / strike plan — who, when, returning what to whom?</li>
-      <li>How do hired items (projector, piano, lighting, the fountain build) get returned, and by when?</li>
+      <li>How do hired items (piano, lighting, the fountain build) get returned, and by when?</li>
       <li>Who is responsible for leaving both the performance venue and SSA Lausanne as found?</li>
     </ul>
   </section>
@@ -518,7 +518,7 @@ HTML = r"""<!DOCTYPE html>
       <li>Performance venue named and booked; performance dates locked.</li>
       <li>Budget agreed and departments allocated.</li>
       <li>Set designer, lighting designer, sound designer engaged.</li>
-      <li>Big-ticket order deadlines identified (set, projector, piano, fountain).</li>
+      <li>Big-ticket order deadlines identified (set, piano, fountain).</li>
       <li>Music-licensing process started.</li>
     </ul>
 
@@ -549,7 +549,7 @@ HTML = r"""<!DOCTYPE html>
     <ul class="need">
       <li>Set into the performance venue; rig focused; the shower special set; the fountain installed and water-tested; the swinging bulb rigged.</li>
       <li>All cues built into the prompt book and walked with the operators.</li>
-      <li>Projector tested under the real light states.</li>
+      <li>The shower special and the fountain interior light checked under the real light states.</li>
       <li>Gunshot and water-isolation safety signed off.</li>
     </ul>
 
