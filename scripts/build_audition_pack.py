@@ -296,7 +296,7 @@ INTRO_HTML = """
   <p>The <strong>Child</strong> (Pirandello's silent four-year-old) is a small wrapped bundle of white cloth, like a swaddling, with a black silk sash. The Step-Daughter walks on already carrying her, and from then on the bundle is carried, kissed, set down, and lifted again by the Step-Daughter and the Mother. The bundle is silent and motionless; it is moved only by other hands. The drowning at the fountain is hidden by the Step-Daughter bending over the bundle inside the basin; nothing is seen.</p>
 
   <h3>Three stripped settings</h3>
-  <p>Act One — a bare stage with a circle of chairs. Act Two — a two-level set; the upper platform is where the family's drama is rehearsed, the lower floor is everywhere else. Act Three — a single short fountain basin centre stage, the chair-and-coat moved behind it, otherwise empty.</p>
+  <p>Act One — a bare stage with a circle of chairs. Act Two — a two-level set; the upper platform is where the family's drama is rehearsed, the lower floor is everywhere else. Act Three — a single short fountain basin centre stage, the Boy-chair moved behind it, otherwise empty.</p>
 
   <h3>What we are casting for</h3>
   <p>Tone matters more than type. The Characters — Father, Mother, Step-Daughter, Son — must feel timeless, serious, almost ghost-like. The Players — Manager, Player 1, Player 2, Player 3 — must feel modern, local, alive, like a real Village Players rehearsal that has been invaded by a tragedy. The contrast between the two worlds is the production. We are not casting types; we are casting voices that can hold one of those two registers cleanly.</p>
@@ -320,8 +320,8 @@ ROLE_LIST_HTML = """
   <div class="group">
     <h3>The Six Characters &nbsp;·&nbsp; stage objects</h3>
     <ul>
-      <li><span class="role-name">The Boy</span><span class="role-sub">chair-and-coat — no performer needed</span></li>
-      <li><span class="role-name">The Child</span><span class="role-sub">wrapped bundle — no performer needed</span></li>
+      <li><span class="role-name">The Boy</span><span class="role-sub">the Boy-chair — no performer needed</span></li>
+      <li><span class="role-name">The Child</span><span class="role-sub">the Child-bundle — no performer needed</span></li>
     </ul>
   </div>
 
