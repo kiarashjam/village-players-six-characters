@@ -6,9 +6,12 @@ in which ONLY those two speak. Organised by character: each character's
 section contains a scene with every other character, so in the audition
 room you flip to whoever is reading and find all their pairings together.
 
-Eight speaking roles: Father, Mother, Step-Daughter, Son, Manager,
-Player 1, Player 2, Player 3 (who also plays Madame Pace). That is 28
-unique pairings; each is printed in both partners' sections.
+Nine speaking roles: Father, Mother, Step-Daughter, Son, Manager,
+Player 1, Player 2, Player 3, and Madame Pace (a Character carried by
+her own performer). Each pairing is printed in both partners' sections.
+Madame Pace shares scenes only with the three figures she meets in the
+play — the Step-Daughter, the Father, and the Mother — so the matrix is
+intentionally not complete.
 
 The dialogue is written to carry real story weight — the secretary, the
 school gate, the shop and the hundred francs, the drowning at the
@@ -30,7 +33,7 @@ CHROMIUM = os.environ.get("CHROMIUM_PATH")
 # Roles
 # ---------------------------------------------------------------------------
 
-ROLE_ORDER = ["F", "M", "SD", "S", "MG", "P1", "P2", "P3"]
+ROLE_ORDER = ["F", "M", "SD", "S", "MG", "P1", "P2", "P3", "MP"]
 ROLE_NAME = {
     "F": "The Father",
     "M": "The Mother",
@@ -40,6 +43,7 @@ ROLE_NAME = {
     "P1": "Player 1",
     "P2": "Player 2",
     "P3": "Player 3",
+    "MP": "Madame Pace",
 }
 ROLE_NOTE = {
     "F": "the brain of the family — philosophy as confession",
@@ -49,7 +53,8 @@ ROLE_NOTE = {
     "MG": "the audience's body on stage — pragmatic, tired",
     "P1": "the Leading Man — vain, faded, defensive",
     "P2": "the Leading Lady — practical, professional, employed",
-    "P3": "the youngest, curious — and Madame Pace",
+    "P3": "the youngest, curious one",
+    "MP": "the businesswoman of shame — comic on arrival, chilling on exit",
 }
 
 # ---------------------------------------------------------------------------
@@ -192,8 +197,8 @@ SCENES = {
             ("SON", "I am perfectly, completely consistent. You only call it impossible because you wanted me to be convenient — and I never have been, to anyone in this family, from the very start."),
         ],
     },
-    key("SD", "P3"): {
-        "context": "The atelier. Madame Pace (Player 3) and the Step-Daughter, back in the room of the hundred francs — where the debt that put her there was her mother's ruined sewing.",
+    key("SD", "MP"): {
+        "context": "The atelier. Madame Pace and the Step-Daughter, back in the room of the hundred francs — where the debt that put her there was her mother's ruined sewing.",
         "lines": [
             ("MADAME PACE", "My dear! You come back to me. I knew you come back — the young ones, they always come back to Madame Pace, sooner or later, one way or another way. It is the one thing in life you can put in the book ahead of time."),
             ("STEP-DAUGHTER", "I did not come back. You have dragged me here by being remembered — you live on inside that half-hour the way a stain lives on inside a dress that can never be worn again."),
@@ -205,8 +210,8 @@ SCENES = {
             ("STEP-DAUGHTER", "I am angry at both of you. Don't trouble yourself — there is more than enough of it in me to keep two separate accounts, and I balance mine too."),
         ],
     },
-    key("F", "P3"): {
-        "context": "The customer and the keeper of the shop. Madame Pace (Player 3) ties his philosophy to her ledger, and the girl who paid for both.",
+    key("F", "MP"): {
+        "context": "The customer and the keeper of the shop. Madame Pace ties his philosophy to her ledger, and the girl who paid for both.",
         "lines": [
             ("MADAME PACE", "Ah, monsieur. You, I remember very well. The good coat, the soft voice, the money already counted in the pocket before you sit down. The quiet ones, monsieur — in all my long experience, they are without fail the very worst of them."),
             ("FATHER", "I did not know who she was. You must tell them that. You were there — tell them I did not know she was my own wife's daughter."),
@@ -219,8 +224,8 @@ SCENES = {
             ("MADAME PACE", "And now you also go quiet on me. Bon. You see, monsieur? I told you at the start. The quiet ones — always, always the worst."),
         ],
     },
-    key("M", "P3"): {
-        "context": "The Mother's eruption — the line that stops the scene. Madame Pace (Player 3) answers with the cold arithmetic of the trade.",
+    key("M", "MP"): {
+        "context": "The Mother's eruption — the line that stops the scene. Madame Pace answers with the cold arithmetic of the trade.",
         "lines": [
             ("MOTHER", "You. You old devil. You murderess. I knew, the very moment I came through that door, exactly what you had made of my daughter."),
             ("MADAME PACE", "Eh, madame, such words, and so very loud. I am a businesswoman, nothing more and nothing less. I keep a small shop. People come in, people go out. That is the whole of my crime."),
@@ -453,14 +458,22 @@ def render_scene(role, other):
     """
 
 def render_section(role):
-    partners = [r for r in ROLE_ORDER if r != role]
+    partners = [r for r in ROLE_ORDER if r != role and key(role, r) in SCENES]
     scenes_html = "".join(render_scene(role, other) for other in partners)
+    n = len(partners)
+    count_label = (
+        f"{n} two-hander &middot; her only scene partner in the play"
+        if n == 1 else
+        f"{n} two-handers &middot; one with each role she shares the stage with"
+        if role == "MP" else
+        f"{n} two-handers &middot; one with each other speaking role"
+    )
     return f"""
     <section class="role-section">
       <div class="role-head">
         <h2>{ROLE_NAME[role]}</h2>
         <p class="role-note">{ROLE_NOTE[role]}</p>
-        <p class="role-count">{len(partners)} two-handers &middot; one with each other speaking role</p>
+        <p class="role-count">{count_label}</p>
       </div>
       {scenes_html}
     </section>
@@ -475,8 +488,10 @@ for r in ROLE_ORDER:
     for c in ROLE_ORDER:
         if r == c:
             cells += '<td class="x">&mdash;</td>'
-        else:
+        elif key(r, c) in SCENES:
             cells += '<td class="y">&#10003;</td>'
+        else:
+            cells += '<td class="x">&middot;</td>'
     matrix_rows += f'<tr><th>{ROLE_NAME[r]}</th>{cells}</tr>'
 matrix_head = "".join(f'<th class="rot">{ROLE_NAME[c]}</th>' for c in ROLE_ORDER)
 
@@ -553,15 +568,15 @@ HTML = f"""<!DOCTYPE html>
 
   <section class="intro">
     <h2>What this is</h2>
-    <p>A two-hander side for every pairing of the eight speaking roles. In each scene <strong>only the two named characters speak</strong> — so you can sit any two auditioners (or an auditioner and a reader) down and run a clean scene with no third voice.</p>
+    <p>A two-hander side for every pairing of the nine speaking roles. In each scene <strong>only the two named characters speak</strong> — so you can sit any two auditioners (or an auditioner and a reader) down and run a clean scene with no third voice. Madame Pace, now a Character carried by her own performer, has a section of her own — her three scenes are the only ones she has in the play.</p>
     <p>Each side is written to carry real story weight — the secretary, the school gate, the shop and the hundred francs, the drowning at the fountain, the fixed-character argument — and the speeches are long enough to give an auditioner something to build, redirect, and build again. The voices follow the production's readings in the Director's Copy.</p>
 
     <h2>How it's organised</h2>
-    <p>By character. Each of the eight speaking roles has its own section containing a two-hander with <strong>every other speaking role</strong>. So if you are seeing people for the Father today, go to <em>The Father</em> and every Father pairing is there in one place — you never have to flip.</p>
+    <p>By character. Each of the nine speaking roles has its own section containing a two-hander with <strong>every other role it shares the stage with</strong>. So if you are seeing people for the Father today, go to <em>The Father</em> and every Father pairing is there in one place — you never have to flip.</p>
     <ul>
       <li>Every scene therefore appears <strong>twice</strong> — once in each partner's section. That is deliberate, not an error: it keeps each character's material whole.</li>
       <li>Where a <strong>Character meets a Player</strong> (e.g. the Father and Player 1), the scene uses the production's own logic — the Player has been cast to play that Character, and they meet to work on the role. These sides test something rare and very Pirandellian: a reader playing an actor playing a part.</li>
-      <li>Player 3's scenes with the Step-Daughter, the Father, and the Mother are played <strong>as Madame Pace</strong> — the shop, the ledger, the cold.</li>
+      <li><strong>Madame Pace</strong> has her own section — the shop, the ledger, the cold — with the Step-Daughter, the Father, and the Mother, the only three she meets in the play. Player 3's scenes are the young company member's own: with the Son, the Manager, and the other two Players.</li>
     </ul>
 
     <h2>How to use it in the room</h2>

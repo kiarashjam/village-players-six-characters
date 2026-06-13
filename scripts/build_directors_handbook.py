@@ -537,7 +537,7 @@ HTML = r"""<!DOCTYPE html>
     <p>Coach the three Players first as a working company at a morning rehearsal — Lausanne register, local, modern, slightly bored. The comedy in Act One is theirs. By Act Two, the comedy is gone; coach them to hold the room as witnesses. By Act Three, they are watching with the audience.</p>
 
     <h3>9.6 Madame Pace — comic on arrival, chilling on exit</h3>
-    <p>The hardest single coaching job in the production. Player 3 transforms. The arrival is funny — the broken accent, the bleached wig, the silver chain. The bookkeeping aria is not funny. The exit is somewhere between threat and confession.</p>
+    <p>The hardest single coaching job in the production, and it belongs to her own performer — no longer doubled by one of the Players. The arrival is funny — the broken accent, the bleached wig, the silver chain. The bookkeeping aria is not funny. The exit is somewhere between threat and confession.</p>
     <p>Specific coaching beats: practice the entry until it is comically physical without being clownish. Practice the aria until the rhythm is bookkeeping (in/out, in/out) rather than seduction. Practice the exit at half-volume — the threat is in the precision, not the menace.</p>
   </section>
 
@@ -682,20 +682,20 @@ HTML = r"""<!DOCTYPE html>
     <p>Knows what to do with a body that is refusing to engage. Comfortable being looked at without performing a reaction. Voice clear when finally used — the mirror speech in Act Three Part II must land.</p>
 
     <h3>15.6 The Players — working actors with comic timing</h3>
-    <p>Three actors who can play a working rehearsal room together and read as a company within seconds of curtain. Comic timing for Act One; the discipline to fade to witness across Act Two and Three. Player 3 must double convincingly as Madame Pace.</p>
+    <p>Three actors who can play a working rehearsal room together and read as a company within seconds of curtain. Comic timing for Act One; the discipline to fade to witness across Act Two and Three. Player 3 is the youngest of the three, and the audience's mirror in the second half.</p>
 
     <h3>15.7 The Manager — the audience's body on stage</h3>
     <p>A figure the audience would recognise as themselves. Not glamorous; not theatrically lit. The pragmatic centre. Reads as a man trying to finish a day's rehearsal, then trying to make sense of what has invaded it, then trying to leave with his sanity. Cast for a face the audience trusts.</p>
 
-    <h3>15.8 Madame Pace — transformation skill</h3>
-    <p>The actor playing Player 3 must transform on stage into Madame Pace. The transformation is the role. Cast for an actor with the physical control to land both — comic on arrival, chilling on exit. The wig and the silver chain do half the work; the body and voice do the rest.</p>
+    <h3>15.8 Madame Pace — her own performer</h3>
+    <p>A Character carried by a single dedicated actor, no longer doubled by one of the Players. The role is the whole arc inside one scene. Cast for an actor with the physical control to land both ends — comic on arrival, chilling on exit — and the discipline to hold a smile that never drops while everything underneath it turns. The wig and the silver chain do half the work; the body and voice do the rest.</p>
   </section>
 
   <section>
     <h2>16. Building the company</h2>
 
     <h3>16.1 The first meeting</h3>
-    <p>This is the first table reading on Thursday 18 June 2026. Set the room as a working table from the first minute — chairs in a circle, the script in front of every reader, water, paper, pencils. Open with a brief production-concept walk-through (eight performers, two stage objects, three stripped settings — no projection, no screen); then read the play.</p>
+    <p>This is the first table reading on Thursday 18 June 2026. Set the room as a working table from the first minute — chairs in a circle, the script in front of every reader, water, paper, pencils. Open with a brief production-concept walk-through (nine performers, two stage objects, three stripped settings — no projection, no screen); then read the play.</p>
 
     <h3>16.2 The rehearsal contract</h3>
     <p>An unwritten agreement that you make in the first session and re-state when needed:</p>
@@ -935,7 +935,7 @@ HTML = r"""<!DOCTYPE html>
     <p>Not a coquette. Not a victim performing victimhood. A young woman holding the room accountable. The production succeeds or fails on whether the audience reads her this way. Coach every other character against the temptation to soften her.</p>
 
     <h3>25.5 The Madame Pace arc — comedy on arrival, horror on exit</h3>
-    <p>The single hardest beat of the production. The arrival is funny — the broken accent, the wig, the bookkeeping. The exit is not. The audience must laugh once and then not be allowed to laugh again. Player 3's transformation is the production's hinge.</p>
+    <p>The single hardest beat of the production. The arrival is funny — the broken accent, the wig, the bookkeeping. The exit is not. The audience must laugh once and then not be allowed to laugh again. Madame Pace's arc — carried by her own performer — is the production's hinge.</p>
   </section>
 
   <section>

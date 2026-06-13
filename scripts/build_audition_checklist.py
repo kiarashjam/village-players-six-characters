@@ -2,7 +2,7 @@
 """Build the Audition Checklist PDF.
 
 A working checklist the director carries through auditions. For each
-of the eight cast tracks, one page with checkboxes covering the
+of the nine cast tracks, one page with checkboxes covering the
 reading, the signature beats, the voice/body work, and a notes
 section. Plus a cover, an auditioner-info form, and a general
 assessment page.
@@ -249,32 +249,55 @@ CHARACTERS = [
     },
     {
         "role": "Player 3",
-        "tag": "the youngest, and Madame Pace",
-        "summary": "The earnest one. Carries the Juvenile Lead and the Prompter, plus the production's most theatrically demanding moment — Madame Pace, who arrives comic and exits chilling. The role lives or dies on the actor's willingness to fully transform, and on whether the dialect can hold meaning.",
+        "tag": "the youngest in the company",
+        "summary": "The earnest one, youngest by a decade. Carries the Juvenile Lead and the Prompter, and is the audience's mirror across the second half — few lines after Act One, but a face that stays alive while watching the horror. Cast for curiosity, not naivety.",
         "sections": [
             ("Voice & breath", [
                 "Earnest, open Juvenile Lead voice",
                 "Quiet, meticulous Prompter voice (slightly older, in the box)",
-                "Thick Italian-Swiss/French accent for Madame Pace (in English) that carries meaning, not just sound",
-                "The Madame Pace arc — vocal warmth on entry, cold by exit, smile never dropped",
+                "A young voice, slightly rising at the end of clauses — undecided, but wants you to consider it",
             ]),
             ("Character & text", [
-                "Three distinct people, recognisably the same actor",
-                "Earnest, genuinely curious in the Juvenile Lead beats",
-                "Madame Pace: audience must laugh on the first line, regret laughing by the last",
+                "Reads younger than the rest of the company from the back row",
+                "Earnest, genuinely curious in the Juvenile Lead beats — curious, not naive",
+                "Stays present as a witness through Act Two and Three without commenting on it",
+            ]),
+            ("Body & presence", [
+                "Leans in when the Six speak; catches herself and colours",
+                "Comfortable with the prompter's box for extended periods",
+                "The face does the work in the second half — alive while watching",
+            ]),
+            ("Direction-taking & range", [
+                "Takes the single redirection and shifts cleanly",
+                "Can play earnestness without tipping into cuteness",
+                "Available to read both the Juvenile Lead and Prompter beats in audition",
+            ]),
+        ],
+    },
+    {
+        "role": "Madame Pace",
+        "tag": "the businesswoman of shame — her own performer",
+        "summary": "A Character carried by her own performer, no longer doubled by a Player. The production's most theatrically demanding role, and it lives entirely in one Act Two scene: she arrives comic and exits chilling. The role lives or dies on whether the dialect can hold meaning, and on whether the actor can be cold inside the comedy.",
+        "sections": [
+            ("Voice & breath", [
+                "Thick Italian-Swiss/French accent (in English) that carries meaning, not just sound",
+                "Warm, smiling, practical — the cold is in the content, never the volume",
+                "The arc inside one scene — vocal warmth on entry, cold by exit, smile never dropped",
+            ]),
+            ("Character & text", [
+                "Audience must laugh on the first line, regret laughing by the last",
                 "The bookkeeping aria — <em>he clean, he polite, he pay cash</em> — lands as a transactional list, not theatrical menace",
                 "Threat at the exit (<em>Don't you forget the name</em>) carried by stillness, not raised voice",
             ]),
             ("Body & presence", [
-                "Available for full physical transformation — wig, heels, powder",
-                "Body inhabits Madame Pace fully; the audience reads a different person from the Juvenile Lead",
+                "Inhabits the wig, the heels, the powder fully and without protective irony",
+                "A hostess at her own front door — pleased, unhurried, never loud",
                 "Available for the staged hand-under-chin moment with the Step-Daughter (brief, dressmaker-to-customer framing)",
-                "Comfortable with the prompter's box for extended periods",
             ]),
             ("Direction-taking & range", [
                 "Available for adjustment on dialect — clearer or thicker",
                 "Takes notes about the chill — can sharpen the cold register without losing the comedy",
-                "Available to read short beats from each of the three roles in audition",
+                "Can hold the smile steady while the meaning underneath it turns",
             ]),
         ],
     },

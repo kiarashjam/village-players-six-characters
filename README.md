@@ -6,7 +6,7 @@
 
 A director's edition of Luigi Pirandello's *Sei personaggi in cerca d'autore* (1921), in the Edward Storer 1922 English translation, prepared for a Lausanne staging by the Village Players. Every directorial reading, scoring, adaptation, and production decision in this edition — the chair-and-coat and the bundle as the Boy and the Child, the Lausanne anchoring, the four-stage Father arc, the Step-Daughter's three cuts, the Mother's three silences, the Manager as the audience's body on stage, the Madame Pace arc from comic to chilling, the production calendar, the Light & Sound score, and every part-note throughout — is the work of Kiarash Jamshidi. Pirandello supplied the play; everything else around it is his.
 
-Eight live performers, two stage objects, three stripped settings (no projection, no screen). A short run of three or four performances.
+Nine live performers, two stage objects, three stripped settings (no projection, no screen). A short run of three or four performances.
 
 ---
 
@@ -167,7 +167,7 @@ If your local Chromium install lives at a non-default path, set `CHROMIUM_PATH=/
 The Director's Copy is the single source of truth. It contains, in order:
 
 - **Cover, cast list, character portraits** (Father, Mother, Step-Daughter, Son, Boy, Child, Manager, Players 1–3, Madame Pace), each with the specific reading the actor must commit to and the signature physical object that scores the role across the production.
-- **Production note** — eight performers, two stage objects, three stripped settings (no projection, no screen), the way Player 3 becomes Madame Pace, how the speaker tags work.
+- **Production note** — nine performers, two stage objects, three stripped settings (no projection, no screen), Madame Pace as a Character carried by her own performer, how the speaker tags work.
 - **Light and Sound score** — per-act lighting (white → amber → red in Act One; the pianist and the shower in Act Two; the fountain-light and one bare bulb in Act Three) with specific track suggestions.
 - **Intimacy and consent protocol** — the protocol lives in its own dedicated document (`outputs/intimacy_protocol.pdf`), not in the Director's Copy. It is a contract, signed by every performer before the first rehearsal and countersigned by the director.
 - **The play itself** — three acts × three parts each, with directorial part-notes before each part (narrative, stats, "for the rehearsal room" beats, performance scoring).
