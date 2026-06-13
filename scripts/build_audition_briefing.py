@@ -13,6 +13,7 @@ includes the accent-and-ledger test that finds the role.
 """
 import os
 from pathlib import Path
+import _fullbleed
 from playwright.sync_api import sync_playwright
 
 HERE = Path(__file__).resolve().parent.parent
@@ -481,7 +482,7 @@ HTML = r"""<!DOCTYPE html>
 """
 
 HTML_PATH = OUT_DIR / "audition_briefing.html"
-HTML_PATH.write_text(HTML)
+HTML_PATH.write_text(_fullbleed.apply(HTML))
 
 OUT = OUT_DIR / "audition_briefing.pdf"
 with sync_playwright() as p:

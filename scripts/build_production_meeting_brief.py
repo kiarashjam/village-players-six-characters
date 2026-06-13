@@ -8,6 +8,7 @@ walk-through of the whole process, and a decisions checklist.
 """
 import os
 from pathlib import Path
+import _fullbleed
 from playwright.sync_api import sync_playwright
 
 HERE = Path(__file__).resolve().parent.parent
@@ -624,7 +625,7 @@ HTML = r"""<!DOCTYPE html>
 """
 
 HTML_PATH = OUT_DIR / "production_meeting_brief.html"
-HTML_PATH.write_text(HTML)
+HTML_PATH.write_text(_fullbleed.apply(HTML))
 
 OUT = OUT_DIR / "production_meeting_brief.pdf"
 with sync_playwright() as p:

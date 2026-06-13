@@ -13,6 +13,7 @@ across multiple auditioners.
 """
 import os
 from pathlib import Path
+import _fullbleed
 
 HERE = Path(__file__).resolve().parent.parent
 OUT_DIR = Path(os.environ.get("OUT_DIR", HERE / "outputs"))
@@ -616,7 +617,7 @@ def build():
 """
 
     out_html = OUT_DIR / "audition_checklist.html"
-    out_html.write_text(html)
+    out_html.write_text(_fullbleed.apply(html))
     print(f"Wrote {out_html.name} ({out_html.stat().st_size // 1024} KB)")
 
     out_pdf = OUT_DIR / "audition_checklist.pdf"

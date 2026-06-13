@@ -14,6 +14,7 @@ Run from the repo root:  python scripts/build_part_books.py
 import os
 import re
 from pathlib import Path
+import _fullbleed
 
 HERE = Path(__file__).resolve().parent.parent
 SRC = Path(os.environ.get("PLAY_SRC", HERE / "six_characters_village_players.html"))
@@ -280,7 +281,7 @@ def main():
         for role in ROLES:
             html, n_sp, n_wd = render_role(role)
             out_html = OUT_DIR / f"{role['slug']}_part_book.html"
-            out_html.write_text(html)
+            out_html.write_text(_fullbleed.apply(html))
             out_pdf = OUT_DIR / f"{role['slug']}_part_book.pdf"
             page = browser.new_page()
             page.goto(f"file://{out_html.resolve()}", wait_until="networkidle", timeout=30000)

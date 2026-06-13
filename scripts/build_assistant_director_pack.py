@@ -8,6 +8,7 @@ staging block).
 """
 import os
 from pathlib import Path
+import _fullbleed
 from playwright.sync_api import sync_playwright
 
 HERE = Path(__file__).resolve().parent.parent
@@ -215,7 +216,7 @@ HTML = """<!DOCTYPE html>
 """
 
 HTML_PATH = OUT_DIR / "assistant_director_pack.html"
-HTML_PATH.write_text(HTML)
+HTML_PATH.write_text(_fullbleed.apply(HTML))
 
 OUT = OUT_DIR / "assistant_director_pack.pdf"
 with sync_playwright() as p:

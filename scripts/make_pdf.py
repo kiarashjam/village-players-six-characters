@@ -46,11 +46,16 @@ PRINT_CSS = """
 </style>
 """
 
+import _fullbleed
+
 html = SRC.read_text()
 if "</head>" in html:
     html_with_overrides = html.replace("</head>", PRINT_CSS + "\n</head>", 1)
 else:
     html_with_overrides = PRINT_CSS + html
+
+# Fill the page edge-to-edge (no white border), with a repeating text inset.
+html_with_overrides = _fullbleed.apply(html_with_overrides)
 
 TMP = SRC.parent / "_pdf_tmp.html"
 TMP.write_text(html_with_overrides)

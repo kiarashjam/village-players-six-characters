@@ -16,6 +16,7 @@ time this script is run.
 import os
 import re
 from pathlib import Path
+import _fullbleed
 
 HERE = Path(__file__).resolve().parent.parent
 SRC = Path(os.environ.get("PLAY_SRC", HERE / "six_characters_village_players.html"))
@@ -447,7 +448,7 @@ def build():
 """
 
     out_html = OUT_DIR / "audition_pack.html"
-    out_html.write_text(html)
+    out_html.write_text(_fullbleed.apply(html))
     print(f"\nWrote {out_html.name} ({out_html.stat().st_size // 1024} KB)")
 
     out_pdf = OUT_DIR / "audition_pack.pdf"
