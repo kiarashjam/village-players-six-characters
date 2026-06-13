@@ -294,7 +294,7 @@ HTML = r"""<!DOCTYPE html>
     <p>In this production they are objects: the Boy is a chair with a coat folded over its back; the Child is a wrapped bundle of white cloth. They are not played by performers. The Step-Daughter and the Mother handle them as if they were children. The directorial discipline here is to make the objects read as children without ever apologising for the convention.</p>
 
     <h3>3.6 The Manager and the Players — the company under siege</h3>
-    <p>The Manager is the production's most metatheatrically interesting role. He represents the audience's body on stage — the figure who is also trying to make sense of these strangers. His arc is his own production: he comes in skeptical, becomes fascinated, becomes appalled, ends up exhausted. The Players are working actors with a comic register that lasts the first half hour and then has nothing to do but watch.</p>
+    <p>The Manager is the production's most metatheatrically interesting role — but play him as a tired director first. He is trying to make sense of these strangers on a deadline, and the audience recognise themselves in him because of how he reacts, not because he announces it. His arc is his own production: he comes in skeptical, becomes fascinated, becomes appalled, ends up exhausted. The Players are working actors with a comic register that lasts the first half hour and then has nothing to do but watch.</p>
   </section>
 
   <section>
@@ -685,7 +685,7 @@ HTML = r"""<!DOCTYPE html>
     <h3>15.6 The Players — working actors with comic timing</h3>
     <p>Three actors who can play a working rehearsal room together and read as a company within seconds of curtain. Comic timing for Act One; the discipline to fade to witness across Act Two and Three. Player 3 is the youngest of the three, and the audience's mirror in the second half.</p>
 
-    <h3>15.7 The Manager — the audience's body on stage</h3>
+    <h3>15.7 The Manager — a tired director the audience recognise</h3>
     <p>A figure the audience would recognise as themselves. Not glamorous; not theatrically lit. The pragmatic centre. Reads as a man trying to finish a day's rehearsal, then trying to make sense of what has invaded it, then trying to leave with his sanity. Cast for a face the audience trusts.</p>
 
     <h3>15.8 Madame Pace — her own performer</h3>
@@ -929,8 +929,8 @@ HTML = r"""<!DOCTYPE html>
     <h3>25.2 The Lausanne anchoring</h3>
     <p>The play is in Lausanne. The Players are at SSA Lausanne. The Madame Pace shop is above the rue de Bourg. The French chanson in the wings is Aznavour or Piaf. The audience is Swiss-English-speaking and expat. Keep this register in your ear. Do not let the production drift toward generic European.</p>
 
-    <h3>25.3 The Manager as the audience's body on stage</h3>
-    <p>The Manager is the audience. He arrives where they arrive — at a working rehearsal, mid-comedy. He is invaded by the Six as they are. He tries to make sense of it as they do. He ends exhausted as they should. Direct him as the audience's stand-in throughout. The audience reads him as the figure most like them.</p>
+    <h3>25.3 The Manager — direct the man, not the symbol</h3>
+    <p>Play the Manager as a tired director, and the audience-stand-in takes care of itself. He arrives where they arrive — at a working rehearsal, mid-comedy; he is invaded by the Six as they are; he tries to make sense of it as they do; he ends exhausted as they should. Do not direct the symbol; direct the man — practical, selfish, curious, too late — and let the house find itself in him.</p>
 
     <h3>25.4 The Step-Daughter as the moral centre</h3>
     <p>Not a coquette. Not a victim performing victimhood. A young woman holding the room accountable. The production succeeds or fails on whether the audience reads her this way. Coach every other character against the temptation to soften her.</p>

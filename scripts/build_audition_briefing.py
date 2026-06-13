@@ -290,11 +290,11 @@ HTML = r"""<!DOCTYPE html>
   <section class="role">
     <div class="role-head">
       <h2>The Manager</h2>
-      <p class="role-tag">the audience's body on stage — pragmatic, tired</p>
+      <p class="role-tag">a tired director — and, without trying, the audience's stand-in</p>
     </div>
 
     <h3>Look</h3>
-    <p><strong>Late 50s.</strong> Looks like a man who runs a theatre. The kind of figure the audience would not look twice at in a Lausanne café. Costume: working-rehearsal clothes — comfortable mid-day clothes, slightly rumpled, the warm slightly-tired look of an experienced amateur director at his Thursday rehearsal. No glamour. <strong>He should look more like a member of the audience than like a character.</strong> This is critical: he <em>is</em> the audience's body on stage.</p>
+    <p><strong>Late 50s.</strong> Looks like a man who runs a theatre. The kind of figure the audience would not look twice at in a Lausanne café. Costume: working-rehearsal clothes — comfortable mid-day clothes, slightly rumpled, the warm slightly-tired look of an experienced amateur director at his Thursday rehearsal. No glamour. <strong>He should look more like a man who runs a theatre than like a "character"</strong> — and so, without trying, more like a member of the audience than anyone else on the stage.</p>
 
     <h3>Behaviour</h3>
     <p>Arrives furious that the morning is being wasted. Gets ready to throw the Six out. Then he starts to listen — and the audience does the same thing. Sits at his table the way the audience sits in their seats: forward, slightly bored, half-engaged. When the play becomes uncomfortable, <strong>he looks down</strong> — the way the audience does when something on stage is more than they want to look at. The production's hinge: in Act Three he picks up the chair-and-coat himself and sets it behind the fountain. <strong>That gesture is the moment he stops being audience and becomes accessory.</strong> Then he walks out, says the line, curtain.</p>

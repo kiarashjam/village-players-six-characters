@@ -156,8 +156,8 @@ CHARACTERS = [
     },
     {
         "role": "The Manager",
-        "tag": "the symbol of the audience itself",
-        "summary": "He is the audience, concretely. Everything he does is what the audience does in their seats. The role lives or dies on the actor's ability to be practical, warm, and recognisable — not theatrical, not directorial in cliché.",
+        "tag": "a tired director — and, without trying, the audience's stand-in",
+        "summary": "A tired director, trying all day to solve a rehearsal problem. The audience recognise themselves in him because of how he reacts — practically, selfishly, curiously, too late — not because he plays it. The role lives or dies on the actor's ability to be practical, warm, and recognisable — not theatrical, not directorial in cliché.",
         "sections": [
             ("Voice & breath", [
                 "Working-director voice — practical, not declamatory",

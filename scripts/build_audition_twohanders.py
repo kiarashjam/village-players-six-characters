@@ -50,7 +50,7 @@ ROLE_NOTE = {
     "M": "grief, the veil, the three silences",
     "SD": "the moral centre — sharp, indicting, never coquettish",
     "S": "the refuser — withholding as an act",
-    "MG": "the audience's body on stage — pragmatic, tired",
+    "MG": "a tired director — and, without trying, the audience's stand-in",
     "P1": "the Leading Man — forties, vain, faded, defensive",
     "P2": "the Leading Lady — about 35, practical, professional, the one who books the work",
     "P3": "the youngest — early 20s, curious, happiest in the company",
@@ -107,7 +107,7 @@ SCENES = {
         ],
     },
     key("F", "MG"): {
-        "context": "The Father argues the company into staging them at all — and the metaphysics arrive: a character is fixed forever, an actor goes home. The Manager is the audience deciding whether to stay.",
+        "context": "The Father argues the company into staging them at all — and the metaphysics arrive: a character is fixed forever, an actor goes home. The Manager is deciding whether to stay.",
         "lines": [
             ("FATHER", "You think we are mad. I saw it in your face the instant we walked onto your stage — six people in mourning, asking to be put into a play."),
             ("MANAGER", "I think you are six strangers interrupting a rehearsal I am already a week behind on, with a script my company can barely stomach. That is precisely what I think."),
@@ -146,7 +146,7 @@ SCENES = {
         ],
     },
     key("M", "MG"): {
-        "context": "The Manager wants a clean sentence he can stage. The Mother teaches the audience-proxy what a play actually does to the people inside it.",
+        "context": "The Manager wants a clean sentence he can stage. The Mother teaches the tired director what a play actually does to the people inside it.",
         "lines": [
             ("MANAGER", "Madam — please — if you could just tell me, plainly, in your own words, what happened to your family, I might be able to build something I can put on a stage."),
             ("MOTHER", "You want it plainly. There is no plainly. There is a husband who sent me away, a man I was given to who died, a daughter pushed into a back room, a little one lost at a fountain, a boy with a revolver. Tell me — where, in all of that, is the plain sentence you can stage?"),
