@@ -294,7 +294,7 @@ HTML = r"""<!DOCTYPE html>
     <p>In this production they are objects: the Boy is a chair with a coat folded over its back; the Child is a wrapped bundle of white cloth. They are not played by performers. The Step-Daughter and the Mother handle them as if they were children. The directorial discipline here is to make the objects read as children without ever apologising for the convention.</p>
 
     <h3>3.6 The Manager and the Players — the company under siege</h3>
-    <p>The Manager is the production's most metatheatrically interesting role. He represents the audience's body on stage — the figure who is also trying to make sense of these strangers. His arc is his own production: he comes in skeptical, becomes fascinated, becomes appalled, ends up exhausted. The Players are working actors with a comic register that lasts the first half hour and then has nothing to do but watch.</p>
+    <p>The Manager is the production's most metatheatrically interesting role — but play him as a tired director first. He is trying to make sense of these strangers on a deadline, and the audience recognise themselves in him because of how he reacts, not because he announces it. His arc is his own production: he comes in skeptical, becomes fascinated, becomes appalled, ends up exhausted. The Players are working actors with a comic register that lasts the first half hour and then has nothing to do but watch.</p>
   </section>
 
   <section>
@@ -326,6 +326,16 @@ HTML = r"""<!DOCTYPE html>
     <p>Silence. The Son refuses to play. The Father grabs his arm; a single piano note from offstage like a slap. Silence resumes.</p>
     <h4>4.3.3 Part III (The Fountain)</h4>
     <p>The basin lit pale-blue from inside. The Step-Daughter bends over the bundle in the basin while the Son narrates the drowning he could not stop. The stage lights drop, breath by breath, until only the fountain's glow and the bare bulb remain; the chair-and-coat is silhouetted behind the basin for ten seconds. Full blackout. Then, out of the dark, the gunshot. <em>"Pretence? Reality, sir, reality!"</em> The Manager looks at the empty chair-and-coat, says <em>"To hell with it all,"</em> and walks out the way the audience is about to. Arvo Pärt for ten seconds. Lights go.</p>
+
+    <h3>4.4 Pace, the interval, and keeping the audience</h3>
+    <p>The play runs about two hours. At that length the danger is never the clock — it is rhythm. A two-hour show that moves feels like ninety minutes; a ninety-minute show that sits feels like three hours. The text has been trimmed about as far as it can go without cutting the wounds the evening is built on, so the audience's excitement is won by <strong>structure, tempo, and event</strong>, not by further cuts. Five working rules:</p>
+    <ul>
+      <li><strong>One interval, after Act One — and only one.</strong> Break on the bargain (the hundred francs, the deep-red act-end) so the audience leaves on a hook and returns wanting the rest. Then play the whole second half — Acts Two and Three — <em>unbroken</em>: the two-level set strikes to the fountain behind the fallen curtain, a fast covered change, no second break. The back seventy minutes should build in one sweep to the gunshot. A second interval would let the pressure out exactly where you want it rising.</li>
+      <li><strong>Front-load the comedy, and protect it.</strong> The first ten to fifteen minutes — the cook's cap, the Players bickering, the Six's absurd arrival — is the hook. Play it fast and genuinely funny. An audience that laughs in the first quarter-hour will follow you into the dark.</li>
+      <li><strong>Keep the talky stretches urgent.</strong> The two drift-risks are the Father's philosophy (Act One Part II, Act Three Part I) and the reality debate. Direct them fast, overlapping, dangerous — a man fighting for his existence, never a man lecturing — and let the Step-Daughter's cuts land hard across him. Never let a speech sit. (See the four-stage scoring in the Act Three Part I note.)</li>
+      <li><strong>Space the events so attention is re-grabbed every ten minutes or so.</strong> Map them and hold the spacing: the arrival of the Six → the hundred-francs reveal → the shower-light monologue → the pianist's first entrance → Madame Pace conjured → the Mother's eruption → the doubled scene → the accidental curtain → the gunshot. One unmissable thing before the eye can wander.</li>
+      <li><strong>Trust the design to do the re-hooking.</strong> The live pianist, the shower light, the conjured apparition, the two-level set, the real gunshot — each is an event that re-grabs the room. Do not bury them in transitions; let each land clean.</li>
+    </ul>
   </section>
 
   <!-- ============================================================ -->
@@ -580,13 +590,13 @@ HTML = r"""<!DOCTYPE html>
     <p>It lands in the first thirty seconds of the family's arrival, by what hands do — not by anything that is said. The Door-keeper walks on with the chair, sets it at the edge, lays the coat across the back, the cap on the seat, the satchel by the leg, with the precise care of a person settling a child somewhere safe. The Step-Daughter walks on already holding the bundle the way one holds a four-year-old: against the shoulder, the back of the head supported. The four live Characters speak to the chair and the bundle as if they were children. The audience accepts it within seconds, because the bodies on stage have accepted it absolutely.</p>
 
     <h3>11.2 The three load-bearing moments</h3>
-    <p>One per act. Each does work a projection used to do.</p>
+    <p>One per act, and each carries its image live — with light and objects, in the room.</p>
     <h4>11.2.1 The arrival (top of Act One Part II)</h4>
     <p>The convention is set, live, by the Door-keeper's placing of the chair and the Step-Daughter's holding of the bundle. No video. No "becoming." The objects are objects from the first second; the audience reads them as children by the end of the first minute, because the family does.</p>
     <h4>11.2.2 The Step-Daughter's solo monologue (top of Act Two Part I)</h4>
     <p>She speaks the speech live, alone in the shower light, the bundle in her arms and the chair-and-coat a pace away. Tender to the bundle as if it were a four-year-old. When the script reaches the moment of the revolver, she turns to the coat hanging on the chair, takes it by the sleeve as she would have taken her brother by the arm, and pulls the revolver from its pocket. The audience does not need a screen: the speech is to the bundle and the chair, and the actor's care for both does all of the work.</p>
     <h4>11.2.3 The silhouette before the gunshot (Act Three Part III)</h4>
-    <p>The Step-Daughter bends over the bundle inside the basin. Under the Son's narration, the stage lights drop slowly until only the fountain's interior glow and the bare hanging bulb remain. For ten seconds, in that low water-light, the audience sees the silhouette of the chair-and-coat behind the basin — the Boy watching his little sister in the water. Then full blackout. Then the gunshot from the darkness. The chair has done in silhouette what a projection used to do in image.</p>
+    <p>The Step-Daughter bends over the bundle inside the basin. Under the Son's narration, the stage lights drop slowly until only the fountain's interior glow and the bare hanging bulb remain. For ten seconds, in that low water-light, the audience sees the silhouette of the chair-and-coat behind the basin — the Boy watching his little sister in the water. Then full blackout. Then the gunshot from the darkness. The silhouette of the chair is the image — made live, in light, in the room.</p>
 
     <h3>11.3 The objects, as objects</h3>
     <p>Both must be in the rehearsal room from the first staging session (Thu 20 August). They are not props that arrive in tech. They are the play's two silent characters, and the Step-Daughter and Mother must have spent weeks living with them before any audience sees them. Build them so that the bundle survives being lowered into water and lifted back out (water-tolerant outer wrap, or a duplicate kept dry), and so the chair-and-coat is sturdy enough to be lifted as a body in the final scene. Treat the maintenance of both with the same seriousness you would treat the maintenance of a costume on a child performer.</p>
@@ -685,7 +695,7 @@ HTML = r"""<!DOCTYPE html>
     <h3>15.6 The Players — working actors with comic timing</h3>
     <p>Three actors who can play a working rehearsal room together and read as a company within seconds of curtain. Comic timing for Act One; the discipline to fade to witness across Act Two and Three. Player 3 is the youngest of the three, and the audience's mirror in the second half.</p>
 
-    <h3>15.7 The Manager — the audience's body on stage</h3>
+    <h3>15.7 The Manager — a tired director the audience recognise</h3>
     <p>A figure the audience would recognise as themselves. Not glamorous; not theatrically lit. The pragmatic centre. Reads as a man trying to finish a day's rehearsal, then trying to make sense of what has invaded it, then trying to leave with his sanity. Cast for a face the audience trusts.</p>
 
     <h3>15.8 Madame Pace — her own performer</h3>
@@ -929,8 +939,8 @@ HTML = r"""<!DOCTYPE html>
     <h3>25.2 The Lausanne anchoring</h3>
     <p>The play is in Lausanne. The Players are at SSA Lausanne. The Madame Pace shop is above the rue de Bourg. The French chanson in the wings is Aznavour or Piaf. The audience is Swiss-English-speaking and expat. Keep this register in your ear. Do not let the production drift toward generic European.</p>
 
-    <h3>25.3 The Manager as the audience's body on stage</h3>
-    <p>The Manager is the audience. He arrives where they arrive — at a working rehearsal, mid-comedy. He is invaded by the Six as they are. He tries to make sense of it as they do. He ends exhausted as they should. Direct him as the audience's stand-in throughout. The audience reads him as the figure most like them.</p>
+    <h3>25.3 The Manager — direct the man, not the symbol</h3>
+    <p>Play the Manager as a tired director, and the audience-stand-in takes care of itself. He arrives where they arrive — at a working rehearsal, mid-comedy; he is invaded by the Six as they are; he tries to make sense of it as they do; he ends exhausted as they should. Do not direct the symbol; direct the man — practical, selfish, curious, too late — and let the house find itself in him.</p>
 
     <h3>25.4 The Step-Daughter as the moral centre</h3>
     <p>Not a coquette. Not a victim performing victimhood. A young woman holding the room accountable. The production succeeds or fails on whether the audience reads her this way. Coach every other character against the temptation to soften her.</p>

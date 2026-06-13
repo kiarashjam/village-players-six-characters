@@ -120,7 +120,7 @@ HTML = """<!DOCTYPE html>
 
   <section class="note">
     <h2>How it plays</h2>
-    <p>The first ten minutes are committed comedy. The last quarter of an hour is not. The production runs in three acts with an interval between each — the audience walks out of Act One for a drink, comes back for Act Two, and by the second interval is no longer thirsty. Comedy gives way to argument; argument gives way to the family's revealed wound; the final scene at the fountain belongs to no one in the audience who set out to be amused. The discomfort the audience leaves with, by design, is the play.</p>
+    <p>The first ten minutes are committed comedy. The last quarter of an hour is not. The production runs in three acts with a <strong>single interval, after Act One</strong> — the audience walks out for a drink while the chairs come down, then returns to a second half (Acts Two and Three) that plays unbroken, building without release to the fountain. Comedy gives way to argument; argument gives way to the family's revealed wound; the final scene at the fountain belongs to no one in the audience who set out to be amused. The discomfort the audience leaves with, by design, is the play.</p>
   </section>
 
   <section class="timeline">

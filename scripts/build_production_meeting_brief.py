@@ -154,7 +154,7 @@ HTML = r"""<!DOCTYPE html>
   <section class="at-a-glance">
     <h2>1. The production at a glance</h2>
     <dl>
-      <dt>The play</dt><dd>Pirandello's 1921 metatheatrical drama. Three acts, three parts per act. Runs roughly two hours plus two intervals.</dd>
+      <dt>The play</dt><dd>Pirandello's 1921 metatheatrical drama. Three acts, three parts per act. Runs roughly two hours, with a single interval after Act One — the second half (Acts Two and Three) plays unbroken, building in one sweep to the fountain.</dd>
       <dt>The concept</dt><dd>A working theatre company is interrupted by six characters demanding to be staged. Comedy in the first half-hour; shame and tragedy by the end. Minimalist, near-black-box; light and music carry the weather.</dd>
       <dt>On stage</dt><dd>Nine live performers (Father, Mother, Step-Daughter, Son, Manager, Players 1 / 2 / 3, and Madame Pace) plus a credited pianist for Act Two.</dd>
       <dt>Stage objects</dt><dd>The Boy is a wooden chair with a coat; the Child is a wrapped bundle of cloth. Two of the six "characters" are objects, not performers.</dd>
@@ -205,10 +205,10 @@ HTML = r"""<!DOCTYPE html>
       <li>What is the total budget, and what is already committed?</li>
       <li>What is the contingency line, and who authorises drawing on it?</li>
       <li>Which departments are we hiring out, and which are we doing in-house?</li>
-      <li>Are there company assets we already own — flats, a piano, projector, lighting stock?</li>
+      <li>Are there company assets we already own — flats, a piano, lighting stock?</li>
       <li>What does the SSA / venue provide as standard, and what do we bring?</li>
       <li>Is there a grant, sponsor, or cantonal arts support in play, and does it carry obligations (credits, dates, reporting)?</li>
-      <li>What is the deadline for committing the big-ticket items (set build, projector hire, piano)?</li>
+      <li>What is the deadline for committing the big-ticket items (set build, piano, the fountain build)?</li>
     </ul>
   </section>
 
@@ -277,13 +277,13 @@ HTML = r"""<!DOCTYPE html>
     <h3>What I need</h3>
     <ul class="need">
       <li>Three settings, near-black-box, minimalist: rehearsal room (I), the two-level shop set (II), the garden with fountain (III).</li>
-      <li>A build that transitions between the three acts within two intervals.</li>
+      <li>A build that changes from the chair-circle to the two-level set during the one interval (after Act One), and from the two-level set to the fountain in a fast covered change between Acts Two and Three (no interval).</li>
     </ul>
     <h3>What to ask</h3>
     <ul class="ask">
       <li>Who is designing the set, and when do we lock the design?</li>
       <li>Is the two-level platform a build or a hire? What is the load rating and the access?</li>
-      <li>How do we change between the three settings in the interval time we have?</li>
+      <li>Can we strike the chair-circle and build the two-level set inside the one interval — and strike the two-level set for the fountain in a fast covered change (no interval) between Acts Two and Three?</li>
       <li>What is stored where between performances, and who resets?</li>
       <li>Do we need the Manager's mahogany table, the folding screen, the hat-rack as set or as props (see the Stage Manager Pack prop list)?</li>
     </ul>
@@ -429,7 +429,7 @@ HTML = r"""<!DOCTYPE html>
       <li>Who is on the crew, and which roles are still open?</li>
       <li>Are crew volunteers, paid, or a mix? When are they confirmed?</li>
       <li>Who calls the show — confirm it is the Stage Manager — and who operates each department on the night?</li>
-      <li>Do we have enough hands for the interval set changes?</li>
+      <li>Do we have enough hands for the one interval change (Act One → Two) and, critically, the fast covered change from the two-level set to the fountain between Acts Two and Three?</li>
     </ul>
   </section>
 
@@ -503,7 +503,7 @@ HTML = r"""<!DOCTYPE html>
     <ul class="ask">
       <li>When is the get-in to the performance venue, and how long do we have before tech?</li>
       <li>What is the get-out / strike plan — who, when, returning what to whom?</li>
-      <li>How do hired items (projector, piano, lighting, the fountain build) get returned, and by when?</li>
+      <li>How do hired items (piano, lighting, the fountain build) get returned, and by when?</li>
       <li>Who is responsible for leaving both the performance venue and SSA Lausanne as found?</li>
     </ul>
   </section>
@@ -518,7 +518,7 @@ HTML = r"""<!DOCTYPE html>
       <li>Performance venue named and booked; performance dates locked.</li>
       <li>Budget agreed and departments allocated.</li>
       <li>Set designer, lighting designer, sound designer engaged.</li>
-      <li>Big-ticket order deadlines identified (set, projector, piano, fountain).</li>
+      <li>Big-ticket order deadlines identified (set, piano, fountain).</li>
       <li>Music-licensing process started.</li>
     </ul>
 
@@ -549,7 +549,7 @@ HTML = r"""<!DOCTYPE html>
     <ul class="need">
       <li>Set into the performance venue; rig focused; the shower special set; the fountain installed and water-tested; the swinging bulb rigged.</li>
       <li>All cues built into the prompt book and walked with the operators.</li>
-      <li>Projector tested under the real light states.</li>
+      <li>The shower special and the fountain interior light checked under the real light states.</li>
       <li>Gunshot and water-isolation safety signed off.</li>
     </ul>
 

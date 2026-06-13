@@ -50,10 +50,10 @@ ROLE_NOTE = {
     "M": "grief, the veil, the three silences",
     "SD": "the moral centre — sharp, indicting, never coquettish",
     "S": "the refuser — withholding as an act",
-    "MG": "the audience's body on stage — pragmatic, tired",
-    "P1": "the Leading Man — vain, faded, defensive",
-    "P2": "the Leading Lady — practical, professional, employed",
-    "P3": "the youngest, curious one",
+    "MG": "a tired director — and, without trying, the audience's stand-in",
+    "P1": "the Leading Man — forties, vain, faded, defensive",
+    "P2": "the Leading Lady — about 35, practical, professional, the one who books the work",
+    "P3": "the youngest — early 20s, curious, happiest in the company",
     "MP": "the businesswoman of shame — comic on arrival, chilling on exit",
 }
 
@@ -107,7 +107,7 @@ SCENES = {
         ],
     },
     key("F", "MG"): {
-        "context": "The Father argues the company into staging them at all — and the metaphysics arrive: a character is fixed forever, an actor goes home. The Manager is the audience deciding whether to stay.",
+        "context": "The Father argues the company into staging them at all — and the metaphysics arrive: a character is fixed forever, an actor goes home. The Manager is deciding whether to stay.",
         "lines": [
             ("FATHER", "You think we are mad. I saw it in your face the instant we walked onto your stage — six people in mourning, asking to be put into a play."),
             ("MANAGER", "I think you are six strangers interrupting a rehearsal I am already a week behind on, with a script my company can barely stomach. That is precisely what I think."),
@@ -146,7 +146,7 @@ SCENES = {
         ],
     },
     key("M", "MG"): {
-        "context": "The Manager wants a clean sentence he can stage. The Mother teaches the audience-proxy what a play actually does to the people inside it.",
+        "context": "The Manager wants a clean sentence he can stage. The Mother teaches the tired director what a play actually does to the people inside it.",
         "lines": [
             ("MANAGER", "Madam — please — if you could just tell me, plainly, in your own words, what happened to your family, I might be able to build something I can put on a stage."),
             ("MOTHER", "You want it plainly. There is no plainly. There is a husband who sent me away, a man I was given to who died, a daughter pushed into a back room, a little one lost at a fountain, a boy with a revolver. Tell me — where, in all of that, is the plain sentence you can stage?"),
@@ -264,7 +264,7 @@ SCENES = {
         ],
     },
     key("MG", "P3"): {
-        "context": "The tired Manager and the youngest member of the company, who has never seen a rehearsal turn into this and is half-afraid to admit she loves it.",
+        "context": "The tired Manager and the youngest member of the company, who has never seen a rehearsal turn into this and is half-afraid to admit they love it.",
         "lines": [
             ("PLAYER 3", "Sorry — should I still be taking all of this down? In shorthand, I mean. Only it stopped being the rehearsal quite a while ago, and I honestly wasn't sure whether to keep going."),
             ("MANAGER", "Take everything down. I don't yet know what matters in all this and what doesn't, so for the moment, as far as you are concerned, every word of it matters."),
@@ -290,7 +290,7 @@ SCENES = {
         ],
     },
     key("P1", "P3"): {
-        "context": "The senior Leading Man instructs the newest member of the company in how things 'really' work. She keeps trying to write it down.",
+        "context": "The senior Leading Man instructs the newest member of the company in how things 'really' work. They keep trying to write it down.",
         "lines": [
             ("PLAYER 1", "You are new here, so allow me to explain how a company like this one actually works. The Leading Man sets the tone. Everything and everyone else simply arranges itself around that single fact."),
             ("PLAYER 3", "Oh — does he? I rather thought that was the director's job. The setting of the tone, I mean to say."),
@@ -304,7 +304,7 @@ SCENES = {
         ],
     },
     key("P2", "P3"): {
-        "context": "The veteran and the beginner. The youngest wants every morning to mean something; the elder has made a harder, wiser peace.",
+        "context": "The seasoned professional and the beginner. The youngest wants every morning to mean something; the elder has made a harder, wiser peace.",
         "lines": [
             ("PLAYER 3", "Can I ask you something, honestly? How do you manage to stay so completely calm when the whole morning falls apart like this around us?"),
             ("PLAYER 2", "Practice, mostly. And steadily lowered expectations. If I am being truthful with you, rather more of the second of those than the first."),

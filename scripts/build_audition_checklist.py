@@ -156,8 +156,8 @@ CHARACTERS = [
     },
     {
         "role": "The Manager",
-        "tag": "the symbol of the audience itself",
-        "summary": "He is the audience, concretely. Everything he does is what the audience does in their seats. The role lives or dies on the actor's ability to be practical, warm, and recognisable — not theatrical, not directorial in cliché.",
+        "tag": "a tired director — and, without trying, the audience's stand-in",
+        "summary": "A tired director, trying all day to solve a rehearsal problem. The audience recognise themselves in him because of how he reacts — practically, selfishly, curiously, too late — not because he plays it. The role lives or dies on the actor's ability to be practical, warm, and recognisable — not theatrical, not directorial in cliché.",
         "sections": [
             ("Voice & breath", [
                 "Working-director voice — practical, not declamatory",
@@ -188,8 +188,8 @@ CHARACTERS = [
     },
     {
         "role": "Player 1",
-        "tag": "one character in five hats — the Leading Man underneath",
-        "summary": "The role asks an actor to play five different functions (Leading Man, L'Ingénue, Door-keeper, Machinist, Third Actor) as the same vain Anglo Leading Man underneath, without losing the spine. Vanity as defence, with affection beneath it. He does not know he is funny.",
+        "tag": "one character in five hats — the Leading Man underneath (forties)",
+        "summary": "In his forties — the eldest of the Players, and the vain faded Anglo Leading Man. The role asks an actor to play five different functions (Leading Man, L'Ingénue, Door-keeper, Machinist, Third Actor) as the same man underneath, without losing the spine. Vanity as defence, with affection beneath it. He performs seniority; Player 2, younger, actually has the standing. He does not know he is funny.",
         "sections": [
             ("Voice & breath", [
                 "Anglo-classical diction that the production can read as English-in-Lausanne",
@@ -218,8 +218,8 @@ CHARACTERS = [
     },
     {
         "role": "Player 2",
-        "tag": "the diva and the props",
-        "summary": "The veteran character actress who actually is what Player 1 pretends to be. The role asks for two registers in one body — the Leading Lady's wounded vanity and the Property Man's practical irritation — without losing the same woman in both.",
+        "tag": "the diva and the props (about 35)",
+        "summary": "About thirty-five — the real working professional Player 1 only impersonates; younger than him, and better at the job. The role asks for two registers in one body — the Leading Lady's wounded vanity and the Property Man's practical irritation — without losing the same woman in both.",
         "sections": [
             ("Voice & breath", [
                 "Range from the diva's wounded indignation to the Property Man's quick functional dispatch",
@@ -236,7 +236,7 @@ CHARACTERS = [
             ]),
             ("Body & presence", [
                 "Comfortable flipping between Leading Lady and Property Man within a single scene",
-                "Physical authority — reads as the senior actor in the company",
+                "Physical authority — reads as the most grounded professional in the room, not the eldest",
                 "Available for the shop-scene playing on the upper platform",
                 "Comfortable with stage objects (hats, screen, table, pegs)",
             ]),
@@ -250,7 +250,7 @@ CHARACTERS = [
     {
         "role": "Player 3",
         "tag": "the youngest in the company",
-        "summary": "The earnest one, youngest by a decade. Carries the Juvenile Lead and the Prompter, and is the audience's mirror across the second half — few lines after Act One, but a face that stays alive while watching the horror. Cast for curiosity, not naivety.",
+        "summary": "Early 20s, the youngest and happiest in the company — a young man or a young woman, the part fits either. Cannot believe they are paid to be in a theatre, and does a bit of everything (prompts, small parts, strikes the set, fetches props). Carries the Juvenile Lead and the Prompter, and is the audience's mirror across the second half — few lines after Act One, but a face that stays alive while watching the horror. Cast for curiosity, not naivety.",
         "sections": [
             ("Voice & breath", [
                 "Earnest, open Juvenile Lead voice",

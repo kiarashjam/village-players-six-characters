@@ -25,22 +25,26 @@ outputs/
 │                                       the room: cast list, dialogue, necessary stage
 │                                       directions, light and sound cues. No essays.
 │                                       ~55 pages.
-├── audition_pack.pdf                  Audition Pack — cover, how-to-audition, and eight
-│                                       role sections, each with the full character
-│                                       description and ~2 pages of dialogue pulled
-│                                       byte-identically from the play. ~27 pages.
-├── audition_twohanders.pdf            Audition Two-Hander Pack — a paired side for every
-│                                       pairing of the eight speaking roles, only those two
-│                                       speaking. Organised by character (each role's section
-│                                       has a scene with every other role); Character–Player
-│                                       pairings use the metatheatrical frame. ~58 pages.
-├── audition_briefing.pdf              Audition Briefing — one page per anchor role (Father,
-│                                       Manager, Player 1, Player 3) with the look, the
-│                                       behaviour, the tone of speaking, what to coach
-│                                       against, plus a three-sentence solo monologue the
-│                                       auditioner can read alone. Player 3's page also
-│                                       carries an optional Madame Pace transformation
-│                                       test. ~10 pages.
+├── player3_part_book.pdf              Player 3 Part Book — every line Player 3 speaks and
+│                                       every action she performs, in performance order,
+│                                       grouped by act and part, each entry preceded by its
+│                                       cue. An actor's sides for the youngest of the company.
+├── audition_pack.pdf                  Audition Pack — cover, how-to-audition, and nine
+│                                       role sections (the four Characters, the Manager,
+│                                       Players 1–3, and Madame Pace), each with the full
+│                                       character description and ~2 pages of dialogue pulled
+│                                       byte-identically from the play. ~30 pages.
+├── audition_twohanders.pdf            Audition Two-Hander Pack — a paired side for the
+│                                       pairings of the nine speaking roles, only those two
+│                                       speaking. Organised by character; Madame Pace appears
+│                                       only with the three figures she meets in the play, so
+│                                       the matrix is intentionally not complete. ~58 pages.
+├── audition_briefing.pdf              Audition Briefing — one page per speaking role (all
+│                                       nine: the four Characters, the Manager, Players 1–3,
+│                                       and Madame Pace) with the look, the behaviour, the
+│                                       tone of speaking, what to coach against, and a
+│                                       three-sentence solo. Madame Pace's page carries the
+│                                       accent-and-ledger test. ~11 pages.
 ├── audition_checklist.pdf             Director's working checklist for the audition room.
 │                                       One page per role with checkboxes (reading,
 │                                       signature & arc, voice & body, notes), plus an
@@ -89,6 +93,7 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 ├── make_pdf.py                        → outputs/directors_copy.pdf
 ├── build_actor_script.py              → actor_script.html (then make_pdf
 │                                       renders it to outputs/actor_script.pdf)
+├── build_player3_partbook.py          → outputs/player3_part_book.pdf
 ├── build_audition_pack.py             → outputs/audition_pack.pdf
 ├── build_audition_twohanders.py       → outputs/audition_twohanders.pdf
 ├── build_audition_briefing.py         → outputs/audition_briefing.pdf
@@ -144,6 +149,7 @@ PDF_SRC=actor_script.html \
 PDF_OUT=outputs/actor_script.pdf \
   python scripts/make_pdf.py                       # render actor_script.pdf
 
+python scripts/build_player3_partbook.py           # render player3_part_book.pdf
 python scripts/build_audition_pack.py              # render audition_pack.pdf
 python scripts/build_audition_twohanders.py        # render audition_twohanders.pdf
 python scripts/build_audition_briefing.py          # render audition_briefing.pdf
@@ -178,7 +184,7 @@ The Director's Copy is the single source of truth. It contains, in order:
 
 - **Actor Rehearsal Script** — derived from the Director's Copy automatically by `build_actor_script.py`. Strips portraits, part-notes, stats blocks, and the directorial essays. Keeps the cover, a short cast list, a production note on the two stage objects (and the explicit "no projection, no screen" decision), and the full play text including every necessary stage direction and sound/light cue.
 
-- **Audition Pack (audition_unified.pdf)** — cover, a one-page "how to audition" note, then eight role sections. Each section has the full character description (the portrait from the Director's Copy) followed by ~2 pages of consecutive dialogue from the part of the play where that character is most active. The dialogue is pulled byte-identically from the working HTML, so it stays in sync with edits.
+- **Audition Pack (audition_pack.pdf)** — cover, a one-page "how to audition" note, then nine role sections (the four Characters, the Manager, Players 1–3, and Madame Pace). Each section has the full character description (the portrait from the Director's Copy) followed by ~2 pages of consecutive dialogue from the part of the play where that character is most active. The dialogue is pulled byte-identically from the working HTML, so it stays in sync with edits.
 
 - **Production Summary** — a one-page publication blurb for press releases, programme notes, festival listings, or the company's own announcements.
 
