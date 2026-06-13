@@ -158,7 +158,7 @@ HTML = r"""<!DOCTYPE html>
 
   <section class="close">
     <p>The principle, in one line: <strong>the most terrible thing on a stage is the thing the audience does not see.</strong> Pirandello already wrote this into the script — drowning hidden by the basin, gunshot heard, not seen. The production extends it: the children are not played by performers, because no performer should be asked to die in front of an audience every night, and because the audience's own imagination will always supply something more frightening than anything a stage can literally show. <strong>Object</strong> gives the audience a body to read; <strong>sound</strong> gives them the event to put inside it; <strong>dialogue</strong> tells them what happened, in a voice too late to stop it; <strong>light</strong> withdraws so they do the last of the work themselves.</p>
-    <p class="last">By the time the chair-and-coat is being carried off the stage as a body, the audience has been calling it a body for two hours. That complicity is the play — what the Manager's last line, <em>"I've lost a whole day over these people. A whole day."</em>, is asking them to admit on the way home.</p>
+    <p class="last">By the time the chair-and-coat is being carried off the stage as a body, the audience has been calling it a body for two hours. That complicity is the play — what the Manager's last act, the look at the empty chair and <em>"To hell with it all"</em> as he walks out, is asking them to admit on the way home.</p>
   </section>
 
   <footer class="foot">

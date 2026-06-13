@@ -251,10 +251,10 @@ HTML = r"""<!DOCTYPE html>
     <p>The Manager has had enough.</p>
 
     <div class="pull-quote">
-      "Pretence? Reality? To hell with it all. I've lost a whole day over these people. A whole day."
+      "Pretence? Reality? To hell with it all."
     </div>
 
-    <p>He walks out. The lights drop again. Out of the dark, the first phrase of Arvo Pärt's <em>Spiegel im Spiegel</em> opens, plays for ten seconds, and stops. Curtain.</p>
+    <p>He looks once at the empty Boy-chair, and walks out. The lights drop again. Out of the dark, the first phrase of Arvo Pärt's <em>Spiegel im Spiegel</em> opens, plays for ten seconds, and stops. Curtain.</p>
   </section>
 
   <section class="closing">
