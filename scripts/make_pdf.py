@@ -17,7 +17,7 @@ CHROMIUM = os.environ.get("CHROMIUM_PATH")  # optional override
 
 PRINT_CSS = """
 <style id="print-overrides">
-  @page { size: A4; margin: 22mm 18mm 22mm 18mm; }
+  @page { size: A4; margin: 12mm; }
 
   html, body { background: #efe6cf !important; color: #2a201a !important; }
   body {
@@ -68,7 +68,7 @@ with sync_playwright() as p:
     page.pdf(
         path=str(OUT),
         format="A4",
-        margin={"top": "22mm", "right": "18mm", "bottom": "22mm", "left": "18mm"},
+        margin={"top": "12mm", "right": "12mm", "bottom": "12mm", "left": "12mm"},
         print_background=True,
         prefer_css_page_size=True,
     )

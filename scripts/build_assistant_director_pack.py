@@ -20,13 +20,13 @@ HTML = """<!DOCTYPE html>
 <title>Assistant Director Pack — Six Characters in Search of an Author</title>
 <style>
   :root { --bg:#efe6cf; --ink:#2a201a; --ink-soft:#6b5b48; --accent:#8b3a3a; --rule:rgba(42,32,26,0.18); }
-  @page { size: A4; margin: 22mm 22mm 22mm 22mm; }
+  @page { size: A4; margin: 12mm; }
   *,*::before,*::after { box-sizing: border-box; }
   html, body { background: var(--bg); color: var(--ink);
     font-family: 'EB Garamond','Georgia','Times New Roman',serif;
     font-size: 11pt; line-height: 1.65; margin: 0; padding: 0; }
 
-  main { max-width: 162mm; margin: 0 auto; }
+  main { max-width: none; margin: 0; }
 
   /* Masthead */
   .masthead { text-align: center; margin-bottom: 8mm; padding-bottom: 6mm;
@@ -225,7 +225,7 @@ with sync_playwright() as p:
     page.goto(f"file://{HTML_PATH.resolve()}", wait_until="networkidle", timeout=30000)
     page.wait_for_timeout(600)
     page.pdf(path=str(OUT), format="A4",
-             margin={"top":"22mm","right":"22mm","bottom":"22mm","left":"22mm"},
+             margin={"top": "12mm", "right": "12mm", "bottom": "12mm", "left": "12mm"},
              print_background=True, prefer_css_page_size=True)
     browser.close()
 
