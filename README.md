@@ -102,6 +102,7 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 │                                       renders it to outputs/actor_script.pdf)
 ├── build_part_books.py                → outputs/<role>_part_book.pdf (×9, one per role)
 ├── build_movement_maps.py             → outputs/movement_maps.pdf (top-down blocking maps)
+├── build_blocking_storyboard.py       → outputs/blocking_storyboard.pdf (beat-by-beat cards)
 ├── build_audition_pack.py             → outputs/audition_pack.pdf
 ├── build_audition_twohanders.py       → outputs/audition_twohanders.pdf
 ├── build_audition_briefing.py         → outputs/audition_briefing.pdf
@@ -159,6 +160,7 @@ PDF_OUT=outputs/actor_script.pdf \
 
 python scripts/build_part_books.py                 # render all nine <role>_part_book.pdf
 python scripts/build_movement_maps.py              # render movement_maps.pdf
+python scripts/build_blocking_storyboard.py        # render blocking_storyboard.pdf
 python scripts/build_audition_pack.py              # render audition_pack.pdf
 python scripts/build_audition_twohanders.py        # render audition_twohanders.pdf
 python scripts/build_audition_briefing.py          # render audition_briefing.pdf
