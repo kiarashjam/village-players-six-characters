@@ -31,6 +31,11 @@ outputs/
 │                                       every action it performs, in performance order, grouped
 │                                       by act and part, each entry preceded by its cue. The
 │                                       intro is the character's portrait, pulled from the play.
+├── movement_maps.pdf                  Movement & Blocking Maps — top-down (plan-view) staging
+│                                       diagrams: a legend, one stage plan per act showing the
+│                                       set, every character's start position and numbered
+│                                       movement paths, and a per-character journey table.
+│                                       A4 landscape.
 ├── audition_pack.pdf                  Audition Pack — cover, how-to-audition, and nine
 │                                       role sections (the four Characters, the Manager,
 │                                       Players 1–3, and Madame Pace), each with the full
@@ -96,6 +101,7 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 ├── build_actor_script.py              → actor_script.html (then make_pdf
 │                                       renders it to outputs/actor_script.pdf)
 ├── build_part_books.py                → outputs/<role>_part_book.pdf (×9, one per role)
+├── build_movement_maps.py             → outputs/movement_maps.pdf (top-down blocking maps)
 ├── build_audition_pack.py             → outputs/audition_pack.pdf
 ├── build_audition_twohanders.py       → outputs/audition_twohanders.pdf
 ├── build_audition_briefing.py         → outputs/audition_briefing.pdf
@@ -152,6 +158,7 @@ PDF_OUT=outputs/actor_script.pdf \
   python scripts/make_pdf.py                       # render actor_script.pdf
 
 python scripts/build_part_books.py                 # render all nine <role>_part_book.pdf
+python scripts/build_movement_maps.py              # render movement_maps.pdf
 python scripts/build_audition_pack.py              # render audition_pack.pdf
 python scripts/build_audition_twohanders.py        # render audition_twohanders.pdf
 python scripts/build_audition_briefing.py          # render audition_briefing.pdf
