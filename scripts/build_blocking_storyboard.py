@@ -187,8 +187,8 @@ def _setpieces(act, light):
         s.append(f'<ellipse cx="{cx}" cy="{cy}" rx="33" ry="21" fill="{fount}" stroke="#2d6373" stroke-width="1.8"/>')
         s.append(f'<text x="{cx}" y="{cy+3}" text-anchor="middle" font-size="7.5" fill="#2d6373" font-family="serif">fountain</text>')
         # the Manager's table, with its bare bulb (glowing only at the end)
-        tx, ty = _xy(22, 80)
-        s.append(_bulb(22, 72, glow))
+        tx, ty = _xy(15, 90)
+        s.append(_bulb(15, 82, glow))
         s.append(f'<rect x="{tx-9}" y="{ty-4}" width="18" height="8" rx="1.5" fill="none" stroke="#8a7a5a" stroke-width="1"/>')
         s.append(f'<text x="{tx}" y="{ty+12}" text-anchor="middle" font-size="6" fill="#8b6a4a" font-family="serif" font-style="italic">Manager’s table</text>')
     s.append(_doors(act))
@@ -467,21 +467,24 @@ def BEATS():
     S.act("Act Three — The Question", 3)
     S.clear()
 
+    # Per the script: family stage-RIGHT (= page-left here), company
+    # stage-LEFT (= page-right), Manager centre. The Mother holds both the
+    # Child-bundle (lap) and the Boy-chair (against her knee).
     S.part("Part I — The Trap")
     B("curtainup",
-      sd("Curtain up. The two-level set is struck; the stage is bare but for a single fountain basin, centre. The family sit stage-right, the company stage-left; the Manager stands centre, hand over his mouth") + f'. {who("The Manager")}. Ah yes: the second act!',
-      place={"M": (80, 58), "CHILD": (88, 60), "BOY": (72, 62), "S": (86, 38),
-             "F": (78, 72), "SD": (68, 72), "P1": (14, 52), "P2": (14, 64),
-             "P3": (14, 76), "MG": (42, 80)})
+      sd("Curtain up. The two-level set is struck; the stage is bare but for a single fountain basin, centre. The family sit stage-right — the Mother with the Child-bundle in her lap and the Boy-chair against her knee, the Son apart, the Father and Step-Daughter at the right front; the company sit stage-left; the Manager stands centre, hand over his mouth") + f'. {who("The Manager")}. Ah yes: the second act!',
+      place={"M": (26, 52), "CHILD": (32, 54), "BOY": (20, 56), "S": (14, 38),
+             "F": (30, 72), "SD": (42, 74), "P1": (86, 50), "P2": (86, 62),
+             "P3": (86, 74), "MG": (54, 66)})
     B("work",
       f'{who("Player 2")} {sd("as Leading Lady")}. The audience needs to know which room we are in. {who("The Father")} {sd("the word lands physically — he turns too quickly")}. The illusion — for Heaven&#39;s sake, don&#39;t say illusion. Don&#39;t use that word.',
-      move=("F", 58, 80), notes=[(54, 86, "turns too quickly")])
+      move=("F", 44, 74), notes=[(44, 82, "turns too quickly")])
     B("work",
       f'{who("The Father")} {sd("turning out toward the house; a pause long enough to feel")}. Can you tell me who you are?',
-      move=("F", 52, 88), notes=[(52, 94, "to the house · downstage")])
+      move=("F", 52, 90), notes=[(52, 96, "to the house · downstage")])
     B("work",
       f'{who("The Manager")}. A man who calls himself a character comes and asks me who I am! {who("The Father")} {sd("with dignity, not offended")}. A character, sir, may always ask a man who he is. Because a character really does have a life of his own.',
-      move=("F", 44, 72), notes=[(34, 72, "closing on the Manager")])
+      move=("F", 52, 72), notes=[(60, 76, "closing on the Manager")])
     B("work",
       f'{who("The Step-Daughter")} {sd("level, never raised — colder than the philosophy")}. His <em>reality</em>. He always knew exactly where to find me.')
     B("work",
@@ -490,19 +493,19 @@ def BEATS():
     S.part("Part II — The Refusal")
     B("work",
       f'{who("The Son")} {sd("jumping up")}. Delighted! Delighted! I don&#39;t ask for anything better. {sd("begins to move away")} {who("The Manager")} {sd("at once stopping him")}. No! No! Where are you going? Wait a bit!',
-      move=("S", 92, 20), notes=[(94, 12, "makes for the wings · SL"), (70, 40, "the Manager stops him")])
+      move=("S", 4, 26), notes=[(8, 18, "makes for the wings · SR"), (34, 40, "the Manager stops him")])
     B("work",
       f'{who("The Step-Daughter")} {sd("calmly — she knows him")}. Don&#39;t bother to stop him. He won&#39;t go. {who("The Son")} {sd("trapped now, and knowing it")}. If I can&#39;t go away, then I&#39;ll stop here. But I repeat — I act nothing.',
-      move=("S", 86, 30))
+      move=("S", 12, 40))
     B("work",
       f'{who("The Father")} {sd("seizing the Son, not leaving hold")}. You&#39;ve got to obey, do you hear?',
-      move=("F", 80, 42))
+      move=("F", 18, 42))
     B("work",
       f'{who("The Son")} {sd("the voice cracking, the body refusing the cry; they separate")}. What does it mean — this madness you&#39;ve got? I won&#39;t do it. I won&#39;t.',
-      move=("S", 86, 24))
+      move=("S", 6, 32))
     B("work",
       f'{who("The Mother")} {sd("gets up, alarmed and terrified that he is really about to go, and instinctively lifts her arms")}. {sd("She does not reach him")}.',
-      move=("M", 80, 46))
+      move=("M", 20, 46))
 
     S.part("Part III — The Fountain")
     B("work",
@@ -511,29 +514,29 @@ def BEATS():
       f'{who("The Mother")}. Yes. Into his room. I couldn&#39;t bear it any more. I went to tell him what I have inside me — all of it. {sd("a hand at her chest")} But the moment he saw me come in…')
     B("work",
       f'{who("The Manager")} {sd("he stands; he picks up the Boy-chair himself and walks it across the stage, and places it behind the fountain basin")}.',
-      move=("MG", 50, 32), place={"BOY": (50, 28)}, notes=[(50, 22, "sets the Boy-chair behind the basin")])
+      move=("MG", 50, 36), place={"BOY": (50, 30)}, notes=[(50, 22, "sets the Boy-chair behind the basin")])
     B("work",
       f'{who("The Step-Daughter")} {sd("lifts the Child-bundle from the Mother&#39;s lap and carries it toward the fountain")}.',
-      move=("SD", 58, 54), place={"CHILD": (56, 52)})
+      move=("SD", 46, 56), place={"CHILD": (46, 54)})
     B("work",
       sd("The Step-Daughter bends over the basin and lowers the Child-bundle into it; the basin&#39;s walls hide the action from view") + ".",
-      move=("SD", 52, 52), place={"CHILD": (50, 50)})
+      move=("SD", 50, 52), place={"CHILD": (50, 50)})
     B("fountain",
       f'{who("The Son")} {sd("his one continuous sentence; the stage lights drop, breath by breath, until only the fountain and the bare bulb over the Manager&#39;s table remain — the Boy-chair silhouetted behind the basin")}. There in the fountain…')
     B("blackout",
       sd("Full blackout. Out of the dark, a revolver shot rings out from behind the basin where the Boy-chair is") + ".",
-      burst=(50, 28))
+      burst=(50, 30))
     B("snap",
       f'{who("The Mother")} {sd("she does not cry out at once — she reaches first for the Child-bundle in the basin, then the Boy-chair behind it; her arms cannot hold both, the veil still down")}. My son! My son!',
-      move=("M", 54, 46))
+      move=("M", 46, 46))
     B("snap",
       f'{who("Two Players")}. He&#39;s dead! dead! {who("The Other Players")}. No, no — it&#39;s only make-believe, only pretence! {who("The Father")} {sd("with a terrible cry")}. Pretence? Reality, sir — reality!')
     B("snap",
       sd("The Players lift up the Boy-chair and carry it off, handling it as if it were the Boy&#39;s body — heavy, careful, terrible") + ".",
-      exit=("BOY", 98, 30), notes=[(92, 20, "carried off · SL · like a body")])
+      exit=("BOY", 96, 28), notes=[(88, 20, "carried off · SL · like a body")])
     B("work",
       f'{who("The Manager")} {sd("a look at the empty Boy-chair, then he turns and leaves the stage the way a man leaves a theatre")}. Pretence? Reality? … To hell with it all.',
-      exit=("MG", 42, 94), notes=[(64, 90, "leaves toward the house · downstage")])
+      exit=("MG", 50, 94), notes=[(62, 90, "leaves toward the house · downstage")])
 
     return S.result()
 
