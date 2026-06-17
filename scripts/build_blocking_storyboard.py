@@ -337,7 +337,7 @@ def BEATS():
         ("Part II — The Apparition", [
           (mini(A2, [("F",70,40),("MG",30,82),("P1",46,84),("SD",60,40)],
                 mover=("P2",58,76,64,18), light="work", notes=[(64,8,"to the pegs · USC")]),
-           f'{who("The Father")}. Would the ladies mind hanging their hats and mantles on the pegs at the back? {sd("the actresses climb to the platform; the shop window and the screen are set")}.'),
+           f'{who("The Father")}. Oh nothing. I just want to put them on these pegs for a moment. And one of the ladies will be so kind as to take off her mantle… {sd("the actresses give up their hats; the shop window and the screen are set")}.'),
           (mini(A2, [("SD",52,34),("F",80,16),("MG",30,82),("P1",46,84),("P2",62,82)],
                 mover=("MP",50,2,48,18), light="work", notes=[(50,16,"enters · door at back · USC")]),
            f'{sd("The door at the back of stage opens and Madame Pace enters and takes a few steps forward — fat, bleach-blonde, the silver chain at her waist")}.'),
