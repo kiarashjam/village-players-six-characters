@@ -45,6 +45,10 @@ outputs/
 │                                       order, with every blocking map dropped in at the line
 │                                       where its move happens. Lines with no move flow as
 │                                       ordinary script. ~51 pages, A4 portrait.
+├── reading_edition.pdf                Reading Edition — the complete play, line by line, with
+│                                       a short interpretive note above EVERY spoken line: what
+│                                       it means and the intent / subtext beneath it. Notes live
+│                                       in data/reading_glosses.json. ~61 pages, A4 portrait.
 ├── audition_pack.pdf                  Audition Pack — cover, how-to-audition, and nine
 │                                       role sections (the four Characters, the Manager,
 │                                       Players 1–3, and Madame Pace), each with the full
@@ -113,6 +117,7 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 ├── build_movement_maps.py             → outputs/movement_maps.pdf (top-down blocking maps)
 ├── build_blocking_storyboard.py       → outputs/blocking_storyboard.pdf (beat-by-beat cards)
 ├── build_blocking_storyboard_full.py  → outputs/blocking_storyboard_full.pdf (full script + maps)
+├── build_reading_edition.py           → outputs/reading_edition.pdf (annotated reading edition)
 ├── build_audition_pack.py             → outputs/audition_pack.pdf
 ├── build_audition_twohanders.py       → outputs/audition_twohanders.pdf
 ├── build_audition_briefing.py         → outputs/audition_briefing.pdf
@@ -172,6 +177,7 @@ python scripts/build_part_books.py                 # render all nine <role>_part
 python scripts/build_movement_maps.py              # render movement_maps.pdf
 python scripts/build_blocking_storyboard.py        # render blocking_storyboard.pdf
 python scripts/build_blocking_storyboard_full.py   # render blocking_storyboard_full.pdf
+python scripts/build_reading_edition.py            # render reading_edition.pdf
 python scripts/build_audition_pack.py              # render audition_pack.pdf
 python scripts/build_audition_twohanders.py        # render audition_twohanders.pdf
 python scripts/build_audition_briefing.py          # render audition_briefing.pdf
