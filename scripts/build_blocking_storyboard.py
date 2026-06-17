@@ -147,10 +147,10 @@ def _curtain(frac):
 
 def _doors(act):
     if act == 1:
-        return _opening(50, 0, "top", "door at back · entrances") + _opening(100, 30, "right", "dressing rooms")
+        return _opening(50, 0, "top", "door at back · USC") + _opening(100, 30, "right", "dressing rooms · SL")
     if act == 2:
-        return _opening(50, 0, "top", "door at back") + _opening(100, 64, "right", "office")
-    return _opening(2, 42, "left", "wings") + _opening(98, 42, "right", "wings")
+        return _opening(50, 0, "top", "door at back · USC") + _opening(100, 64, "right", "office · SL")
+    return _opening(2, 42, "left", "wings · SR") + _opening(98, 42, "right", "wings · SL")
 
 
 def _setpieces(act, light):
@@ -223,7 +223,7 @@ def mini(act, statics, mover=None, burst=None, light="work", notes=None):
         body += _note(*n)
     body += _badge(light)
     body += (f'<text x="{(IX0+IX1)/2}" y="{IY1+13}" text-anchor="middle" font-size="7.5" '
-             f'fill="#6b5b48" font-family="serif" font-style="italic">audience ↓</text>')
+             f'fill="#6b5b48" font-family="serif" font-style="italic">audience ↓ · downstage</text>')
     return f'<svg viewBox="0 0 {VW} {VH}" xmlns="http://www.w3.org/2000/svg">{body}</svg>'
 
 
@@ -242,29 +242,37 @@ def BEATS():
       ("Act One — The Family", [
         ("Part I — The Rehearsal", [
           (mini(A1, [("P2",56,9),("P3",84,84)], mover=("P1",50,3,44,46),
-                light="halfdark", notes=[(50,17,"enter, one by one")]),
+                light="halfdark", notes=[(50,17,"enter from USC, one by one")]),
            f'{sd("The Actors and Actresses of the company enter from the back of the stage: first one, then another, then two together; nine or ten in all. Some move off towards their dressing rooms. The Prompter, the &ldquo;book&rdquo; under his arm, waits for the Manager")}.'),
           (mini(A1, [("P1",44,46),("P2",60,44),("P3",84,86)], mover=("MG",50,3,20,82),
-                light="halfdark", notes=[(50,16,"enters")]),
+                light="halfdark", notes=[(50,16,"enters · USC")]),
            f'{sd("Finally, the Manager enters with the precise weariness of a man who has managed the Village Players too long; he goes to his table, the Prompter turns on a light and opens the &ldquo;book&rdquo;")}.'),
           (mini(A1, [("MG",20,82),("P1",44,48),("P2",60,46),("P3",84,86)], light="rehearsal"),
            f'{who("The Manager")} {sd("to the Property Man")}. A little light, please — if the house has any left to spare us this evening. {who("Player 2")} {sd("as Property Man")}. Yes, sir. At once. {sd("A light comes down on to the stage")}.'),
           (mini(A1, [("MG",20,82),("P1",46,48),("P3",84,86)], mover=("P2",60,46,95,30),
-                light="work", notes=[(90,22,"to the wings")]),
+                light="work", notes=[(90,22,"to the wings · SL")]),
            f'{who("The Manager")} {sd("clapping his hands")}. Come along! Second act of &ldquo;Mixing It Up&rdquo; — and try, this time, to play it as if you wanted the public to come back for the third. {sd("The Actors go to the wings, all except the three who begin the rehearsal")}.'),
-          (mini(A1, [("MG",20,82),("P1",46,48)], mover=("P3",70,60,84,86), light="work"),
-           f'{who("Player 1")} {sd("as Leading Man")}. Excuse me, but must I absolutely wear a cook&#39;s cap? {who("Player 3")} {sd("as Prompter, getting into the box")}. Pardon, sir — may I get into my box?'),
+          (mini(A1, [("MG",20,82),("P1",46,48),("P2",80,30),("P3",84,86)], light="work"),
+           f'{who("Player 1")} {sd("as Leading Man")}. Excuse me, but must I absolutely wear a cook&#39;s cap? It&#39;s ridiculous. I have a reputation in this canton — fifteen years. {who("Player 2")} {sd("as Property Man, not looking up")}. Fifteen years. And the cap is what finally finishes you.'),
+          (mini(A1, [("MG",20,82),("P1",46,48),("P2",80,30)], mover=("P3",70,60,84,86), light="work"),
+           f'{who("Player 3")} {sd("as Prompter, getting into the box")}. Pardon, sir — may I get into my box? There&#39;s a draught off that door, and I&#39;d rather not be hoarse for my first proper season.'),
           (mini(A1, [("F",44,10),("M",52,8),("SD",60,10),("S",38,10),("CHILD",64,10),("MG",20,82),("P1",46,48),("P3",84,86)],
-                mover=("BOY",50,2,16,46), light="amber", notes=[(50,20,"the Six enter, stop at the door")]),
+                mover=("BOY",50,2,16,46), light="amber", notes=[(50,20,"the Six enter USC, stop at the door")]),
            f'{sd("The white working lights soften to a warm amber. The Door-keeper carries on the Boy-chair and sets it at the edge of the stage; the four live Characters — Father, Mother, Step-Daughter, Son — enter and stop by the door at back, the Step-Daughter carrying the Child-bundle")}.'),
           (mini(A1, [("F",44,12),("M",52,10),("SD",60,12),("S",38,12),("CHILD",64,12),("BOY",16,46),("MG",20,82)],
                 light="amber"),
            f'{sd("A tenuous light surrounds the Six, almost as if irradiated by them — the faint breath of their fantastic reality. It will disappear when they come forward")}.'),
         ]),
         ("Part II — The Interruption", [
+          (mini(A1, [("F",44,12),("M",52,10),("SD",60,12),("S",38,12),("CHILD",64,12),("MG",20,82)],
+                mover=("P1",52,8,30,78), light="amber", notes=[(54,18,"crosses from the door · USC")]),
+           f'{who("Player 1")} {sd("as Door-keeper, cap in hand")}. Excuse me, sir — these people are asking for you. I told them you were busy; they insist on coming in. {who("The Manager")} {sd("rudely")}. I am rehearsing — and you know perfectly well no one is allowed in during rehearsals!'),
           (mini(A1, [("M",58,12),("SD",68,14),("S",40,12),("BOY",16,46),("CHILD",78,14),("MG",20,82)],
                 mover=("F",50,12,48,40), light="amber"),
            f'{who("The Father")} {sd("coming forward, the others following, embarrassed")}. No, for Heaven&#39;s sake, what are you saying? We bring you a drama, sir.'),
+          (mini(A1, [("M",58,18),("SD",66,20),("S",40,16),("CHILD",72,20),("MG",22,80)],
+                mover=("F",48,40,36,62), light="amber", notes=[(28,72,"a step toward the Manager")]),
+           f'{who("The Manager")}. But what do you want here, all of you? {who("The Father")}. We want to live. {who("The Manager")}. For Eternity? {who("The Father")}. No, sir, only for a moment… in you.'),
           (mini(A1, [("F",48,42),("M",60,20),("S",38,18),("CHILD",70,18),("MG",22,80)],
                 mover=("SD",70,22,54,46), light="amber"),
            f'{who("The Step-Daughter")} {sd("crossing behind the Father; a hand on his shoulder, left one beat too long, then withdrawn")}. My passion, sir. Ah, if you only knew — my passion for <em>him</em>.'),
@@ -277,28 +285,39 @@ def BEATS():
           (mini(A1, [("M",56,50),("S",34,24),("SD",58,66),("CHILD",62,52),("BOY",44,52),("P2",70,46)],
                 mover=("F",40,46,53,50), burst=(58,50), light="amber"),
            f'{who("The Father")} {sd("raising her veil")}. Let them see you!'),
+          (mini(A1, [("S",34,20),("F",50,46),("M",58,52),("SD",60,64),("BOY",44,52),("MG",22,80)],
+                light="amber", notes=[(34,12,"the Son keeps apart · USR")]),
+           f'{who("The Son")} {sd("hands in his pockets, body not moving")}. Leave me alone. I don&#39;t come into this. {who("The Father")}. What? You don&#39;t come into this?'),
           (mini(A1, [("M",56,50),("F",46,50),("SD",58,66),("P2",70,46)],
-                mover=("P1",48,44,12,84), light="amber", notes=[(16,90,"company to the wings")]),
+                mover=("P1",48,44,12,84), light="amber", notes=[(16,90,"company to the wings · SR")]),
            f'{who("Player 1")} {sd("as Leading Man, beginning to relish it — then his eyes reach the Mother, and the rest does not arrive")}. What a spectacle. What an absolute…'),
         ]),
         ("Part III — The Bargain", [
+          (mini(A1, [("F",50,52),("M",70,60),("S",30,30),("CHILD",76,60),("MG",40,64)],
+                mover=("SD",62,56,54,66), light="amber", notes=[(50,74,"comes forward")]),
+           f'{who("The Manager")}. I begin to think there&#39;s the stuff for a drama in all this. {who("The Step-Daughter")} {sd("coming forward")}. When you&#39;ve got a character like me. {who("The Father")} {sd("shutting her up")}. You be quiet!'),
+          (mini(A1, [("SD",58,60),("M",70,60),("S",30,30),("MG",36,66)],
+                mover=("F",50,52,42,66), light="amber", notes=[(28,72,"closing on the Manager")]),
+           f'{who("The Father")} {sd("to the Manager")}. No, no — look here. You must be the author. {who("The Manager")}. I? Because I have never been an author: that&#39;s why. {who("The Father")}. Then why not turn author now?'),
           (mini(A1, [("F",50,52),("SD",62,56),("M",70,60),("S",30,30),("CHILD",76,60)], light="amber"),
            f'{who("The Step-Daughter")}. The room — I see it. The window with the mantles, the divan, the looking-glass, a screen, and the little mahogany table with the blue envelope and its hundred francs.'),
           (mini(A1, [("P1",40,60),("F",50,52),("SD",62,56),("M",70,60)],
-                mover=("P2",60,58,50,2), light="amber", notes=[(88,26,"dressing rooms")]),
+                mover=("P2",60,58,50,2), light="amber", notes=[(50,16,"out the little door · USC"),(88,26,"others to dressing rooms · SL")]),
            f'{sd("Thus talking, the Actors leave the stage; some going out by the little door at the back, others retiring to their dressing-rooms")}.'),
           (mini(A1, [("F",50,54),("SD",58,56),("M",66,58),("S",34,34),("CHILD",72,58)],
-                mover=("MG",40,60,95,30), light="red", notes=[(90,22,"all off to the office")]),
+                mover=("MG",40,60,95,30), light="red", notes=[(90,22,"all off to the office · SL")]),
            f'{who("The Manager")} {sd("hooked; leading the Father and the Six off to his office")}. Come with me to my office. In a quarter of an hour, all back here again. {sd("The Manager and the Six cross the stage and go off")}.'),
+          (mini(A1, [("P1",40,52),("P2",54,52),("P3",68,54)], light="work"),
+           f'{who("Player 1")} {sd("as Leading Man")}. Is he serious? He has taken six strangers into his office and left us standing here like furniture. {who("Player 2")} {sd("as Leading Lady")}. Ordinary strangers do not arrive with a tragedy already rehearsed. {who("Player 3")}. Perhaps there is a play.'),
         ]),
       ]),
       ("Act Two — The Theatre", [
         ("Part I — The Setup", [
           (mini(A2, [("P2",56,84),("P3",22,82),("MG",82,62)],
-                mover=("P1",50,2,40,84), light="work", notes=[(50,16,"the company returns")]),
+                mover=("P1",50,2,40,84), light="work", notes=[(50,16,"the company returns · USC")]),
            f'{sd("The stage call-bells ring. From the dressing-rooms and the little door at the back the Actors, Stage Manager, Property Man and Prompter return; the Manager comes out of his office with the Father and the Step-Daughter")}.'),
           (mini(A2, [("CHILD",82,58),("BOY",90,62),("MG",30,82),("P1",46,84),("P2",58,84)],
-                mover=("SD",88,60,52,32), light="work", notes=[(96,55,"out of the office")]),
+                mover=("SD",88,60,52,32), light="work", notes=[(96,55,"out of the office · SL")]),
            f'{who("The Step-Daughter")} {sd("comes out of the Manager&#39;s office carrying the Child-bundle and dragging the Boy-chair, and cries")}: Come on, Rosetta, let&#39;s run!'),
           (mini(A2, [("CHILD",44,30),("BOY",62,30)], mover=("SD",60,40,48,28), light="shower"),
            f'{sd("She drags the Boy-chair a little behind her and leaves it leaning. The stage darkens; the shower — a tight vertical column of light from a single overhead source — falls on the Step-Daughter only. The pianist begins Satie&#39;s Gymnopédie No. 1, and she kneels with the Child-bundle")}.'),
@@ -307,22 +326,27 @@ def BEATS():
           (mini(A2, [("SD",48,30),("CHILD",44,30),("BOY",62,30)], light="work"),
            f'{sd("The piano dies on her last word. The shower holds for one more breath, then releases. The working lights come up. The Step-Daughter is alone on the upper platform with the Child-bundle and the Boy-chair")}.'),
           (mini(A2, [("M",88,64),("CHILD",80,72)], mover=("S",90,60,80,78), light="work",
-                notes=[(96,55,"office (off)"),(78,86,"Son &amp; Mother come out")]),
+                notes=[(96,55,"office (off) · SL"),(78,86,"Son &amp; Mother come out · SL")]),
            f'{sd("The Father, Manager and Step-Daughter go back into the office (off); at the same time the Son, followed by the Mother, comes out")}.'),
           (mini(A2, [("S",80,80),("CHILD",70,72)], mover=("M",74,76,68,66), light="work"),
            f'{who("The Mother")} {sd("rises; one step toward the Son")}. My son — {sd("the Son turns away before the word is finished; she stops, and the unfinished word stays in the air")}.'),
+          (mini(A2, [("MG",30,82),("SD",70,40),("F",78,40)], mover=("P2",40,84,60,40), light="work",
+                notes=[(60,30,"setting the shop · USC")]),
+           f'{who("The Step-Daughter")}. And the screen! There must be a screen. Otherwise how am I to manage? {who("Player 2")} {sd("as Property Man")}. That&#39;s all right, Miss. We&#39;ve got any amount of them.'),
         ]),
         ("Part II — The Apparition", [
           (mini(A2, [("F",70,40),("MG",30,82),("P1",46,84),("SD",60,40)],
-                mover=("P2",58,76,64,18), light="work", notes=[(64,8,"to the pegs")]),
+                mover=("P2",58,76,64,18), light="work", notes=[(64,8,"to the pegs · USC")]),
            f'{who("The Father")}. Would the ladies mind hanging their hats and mantles on the pegs at the back? {sd("the actresses climb to the platform; the shop window and the screen are set")}.'),
           (mini(A2, [("SD",52,34),("F",80,16),("MG",30,82),("P1",46,84),("P2",62,82)],
-                mover=("MP",50,2,48,18), light="work", notes=[(50,16,"enters · door at back")]),
+                mover=("MP",50,2,48,18), light="work", notes=[(50,16,"enters · door at back · USC")]),
            f'{sd("The door at the back of stage opens and Madame Pace enters and takes a few steps forward — fat, bleach-blonde, the silver chain at her waist")}.'),
           (mini(A2, [("MP",48,18),("F",80,16)], mover=("SD",60,40,52,24), light="work"),
            f'{who("The Step-Daughter")} {sd("running over to her")}. There she is! There she is!'),
           (mini(A2, [("MP",46,24),("SD",54,26),("F",80,16),("CHILD",40,30)], light="work"),
            f'{sd("Madame Pace places one hand under the Step-Daughter&#39;s chin to raise her head")}. {who("Madame Pace")}. Good morning, good morning, sir! Madame Pace, sir — dresses and coats, off the rue de Bourg.'),
+          (mini(A2, [("MP",46,24),("SD",54,26),("F",80,16),("P1",40,84),("P2",58,84)], light="work"),
+           f'{who("Madame Pace")} {sd("the comedy curdling")}. Not so old, my dear. Not so old. Forty-five, maybe fifty — the age when a man have money in the pocket and shame in the throat, eh, sir?'),
           (mini(A2, [("MP",48,26),("SD",56,26),("F",78,18),("P1",40,84),("P2",58,84)],
                 mover=("M",78,78,58,48), light="work"),
            f'{who("The Mother")} {sd("jumping up amid the consternation of the actors — the voice she has not used for years")}. You old devil! You murderess!'),
@@ -331,26 +355,29 @@ def BEATS():
           (mini(A2, [("M",62,60),("SD",56,52),("CHILD",70,62)], mover=("MG",32,82,58,64), light="work"),
            f'{who("The Manager")} {sd("leading her to her chair")}. Come along, my dear lady, sit down now, and let&#39;s get on with the scene.'),
           (mini(A2, [("SD",58,40),("F",78,18),("MG",40,70)], mover=("MP",48,26,50,2), light="work",
-                notes=[(50,16,"EXIT · unhurried")]),
+                notes=[(50,16,"EXIT · USC · unhurried")]),
            f'{who("Madame Pace")} {sd("pausing at the door, the smile calm now, almost tender")}. There is always the next silk, my dear. There is always the debt. There is always Pace. Don&#39;t you forget the name. {sd("Exits. Not furious. Unhurried")}.'),
         ]),
         ("Part III — The Substitution", [
           (mini(A2, [("MG",30,82),("SD",62,40),("P1",48,84)], mover=("P2",60,82,52,24),
-                light="work", notes=[(64,8,"hat-rack")]),
+                light="work", notes=[(64,8,"hat-rack · USC")]),
            f'{who("Player 2")} {sd("as Leading Lady; goes to the hat-rack, puts her hat on, and takes the platform to play the Step-Daughter")}. One minute. I want to put my hat on again.'),
           (mini(A2, [("P2",54,26),("SD",64,40),("MG",30,82)], mover=("P1",48,84,50,2),
-                light="work", notes=[(50,16,"EXIT to make his entrance")]),
+                light="work", notes=[(50,16,"EXIT to make his entrance · USC")]),
            f'{who("Player 1")} {sd("as Leading Man")}. Why, yes! I&#39;ll prepare my entrance. {sd("Exit to make his entrance")}.'),
           (mini(A2, [("P2",54,26),("SD",66,40),("MG",30,82)], mover=("P1",50,2,46,26),
-                light="work", notes=[(50,16,"enters · door at rear")]),
+                light="work", notes=[(50,16,"enters · door at rear · USC")]),
            f'{sd("The door at rear opens and the Leading Man enters with the lively manner of an old gallant")}. {who("Player 1")} {sd("as Leading Man")}. Good afternoon, Miss.'),
           (mini(A2, [("P1",46,26),("P2",54,26),("MG",30,82)], mover=("SD",66,40,58,34), light="work"),
            f'{who("The Step-Daughter")} {sd("bursting out laughing, then advancing toward the actors")}. He didn&#39;t say &ldquo;I&#39;m frightfully sorry.&rdquo; He said &ldquo;Oh.&rdquo;'),
+          (mini(A2, [("P1",46,26),("P2",54,26),("SD",58,34),("MG",30,82)], mover=("F",80,40,66,42),
+                light="work", notes=[(72,48,"turning back")]),
+           f'{who("The Step-Daughter")} {sd("low")}. And then he didn&#39;t move. His hand stayed on the hat. {who("The Father")} {sd("turning back, quietly")}. Yes. He said &ldquo;Oh.&rdquo;'),
           (mini(A2, [("P2",50,26),("SD",58,34),("MG",30,82)], mover=("P1",46,26,60,14),
-                light="work", notes=[(64,9,"…then stops")]),
+                light="work", notes=[(64,9,"…then stops · toward the SL exit")]),
            f'{who("Player 1")} {sd("as Leading Man; two steps toward the exit — then a calculation crosses his face; he stops")}. Neither am I. I am through with this scene.'),
           (mini(A2, [("P1",46,20),("SD",58,34),("MG",30,82)], mover=("P2",54,26,90,18),
-                light="work", notes=[(92,10,"leaving")]),
+                light="work", notes=[(92,10,"leaving · SL")]),
            f'{who("Player 2")} {sd("the diva&#39;s posture going from offended to leaving")}. I am not going to stand here being made a fool of by that woman.'),
           (mini(A2, [("SD",54,30),("F",60,30),("CHILD",80,76),("BOY",70,76)],
                 mover=("M",78,76,60,50), burst=(60,52), light="shower"),
@@ -364,13 +391,26 @@ def BEATS():
           (mini(A3, [("M",80,58),("CHILD",88,60),("BOY",72,62),("S",86,38),("F",78,72),("SD",68,72),
                      ("P1",14,52),("P2",14,64),("P3",14,76),("MG",42,80)], light="curtainup"),
            f'{sd("Curtain up. The two-level set is struck; the stage is bare but for a single fountain basin, centre. The family sit stage-right, the company stage-left; the Manager stands centre, hand over his mouth")}. {who("The Manager")}. Ah yes: the second act!'),
+          (mini(A3, [("MG",42,74),("SD",66,70),("M",80,58),("S",86,38)],
+                mover=("F",66,70,58,80), light="work", notes=[(54,86,"turns too quickly")]),
+           f'{who("Player 2")} {sd("as Leading Lady")}. The audience needs to know which room we are in. {who("The Father")} {sd("the word lands physically — he turns too quickly")}. The illusion — for Heaven&#39;s sake, don&#39;t say illusion. Don&#39;t use that word.'),
           (mini(A3, [("MG",42,72),("SD",66,70),("M",80,58),("S",86,38)],
-                mover=("F",66,60,52,88), light="work", notes=[(52,94,"to the house")]),
+                mover=("F",58,66,52,88), light="work", notes=[(52,94,"to the house · downstage")]),
            f'{who("The Father")} {sd("turning out toward the house; a pause long enough to feel")}. Can you tell me who you are?'),
+          (mini(A3, [("MG",42,76),("SD",66,70),("M",80,58)],
+                mover=("F",52,82,44,72), light="work", notes=[(34,72,"closing on the Manager")]),
+           f'{who("The Manager")}. A man who calls himself a character comes and asks me who I am! {who("The Father")} {sd("with dignity, not offended")}. A character, sir, may always ask a man who he is. Because a character really does have a life of his own.'),
           (mini(A3, [("F",55,66),("MG",42,74),("M",80,58),("SD",66,70)], light="work"),
            f'{who("The Step-Daughter")} {sd("level, never raised — colder than the philosophy")}. His <em>reality</em>. He always knew exactly where to find me.'),
+          (mini(A3, [("F",50,66),("MG",42,74),("SD",66,70),("M",80,58)], light="work"),
+           f'{who("The Manager")}. Then you&#39;ll be saying next that you are more true and real than I am? {who("The Father")} {sd("the greatest seriousness — no smile")}. But of course. Without doubt. {who("The Step-Daughter")} {sd("flat")}. He was real that afternoon. With his hundred francs.'),
         ]),
         ("Part II — The Refusal", [
+          (mini(A3, [("F",70,52),("M",80,58),("MG",42,76),("SD",66,72)],
+                mover=("S",86,38,92,20), light="work", notes=[(94,12,"makes for the wings · SL"),(70,40,"the Manager stops him")]),
+           f'{who("The Son")} {sd("jumping up")}. Delighted! Delighted! I don&#39;t ask for anything better. {sd("begins to move away")} {who("The Manager")} {sd("at once stopping him")}. No! No! Where are you going? Wait a bit!'),
+          (mini(A3, [("S",86,28),("F",70,52),("M",80,58),("MG",42,76),("SD",60,70)], light="work"),
+           f'{who("The Step-Daughter")} {sd("calmly — she knows him")}. Don&#39;t bother to stop him. He won&#39;t go. {who("The Son")} {sd("trapped now, and knowing it")}. If I can&#39;t go away, then I&#39;ll stop here. But I repeat — I act nothing.'),
           (mini(A3, [("M",80,58),("MG",42,76),("SD",66,72),("CHILD",88,60)],
                 mover=("F",62,58,80,42), light="work"),
            f'{who("The Father")} {sd("seizing the Son, not leaving hold")}. You&#39;ve got to obey, do you hear?'),
@@ -380,6 +420,10 @@ def BEATS():
            f'{who("The Mother")} {sd("gets up, alarmed and terrified that he is really about to go, and instinctively lifts her arms")}. {sd("She does not reach him")}.'),
         ]),
         ("Part III — The Fountain", [
+          (mini(A3, [("S",86,38),("F",78,72),("M",80,58),("MG",42,78),("CHILD",88,60),("BOY",72,62)], light="work"),
+           f'{who("The Son")} {sd("the cry he has been holding for the whole production — surprising himself")}. Yes — but haven&#39;t you yet perceived that it isn&#39;t possible to live in front of a mirror that throws our likeness back at us with a horrible grimace?'),
+          (mini(A3, [("M",80,58),("S",86,38),("F",78,72),("MG",46,40),("BOY",72,62),("CHILD",88,60)], light="work"),
+           f'{who("The Mother")}. Yes. Into his room. I couldn&#39;t bear it any more. I went to tell him what I have inside me — all of it. {sd("a hand at her chest")} But the moment he saw me come in…'),
           (mini(A3, [("M",80,58),("S",86,38),("F",78,72),("BOY",72,62)],
                 mover=("MG",42,78,50,32), light="work", notes=[(50,22,"sets the Boy-chair behind the basin")]),
            f'{who("The Manager")} {sd("he stands; he picks up the Boy-chair himself and walks it across the stage, and places it behind the fountain basin")}.'),
@@ -397,11 +441,13 @@ def BEATS():
           (mini(A3, [("F",70,76),("SD",54,54),("MG",40,40),("CHILD",50,50),("BOY",50,28)],
                 mover=("M",80,58,54,46), light="snap"),
            f'{who("The Mother")} {sd("she does not cry out at once — she reaches first for the Child-bundle in the basin, then the Boy-chair behind it; her arms cannot hold both, the veil still down")}. My son! My son!'),
+          (mini(A3, [("M",54,46),("F",70,76),("SD",54,54),("MG",40,40),("BOY",50,28)], light="snap"),
+           f'{who("Two Players")}. He&#39;s dead! dead! {who("The Other Players")}. No, no — it&#39;s only make-believe, only pretence! {who("The Father")} {sd("with a terrible cry")}. Pretence? Reality, sir — reality!'),
           (mini(A3, [("M",54,46),("F",70,76),("SD",54,54),("MG",40,40)],
-                mover=("BOY",50,28,98,30), light="snap", notes=[(92,20,"carried off like a body")]),
+                mover=("BOY",50,28,98,30), light="snap", notes=[(92,20,"carried off · SL · like a body")]),
            f'{sd("The Players lift up the Boy-chair and carry it off, handling it as if it were the Boy&#39;s body — heavy, careful, terrible")}.'),
           (mini(A3, [("M",54,46),("F",70,74),("SD",54,54)],
-                mover=("MG",42,40,42,94), light="work", notes=[(64,90,"leaves the stage")]),
+                mover=("MG",42,40,42,94), light="work", notes=[(64,90,"leaves toward the house · downstage")]),
            f'{who("The Manager")} {sd("a look at the empty Boy-chair, then he turns and leaves the stage the way a man leaves a theatre")}. Pretence? Reality? … To hell with it all.'),
         ]),
       ]),
@@ -427,9 +473,11 @@ def build():
       <ul>
         <li><strong>One card = one moment.</strong> Read top to bottom, in order, act by act and part by part. The text beside each picture is the verbatim line from the script where the move happens — nothing added.</li>
         <li><strong>The picture is the stage from above.</strong> The audience sits at the bottom edge (↓). Everyone on stage in that moment is placed as a labelled dot. The move is drawn from a <strong>solid dot</strong> (where the character starts), along a <strong>dashed arrow</strong>, to a <strong>hollow ring</strong> (where they end). A <strong>burst</strong> marks a sudden event — the veil, the revolver, the gunshot.</li>
-        <li><strong>Doors are labelled on the frame</strong> — the gaps in the wall. Entrances and exits run to and from them, with an italic tag (<em>enters · door at back</em>, <em>EXIT</em>, <em>out of the office</em>, <em>to the wings</em>).</li>
+        <li><strong>Doors are labelled on the frame</strong> — the gaps in the wall. Entrances and exits run to and from them, and each tag names <em>which way</em>: <em>enters · door at back · USC</em>, <em>EXIT · unhurried</em>, <em>out of the office · SL</em>, <em>to the wings · SR</em>, <em>leaves toward the house · downstage</em>.</li>
         <li><strong>The light is named on every card</strong> — the badge top-right, and the floor is tinted to match the cue. The set is drawn per act: the chair-circle (One), the two-level platform with shower column, piano and pegs (Two), the fountain with the Manager's table and its bare bulb (Three). ▢ is the Boy-chair, ◇ the Child-bundle.</li>
       </ul>
+      <h3>Orientation — which way is which</h3>
+      <p class="orient">The audience sits at the foot of every map (<strong>downstage</strong>, DS); the back wall is the top (<strong>upstage</strong>, US). Because the actors face the house, the actor's right — <strong>stage-right (SR)</strong> — is the <em>left</em> of the page, and <strong>stage-left (SL)</strong> is the right. So <em>USC</em> = upstage centre (the door at back), <em>SL</em> = the prompt side here (office, dressing rooms), <em>SR</em> = the opposite wing. Every entrance and exit names its direction.</p>
       <h3>The light cues</h3>
       <div class="lkey">
         <span><b style="background:#7a7363">HALF-DARK</b> the bare work-light of an empty house, before the play</span>
@@ -465,6 +513,7 @@ html,body {{ background:#efe6cf; color:#2a201a; margin:0; padding:0;
 .sub {{ font-style:italic; color:#6b5b48; margin:0 0 6mm; font-size:12pt; }}
 .howto h3 {{ font-family:'Cormorant Unicase',serif; font-size:12pt; letter-spacing:0.18em; text-transform:uppercase; color:#8b3a3a; margin:5mm 0 2.5mm; }}
 .howto ul {{ padding-left:6mm; margin:0; }} .howto li {{ margin-bottom:2.5mm; line-height:1.45; }}
+.orient {{ margin:0; line-height:1.45; }}
 .lkey {{ display:flex; flex-direction:column; gap:1.6mm; }}
 .lkey span {{ font-size:10pt; display:flex; align-items:baseline; gap:3mm; line-height:1.3; }}
 .lkey b {{ color:#fff; border-radius:3px; padding:0.6mm 2mm; font-size:7.4pt; font-family:Arial; font-weight:700;
