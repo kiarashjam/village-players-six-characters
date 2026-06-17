@@ -296,7 +296,7 @@ def BEATS():
     S = Sim()
     B = S.beat
 
-    # ===================== ACT ONE — THE FAMILY =====================
+    # ============================ ACT ONE — THE FAMILY ============================
     S.act("Act One — The Family", 1)
 
     S.part("Part I — The Rehearsal")
@@ -305,15 +305,21 @@ def BEATS():
       place={"P1": (28, 62), "P2": (74, 60), "P3": (80, 74)},
       notes=[(50, 17, "the company assembles · enters USC")])
     B("halfdark",
-      sd("Finally, the Manager enters with the precise weariness of a man who has managed the Village Players too long; he goes to his table, the Prompter turns on a light and opens the &ldquo;book&rdquo;") + ".",
+      sd("Finally, the Manager enters with the precise weariness of a man who has managed the Village Players too long; he goes to his table") + ".",
       enter=("MG", 50, 3, 20, 82), notes=[(50, 16, "enters · USC")])
     B("rehearsal",
       f'{who("The Manager")} {sd("to the Property Man")}. A little light, please — if the house has any left to spare us this evening. {who("Player 2")} {sd("as Property Man")}. Yes, sir. At once. {sd("A light comes down on to the stage")}.')
     B("work",
-      f'{who("The Manager")} {sd("clapping his hands")}. Come along! Second act of &ldquo;Mixing It Up&rdquo; — and try, this time, to play it as if you wanted the public to come back for the third. {sd("The Actors go to the wings, all except the three who begin the rehearsal")}.',
+      f'{who("The Manager")} {sd("clapping his hands")}. Come along! Second act of &ldquo;Mixing It Up&rdquo; — and play it as if you wanted the public back for the third. {sd("The Actors go to the wings, all except the three who begin the rehearsal")}.',
       notes=[(50, 38, "the rest of the company → the wings")])
     B("work",
-      f'{who("Player 1")} {sd("as Leading Man")}. Excuse me, but must I absolutely wear a cook&#39;s cap? It&#39;s ridiculous. I have a reputation in this canton — fifteen years. {who("Player 2")} {sd("as Property Man, not looking up")}. Fifteen years. And the cap is what finally finishes you.')
+      f'{who("Player 1")} {sd("as Leading Man")}. Excuse me, but must I absolutely wear a cook&#39;s cap? It&#39;s ridiculous. I have a reputation in this canton — fifteen years.')
+    B("work",
+      f'{who("The Manager")} {sd("jumping up in a rage, crossing to the Leading Man")}. Ridiculous? Is it my fault if France won&#39;t send us any more good comedies?',
+      move=("MG", 34, 60), notes=[(36, 52, "crosses to the Leading Man")])
+    B("work",
+      f'{who("The Manager")}. Wouldn&#39;t we all, sir. But let&#39;s get on with it. {sd("he goes back to his table")}',
+      move=("MG", 20, 82))
     B("work",
       f'{who("Player 3")} {sd("as Prompter, getting into the box")}. Pardon, sir — may I get into my box? There&#39;s a draught off that door, and I&#39;d rather not be hoarse for my first proper season.',
       move=("P3", 84, 86))
@@ -323,11 +329,11 @@ def BEATS():
       place={"F": (44, 10), "M": (52, 8), "SD": (60, 10), "S": (38, 10), "CHILD": (64, 10)},
       notes=[(50, 20, "the Six enter USC, stop at the door")])
     B("amber",
-      sd("A tenuous light surrounds the Six, almost as if irradiated by them — the faint breath of their fantastic reality. It will disappear when they come forward") + ".")
+      sd("A tenuous light surrounds the Six, almost as if irradiated by them. It will disappear when they come forward") + ".")
 
     S.part("Part II — The Interruption")
     B("amber",
-      f'{who("Player 1")} {sd("as Door-keeper, cap in hand")}. Excuse me, sir — these people are asking for you. I told them you were busy; they insist on coming in. {who("The Manager")} {sd("rudely")}. I am rehearsing — and you know perfectly well no one is allowed in during rehearsals!',
+      f'{who("Player 1")} {sd("as Door-keeper, cap in hand")}. Excuse me, sir — these people are asking for you; they insist on coming in. {who("The Manager")} {sd("rudely")}. I am rehearsing — no one is allowed in during rehearsals!',
       notes=[(40, 18, "the Door-keeper announces them")])
     B("amber",
       f'{who("The Father")} {sd("coming forward, the others following, embarrassed")}. No, for Heaven&#39;s sake, what are you saying? We bring you a drama, sir.',
@@ -335,8 +341,20 @@ def BEATS():
       place={"M": (58, 36), "S": (40, 30), "SD": (66, 42), "CHILD": (74, 34)},
       notes=[(74, 50, "the others follow forward")])
     B("amber",
+      f'{who("The Step-Daughter")} {sd("stepping in front of the Father, taking the line")}. So much the better, sir. You can put us on tonight.',
+      move=("SD", 50, 46))
+    B("amber",
+      f'{who("Player 3")} {sd("coming forward from the others")}. Oh — do you hear that?',
+      move=("P3", 70, 66), notes=[(70, 74, "steps out to watch")])
+    B("amber",
+      f'{who("The Father")} {sd("stepping closer, voice softening")}. Oh sir, you know well that life is full of infinite absurdities which do not even need to appear plausible.',
+      move=("F", 40, 58), notes=[(30, 64, "stepping closer")])
+    B("amber",
       f'{who("The Manager")}. But what do you want here, all of you? {who("The Father")}. We want to live. {who("The Manager")}. For Eternity? {who("The Father")}. No, sir, only for a moment… in you.',
-      move=("F", 36, 62), notes=[(26, 70, "a step toward the Manager")])
+      move=("F", 34, 64))
+    B("amber",
+      f'{who("The Father")} {sd("determined, coming forward")}. Your disbelief amazes me. Aren&#39;t you used to seeing the characters an author creates spring to life? {who("The Step-Daughter")} {sd("advances towards the Manager, eyes level")}. We are really six most interesting characters, sir — side-tracked, however.',
+      move=("SD", 44, 60), notes=[(40, 68, "advances on the Manager")])
     B("amber",
       f'{who("The Step-Daughter")} {sd("crossing behind the Father; a hand on his shoulder, left one beat too long, then withdrawn")}. My passion, sir. Ah, if you only knew — my passion for <em>him</em>.',
       move=("SD", 54, 46))
@@ -344,13 +362,24 @@ def BEATS():
       f'{who("The Step-Daughter")}. I, who am a two months&#39; orphan, will show you how well I can dance and sing. {sd("Sings and dances Prenez garde à Tchou-Tchin-Tchou")}.',
       move=("SD", 52, 84))
     B("amber",
+      f'{who("The Step-Daughter")} {sd("goes to the Mother and embraces her")}. Stage this drama now, sir! At a certain moment, when we lose this little darling…',
+      move=("SD", 62, 38))
+    B("amber",
       f'{who("The Mother")} {sd("one arm tightening round the Child-bundle")}. In the name of these two little children, I beg you… {sd("she grows faint")} Oh God!')
     B("amber",
-      f'{who("The Father")} {sd("going to her and raising her veil")}. Let them see you!',
+      f'{who("The Father")} {sd("coming forward to support her; an Actor brings a chair")}. Quick, a chair, a chair for this poor widow!',
+      move=("F", 54, 40), notes=[(44, 46, "a Player brings a chair")])
+    B("amber",
+      f'{who("The Mother")} {sd("rising and covering her face with her hands")}. I beg you, sir. Stop him. I cannot bear what he wants to do.')
+    B("amber",
+      f'{who("The Father")} {sd("raising her veil")}. Let them see you!',
       move=("F", 54, 38), burst=(58, 36))
     B("amber",
+      f'{who("The Step-Daughter")} {sd("turning on the Boy-chair, gripping the lapel of the coat as if shaking him")}. He was always full of affection and kindness for you.',
+      move=("SD", 24, 46), notes=[(24, 56, "rounds on the Boy-chair")])
+    B("amber",
       f'{who("The Son")} {sd("hands in his pockets, body not moving")}. Leave me alone. I don&#39;t come into this. {who("The Father")}. What? You don&#39;t come into this?',
-      move=("S", 34, 24), notes=[(34, 14, "the Son keeps apart · USR")])
+      move=("S", 34, 22), notes=[(34, 14, "the Son keeps apart · USR")])
     B("amber",
       f'{who("Player 1")} {sd("as Leading Man, beginning to relish it — then his eyes reach the Mother, and the rest does not arrive")}. What a spectacle. What an absolute…',
       move=("P1", 12, 84), notes=[(16, 90, "company to the wings · SR")])
@@ -358,24 +387,27 @@ def BEATS():
     S.part("Part III — The Bargain")
     B("amber",
       f'{who("The Manager")}. I begin to think there&#39;s the stuff for a drama in all this. {who("The Step-Daughter")} {sd("coming forward")}. When you&#39;ve got a character like me. {who("The Father")} {sd("shutting her up")}. You be quiet!',
-      move=("SD", 44, 70), notes=[(40, 80, "comes forward")])
+      move=("SD", 40, 66), notes=[(40, 74, "comes forward")])
     B("amber",
-      f'{who("The Father")} {sd("to the Manager")}. No, no — look here. You must be the author. {who("The Manager")}. I? Because I have never been an author: that&#39;s why. {who("The Father")}. Then why not turn author now?',
-      move=("F", 40, 66), notes=[(30, 74, "closing on the Manager")])
+      f'{who("The Father")} {sd("to the Manager")}. No, no — look here. You must be the author. {who("The Manager")}. I have never been an author. {who("The Father")}. Then why not turn author now?',
+      move=("F", 38, 66), notes=[(30, 74, "closing on the Manager")])
     B("amber",
       f'{who("The Step-Daughter")}. The room — I see it. The window with the mantles, the divan, the looking-glass, a screen, and the little mahogany table with the blue envelope and its hundred francs.')
+    B("amber",
+      f'{who("The Manager")} {sd("moves away, then turning to the Actors")}. Yes, yes. Come on! Be punctual, please!',
+      move=("MG", 40, 70))
     B("amber",
       sd("Thus talking, the Actors leave the stage; some going out by the little door at the back, others retiring to their dressing-rooms") + ".",
       exit=("P2", 98, 30), notes=[(86, 22, "out the little door / dressing rooms · SL")])
     B("red",
-      f'{who("The Manager")} {sd("hooked; leading the Father and the Six off to his office")}. Come with me to my office. In a quarter of an hour, all back here again. {sd("The Manager and the Six cross the stage and go off")}.',
+      f'{who("The Manager")} {sd("hooked; leading the Father and the Six off to his office")}. Come with me to my office. In a quarter of an hour, all back here again. {sd("They cross the stage and go off")}.',
       exit=("MG", 98, 40), drop_after=["F", "M", "SD", "S", "CHILD", "BOY"],
       notes=[(86, 24, "all off to the office · SL")])
     B("work",
       f'{who("Player 1")} {sd("as Leading Man")}. Is he serious? He has taken six strangers into his office and left us standing here like furniture. {who("Player 2")} {sd("as Leading Lady")}. Ordinary strangers do not arrive with a tragedy already rehearsed. {who("Player 3")}. Perhaps there is a play.',
       place={"P1": (40, 52), "P2": (54, 52), "P3": (68, 54)})
 
-    # ===================== ACT TWO — THE THEATRE =====================
+    # ============================ ACT TWO — THE THEATRE ============================
     S.act("Act Two — The Theatre", 2)
     S.clear()
 
@@ -386,93 +418,124 @@ def BEATS():
       place={"CHILD": (44, 30), "BOY": (62, 30), "MG": (30, 82), "P3": (22, 82), "F": (78, 40)},
       notes=[(96, 55, "out of the office · SL")])
     B("shower",
-      sd("She drags the Boy-chair a little behind her and leaves it leaning. The stage darkens; the shower — a tight vertical column of light from a single overhead source — falls on the Step-Daughter only. The pianist begins Satie&#39;s Gymnopédie No. 1, and she kneels with the Child-bundle") + ".")
+      sd("She drags the Boy-chair a little behind her and leaves it leaning. The stage darkens; the shower — a tight vertical column of light — falls on the Step-Daughter only. The pianist begins Satie&#39;s Gymnopédie No. 1, and she kneels with the Child-bundle") + ".",
+      move=("SD", 48, 32))
     B("shower",
       sd("She slides her hand into the coat pocket and finds the revolver. She holds it up briefly in the column of light, then returns it to the pocket") + ".")
     B("work",
-      sd("The piano dies on her last word. The shower holds for one more breath, then releases. The working lights come up. The Step-Daughter is alone on the upper platform with the Child-bundle and the Boy-chair") + ".")
+      sd("The piano dies on her last word. The shower releases; the working lights come up. The Step-Daughter is alone on the upper platform with the Child-bundle and the Boy-chair") + ".")
     B("work",
       sd("The Father, Manager and Step-Daughter go back into the office (off); at the same time the Son, followed by the Mother, comes out") + ".",
       enter=("S", 90, 60, 80, 78),
       place={"M": (88, 64), "CHILD": (78, 72), "BOY": (90, 70)},
-      drop_after=["SD", "F"],
+      drop_after=["SD", "F", "MG"],
       notes=[(96, 55, "office (off) · SL"), (78, 86, "Son &amp; Mother come out · SL")])
     B("work",
-      f'{who("The Mother")} {sd("rises; one step toward the Son")}. My son — {sd("the Son turns away before the word is finished; she stops, and the unfinished word stays in the air")}.',
+      f'{who("The Mother")} {sd("rises; one step toward the Son")}. My son — {sd("the Son turns away before the word is finished; she stops")}.',
       move=("M", 80, 70))
     B("work",
-      sd("The stage call-bells ring. From the dressing-rooms and the little door at the back the Actors, Stage Manager, Property Man and Prompter return; the Manager comes out of his office with the Father and the Step-Daughter") + ".",
+      f'{who("The Son")} {sd("half to himself, eyes on the floor")}. And they want to put it on the stage. If there was at least a reason for it.')
+    B("work",
+      sd("The stage call-bells ring. From the dressing-rooms and the little door at the back the company returns; the Manager comes out of his office with the Father and the Step-Daughter") + ".",
       place={"P1": (40, 84), "P2": (56, 84), "MG": (30, 82), "F": (78, 40), "SD": (70, 40)},
       notes=[(50, 16, "the company returns · USC")])
     B("work",
-      f'{who("The Step-Daughter")}. And the screen! There must be a screen. Otherwise how am I to manage? {who("Player 2")} {sd("as Property Man")}. That&#39;s all right, Miss. We&#39;ve got any amount of them.',
-      move=("P2", 60, 40), notes=[(60, 30, "setting the shop · USC")])
+      f'{who("The Step-Daughter")}. And the screen! There must be a screen. Otherwise how am I to manage? {who("Player 2")} {sd("as Property Man, setting the shop")}. That&#39;s all right, Miss. We&#39;ve got any amount of them.',
+      move=("P2", 60, 40), notes=[(60, 30, "the shop is built · USC")])
 
     S.part("Part II — The Apparition")
     B("work",
-      f'{who("The Father")}. Oh nothing. I just want to put them on these pegs for a moment. And one of the ladies will be so kind as to take off her mantle… {sd("the actresses give up their hats; the shop window and the screen are set")}.',
-      move=("P2", 64, 18), notes=[(64, 8, "to the pegs · USC")])
+      f'{who("The Father")}. Oh nothing. I just want to put these on the pegs for a moment. {sd("the actresses give up their hats; the shop window and the screen are set")}.',
+      move=("P2", 64, 18), notes=[(64, 8, "hats to the pegs · USC")])
+    B("work",
+      f'{who("The Father")}. She is alluding to me. I&#39;ve got to be here — there behind that door, in waiting; and Madame Pace knows it.',
+      move=("F", 50, 8), notes=[(50, 2, "waits behind the door · USC")])
     B("work",
       sd("The door at the back of stage opens and Madame Pace enters and takes a few steps forward — fat, bleach-blonde, the silver chain at her waist") + ".",
-      enter=("MP", 50, 2, 48, 18), notes=[(50, 16, "enters · door at back · USC")])
+      enter=("MP", 50, 2, 48, 18), notes=[(50, 14, "enters · door at back · USC")])
     B("work",
-      f'{who("The Step-Daughter")} {sd("running over to her")}. There she is! There she is!',
+      f'{who("The Step-Daughter")} {sd("turning towards her, running over")}. There she is! There she is!',
       move=("SD", 52, 24))
     B("work",
       sd("Madame Pace places one hand under the Step-Daughter&#39;s chin to raise her head") + f'. {who("Madame Pace")}. Good morning, good morning, sir! Madame Pace, sir — dresses and coats, off the rue de Bourg.')
     B("work",
-      f'{who("Madame Pace")} {sd("the comedy curdling")}. Not so old, my dear. Not so old. Forty-five, maybe fifty — the age when a man have money in the pocket and shame in the throat, eh, sir?')
+      f'{who("The Step-Daughter")} {sd("leaving Madame Pace and advancing towards the actors")}. Louder? Louder? What on earth are you talking about?',
+      move=("SD", 58, 60), notes=[(58, 68, "down to the actors")])
+    B("work",
+      f'{who("Madame Pace")} {sd("the comedy curdling")}. Not so old, my dear. Forty-five, maybe fifty — the age when a man have money in the pocket and shame in the throat, eh, sir?')
     B("work",
       f'{who("The Mother")} {sd("jumping up amid the consternation of the actors — the voice she has not used for years")}. You old devil! You murderess!',
       move=("M", 58, 48))
     B("work",
       f'{who("The Step-Daughter")} {sd("running over to calm her Mother")}. Calm yourself, Mother, calm yourself! Please don&#39;t…',
-      move=("SD", 62, 48))
+      move=("SD", 64, 50))
     B("work",
-      f'{who("The Manager")} {sd("leading her back to her chair")}. Come along, my dear lady, sit down now, and let&#39;s get on with the scene.',
-      move=("M", 80, 66))
+      f'{who("The Father")} {sd("going to her also, the body beginning to give him away")}. Calm yourself! Don&#39;t get excited! Sit down now!',
+      move=("F", 66, 50), notes=[(72, 44, "down from the door")])
     B("work",
-      f'{who("Madame Pace")} {sd("pausing at the door, the smile calm now, almost tender")}. There is always the next silk, my dear. There is always the debt. There is always Pace. Don&#39;t you forget the name. {sd("Exits. Not furious. Unhurried")}.',
-      exit=("MP", 50, 2), notes=[(50, 16, "EXIT · USC · unhurried")])
+      f'{who("The Manager")} {sd("turning to the Mother and leading her to her chair")}. Come along, my dear lady, sit down now, and let&#39;s get on with the scene.',
+      move=("M", 82, 66))
+    B("work",
+      f'{who("The Step-Daughter")} {sd("coming forward again, turns to Madame Pace")}. Come on, Madame, come on!',
+      move=("SD", 54, 26))
+    B("work",
+      f'{who("Madame Pace")} {sd("pausing at the door, the smile calm now, almost tender")}. There is always the next silk. There is always the debt. There is always Pace. Don&#39;t you forget the name. {sd("Exits. Not furious. Unhurried")}.',
+      exit=("MP", 50, 2), notes=[(50, 14, "EXIT · USC · unhurried")])
+    B("work",
+      f'{who("The Father")} {sd("coming forward, composed now — this is the scene, this is the man he was")}. Good afternoon, Miss.',
+      move=("F", 46, 26), notes=[(46, 16, "now he plays the customer")])
 
     S.part("Part III — The Substitution")
     B("work",
-      f'{who("Player 2")} {sd("as Leading Lady; goes to the hat-rack, puts her hat on, and takes the platform to play the Step-Daughter")}. One minute. I want to put my hat on again.',
+      f'{who("The Manager")} {sd("to the company")}. Be quiet, please, and watch — you&#39;ll learn something. {sd("Stand aside and let me see the action")}. {who("The Father")} {sd("stepping aside to watch his own scene replayed")}.',
+      move=("F", 68, 40), notes=[(72, 46, "the Father steps aside")])
+    B("work",
+      f'{who("Player 2")} {sd("as Leading Lady; goes over to the hat-rack and puts her hat on, to play the Step-Daughter")}. One minute. I want to put my hat on again.',
       move=("P2", 54, 24), notes=[(64, 8, "hat-rack · USC")])
     B("work",
       f'{who("Player 1")} {sd("as Leading Man")}. Why, yes! I&#39;ll prepare my entrance. {sd("Exit to make his entrance")}.',
-      exit=("P1", 50, 2), notes=[(50, 16, "EXIT to make his entrance · USC")])
+      exit=("P1", 50, 2), notes=[(50, 14, "EXIT to make his entrance · USC")])
     B("work",
       sd("The door at rear opens and the Leading Man enters with the lively manner of an old gallant") + f'. {who("Player 1")} {sd("as Leading Man")}. Good afternoon, Miss.',
-      enter=("P1", 50, 2, 46, 26), notes=[(50, 16, "enters · door at rear · USC")])
+      enter=("P1", 50, 2, 46, 26), notes=[(50, 14, "enters · door at rear · USC")])
     B("work",
-      f'{who("The Step-Daughter")} {sd("bursting out laughing, then advancing toward the actors")}. He didn&#39;t say &ldquo;I&#39;m frightfully sorry.&rdquo; He said &ldquo;Oh.&rdquo;',
-      move=("SD", 58, 36))
+      f'{who("Player 1")} {sd("as Leading Man, a step closer, practised gallantry")}. Allow me — I&#39;ll put it down for you. But a dear little head like yours should have a smarter hat.',
+      move=("P1", 50, 26))
     B("work",
-      f'{who("The Step-Daughter")} {sd("low")}. And then he didn&#39;t move. His hand stayed on the hat. {who("The Father")} {sd("turning back, quietly")}. Yes. He said &ldquo;Oh.&rdquo;',
-      move=("F", 66, 42), notes=[(72, 48, "turning back")])
+      f'{who("The Step-Daughter")} {sd("unable to keep still; advancing toward the actors")}. He didn&#39;t say &ldquo;I&#39;m frightfully sorry.&rdquo; He said &ldquo;Oh.&rdquo; And then he didn&#39;t move. His hand stayed on the hat.',
+      move=("SD", 60, 36))
     B("work",
-      f'{who("Player 1")} {sd("as Leading Man; two steps toward the exit — then a calculation crosses his face; he stops")}. Neither am I. I am through with this scene.',
-      move=("P1", 60, 16), notes=[(64, 9, "…then stops · toward the SL exit")])
+      f'{who("The Father")} {sd("turning back, quietly")}. Yes. He said &ldquo;Oh.&rdquo;',
+      move=("F", 64, 38), notes=[(70, 44, "turning back")])
     B("work",
       f'{who("Player 2")} {sd("the diva&#39;s posture going from offended to leaving")}. I am not going to stand here being made a fool of by that woman.',
       move=("P2", 86, 20), notes=[(90, 11, "leaving · SL")])
+    B("work",
+      f'{who("Player 1")} {sd("as Leading Man; two steps toward the exit — then a calculation crosses his face; he stops")}. Neither am I. I am through with this scene.',
+      move=("P1", 60, 14), notes=[(64, 8, "…then stops · toward the SL exit")])
+    B("work",
+      f'{who("The Step-Daughter")}. I can hear it still in my ears — that cry. You may put me on as you like, provided I have that cry. {who("The Step-Daughter")}. Cry out, mother. <em>Cry out as you did then!</em>',
+      move=("SD", 56, 44))
     B("shower",
-      f'{who("The Step-Daughter")}. Cry out, mother. <em>Cry out as you did then!</em> {who("The Mother")} {sd("coming forward to separate them; the shower falls on her")}. No! My daughter, my daughter! You brute!',
-      move=("M", 60, 50), burst=(60, 52))
+      f'{who("The Mother")} {sd("coming forward to separate them; the shower falls on her")}. No! My daughter, my daughter! You brute! She is my daughter!',
+      move=("M", 60, 52), burst=(60, 54))
+    B("work",
+      f'{who("The Manager")} {sd("walking backwards towards the footlights — the way a satisfied audience member would")}. Fine. Fine! And then we have the curtain there.',
+      move=("MG", 40, 90), notes=[(40, 96, "backs to the footlights · downstage")])
+    B("work",
+      f'{who("The Father")} {sd("going towards him excitedly")}. Yes, of course, because that&#39;s the way it really happened.',
+      move=("F", 48, 84))
     B("curtainfall",
-      f'{who("The Mother")}. It&#39;s taking place now. It happens all the time. {sd("the piano cuts out; the Machinist drops the curtain by accident — the act ends on the curtain&#39;s fall")}.')
+      f'{who("The Manager")}. Oh, yes, no doubt about it. Curtain here, curtain! {sd("the Machinist lets the curtain down in earnest — the act ends on the curtain&#39;s fall")}.')
 
-    # ===================== ACT THREE — THE QUESTION =====================
+    # ============================ ACT THREE — THE QUESTION ============================
+    # Family stage-RIGHT (= page-left); company stage-LEFT (= page-right); Manager centre.
     S.act("Act Three — The Question", 3)
     S.clear()
 
-    # Per the script: family stage-RIGHT (= page-left here), company
-    # stage-LEFT (= page-right), Manager centre. The Mother holds both the
-    # Child-bundle (lap) and the Boy-chair (against her knee).
     S.part("Part I — The Trap")
     B("curtainup",
-      sd("Curtain up. The two-level set is struck; the stage is bare but for a single fountain basin, centre. The family sit stage-right — the Mother with the Child-bundle in her lap and the Boy-chair against her knee, the Son apart, the Father and Step-Daughter at the right front; the company sit stage-left; the Manager stands centre, hand over his mouth") + f'. {who("The Manager")}. Ah yes: the second act!',
+      sd("Curtain up. The two-level set is struck; the stage is bare but for a single fountain basin, centre. The family sit stage-right — the Mother with the Child-bundle in her lap and the Boy-chair against her knee, the Son apart, the Father and Step-Daughter at the right front; the company sit stage-left; the Manager stands centre") + f'. {who("The Manager")}. Ah yes: the second act!',
       place={"M": (26, 52), "CHILD": (32, 54), "BOY": (20, 56), "S": (14, 38),
              "F": (30, 72), "SD": (42, 74), "P1": (86, 50), "P2": (86, 62),
              "P3": (86, 74), "MG": (54, 66)})
@@ -480,46 +543,61 @@ def BEATS():
       f'{who("Player 2")} {sd("as Leading Lady")}. The audience needs to know which room we are in. {who("The Father")} {sd("the word lands physically — he turns too quickly")}. The illusion — for Heaven&#39;s sake, don&#39;t say illusion. Don&#39;t use that word.',
       move=("F", 44, 74), notes=[(44, 82, "turns too quickly")])
     B("work",
-      f'{who("The Father")} {sd("turning out toward the house; a pause long enough to feel")}. Can you tell me who you are?',
-      move=("F", 52, 90), notes=[(52, 96, "to the house · downstage")])
-    B("work",
-      f'{who("The Manager")}. A man who calls himself a character comes and asks me who I am! {who("The Father")} {sd("with dignity, not offended")}. A character, sir, may always ask a man who he is. Because a character really does have a life of his own.',
+      f'{who("The Father")} {sd("a step or two nearer the Manager; then, slowly, turning out toward the house")}. A character, sir, may always ask a man who he is. Because a character really does have a life of his own.',
       move=("F", 52, 72), notes=[(60, 76, "closing on the Manager")])
+    B("work",
+      f'{who("The Father")} {sd("turning full out to the house; a pause long enough to feel")}. Can you tell me who you are?',
+      move=("F", 52, 90), notes=[(52, 96, "to the house · downstage")])
     B("work",
       f'{who("The Step-Daughter")} {sd("level, never raised — colder than the philosophy")}. His <em>reality</em>. He always knew exactly where to find me.')
     B("work",
-      f'{who("The Manager")}. Then you&#39;ll be saying next that you are more true and real than I am? {who("The Father")} {sd("the greatest seriousness — no smile")}. But of course. Without doubt. {who("The Step-Daughter")} {sd("flat")}. He was real that afternoon. With his hundred francs.')
+      f'{who("The Manager")}. Then you&#39;ll be saying you are more true and real than I am? {who("The Father")} {sd("the greatest seriousness — the cry breaks, then the body goes still")}. But of course. Without doubt.')
 
     S.part("Part II — The Refusal")
     B("work",
-      f'{who("The Son")} {sd("jumping up")}. Delighted! Delighted! I don&#39;t ask for anything better. {sd("begins to move away")} {who("The Manager")} {sd("at once stopping him")}. No! No! Where are you going? Wait a bit!',
-      move=("S", 4, 26), notes=[(8, 18, "makes for the wings · SR"), (34, 40, "the Manager stops him")])
+      f'{who("The Step-Daughter")} {sd("goes close to the Manager, as if in confidence")}. In my opinion he abandoned us in a fit of disgust for the ordinary theatre.',
+      move=("SD", 50, 66), notes=[(56, 72, "crosses to the Manager")])
     B("work",
-      f'{who("The Step-Daughter")} {sd("calmly — she knows him")}. Don&#39;t bother to stop him. He won&#39;t go. {who("The Son")} {sd("trapped now, and knowing it")}. If I can&#39;t go away, then I&#39;ll stop here. But I repeat — I act nothing.',
-      move=("S", 12, 40))
+      f'{who("The Manager")} {sd("he stands; he picks up the Boy-chair himself and walks it across the stage, and places it behind the fountain basin — the pivot of his arc")}.',
+      move=("MG", 50, 36), place={"BOY": (50, 30)}, notes=[(50, 22, "sets the Boy-chair behind the basin")])
     B("work",
-      f'{who("The Father")} {sd("seizing the Son, not leaving hold")}. You&#39;ve got to obey, do you hear?',
-      move=("F", 18, 42))
-    B("work",
-      f'{who("The Son")} {sd("the voice cracking, the body refusing the cry; they separate")}. What does it mean — this madness you&#39;ve got? I won&#39;t do it. I won&#39;t.',
-      move=("S", 6, 32))
+      f'{who("The Son")} {sd("jumping up")}. Delighted! I don&#39;t ask for anything better. {sd("begins to move away")} {who("The Manager")} {sd("at once stopping him")}. No! No! Where are you going? Wait a bit!',
+      move=("S", 4, 26), notes=[(8, 18, "makes for the wings · SR"), (30, 40, "the Manager stops him")])
     B("work",
       f'{who("The Mother")} {sd("gets up, alarmed and terrified that he is really about to go, and instinctively lifts her arms")}. {sd("She does not reach him")}.',
-      move=("M", 20, 46))
+      move=("M", 22, 48))
+    B("work",
+      f'{who("The Step-Daughter")} {sd("calmly — she knows him")}. Don&#39;t bother to stop him. He won&#39;t go. {who("The Son")}. I will act nothing at all. I&#39;ve said so from the very beginning.',
+      move=("S", 12, 40))
+    B("work",
+      f'{who("The Step-Daughter")} {sd("going over to the Manager, and putting down his arm")}. Allow me? Well — go on then. Go away.',
+      move=("SD", 46, 64))
+    B("work",
+      f'{who("The Son")} {sd("trapped now, and knowing it")}. No. If I can&#39;t go away, then I&#39;ll stop here. But I repeat — I act nothing. {who("The Father")}. You can force him, sir. {who("The Father")}. I can.',
+      move=("S", 16, 40))
 
     S.part("Part III — The Fountain")
     B("work",
-      f'{who("The Son")} {sd("the cry he has been holding for the whole production — surprising himself")}. Yes — but haven&#39;t you yet perceived that it isn&#39;t possible to live in front of a mirror that throws our likeness back at us with a horrible grimace?')
+      f'{who("The Step-Daughter")}. Wait — first of all, the baby has to go to the fountain… {sd("lifts the Child-bundle from the Mother&#39;s lap and carries it toward the fountain")}.',
+      move=("SD", 44, 56), place={"CHILD": (44, 54)})
     B("work",
-      f'{who("The Mother")}. Yes. Into his room. I couldn&#39;t bear it any more. I went to tell him what I have inside me — all of it. {sd("a hand at her chest")} But the moment he saw me come in…')
+      sd("The Second Lady Lead and the Juvenile Lead separate themselves from the group of Actors — one watches the Mother attentively, the other studies the movements of the Son he will have to play") + ".",
+      move=("P3", 40, 52), notes=[(46, 60, "the understudies move in to study them")])
     B("work",
-      f'{who("The Manager")} {sd("he stands; he picks up the Boy-chair himself and walks it across the stage, and places it behind the fountain basin")}.',
-      move=("MG", 50, 36), place={"BOY": (50, 30)}, notes=[(50, 22, "sets the Boy-chair behind the basin")])
+      f'{who("The Son")} {sd("the cry he has held the whole production — surprising himself")}. Yes — but haven&#39;t you yet perceived that it isn&#39;t possible to live in front of a mirror that throws our likeness back at us with a horrible grimace?')
     B("work",
-      f'{who("The Step-Daughter")} {sd("lifts the Child-bundle from the Mother&#39;s lap and carries it toward the fountain")}.',
-      move=("SD", 46, 56), place={"CHILD": (46, 54)})
+      f'{who("The Mother")}. Yes. Into his room. I couldn&#39;t bear it any more. I went to tell him what I have inside me — all of it. {sd("a hand at her chest")}')
     B("work",
-      sd("The Step-Daughter bends over the basin and lowers the Child-bundle into it; the basin&#39;s walls hide the action from view") + ".",
+      f'{who("The Father")} {sd("going to the Son in a great rage, taking hold of him")}. You&#39;ll do this for your mother, do you understand? You&#39;ve got to obey, do you hear?',
+      move=("F", 20, 42), notes=[(28, 48, "seizes the Son")])
+    B("work",
+      f'{who("The Son")} {sd("taking hold of the Father; then the voice cracks and they separate")}. No! No! And for God&#39;s sake stop it! What does it mean — this madness you&#39;ve got?',
+      move=("S", 8, 32))
+    B("work",
+      f'{who("The Manager")} {sd("coming closer to the Son, interested by his extraordinary reserve")}. Well, well… walking in the garden…',
+      move=("MG", 28, 44), notes=[(30, 52, "drawn in toward the Son")])
+    B("work",
+      f'{who("The Step-Daughter")} {sd("bends over the basin and lowers the Child-bundle into it; the basin&#39;s walls hide the action from view")}.',
       move=("SD", 50, 52), place={"CHILD": (50, 50)})
     B("fountain",
       f'{who("The Son")} {sd("his one continuous sentence; the stage lights drop, breath by breath, until only the fountain and the bare bulb over the Manager&#39;s table remain — the Boy-chair silhouetted behind the basin")}. There in the fountain…')

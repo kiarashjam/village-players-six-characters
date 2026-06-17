@@ -40,11 +40,11 @@ outputs/
 │                                       a top-down picture of the stage (set, everyone present,
 │                                       start→arrow→destination, the named light cue, the doors
 │                                       and entrance/exit direction) beside the verbatim line.
-│                                       ~71 beats, A4 portrait.
+│                                       ~98 beats, A4 portrait.
 ├── blocking_storyboard_full.pdf       Blocking Storyboard, Full Script — the complete play in
 │                                       order, with every blocking map dropped in at the line
 │                                       where its move happens. Lines with no move flow as
-│                                       ordinary script. ~45 pages, A4 portrait.
+│                                       ordinary script. ~51 pages, A4 portrait.
 ├── audition_pack.pdf                  Audition Pack — cover, how-to-audition, and nine
 │                                       role sections (the four Characters, the Manager,
 │                                       Players 1–3, and Madame Pace), each with the full
