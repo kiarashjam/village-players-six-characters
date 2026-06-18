@@ -49,6 +49,10 @@ outputs/
 │                                       a short interpretive note above EVERY spoken line: what
 │                                       it means and the intent / subtext beneath it. Notes live
 │                                       in data/reading_glosses.json. ~61 pages, A4 portrait.
+├── sound_score.pdf                    Sound & Music Score — everything the audience hears, act
+│                                       by act: what plays, how it is made (live piano, wings
+│                                       radio, sung live, cello drone, offstage note, fountain
+│                                       water, silence, the Pärt coda), and the cue. ~2 pages.
 ├── audition_pack.pdf                  Audition Pack — cover, how-to-audition, and nine
 │                                       role sections (the four Characters, the Manager,
 │                                       Players 1–3, and Madame Pace), each with the full
@@ -118,6 +122,7 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 ├── build_blocking_storyboard.py       → outputs/blocking_storyboard.pdf (beat-by-beat cards)
 ├── build_blocking_storyboard_full.py  → outputs/blocking_storyboard_full.pdf (full script + maps)
 ├── build_reading_edition.py           → outputs/reading_edition.pdf (annotated reading edition)
+├── build_sound_score.py               → outputs/sound_score.pdf (music & sound cue sheet)
 ├── build_audition_pack.py             → outputs/audition_pack.pdf
 ├── build_audition_twohanders.py       → outputs/audition_twohanders.pdf
 ├── build_audition_briefing.py         → outputs/audition_briefing.pdf
@@ -178,6 +183,7 @@ python scripts/build_movement_maps.py              # render movement_maps.pdf
 python scripts/build_blocking_storyboard.py        # render blocking_storyboard.pdf
 python scripts/build_blocking_storyboard_full.py   # render blocking_storyboard_full.pdf
 python scripts/build_reading_edition.py            # render reading_edition.pdf
+python scripts/build_sound_score.py                # render sound_score.pdf
 python scripts/build_audition_pack.py              # render audition_pack.pdf
 python scripts/build_audition_twohanders.py        # render audition_twohanders.pdf
 python scripts/build_audition_briefing.py          # render audition_briefing.pdf
