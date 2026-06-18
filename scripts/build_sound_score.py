@@ -110,6 +110,11 @@ h2 {{ font-family:'Cormorant Garamond',serif; font-weight:600; font-size:19pt; c
   border-bottom:2px solid #8b3a3a; margin:6mm 0 1.5mm; padding-bottom:1mm; break-after:avoid; }}
 .act:first-of-type h2 {{ margin-top:2mm; }}
 .ctx {{ font-style:italic; color:#5d513f; margin:0 0 3mm; line-height:1.42; font-size:10.5pt; }}
+.rep {{ margin:0 0 3mm; padding-left:6mm; }}
+.rep li {{ margin-bottom:2.4mm; line-height:1.42; }}
+.rep .chip {{ vertical-align:1px; margin-left:1mm; }}
+.pianonote {{ background:#f4eeda; border:1px solid rgba(139,58,58,0.35); border-radius:3px;
+  padding:2.6mm 3mm; margin:0 0 3mm; line-height:1.46; font-size:10.5pt; }}
 .cue {{ break-inside:avoid; margin:0 0 3.2mm; padding:2.4mm 0 0; border-top:1px dotted rgba(42,32,26,0.28); }}
 .head {{ display:flex; align-items:center; flex-wrap:wrap; gap:2mm; margin-bottom:1.4mm; }}
 .part {{ font-family:'Cormorant Unicase',serif; font-weight:600; font-size:10.5pt; letter-spacing:0.08em;
@@ -124,6 +129,18 @@ h2 {{ font-family:'Cormorant Garamond',serif; font-weight:600; font-size:19pt; c
 <h1 class="title">Sound &amp; Music Score</h1>
 <p class="sub">Everything the audience hears, act by act — what plays, how it is made, and the cue that starts and stops it. Six Characters in Search of an Author · Village Players, Lausanne · dir. Kiarash Jamshidi</p>
 <div class="legend">{chips("live","radio","voice","cello","offpno","water","rec","silence")}</div>
+
+<h2>The music, piece by piece</h2>
+<ol class="rep">
+  <li><strong>Erik Satie — <em>Gymnopédie No. 1</em></strong> {chips("live")}<br>Act Two, the Setup — solo piano under the Step-Daughter&#39;s shower monologue, once through.</li>
+  <li><strong>Weimar-cabaret vamp</strong> — <em>suggested:</em> Kurt Weill, <em>Bilbao Song</em> (half tempo), or a vamp on Mistinguett&#39;s <em>Mon Homme</em> {chips("live")}<br>Act Two, the Apparition — continuous under Madame Pace; reprised &ldquo;in tatters&rdquo; in the Substitution, ending on one held chord.</li>
+  <li><strong>A single struck piano note</strong> {chips("offpno")}<br>Act Three, the Refusal — one note like a slap at &ldquo;You can force him, sir.&rdquo;</li>
+  <li><strong>Arvo Pärt — <em>Spiegel im Spiegel</em></strong> (opening phrase) {chips("rec")}<br>Act Three, the Fountain — the closing ten seconds, then blackout.</li>
+  <li><strong>French chanson</strong> — <em>suggested:</em> Aznavour, <em>La Bohème</em> (or a scratchy Piaf — <em>La Vie en rose</em>, <em>Sous le ciel de Paris</em>) {chips("radio")}<br>Act One, the Rehearsal — a wings radio, low and crackling.</li>
+  <li><strong><em>Prenez garde à Tchou-Tchin-Tchou</em></strong> {chips("voice")}<br>Act One, the Interruption — sung live by the Step-Daughter, as the script requires.</li>
+</ol>
+<p class="pianonote"><span class="lbl">PIANO</span> The live pianist plays in <strong>Act Two only</strong>: Satie&#39;s <em>Gymnopédie No. 1</em>; the Weimar vamp (Weill / Mistinguett) and its tattered reprise; the single held chord at the curtain. In Act Three the piano is heard just once — one note, offstage or recorded. The <em>Spiegel im Spiegel</em> coda is recorded (piano and violin). Everything else the audience hears — the cello drone, the fountain water, the gunshot — is sound, not music.</p>
+
 {ROWS}
 <p class="foot">One rule over all of it: the score should be <strong>felt, not heard</strong> — the audience need not know they are being scored. The only musician on stage is the Act Two pianist; everything in Acts One and Three is the wings radio, a low recorded drone, the live (or recorded) fountain, an offstage note, and the Pärt coda. The cues above are fixed; the suggested tracks are taste.</p>
 </body></html>"""
