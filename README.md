@@ -31,6 +31,28 @@ outputs/
 │                                       every action it performs, in performance order, grouped
 │                                       by act and part, each entry preceded by its cue. The
 │                                       intro is the character's portrait, pulled from the play.
+├── movement_maps.pdf                  Movement & Blocking Maps — top-down (plan-view) staging
+│                                       diagrams: a legend, one stage plan per act showing the
+│                                       set, every character's start position and numbered
+│                                       movement paths, and a per-character journey table.
+│                                       A4 landscape.
+├── blocking_storyboard.pdf            Blocking Storyboard — the beat book. One card per move:
+│                                       a top-down picture of the stage (set, everyone present,
+│                                       start→arrow→destination, the named light cue, the doors
+│                                       and entrance/exit direction) beside the verbatim line.
+│                                       ~98 beats, A4 portrait.
+├── blocking_storyboard_full.pdf       Blocking Storyboard, Full Script — the complete play in
+│                                       order, with every blocking map dropped in at the line
+│                                       where its move happens. Lines with no move flow as
+│                                       ordinary script. ~51 pages, A4 portrait.
+├── reading_edition.pdf                Reading Edition — the complete play, line by line, with
+│                                       a short interpretive note above EVERY spoken line: what
+│                                       it means and the intent / subtext beneath it. Notes live
+│                                       in data/reading_glosses.json. ~61 pages, A4 portrait.
+├── sound_score.pdf                    Sound & Music Score — everything the audience hears, act
+│                                       by act: what plays, how it is made (live piano, wings
+│                                       radio, sung live, cello drone, offstage note, fountain
+│                                       water, silence, the Pärt coda), and the cue. ~2 pages.
 ├── audition_pack.pdf                  Audition Pack — cover, how-to-audition, and nine
 │                                       role sections (the four Characters, the Manager,
 │                                       Players 1–3, and Madame Pace), each with the full
@@ -96,6 +118,11 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 ├── build_actor_script.py              → actor_script.html (then make_pdf
 │                                       renders it to outputs/actor_script.pdf)
 ├── build_part_books.py                → outputs/<role>_part_book.pdf (×9, one per role)
+├── build_movement_maps.py             → outputs/movement_maps.pdf (top-down blocking maps)
+├── build_blocking_storyboard.py       → outputs/blocking_storyboard.pdf (beat-by-beat cards)
+├── build_blocking_storyboard_full.py  → outputs/blocking_storyboard_full.pdf (full script + maps)
+├── build_reading_edition.py           → outputs/reading_edition.pdf (annotated reading edition)
+├── build_sound_score.py               → outputs/sound_score.pdf (music & sound cue sheet)
 ├── build_audition_pack.py             → outputs/audition_pack.pdf
 ├── build_audition_twohanders.py       → outputs/audition_twohanders.pdf
 ├── build_audition_briefing.py         → outputs/audition_briefing.pdf
@@ -152,6 +179,11 @@ PDF_OUT=outputs/actor_script.pdf \
   python scripts/make_pdf.py                       # render actor_script.pdf
 
 python scripts/build_part_books.py                 # render all nine <role>_part_book.pdf
+python scripts/build_movement_maps.py              # render movement_maps.pdf
+python scripts/build_blocking_storyboard.py        # render blocking_storyboard.pdf
+python scripts/build_blocking_storyboard_full.py   # render blocking_storyboard_full.pdf
+python scripts/build_reading_edition.py            # render reading_edition.pdf
+python scripts/build_sound_score.py                # render sound_score.pdf
 python scripts/build_audition_pack.py              # render audition_pack.pdf
 python scripts/build_audition_twohanders.py        # render audition_twohanders.pdf
 python scripts/build_audition_briefing.py          # render audition_briefing.pdf
