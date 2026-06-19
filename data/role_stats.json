@@ -4,8 +4,8 @@
     "words": 3681
   },
   "Player 2": {
-    "speeches": 41,
-    "words": 452
+    "speeches": 42,
+    "words": 461
   },
   "Player 1": {
     "speeches": 46,
@@ -23,7 +23,7 @@
     "speeches": 117,
     "words": 3141
   },
-  "All Three Players": {
+  "Player 1, Player 2 &amp; Player 3": {
     "speeches": 5,
     "words": 50
   },
@@ -39,16 +39,16 @@
     "speeches": 1,
     "words": 5
   },
-  "Two Players": {
-    "speeches": 2,
-    "words": 8
+  "Player 1 &amp; Player 2": {
+    "speeches": 1,
+    "words": 5
   },
   "Madame Pace": {
     "speeches": 5,
     "words": 566
   },
-  "The Other Players": {
+  "Player 1 &amp; Player 3": {
     "speeches": 1,
-    "words": 9
+    "words": 3
   }
 }
