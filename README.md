@@ -53,6 +53,9 @@ outputs/
 │                                       by act: what plays, how it is made (live piano, wings
 │                                       radio, sung live, cello drone, offstage note, fountain
 │                                       water, silence, the Pärt coda), and the cue. ~2 pages.
+├── dialogue_only.pdf                  Dialogue Only — every spoken line, in order, with no
+│                                       speaker names, no stage directions, and no headings.
+│                                       Just the words. ~35 pages.
 ├── audition_pack.pdf                  Audition Pack — cover, how-to-audition, and nine
 │                                       role sections (the four Characters, the Manager,
 │                                       Players 1–3, and Madame Pace), each with the full
@@ -123,6 +126,7 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 ├── build_blocking_storyboard_full.py  → outputs/blocking_storyboard_full.pdf (full script + maps)
 ├── build_reading_edition.py           → outputs/reading_edition.pdf (annotated reading edition)
 ├── build_sound_score.py               → outputs/sound_score.pdf (music & sound cue sheet)
+├── build_dialogue_only.py             → outputs/dialogue_only.pdf (spoken lines only)
 ├── build_audition_pack.py             → outputs/audition_pack.pdf
 ├── build_audition_twohanders.py       → outputs/audition_twohanders.pdf
 ├── build_audition_briefing.py         → outputs/audition_briefing.pdf
@@ -184,6 +188,7 @@ python scripts/build_blocking_storyboard.py        # render blocking_storyboard.
 python scripts/build_blocking_storyboard_full.py   # render blocking_storyboard_full.pdf
 python scripts/build_reading_edition.py            # render reading_edition.pdf
 python scripts/build_sound_score.py                # render sound_score.pdf
+python scripts/build_dialogue_only.py              # render dialogue_only.pdf
 python scripts/build_audition_pack.py              # render audition_pack.pdf
 python scripts/build_audition_twohanders.py        # render audition_twohanders.pdf
 python scripts/build_audition_briefing.py          # render audition_briefing.pdf
