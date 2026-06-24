@@ -101,9 +101,7 @@ _ACTION_TRIM = {
         "looking up from the book",
     "she cannot quite stop yet; the voice has been waiting too long":
         "she cannot quite stop yet",
-    "she has been at work for an hour; the Property Man's bearing — shoulders forward, weight on the front foot":
-        "the Property Man's bearing — shoulders forward, weight on the front foot",
-    "the cry breaks; afterward the body goes still — not the composure he had at the start of this part, but a different stillness, as if he has just walked into the wall of his own argument she has just shown him":
+    "the cry breaks; afterward the body goes still — not the composure he had at the start of this part, but a different stillness, as if he has just walked into the wall of his own argument she has shown him":
         "the cry breaks; afterward the body goes still",
     "the diva fully present; she has done a thousand scenes harder than this":
         "the diva fully present",
@@ -214,6 +212,15 @@ def main():
     OUT.write_text(out_html)
     size_kb = OUT.stat().st_size // 1024
     print(f"Wrote {OUT.name} ({size_kb} KB)")
+
+    # Render the PDF through the same print pipeline as the Director's Copy
+    # (make_pdf.py honours PDF_SRC / PDF_OUT), so one command rebuilds both.
+    import subprocess
+    import sys
+    pdf_out = HERE / "outputs" / "actor_script.pdf"
+    env = dict(os.environ, PDF_SRC=str(OUT), PDF_OUT=str(pdf_out))
+    subprocess.run([sys.executable, str(HERE / "scripts" / "make_pdf.py")],
+                   env=env, check=True)
 
 
 if __name__ == "__main__":
