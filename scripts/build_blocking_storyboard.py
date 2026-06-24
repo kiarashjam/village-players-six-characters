@@ -347,7 +347,7 @@ def BEATS():
       f'{who("Player 3")} {sd("coming forward from the others")}. Oh — do you hear that?',
       move=("P3", 70, 66), notes=[(70, 74, "steps out to watch")])
     B("amber",
-      f'{who("The Father")} {sd("stepping closer, voice softening")}. Oh sir, you know well that life is full of infinite absurdities which do not even need to appear plausible.',
+      f'{who("The Father")} {sd("stepping closer, voice softening")}. You call us mad because we come without a book. But isn&#39;t that your work — to make invented things seem true? We are true already. We only lack the stage.',
       move=("F", 40, 58), notes=[(30, 64, "stepping closer")])
     B("amber",
       f'{who("The Manager")}. But what do you want here, all of you? {who("The Father")}. We want to live. {who("The Manager")}. For Eternity? {who("The Father")}. No, sir, only for a moment… in you.',
