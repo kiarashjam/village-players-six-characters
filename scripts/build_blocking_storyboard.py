@@ -359,7 +359,7 @@ def BEATS():
       f'{who("The Step-Daughter")} {sd("crossing behind the Father; a hand on his shoulder, left one beat too long, then withdrawn")}. My passion, sir. Ah, if you only knew — my passion for <em>him</em>.',
       move=("SD", 54, 46))
     B("amber",
-      f'{who("The Step-Daughter")}. I, who am a two months&#39; orphan, will show you how well I can dance and sing. {sd("Sings and dances Prenez garde à Tchou-Tchin-Tchou")}.',
+      f'{who("The Step-Daughter")}. I, who am a two months&#39; orphan, will show you how well I can dance and sing. {sd("Sings and dances Valentine")}.',
       move=("SD", 52, 84))
     B("amber",
       f'{who("The Step-Daughter")} {sd("goes to the Mother and embraces her")}. Stage this drama now, sir! At a certain moment, when we lose this little darling…',
