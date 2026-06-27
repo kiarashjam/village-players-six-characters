@@ -1,0 +1,472 @@
+{
+  "method_overview": "Table work is the part of rehearsal where we sit around a table and read the play together before anyone gets up to move. We are not performing yet. We are finding out what the play really is: what happens, who these people are, and what each scene is about.\n\nThis is five Thursday evenings in July, working our production of Pirandello's \"Six Characters in Search of an Author.\" We take one act each on the first three nights, then run the whole play, then read it through with cues. The one big note: read to find the play, don't perform it yet. The truthful version comes later, on the floor, in August. Keep it light, keep it moving, and stop talking when talk stops helping.",
+  "how_to_run": {
+    "room_norms": [
+      "We read to discover, not to correct. Nobody locks in a fixed \"take\" on a character or a line this early.",
+      "We stay seated all five evenings. No moving, no blocking, no physical or intimacy work at the table. The big \"over-the-top\" read pushes the voice only, never touch.",
+      "The charged moments (the veil, the shop scene, the deaths) are talked about in words only. We set them as safe, agreed choreography in August, never improvised.",
+      "Read first, talk second. The director asks what you found before offering an interpretation.",
+      "Anyone can say \"hold\" at any moment, for any reason, no explanation needed. We agree this word on night one.",
+      "Don't over-talk it. Every extra minute of table chat is a staging minute lost. Share the facts and the questions, then we get up in August."
+    ],
+    "roles": [
+      "Director (Kiarash Jamshidi) — leads each evening, runs the two readings and the chats after, and keeps the tone honest: funny and painful at once.",
+      "Assistant Director — takes notes, tracks the decisions we make, flags when the tone drifts or energy drops, and fills in anyone who missed a night.",
+      "Stage Manager — booked the room, handed out scripts, keeps attendance and the prompt book, reads stage directions aloud, watches the clock, and calls cues on night five.",
+      "Everyone — read aloud, join both readings, fill in your homework sheet, and speak up. Quiet roles get asked the same questions as the leads."
+    ],
+    "materials": [
+      "The rehearsal script, handed out by the Stage Manager before night one.",
+      "A pencil and a simple two-column sheet: Facts on one side, Questions on the other.",
+      "A one-page character sheet: Who am I? What just happened? My relationships? What do I want? What's in my way? What do I do about it?",
+      "A short list of strong verbs for actioning (one verb per line: what am I doing to the other person? — e.g. shock, reassure, tease, threaten).",
+      "The two stage objects: the Child-bundle (a white wrapped cloth) and the Boy-chair (a chair, coat, cap, satchel). They sit with the Mother and Step-Daughter from night one.",
+      "Water, tea, and a snack for the breaks. Name tags for anyone new on night one."
+    ],
+    "cadence": "Each evening runs 18:00 to 21:00 at SSA Lausanne, everyone seated, with a real break in the middle and a short second break later. We start with a quick check-in and a gentle vocal warm-up, do the main reading and work, then a fast go-round so everyone speaks, set homework, and finish with a short check-out."
+  },
+  "principles": [
+    {
+      "name": "The two-pass read: flat first, over-the-top second",
+      "what": "We open each act with two opposite reads of its key scenes: once completely flat (just the words, no emotion), then once way too big (push everything to the extreme).",
+      "why": "The flat read lets us hear what's actually there and stops anyone fixing a line too soon; the big read finds the ceiling, so the honest version is easy to find later."
+    },
+    {
+      "name": "Read to discover, then get up",
+      "what": "Read the scene through before we discuss it, and do only as much table work as we need to agree the facts and the questions.",
+      "why": "Too much sitting and analysing traps actors in their heads; the real discoveries happen on your feet, so we save them for August."
+    },
+    {
+      "name": "Funny and painful in the same breath",
+      "what": "Don't play it as a farce (the wounds become jokes) or as cold philosophy (the feeling goes dead). Earn the laugh, then let it turn to a lump in the throat.",
+      "why": "This play only works when the audience laughs and then wishes they hadn't. Get the tone wrong and the whole thing falls apart."
+    },
+    {
+      "name": "Know which layer of the play you're in",
+      "what": "This is a play within a play. Name out loud who you are: an actor playing an actor, the tired stage Manager, one of the six trapped Characters, or Madame Pace.",
+      "why": "The play runs on the clash between these layers — who is more real — so you have to know which one you're standing in at any moment."
+    },
+    {
+      "name": "Aim outward, not inward",
+      "what": "For each line, name what you want from the other person and pick one strong verb for it (actioning: what am I doing to them?). Turn any \"I feel...\" into \"what am I doing, and to whom?\"",
+      "why": "Feeling comes out of doing. Aiming at the other person keeps the Father from lecturing and the Step-Daughter sharp instead of just angry."
+    }
+  ],
+  "sessions": [
+    {
+      "date": "Thursday 2 July 2026",
+      "title": "Act One at the table",
+      "focus": "Settle in calmly: agree the ground rules, read Act One flat and then over-the-top, talk about what jumped out, and take a short plain look at the world of the play.",
+      "goals": [
+        "Agree the ground rules and the time-out word, quickly and lightly.",
+        "Hear Act One two ways (flat, then over-the-top) and test whether \"Valentine\" lands as a wound or just a joke.",
+        "Get a clear, plain picture of who these people are and how the play-within-a-play works."
+      ],
+      "agenda": [
+        {
+          "time": "18:00",
+          "activity": "Welcome and check-in",
+          "detail": "Name tags for anyone new. One sentence each. The director sketches the five evenings in a minute: three acts, then the whole play, then a cue read."
+        },
+        {
+          "time": "18:10",
+          "activity": "Warm-up",
+          "detail": "A gentle seated voice and breath warm-up. Loosen up before any reading."
+        },
+        {
+          "time": "18:20",
+          "activity": "Ground rules and the time-out word",
+          "detail": "Agree the time-out word \"hold,\" a quick check-in and check-out, and a private line to the director if anyone needs it. Keep it short and light."
+        },
+        {
+          "time": "18:35",
+          "activity": "World of the play",
+          "detail": "A short, plain talk: who the family and the players are, and how the play-within-a-play works. Bring in the Child-bundle and Boy-chair."
+        },
+        {
+          "time": "18:55",
+          "activity": "Act One read, flat",
+          "detail": "Read the main scenes with no emotion at all, just the words and the facts. Then a quick chat about what's actually happening."
+        },
+        {
+          "time": "19:30",
+          "activity": "Break (15 min)",
+          "detail": "Water, tea, food. Rest your voice."
+        },
+        {
+          "time": "19:45",
+          "activity": "Act One read, over-the-top",
+          "detail": "Read the same scenes way too big, full melodrama, leaning hard into the comedy and into \"Valentine.\" Seated, no touching."
+        },
+        {
+          "time": "20:35",
+          "activity": "What jumped out",
+          "detail": "Talk it over: where it got funny, dangerous or raw, and whether \"Valentine\" felt like a wound. Note what to keep."
+        },
+        {
+          "time": "20:50",
+          "activity": "Homework and close",
+          "detail": "Set homework, do the check-out, and confirm next week is Act Two."
+        }
+      ],
+      "exercises": [
+        {
+          "name": "The flat read",
+          "how": "Read the key scenes with zero emotion, just words and punctuation. If anyone starts colouring it, speed up to a fast, throwaway pace.",
+          "purpose": "Lets the room hear what's really in Act One and stops anyone locking a line too early."
+        },
+        {
+          "name": "The over-the-top read",
+          "how": "Read the same scenes far too big, full permission, oversized voice. Push \"Valentine\" hard. Seated, no touch.",
+          "purpose": "Finds the ceiling and shows where the comedy and the wounds actually live, so the honest version is findable later."
+        }
+      ],
+      "discussion_prompts": [
+        "After the flat read: what is actually happening in Act One, and what did you assume that wasn't there?",
+        "After the big read: where did it get funny, dangerous or raw, and did \"Valentine\" feel like a wound?",
+        "Who are these people to each other, and which laughs should cost us something?"
+      ],
+      "homework": "Fill in your character sheet for your Act One scene and start learning your Act One lines.",
+      "outcome": "We've agreed the ground rules, shared a clear picture of the play, and heard Act One both ways with \"Valentine\" tested as a wound."
+    },
+    {
+      "date": "Thursday 9 July 2026",
+      "title": "Act Two at the table",
+      "focus": "Read Act Two flat and over-the-top, find why the comedy after Madame Pace has to be nervous, and place the Mother's quiet keystone line.",
+      "goals": [
+        "Hear Act Two two ways and feel why the comedy must stay nervous, not a funny show.",
+        "Build Madame Pace so the laugh turns sour by her last line, and hear the music.",
+        "Place and protect the Mother's quiet line \"It's taking place now\" so it isn't drowned out."
+      ],
+      "agenda": [
+        {
+          "time": "18:00",
+          "activity": "Check-in and warm-up",
+          "detail": "One sentence each, then a seated voice warm-up. The pianist joins to mark tempo only."
+        },
+        {
+          "time": "18:15",
+          "activity": "Act Two read, flat",
+          "detail": "Read the main scenes with no emotion. Notice the real shape: the Step-Daughter's solo opens the act, then the casting scene."
+        },
+        {
+          "time": "18:50",
+          "activity": "Act Two read, over-the-top",
+          "detail": "Read the same scenes too big and overplay the comedy of the casting scene and Madame Pace. Seated, no touch."
+        },
+        {
+          "time": "19:10",
+          "activity": "Break (15 min)",
+          "detail": "Rest your voice. Water and food."
+        },
+        {
+          "time": "19:25",
+          "activity": "Nervous comedy and the casting scene",
+          "detail": "Talk about where the laugh has to curdle. Read the casting scene brisk and businesslike so the raw moments land against it."
+        },
+        {
+          "time": "19:55",
+          "activity": "Madame Pace",
+          "detail": "Read her scene: full funny accent on arrival, full menace by the end. Mark where the laugh turns sour on \"he pay cash.\""
+        },
+        {
+          "time": "20:20",
+          "activity": "Second break (5 min)",
+          "detail": "Short breather. Rest your voice."
+        },
+        {
+          "time": "20:25",
+          "activity": "The music and the Mother's quiet line",
+          "detail": "Pianist marks the Satie and the cabaret vamp. Place the Mother's line \"It's taking place now\" and give it room; don't let louder energy roll over it."
+        },
+        {
+          "time": "20:50",
+          "activity": "Go-round and close",
+          "detail": "Everyone names one thing they found. Set homework and check out."
+        }
+      ],
+      "exercises": [
+        {
+          "name": "The two reads of Act Two",
+          "how": "Read the key scenes flat first, then way too big with the comedy pushed to the limit. Seated, no touch.",
+          "purpose": "The flat read shows the act's real shape; the big read shows exactly why the comedy can't stay a funny show."
+        },
+        {
+          "name": "Marking the curdle point",
+          "how": "Read Madame Pace's scene and, as a room, pencil the exact word where the laugh turns to disgust, and where the music dies mid-bar.",
+          "purpose": "Locks the funny-then-painful tone of the most delicate scene before we ever stage it."
+        }
+      ],
+      "discussion_prompts": [
+        "When you pushed the comedy too far, where did it stop being funny and start being frightening?",
+        "Where is Madame Pace funny, and where do we first wish we hadn't laughed?",
+        "What keeps the Mother's quiet line from being drowned out by everything around it?"
+      ],
+      "homework": "Bring a character sheet for your Act Two scene; Madame Pace, know the lines cold; Mother, rehearse \"It's taking place now\" aloud.",
+      "outcome": "We've heard Act Two both ways, agreed the comedy must be nervous, built Madame Pace, heard the music, and protected the Mother's quiet line."
+    },
+    {
+      "date": "Thursday 16 July 2026",
+      "title": "Act Three at the table",
+      "focus": "Read Act Three flat and over-the-top, find the line between real feeling and cold argument, and protect the quiet around the two deaths.",
+      "goals": [
+        "Hear Act Three two ways and find where the Father is panicking, not lecturing.",
+        "Work the Son's refusal and his cry on the word \"horrible,\" and the fountain story.",
+        "Protect the quiet, especially the silence after the gunshot, and talk through the staged moments in words only."
+      ],
+      "agenda": [
+        {
+          "time": "18:00",
+          "activity": "Check-in and warm-up",
+          "detail": "One sentence each, then a seated warm-up. The Mother holds both children tonight: the bundle in her lap, the chair at her knee."
+        },
+        {
+          "time": "18:15",
+          "activity": "Act Three read, flat",
+          "detail": "Read the main scenes with no emotion. Hear the argument's logic and the two deaths as plain facts. Give the quiet moments their air."
+        },
+        {
+          "time": "18:50",
+          "activity": "Act Three read, over-the-top",
+          "detail": "Read the same scenes too big, overshooting both raw feeling and cold philosophy, to find the live line between them."
+        },
+        {
+          "time": "19:10",
+          "activity": "Break (15 min)",
+          "detail": "Rest your voice. Water and food."
+        },
+        {
+          "time": "19:25",
+          "activity": "The Father's argument and the Son's refusal",
+          "detail": "Score the Father's slide from control to horror, kept as panic not paragraphs. Work the Son's refusal and his cry found on \"horrible.\""
+        },
+        {
+          "time": "19:55",
+          "activity": "The fountain and the two deaths",
+          "detail": "Read the ending for stillness, not volume. The drowning told not shown, the gunshot heard not seen, the silence after it left alone."
+        },
+        {
+          "time": "20:15",
+          "activity": "Second break (5 min)",
+          "detail": "Short breather after the heaviest stretch. Rest your voice."
+        },
+        {
+          "time": "20:20",
+          "activity": "The staged moments, in words only",
+          "detail": "Talk through the Father/Son grip and the earlier contact moments. Agree they're set safely in August. The deaths are handled as objects, not bodies."
+        },
+        {
+          "time": "20:50",
+          "activity": "Go-round and close",
+          "detail": "Everyone names their Act Three aim in one line. Set homework and check out."
+        }
+      ],
+      "exercises": [
+        {
+          "name": "The two reads of Act Three",
+          "how": "Read the key scenes flat, giving the quiet its air, then too big, overshooting both feeling and cold argument.",
+          "purpose": "Finds the live line the act runs on and protects the quiet moments around the deaths."
+        },
+        {
+          "name": "The mirror-speech surprise read",
+          "how": "The Son reads the speech twice: once trying to reach the feeling early, then finding the cry only on \"horrible.\"",
+          "purpose": "Shows why the cry has to surprise him mid-thought, not be loaded up in advance."
+        }
+      ],
+      "discussion_prompts": [
+        "When you overshot both feeling and philosophy, where did the true line turn out to be?",
+        "Did the quiet survive even the big read: the cry on \"horrible,\" the silence after the gunshot, the fountain?",
+        "For the staged moments, what carries the weight so the bodies don't have to, and what do we need to agree now?"
+      ],
+      "homework": "Father, bring your arc with a strong verb per section; Son, learn the fountain story as one breath; Mother, decide the shape of your discovery with the veil never lifting.",
+      "outcome": "We've heard Act Three both ways, found the line between feeling and argument, protected the quiet, and agreed how the staged moments are handled."
+    },
+    {
+      "date": "Thursday 23 July 2026",
+      "title": "The whole play, joined up",
+      "focus": "Read the play as one connected thing, in words only: relationships across the arc, the layers, the tempo, the nervous comedy, and the safety agreement confirmed.",
+      "goals": [
+        "Follow each relationship right across the play instead of act by act.",
+        "Place every performer in their layer and track where \"who is more real\" flips.",
+        "Confirm the tempo, the nervous comedy, and every safety agreement, all in words."
+      ],
+      "agenda": [
+        {
+          "time": "18:00",
+          "activity": "Check-in and warm-up",
+          "detail": "One sentence each, then a seated warm-up. The objects in place. The director frames tonight: the whole play in one room, in words, nothing staged."
+        },
+        {
+          "time": "18:15",
+          "activity": "Relationships across the play",
+          "detail": "Trace each thread across all three acts: the Father explains, the Step-Daughter exposes, the Son refuses, the Mother carries. Where does each one turn?"
+        },
+        {
+          "time": "18:50",
+          "activity": "The layers",
+          "detail": "Place everyone in their layer again and track the moments where who-is-more-real flips: the casting scene, Madame Pace, the keystone line, the deaths."
+        },
+        {
+          "time": "19:10",
+          "activity": "Break (15 min)",
+          "detail": "Rest your voice. Water and food."
+        },
+        {
+          "time": "19:25",
+          "activity": "Tempo across the play",
+          "detail": "Walk the changes of pace in order: the company's looseness against the family's drive, the brisk casting scene, the ruptures around the two deaths."
+        },
+        {
+          "time": "19:55",
+          "activity": "The nervous comedy",
+          "detail": "Walk the funny beats across the play and agree where each laugh has to turn. \"Valentine\" stays a wound, not a number."
+        },
+        {
+          "time": "20:15",
+          "activity": "Second break (5 min)",
+          "detail": "Short breather. Rest your voice."
+        },
+        {
+          "time": "20:20",
+          "activity": "Safety confirmed, in words",
+          "detail": "Walk the full list of contact moments. Each is set safely in August with someone else present. The deaths stay object work; consent can always be withdrawn."
+        },
+        {
+          "time": "20:50",
+          "activity": "Go-round and close",
+          "detail": "Everyone names one thing about their whole arc and one thing they need to do it safely. Set homework and check out."
+        }
+      ],
+      "exercises": [
+        {
+          "name": "Follow one thread",
+          "how": "Take each main relationship and read or summarise its key beats across all three acts in one go, marking where it turns and where it risks getting lost.",
+          "purpose": "Lets you feel each relationship as one continuous line, not three separate readings."
+        },
+        {
+          "name": "Name your layer",
+          "how": "Go round the table at each big clash and have each performer say which layer they're in and what's pressing on it right then.",
+          "purpose": "Keeps the play-within-a-play alive all the way through, not just named on night one."
+        }
+      ],
+      "discussion_prompts": [
+        "Read whole, did each thread stay alive, or did one get rolled over when the play ran end to end?",
+        "Where does \"who is more real\" flip, and can you name your layer at that exact moment?",
+        "Is our safety agreement strong enough to carry every contact moment into August?"
+      ],
+      "homework": "Re-read your whole part against tonight's notes, holding your thread as one line, and keep learning Act One toward off-book on 20 August.",
+      "outcome": "We've held the whole play in one room in words: threads traced, layers placed, tempo and comedy confirmed, and every safety agreement reconfirmed."
+    },
+    {
+      "date": "Thursday 30 July 2026",
+      "title": "The full cue-called read, and hand-off to August",
+      "focus": "Read the whole play through with the Stage Manager calling cues and the pianist marking tempo, then hand off cleanly to the August staging block.",
+      "goals": [
+        "Run the whole play as one cued read, giving Act Two its full time.",
+        "Feel the tempo, the relationships, and the cues land end to end.",
+        "Confirm the safety agreement and hand off to August with the calendar set."
+      ],
+      "agenda": [
+        {
+          "time": "18:00",
+          "activity": "Check-in, warm-up, quick recap",
+          "detail": "Check-in and warm-up. Objects in place, pianist ready. Get logistics out of the way now: a quick safety recap and the August calendar, so the read runs unbroken."
+        },
+        {
+          "time": "18:15",
+          "activity": "Read Act One with cues",
+          "detail": "Read Act One straight through, seated, with the Stage Manager calling lights and sound and \"Valentine\" sung or marked. Earn the laugh, then let it curdle."
+        },
+        {
+          "time": "18:55",
+          "activity": "Voice rest (10 min)",
+          "detail": "A short rest after the unbroken Act One read, before Act Two, so no stretch of reading runs too long. Water, quiet, no talking needed."
+        },
+        {
+          "time": "19:05",
+          "activity": "Read Act Two with cues",
+          "detail": "Read Act Two straight through with full time, the SM calling cues and the pianist marking the Satie and the vamp. Keep the casting scene brisk."
+        },
+        {
+          "time": "19:45",
+          "activity": "Break (15 min)",
+          "detail": "Rest your voice. Water and food."
+        },
+        {
+          "time": "20:00",
+          "activity": "Read Act Three with cues",
+          "detail": "Read Act Three straight through, the SM calling the cello, the gunshot in real silence, and the Pärt at the end. Leave the silence after the shot alone."
+        },
+        {
+          "time": "20:35",
+          "activity": "Notes on tempo and relationships",
+          "detail": "The director gives a few quick, practical notes: where the pace flattened, where a clash needs sharpening, where a thread read clearly."
+        },
+        {
+          "time": "20:55",
+          "activity": "Check-out, hand-off, thank-you",
+          "detail": "Final check-out for the table-work block. The SM confirms the August calendar and the Act One off-book date, and the director thanks everyone."
+        }
+      ],
+      "exercises": [
+        {
+          "name": "The cued read",
+          "how": "Read the whole play in one sitting (with the break and the voice rest) while the SM calls every cue and the pianist marks tempo. Give Act Two its full time. No stopping for fixes; save notes for the end.",
+          "purpose": "Lets the company feel the shape of the show end to end, with the cues in place, before we get on our feet."
+        },
+        {
+          "name": "\"Valentine\" in context",
+          "how": "Run the \"Valentine\" moment inside the full Act One read, right after we've heard she's orphaned and for sale, and note exactly where the laugh should curdle.",
+          "purpose": "Confirms \"Valentine\" as a wound, not a comic number, under a full cued run."
+        }
+      ],
+      "discussion_prompts": [
+        "Across the whole run, where did the tempo flatten, and where did the clashes land as real ruptures?",
+        "Did the comedy stay nervous all the way through, or did it tip into farce anywhere?",
+        "With the cues in place, did the Mother's quiet lines survive when we ran it whole?"
+      ],
+      "homework": "Have Act One off-book by 20 August and learn the rest across the summer; arrive ready to be on your feet.",
+      "outcome": "We've read the whole play through with cues, felt its shape end to end, confirmed the comedy and the safety agreement, and handed off to August."
+    }
+  ],
+  "pitfalls": [
+    "Skipping the flat read because you want to \"get on with it.\" The flat read is the important one; protect it.",
+    "Treating the over-the-top read as the goal. It's a tool to find the ceiling, not the performance. Run it once, talk it over, then let the size go.",
+    "Directing from page one. Read first, talk second. Ask the room what they found before you offer a reading.",
+    "Letting the comedy win. If the laugh never turns sour, the wounds become jokes. Keep it nervous, never a punchline.",
+    "Over-talking it. Five evenings is tight. When talk stops helping, stop talking and save it for the floor.",
+    "Letting the quiet roles go silent. Ask the Mother, the Son and the Players the same questions as the leads, every night."
+  ],
+  "sources": [
+    {
+      "title": "Our production's director's edition of \"Six Characters in Search of an Author\"",
+      "author": "Luigi Pirandello, adapted and directed by Kiarash Jamshidi",
+      "note": "For all our specific choices: the characters, the music, the objects, the layers, and the schedule."
+    },
+    {
+      "title": "Our Intimacy and Consent agreement",
+      "author": "Kiarash Jamshidi / Village Players",
+      "note": "For how we keep the charged scenes safe and consented."
+    },
+    {
+      "title": "The Director's Craft",
+      "author": "Katie Mitchell",
+      "note": "For building the facts, questions and world of the play before we interpret it."
+    },
+    {
+      "title": "Stanislavski's system, with units, objectives and through-line",
+      "author": "Konstantin Stanislavski (via Maria Knebel)",
+      "note": "For the units and objectives, and for the rule that we get up and act rather than over-analyse."
+    },
+    {
+      "title": "Actions: The Actors' Thesaurus",
+      "author": "Marina Caldarone & Maggie Lloyd-Williams",
+      "note": "For actioning: one strong verb per line, what am I doing to the other person."
+    },
+    {
+      "title": "On Humor (L'Umorismo)",
+      "author": "Luigi Pirandello",
+      "note": "For the tone we live on: earn the laugh, then let it curdle."
+    }
+  ]
+}
