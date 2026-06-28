@@ -66,53 +66,63 @@
         {
           "time": "18:00",
           "activity": "Welcome and check-in",
-          "detail": "Name tags for anyone new. One sentence each. The director sketches the five evenings in a minute: three acts, then the whole play, then a cue read."
+          "detail": "One sentence each: what you need to take part fully tonight."
         },
         {
           "time": "18:10",
           "activity": "Warm-up",
-          "detail": "A gentle seated voice and breath warm-up. Loosen up before any reading."
+          "detail": "A gentle seated voice and breath warm-up."
         },
         {
           "time": "18:20",
-          "activity": "Ground rules and the time-out word",
-          "detail": "Agree the time-out word \"hold,\" a quick check-in and check-out, and a private line to the director if anyone needs it. Keep it short and light."
+          "activity": "Ground rules and the “hold” word",
+          "detail": "Agree the time-out word, the check-in and the de-role check-out. Quick and light."
         },
         {
           "time": "18:35",
           "activity": "World of the play",
-          "detail": "A short, plain talk: who the family and the players are, and how the play-within-a-play works. Bring in the Child-bundle and Boy-chair."
+          "detail": "Short, plain talk: who the family and the company are, and the play-within-a-play."
         },
         {
-          "time": "18:55",
-          "activity": "Act One read, flat",
-          "detail": "Read the main scenes with no emotion at all, just the words and the facts. Then a quick chat about what's actually happening."
+          "time": "18:50",
+          "activity": "Part I — The Rehearsal",
+          "detail": "Read it flat, then put the Part I questions below. (See “Part by part”.)"
         },
         {
-          "time": "19:30",
+          "time": "19:05",
+          "activity": "Part II — The Interruption",
+          "detail": "Read it flat, then the Part II questions. (The six walk in.)"
+        },
+        {
+          "time": "19:22",
+          "activity": "Part III — The Bargain",
+          "detail": "Read it flat, then the Part III questions."
+        },
+        {
+          "time": "19:35",
           "activity": "Break (15 min)",
           "detail": "Water, tea, food. Rest your voice."
         },
         {
-          "time": "19:45",
-          "activity": "Act One read, over-the-top",
-          "detail": "Read the same scenes way too big, full melodrama, leaning hard into the comedy and into \"Valentine.\" Seated, no touching."
+          "time": "19:50",
+          "activity": "Act One, over-the-top",
+          "detail": "Read the whole act way too big — full melodrama, no holding back."
         },
         {
-          "time": "20:35",
+          "time": "20:30",
           "activity": "What jumped out",
-          "detail": "Talk it over: where it got funny, dangerous or raw, and whether \"Valentine\" felt like a wound. Note what to keep."
+          "detail": "Where it got funny, dangerous or raw — and where “Valentine” stops being just a song."
         },
         {
-          "time": "20:50",
+          "time": "20:45",
           "activity": "Homework and close",
-          "detail": "Set homework, do the check-out, and confirm next week is Act Two."
+          "detail": "Set homework, do the de-role check-out, confirm 9 July is Act Two."
         }
       ],
       "exercises": [
         {
           "name": "The flat read",
-          "how": "Read the key scenes with zero emotion, just words and punctuation. If anyone starts colouring it, speed up to a fast, throwaway pace.",
+          "how": "Read the key scenes with zero emotion, just words and punctuation. If anyone starts colouring it, speed up to a fast, throwaway pace. Go part by part; after each part’s flat read, put the part’s questions to the characters in it — one sentence each, in role.",
           "purpose": "Lets the room hear what's really in Act One and stops anyone locking a line too early."
         },
         {
@@ -127,7 +137,78 @@
         "Who are these people to each other, and which laughs should cost us something?"
       ],
       "homework": "Fill in your character sheet for your Act One scene and start learning your Act One lines.",
-      "outcome": "We've agreed the ground rules, shared a clear picture of the play, and heard Act One both ways with \"Valentine\" tested as a wound."
+      "outcome": "We've agreed the ground rules, shared a clear picture of the play, and heard Act One both ways with \"Valentine\" tested as a wound.",
+      "parts": [
+        {
+          "name": "Part I — The Rehearsal",
+          "when": "18:50–19:05",
+          "present": "The Manager, Player 1, Player 2, Player 3",
+          "questions": [
+            {
+              "to": "The Manager",
+              "ask": "What kind of day are you having before they walk in?"
+            },
+            {
+              "to": "Player 1",
+              "ask": "What do you think you’re owed in this company?"
+            },
+            {
+              "to": "Player 2",
+              "ask": "What keeps you patient with all of them?"
+            },
+            {
+              "to": "Player 3",
+              "ask": "What are you still excited about?"
+            }
+          ]
+        },
+        {
+          "name": "Part II — The Interruption",
+          "when": "19:05–19:22",
+          "present": "The Father, The Step-Daughter, The Mother, The Son, The Manager",
+          "questions": [
+            {
+              "to": "The Father",
+              "ask": "You’ve walked into a stranger’s theatre — what do you need them to believe?"
+            },
+            {
+              "to": "The Step-Daughter",
+              "ask": "What do you want this room to see that the Father won’t say?"
+            },
+            {
+              "to": "The Mother",
+              "ask": "What are you trying to stop from happening?"
+            },
+            {
+              "to": "The Son",
+              "ask": "Why don’t you want to be here?"
+            },
+            {
+              "to": "The Manager",
+              "ask": "When do you stop wanting to throw them out?"
+            }
+          ]
+        },
+        {
+          "name": "Part III — The Bargain",
+          "when": "19:22–19:35",
+          "present": "The Father, The Manager, The Step-Daughter",
+          "questions": [
+            {
+              "to": "The Father",
+              "ask": "What are you offering him — and what’s the catch you’re hiding?"
+            },
+            {
+              "to": "The Manager",
+              "ask": "What finally makes you say yes?"
+            },
+            {
+              "to": "The Step-Daughter",
+              "ask": "What are you afraid they’ll make pretty?"
+            }
+          ]
+        }
+      ]
     },
     {
       "date": "Thursday 9 July 2026",
@@ -142,53 +223,53 @@
         {
           "time": "18:00",
           "activity": "Check-in and warm-up",
-          "detail": "One sentence each, then a seated voice warm-up. The pianist joins to mark tempo only."
+          "detail": "One sentence each, then a seated voice warm-up. The pianist is here tonight."
         },
         {
           "time": "18:15",
-          "activity": "Act Two read, flat",
-          "detail": "Read the main scenes with no emotion. Notice the real shape: the Step-Daughter's solo opens the act, then the casting scene."
+          "activity": "Part I — The Setup",
+          "detail": "Read it flat, then the Part I questions. Includes the Step-Daughter’s shower speech."
         },
         {
-          "time": "18:50",
-          "activity": "Act Two read, over-the-top",
-          "detail": "Read the same scenes too big and overplay the comedy of the casting scene and Madame Pace. Seated, no touch."
+          "time": "18:32",
+          "activity": "Part II — The Apparition",
+          "detail": "Read it flat, then the Part II questions. Madame Pace arrives."
         },
         {
-          "time": "19:10",
+          "time": "18:52",
+          "activity": "Part III — The Substitution",
+          "detail": "Read it flat, then the Part III questions. The actors replay the scene."
+        },
+        {
+          "time": "19:07",
           "activity": "Break (15 min)",
           "detail": "Rest your voice. Water and food."
         },
         {
-          "time": "19:25",
-          "activity": "Nervous comedy and the casting scene",
-          "detail": "Talk about where the laugh has to curdle. Read the casting scene brisk and businesslike so the raw moments land against it."
+          "time": "19:22",
+          "activity": "Act Two, over-the-top — the comedy test",
+          "detail": "Read it too big and overplay the comedy after Pace — feel exactly where the laugh has to curdle."
         },
         {
-          "time": "19:55",
-          "activity": "Madame Pace",
-          "detail": "Read her scene: full funny accent on arrival, full menace by the end. Mark where the laugh turns sour on \"he pay cash.\""
-        },
-        {
-          "time": "20:20",
-          "activity": "Second break (5 min)",
-          "detail": "Short breather. Rest your voice."
+          "time": "20:00",
+          "activity": "Madame Pace and the curdle point",
+          "detail": "Funny accent on arrival, full menace by the end. Mark where the room must stop laughing."
         },
         {
           "time": "20:25",
-          "activity": "The music and the Mother's quiet line",
-          "detail": "Pianist marks the Satie and the cabaret vamp. Place the Mother's line \"It's taking place now\" and give it room; don't let louder energy roll over it."
+          "activity": "The music and the Mother’s keystone",
+          "detail": "Pianist marks the Satie and the cabaret vamp; place “It’s taking place now.”"
         },
         {
-          "time": "20:50",
+          "time": "20:45",
           "activity": "Go-round and close",
-          "detail": "Everyone names one thing they found. Set homework and check out."
+          "detail": "One thing each; homework; de-role check-out."
         }
       ],
       "exercises": [
         {
           "name": "The two reads of Act Two",
-          "how": "Read the key scenes flat first, then way too big with the comedy pushed to the limit. Seated, no touch.",
+          "how": "Read the key scenes flat first, then way too big with the comedy pushed to the limit. Seated, no touch. Go part by part; after each part’s flat read, put the part’s questions to the characters in it — one sentence each, in role.",
           "purpose": "The flat read shows the act's real shape; the big read shows exactly why the comedy can't stay a funny show."
         },
         {
@@ -203,7 +284,78 @@
         "What keeps the Mother's quiet line from being drowned out by everything around it?"
       ],
       "homework": "Bring a character sheet for your Act Two scene; Madame Pace, know the lines cold; Mother, rehearse \"It's taking place now\" aloud.",
-      "outcome": "We've heard Act Two both ways, agreed the comedy must be nervous, built Madame Pace, heard the music, and protected the Mother's quiet line."
+      "outcome": "We've heard Act Two both ways, agreed the comedy must be nervous, built Madame Pace, heard the music, and protected the Mother's quiet line.",
+      "parts": [
+        {
+          "name": "Part I — The Setup",
+          "when": "18:15–18:32",
+          "present": "The Step-Daughter, The Manager, The Mother, The Son",
+          "questions": [
+            {
+              "to": "The Step-Daughter",
+              "ask": "In the shower speech, who are you really talking to?"
+            },
+            {
+              "to": "The Manager",
+              "ask": "What are you actually building out of these props?"
+            },
+            {
+              "to": "The Mother",
+              "ask": "What do you dread is coming?"
+            },
+            {
+              "to": "The Son",
+              "ask": "What are you watching from the edge?"
+            }
+          ]
+        },
+        {
+          "name": "Part II — The Apparition",
+          "when": "18:32–18:52",
+          "present": "Madame Pace, The Step-Daughter, The Father, The Mother",
+          "questions": [
+            {
+              "to": "Madame Pace",
+              "ask": "What are you really selling?"
+            },
+            {
+              "to": "The Step-Daughter",
+              "ask": "What is it like to watch this happen again?"
+            },
+            {
+              "to": "The Father",
+              "ask": "What do you tell yourself so you can walk into that shop?"
+            },
+            {
+              "to": "The Mother",
+              "ask": "What finally breaks your silence?"
+            }
+          ]
+        },
+        {
+          "name": "Part III — The Substitution",
+          "when": "18:52–19:07",
+          "present": "Player 1, Player 2, The Step-Daughter, The Mother",
+          "questions": [
+            {
+              "to": "Player 1",
+              "ask": "How do you think the scene is going?"
+            },
+            {
+              "to": "Player 2",
+              "ask": "What do you get wrong without knowing it?"
+            },
+            {
+              "to": "The Step-Daughter",
+              "ask": "What’s unbearable about watching them play you?"
+            },
+            {
+              "to": "The Mother",
+              "ask": "What does “It’s taking place now” mean to you?"
+            }
+          ]
+        }
+      ]
     },
     {
       "date": "Thursday 16 July 2026",
@@ -218,53 +370,53 @@
         {
           "time": "18:00",
           "activity": "Check-in and warm-up",
-          "detail": "One sentence each, then a seated warm-up. The Mother holds both children tonight: the bundle in her lap, the chair at her knee."
+          "detail": "One sentence each, seated warm-up. The Mother keeps the Child-bundle and Boy-chair by her."
         },
         {
           "time": "18:15",
-          "activity": "Act Three read, flat",
-          "detail": "Read the main scenes with no emotion. Hear the argument's logic and the two deaths as plain facts. Give the quiet moments their air."
+          "activity": "Part I — The Trap",
+          "detail": "Read it flat, then the Part I questions. The reality/illusion argument."
+        },
+        {
+          "time": "18:32",
+          "activity": "Part II — The Refusal",
+          "detail": "Read it flat, then the Part II questions. The Son will not act."
         },
         {
           "time": "18:50",
-          "activity": "Act Three read, over-the-top",
-          "detail": "Read the same scenes too big, overshooting both raw feeling and cold philosophy, to find the live line between them."
+          "activity": "Part III — The Fountain",
+          "detail": "Read it flat, then the Part III questions. The two deaths."
         },
         {
-          "time": "19:10",
+          "time": "19:05",
           "activity": "Break (15 min)",
-          "detail": "Rest your voice. Water and food."
+          "detail": "Rest your voice — this is the heaviest act."
         },
         {
-          "time": "19:25",
-          "activity": "The Father's argument and the Son's refusal",
-          "detail": "Score the Father's slide from control to horror, kept as panic not paragraphs. Work the Son's refusal and his cry found on \"horrible.\""
+          "time": "19:20",
+          "activity": "Act Three, over-the-top — feeling vs argument",
+          "detail": "Read it too big, overshoot both raw feeling and cold philosophy, then find the line between them."
         },
         {
           "time": "19:55",
-          "activity": "The fountain and the two deaths",
-          "detail": "Read the ending for stillness, not volume. The drowning told not shown, the gunshot heard not seen, the silence after it left alone."
-        },
-        {
-          "time": "20:15",
-          "activity": "Second break (5 min)",
-          "detail": "Short breather after the heaviest stretch. Rest your voice."
+          "activity": "The Father’s argument and the Son’s cry",
+          "detail": "Score the Father control → horror as panic, not lecture; let the Son’s cry land on “horrible.”"
         },
         {
           "time": "20:20",
-          "activity": "The staged moments, in words only",
-          "detail": "Talk through the Father/Son grip and the earlier contact moments. Agree they're set safely in August. The deaths are handled as objects, not bodies."
+          "activity": "The fountain, in words only",
+          "detail": "Read the ending for stillness, not volume; talk the staged moments through — no contact at the table."
         },
         {
-          "time": "20:50",
+          "time": "20:45",
           "activity": "Go-round and close",
-          "detail": "Everyone names their Act Three aim in one line. Set homework and check out."
+          "detail": "One-line Act Three aim each; homework; de-role check-out."
         }
       ],
       "exercises": [
         {
           "name": "The two reads of Act Three",
-          "how": "Read the key scenes flat, giving the quiet its air, then too big, overshooting both feeling and cold argument.",
+          "how": "Read the key scenes flat, giving the quiet its air, then too big, overshooting both feeling and cold argument. Go part by part; after each part’s flat read, put the part’s questions to the characters in it — one sentence each, in role.",
           "purpose": "Finds the live line the act runs on and protects the quiet moments around the deaths."
         },
         {
@@ -279,7 +431,78 @@
         "For the staged moments, what carries the weight so the bodies don't have to, and what do we need to agree now?"
       ],
       "homework": "Father, bring your arc with a strong verb per section; Son, learn the fountain story as one breath; Mother, decide the shape of your discovery with the veil never lifting.",
-      "outcome": "We've heard Act Three both ways, found the line between feeling and argument, protected the quiet, and agreed how the staged moments are handled."
+      "outcome": "We've heard Act Three both ways, found the line between feeling and argument, protected the quiet, and agreed how the staged moments are handled.",
+      "parts": [
+        {
+          "name": "Part I — The Trap",
+          "when": "18:15–18:32",
+          "present": "The Father, The Step-Daughter, The Manager, The Mother",
+          "questions": [
+            {
+              "to": "The Father",
+              "ask": "What are you really arguing for when you talk about what’s real?"
+            },
+            {
+              "to": "The Step-Daughter",
+              "ask": "When do you cut him off — and why then?"
+            },
+            {
+              "to": "The Manager",
+              "ask": "When does this stop being a game to you?"
+            },
+            {
+              "to": "The Mother",
+              "ask": "What are you holding onto?"
+            }
+          ]
+        },
+        {
+          "name": "Part II — The Refusal",
+          "when": "18:32–18:50",
+          "present": "The Son, The Father, The Manager, The Step-Daughter",
+          "questions": [
+            {
+              "to": "The Son",
+              "ask": "What will you not do, and why?"
+            },
+            {
+              "to": "The Father",
+              "ask": "Why do you need him to play it?"
+            },
+            {
+              "to": "The Manager",
+              "ask": "What do you do when an actor refuses?"
+            },
+            {
+              "to": "The Step-Daughter",
+              "ask": "Why are you sure he can’t leave?"
+            }
+          ]
+        },
+        {
+          "name": "Part III — The Fountain",
+          "when": "18:50–19:05",
+          "present": "The Son, The Mother, The Step-Daughter, The Manager",
+          "questions": [
+            {
+              "to": "The Son",
+              "ask": "What did you see at the fountain?"
+            },
+            {
+              "to": "The Mother",
+              "ask": "What do your empty arms know before anyone says it?"
+            },
+            {
+              "to": "The Step-Daughter",
+              "ask": "Why do you run?"
+            },
+            {
+              "to": "The Manager",
+              "ask": "Pretence or reality — what do you walk out believing?"
+            }
+          ]
+        }
+      ]
     },
     {
       "date": "Thursday 23 July 2026",

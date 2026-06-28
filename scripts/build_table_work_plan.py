@@ -68,6 +68,25 @@ def build_html(plan):
             f'<p class="ex-purpose"><span class="lbl">YIELDS</span> {esc(e["purpose"])}</p></div>'
             for e in s["exercises"])
         prompts = ul(s["discussion_prompts"], "prompts")
+        parts = s.get("parts")
+        if parts:
+            cards = "".join(
+                f'<div class="part"><div class="part-h">'
+                f'<span class="part-when">{esc(pt["when"])}</span>'
+                f'<span class="part-name">{esc(pt["name"])}</span></div>'
+                f'<div class="part-present">In it: {esc(pt["present"])}</div>'
+                '<ul class="qs">'
+                + "".join(f'<li><span class="q-to">{esc(q["to"])}</span> — {esc(q["ask"])}</li>'
+                          for q in pt["questions"])
+                + "</ul></div>"
+                for pt in parts)
+            parts_html = (
+                '<h4>Part by part — read it flat, then ask</h4>'
+                '<p class="parts-note">After the flat read of each part, put these questions to the '
+                'characters who appear in it. One sentence each, in role — then move on.</p>'
+                f'<div class="parts">{cards}</div>')
+        else:
+            parts_html = ""
         sec.append(f"""
 <section class="session">
   <div class="s-head">
@@ -82,6 +101,8 @@ def build_html(plan):
 
   <h4>The evening, hour by hour</h4>
   <table class="agenda"><tbody>{agenda}</tbody></table>
+
+  {parts_html}
 
   <h4>Exercises at the table</h4>
   {exercises}
@@ -177,6 +198,16 @@ table.agenda td.a .d {{ color:#5d513f; font-size:10pt; }}
 
 .sources li {{ line-height:1.42; }}
 .src-note {{ font-style:italic; color:#5d513f; }}
+.parts-note {{ font-style:italic; color:#5d513f; margin:0 0 2mm; font-size:10pt; line-height:1.4; }}
+.parts {{ margin:0 0 2mm; }}
+.part {{ break-inside:avoid; margin:0 0 2.6mm; padding:2mm 0 0; border-top:1px dotted rgba(42,32,26,0.28); }}
+.part-h {{ display:flex; align-items:baseline; gap:3mm; flex-wrap:wrap; }}
+.part-when {{ font-family:Arial; font-weight:700; font-size:8pt; letter-spacing:0.3px; color:#8b3a3a; white-space:nowrap; }}
+.part-name {{ font-family:'Cormorant Garamond',serif; font-weight:600; font-size:12.5pt; }}
+.part-present {{ font-size:9.4pt; color:#5d513f; margin:0.3mm 0 1mm; }}
+.qs {{ margin:0; padding-left:5mm; }}
+.qs li {{ margin-bottom:1mm; line-height:1.4; font-size:10.5pt; }}
+.q-to {{ font-weight:700; color:#2a201a; }}
 .foot {{ margin-top:7mm; padding-top:3mm; border-top:1px solid rgba(42,32,26,0.2);
   font-style:italic; color:#6b5b48; line-height:1.45; }}
 </style></head><body>
