@@ -1,5 +1,5 @@
 {
-  "method_overview": "Table work is the part of rehearsal where we sit around a table and read the play together before anyone gets up to move. We are not performing yet. We are finding out what the play really is: what happens, who these people are, and what each scene is about.\n\nThis is five Thursday evenings in July, working our production of Pirandello's \"Six Characters in Search of an Author.\" We take one act each on the first three nights, then run the whole play, then read it through with cues. The one big note: read to find the play, don't perform it yet. The truthful version comes later, on the floor, in August. Keep it light, keep it moving, and stop talking when talk stops helping.",
+  "method_overview": "Table work is the part of rehearsal where we sit around a table and read the play together before anyone gets up to move. We are not performing yet. We are finding out what the play really is: what happens, who these people are, and what each scene is about. This is five Thursday evenings in July, working our production of Pirandello's \"Six Characters in Search of an Author.\" We take one act each on the first three nights, then run the whole play, then read it through with cues. The one big note: read to find the play, don't perform it yet. The truthful version comes later, on the floor, in August. Keep it light, keep it moving, and stop talking when talk stops helping.",
   "how_to_run": {
     "room_norms": [
       "We read to discover, not to correct. Nobody locks in a fixed \"take\" on a character or a line this early.",
@@ -21,7 +21,7 @@
       "A one-page character sheet: Who am I? What just happened? My relationships? What do I want? What's in my way? What do I do about it?",
       "A short list of strong verbs for actioning (one verb per line: what am I doing to the other person? — e.g. shock, reassure, tease, threaten)."
     ],
-    "cadence": "Each evening runs 18:00 to 21:00 at SSA Lausanne, everyone seated, with a real break in the middle and a short second break later. We start with a quick check-in and a gentle vocal warm-up, do the main reading and work, then a fast go-round so everyone speaks, set homework, and finish with a short check-out."
+    "cadence": "Each evening runs 18:00 to 21:00 at SSA Lausanne, everyone seated, with a real break in the middle and a short second break later. We start with a quick and a gentle vocal warm-up, do the main reading and work, then a fast go-round so everyone speaks, set homework, and finish with a short."
   },
   "principles": [
     {
@@ -56,15 +56,16 @@
       "title": "Act One at the table",
       "focus": "Settle in calmly: agree the ground rules, read Act One flat and then over-the-top, talk about what jumped out, and take a short plain look at the world of the play.",
       "goals": [
-        "Agree the ground rules and the time-out word, quickly and lightly.",
-        "Hear Act One two ways (flat, then over-the-top) and test whether \"Valentine\" lands as a wound or just a joke.",
-        "Get a clear, plain picture of who these people are and how the play-within-a-play works."
+        "Understand what each of the six wants the moment they walk in — and why none of them can simply leave.",
+        "Find the Father's hunger to be understood and to keep control of the story, and catch the first cracks where it slips.",
+        "Hear the Step-Daughter as the engine of the act: she wants the truth shown, not made beautiful — and feel “Valentine” as a wound, not a turn.",
+        "Watch the Manager get pulled from “throw them out” to “there may be a play here,” and weigh what he agrees to — and risks — in the bargain."
       ],
       "agenda": [
         {
           "time": "18:00",
-          "activity": "Welcome and check-in",
-          "detail": "One sentence each: what you need to take part fully tonight. Name tags for anyone new."
+          "activity": "Welcome",
+          "detail": "Welcome the company. Name tags for anyone new."
         },
         {
           "time": "18:10",
@@ -74,7 +75,7 @@
         {
           "time": "18:20",
           "activity": "Ground rules and the “hold” word",
-          "detail": "Agree the time-out word, the check-in and the de-role check-out. Quick and light."
+          "detail": "Agree the time-out word “hold”: anyone can stop the room at any moment, no reason needed. Quick and light."
         },
         {
           "time": "18:35",
@@ -114,7 +115,7 @@
         {
           "time": "20:45",
           "activity": "Homework and close",
-          "detail": "Set homework, do the de-role check-out, confirm 9 July is Act Two."
+          "detail": "Set homework and confirm next week is Act Two."
         }
       ],
       "exercises": [
@@ -213,15 +214,16 @@
       "title": "Act Two at the table",
       "focus": "Read Act Two flat and over-the-top, find why the comedy after Madame Pace has to be nervous, and place the Mother's quiet keystone line.",
       "goals": [
-        "Hear Act Two two ways and feel why the comedy must stay nervous, not a funny show.",
-        "Build Madame Pace so the laugh turns sour by her last line, and hear the music.",
-        "Place and protect the Mother's quiet line \"It's taking place now\" so it isn't drowned out."
+        "Understand the real subject of the act: a theatre trying to build a true wound out of props and stand-ins — and failing.",
+        "Find the Step-Daughter alone in the shower light: her tenderness for the child and her fury at the men, in the same breath.",
+        "Build Madame Pace so the room laughs at her and then cannot — and pin down the exact line where the laugh dies.",
+        "Feel why watching actors replay your worst hour is unbearable, and land the Mother's “It's taking place now.”"
       ],
       "agenda": [
         {
           "time": "18:00",
-          "activity": "Check-in and warm-up",
-          "detail": "One sentence each, then a seated voice warm-up. The pianist is here tonight."
+          "activity": "Warm-up",
+          "detail": "A seated voice warm-up. The pianist is here tonight."
         },
         {
           "time": "18:15",
@@ -261,7 +263,7 @@
         {
           "time": "20:45",
           "activity": "Go-round and close",
-          "detail": "One thing each; homework; de-role check-out."
+          "detail": "Everyone names one thing they found, then we set homework."
         }
       ],
       "exercises": [
@@ -360,15 +362,16 @@
       "title": "Act Three at the table",
       "focus": "Read Act Three flat and over-the-top, find the line between real feeling and cold argument, and protect the quiet around the two deaths.",
       "goals": [
-        "Hear Act Three two ways and find where the Father is panicking, not lecturing.",
-        "Work the Son's refusal and his cry on the word \"horrible,\" and the fountain story.",
-        "Protect the quiet, especially the silence after the gunshot, and talk through the staged moments in words only."
+        "Take the reality/illusion argument as a man fighting for his life, not winning a debate — and find the Step-Daughter's cuts that puncture it.",
+        "Reach the Son's refusal and the single cry that escapes him on the word “horrible.”",
+        "Get to the fountain so the two deaths land in stillness, not volume — and protect the silence after the shot and the Mother's empty arms.",
+        "Hear the Manager turn from running the room to walking out of it, and name what the ending leaves the audience holding."
       ],
       "agenda": [
         {
           "time": "18:00",
-          "activity": "Check-in and warm-up",
-          "detail": "One sentence each, seated warm-up."
+          "activity": "Warm-up",
+          "detail": "A seated voice warm-up."
         },
         {
           "time": "18:15",
@@ -408,7 +411,7 @@
         {
           "time": "20:45",
           "activity": "Go-round and close",
-          "detail": "One-line Act Three aim each; homework; de-role check-out."
+          "detail": "Everyone names their Act Three aim in one line, then we set homework."
         }
       ],
       "exercises": [
@@ -507,15 +510,16 @@
       "title": "The whole play, joined up",
       "focus": "Read the play as one connected thing, in words only: relationships across the arc, the layers, the tempo, the nervous comedy, and the safety agreement confirmed.",
       "goals": [
-        "Follow each relationship right across the play instead of act by act.",
-        "Place every performer in their layer and track where \"who is more real\" flips.",
-        "Confirm the tempo, the nervous comedy, and every safety agreement, all in words."
+        "Follow each relationship across the whole play instead of act by act — where it turns, where it breaks.",
+        "Track the four layers in motion, and mark the moments where “who is more real” flips.",
+        "Find the play's changing tempo — where it races and where it must stop dead.",
+        "Confirm the nervous comedy and every safety agreement, all in words, before we stand up in August."
       ],
       "agenda": [
         {
           "time": "18:00",
-          "activity": "Check-in and warm-up",
-          "detail": "One sentence each, then a seated warm-up. The director frames tonight: the whole play in one room, in words, nothing staged."
+          "activity": "Warm-up and recap",
+          "detail": "A short warm-up, then a quick recap of where the three acts left us."
         },
         {
           "time": "18:15",
@@ -555,7 +559,7 @@
         {
           "time": "20:50",
           "activity": "Go-round and close",
-          "detail": "Everyone names one thing about their whole arc and one thing they need to do it safely. Set homework and check out."
+          "detail": "Everyone names one thing about their whole arc, then we set homework."
         }
       ],
       "exercises": [
@@ -583,15 +587,15 @@
       "title": "The full cue-called read, and hand-off to August",
       "focus": "Read the whole play through with the Stage Manager calling cues and the pianist marking tempo, then hand off cleanly to the August staging block.",
       "goals": [
-        "Run the whole play as one cued read, giving Act Two its full time.",
-        "Feel the tempo, the relationships, and the cues land end to end.",
-        "Confirm the safety agreement and hand off to August with the calendar set."
+        "Run the whole play as one cued read so the company feels its full shape, end to end.",
+        "Make sure each act carries its weight — give Act Two its time — and that the cues land cleanly.",
+        "Leave knowing the through-line, the tempo, and what each person is chasing — ready to be on our feet in August."
       ],
       "agenda": [
         {
           "time": "18:00",
-          "activity": "Check-in, warm-up, quick recap",
-          "detail": "Check-in and warm-up. pianist ready. Get logistics out of the way now: a quick safety recap and the August calendar, so the read runs unbroken."
+          "activity": "Warm-up and quick recap",
+          "detail": "A short warm-up; pianist ready. Get logistics out of the way now — a quick safety recap and the August calendar — so the read runs unbroken."
         },
         {
           "time": "18:15",
@@ -625,8 +629,8 @@
         },
         {
           "time": "20:55",
-          "activity": "Check-out, hand-off, thank-you",
-          "detail": "Final check-out for the table-work block. The SM confirms the August calendar and the Act One off-book date, and the director thanks everyone."
+          "activity": "Hand-off and thank-you",
+          "detail": "The last table session. The SM confirms the August calendar and the Act One off-book date, and the director thanks the company."
         }
       ],
       "exercises": [
