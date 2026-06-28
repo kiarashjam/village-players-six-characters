@@ -11,17 +11,15 @@
     ],
     "roles": [
       "Director (Kiarash Jamshidi) — leads each evening, runs the two readings and the chats after, and keeps the tone honest: funny and painful at once.",
-      "Assistant Director — takes notes, tracks the decisions we make, flags when the tone drifts or energy drops, and fills in anyone who missed a night.",
-      "Stage Manager — booked the room, keeps attendance and the prompt book, reads stage directions aloud, watches the clock, and calls cues on night five.",
+      "Assistant Director — the director's second pair of eyes, and the director's voice when he steps out. Keeps the master notes: writes down every decision the room makes — a character's want, an agreed action, a name's pronunciation — so nothing is argued twice next week. Watches for the tone drifting or the energy dropping and quietly flags it. Briefs anyone who missed a session so the director doesn't have to. Can run a small side-table (say, a Player working Madame Pace's accent) while the director works another group.",
+      "Stage Manager — the production's backbone for logistics. Booked the five Thursdays and sent the dates round; keeps attendance and the rehearsal log; builds the prompt book from night one, in pencil — one master copy where every decision now, and every cue later, is written down. Reads the stage directions aloud during the reads, watches the clock so each part gets its time, and calls the cues on night five. (Props are tracked only from August.)",
       "Everyone — read aloud, join both readings, fill in your homework sheet, and speak up. Quiet roles get asked the same questions as the leads."
     ],
     "materials": [
       "Your own script — every actor brings their own copy to every session (the company doesn't hand out scripts). Bring it each week.",
       "A pencil and a simple two-column sheet: Facts on one side, Questions on the other.",
       "A one-page character sheet: Who am I? What just happened? My relationships? What do I want? What's in my way? What do I do about it?",
-      "A short list of strong verbs for actioning (one verb per line: what am I doing to the other person? — e.g. shock, reassure, tease, threaten).",
-      "The two stage objects: the Child-bundle (a white wrapped cloth) and the Boy-chair (a chair, coat, cap, satchel). They sit with the Mother and Step-Daughter from night one.",
-      "Water, tea, and a snack for the breaks. Name tags for anyone new on night one."
+      "A short list of strong verbs for actioning (one verb per line: what am I doing to the other person? — e.g. shock, reassure, tease, threaten)."
     ],
     "cadence": "Each evening runs 18:00 to 21:00 at SSA Lausanne, everyone seated, with a real break in the middle and a short second break later. We start with a quick check-in and a gentle vocal warm-up, do the main reading and work, then a fast go-round so everyone speaks, set homework, and finish with a short check-out."
   },
@@ -42,9 +40,9 @@
       "why": "This play only works when the audience laughs and then wishes they hadn't. Get the tone wrong and the whole thing falls apart."
     },
     {
-      "name": "Know which layer of the play you're in",
-      "what": "This is a play within a play. Name out loud who you are: an actor playing an actor, the tired stage Manager, one of the six trapped Characters, or Madame Pace.",
-      "why": "The play runs on the clash between these layers — who is more real — so you have to know which one you're standing in at any moment."
+      "name": "Know which of the four layers you're in",
+      "what": "The play stacks four layers of reality: (1) the company — the Village Players at an ordinary rehearsal; (2) the six Characters who walk in and claim to be more real than any actor; (3) the Characters' own story — the shop, the hundred francs, the two deaths — which they relive in front of everyone; (4) the company then trying to act that story, actors playing the Characters and never quite getting them right. Always know which layer you're standing in.",
+      "why": "The whole play runs on the clash between these layers — who is more real — so if the company blurs them the audience is lost, and the Characters must always feel realer than the actors who try to play them."
     },
     {
       "name": "Aim outward, not inward",
@@ -66,7 +64,7 @@
         {
           "time": "18:00",
           "activity": "Welcome and check-in",
-          "detail": "One sentence each: what you need to take part fully tonight."
+          "detail": "One sentence each: what you need to take part fully tonight. Name tags for anyone new."
         },
         {
           "time": "18:10",
@@ -80,8 +78,8 @@
         },
         {
           "time": "18:35",
-          "activity": "World of the play",
-          "detail": "Short, plain talk: who the family and the company are, and the play-within-a-play."
+          "activity": "World of the play — and the four layers",
+          "detail": "A short, plain talk before we read: who the family and the company are, and the play's four layers — the company; the Characters; their story; the actors who later try to play them — so everyone knows which layer they're in."
         },
         {
           "time": "18:50",
@@ -370,7 +368,7 @@
         {
           "time": "18:00",
           "activity": "Check-in and warm-up",
-          "detail": "One sentence each, seated warm-up. The Mother keeps the Child-bundle and Boy-chair by her."
+          "detail": "One sentence each, seated warm-up."
         },
         {
           "time": "18:15",
@@ -517,7 +515,7 @@
         {
           "time": "18:00",
           "activity": "Check-in and warm-up",
-          "detail": "One sentence each, then a seated warm-up. The objects in place. The director frames tonight: the whole play in one room, in words, nothing staged."
+          "detail": "One sentence each, then a seated warm-up. The director frames tonight: the whole play in one room, in words, nothing staged."
         },
         {
           "time": "18:15",
@@ -593,7 +591,7 @@
         {
           "time": "18:00",
           "activity": "Check-in, warm-up, quick recap",
-          "detail": "Check-in and warm-up. Objects in place, pianist ready. Get logistics out of the way now: a quick safety recap and the August calendar, so the read runs unbroken."
+          "detail": "Check-in and warm-up. pianist ready. Get logistics out of the way now: a quick safety recap and the August calendar, so the read runs unbroken."
         },
         {
           "time": "18:15",
@@ -664,7 +662,7 @@
     {
       "title": "Our production's director's edition of \"Six Characters in Search of an Author\"",
       "author": "Luigi Pirandello, adapted and directed by Kiarash Jamshidi",
-      "note": "For all our specific choices: the characters, the music, the objects, the layers, and the schedule."
+      "note": "For all our specific choices: the characters, the music, the layers, and the schedule."
     },
     {
       "title": "Our Intimacy and Consent agreement",
