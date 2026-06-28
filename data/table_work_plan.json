@@ -1,5 +1,5 @@
 {
-  "method_overview": "Table work is the part of rehearsal where we sit around a table and read the play together before anyone gets up to move. We are not performing yet. We are finding out what the play really is: what happens, who these people are, and what each scene is about. This is five Thursday evenings in July, working our production of Pirandello's \"Six Characters in Search of an Author.\" We take one act each on the first three nights, then run the whole play, then read it through with cues. The one big note: read to find the play, don't perform it yet. The truthful version comes later, on the floor, in August. Keep it light, keep it moving, and stop talking when talk stops helping.",
+  "method_overview": "Table work is the part of rehearsal where we sit and read, before anyone stands up. We read the play aloud, agree what is actually happening in each scene, and find what every character wants — so the August staging has something solid to build on.\n\nThese five Thursday evenings take the play one act at a time, then join it up. The rule throughout: we read to discover, not to perform. The performances come later, on the floor.",
   "how_to_run": {
     "room_norms": [
       "We read to discover, not to correct. Nobody locks in a fixed \"take\" on a character or a line this early.",
@@ -11,8 +11,8 @@
     ],
     "roles": [
       "Director (Kiarash Jamshidi) — leads each evening, runs the two readings and the chats after, and keeps the tone honest: funny and painful at once.",
-      "Assistant Director — the director's second pair of eyes, and the director's voice when he steps out. Keeps the master notes: writes down every decision the room makes — a character's want, an agreed action, a name's pronunciation — so nothing is argued twice next week. Watches for the tone drifting or the energy dropping and quietly flags it. Briefs anyone who missed a session so the director doesn't have to. Can run a small side-table (say, a Player working Madame Pace's accent) while the director works another group.",
-      "Stage Manager — the production's backbone for logistics. Booked the five Thursdays and sent the dates round; keeps attendance and the rehearsal log; builds the prompt book from night one, in pencil — one master copy where every decision now, and every cue later, is written down. Reads the stage directions aloud during the reads, watches the clock so each part gets its time, and calls the cues on night five. (Props are tracked only from August.)",
+      "Assistant Director — the director's second pair of eyes. Keeps the notes on what the room decides, flags when the tone or energy slips, and briefs anyone who missed a night.",
+      "Stage Manager — runs the logistics: the room, attendance, and the prompt book (every decision now, every cue later). Reads the stage directions aloud, keeps time, and calls the cues on night five.",
       "Everyone — read aloud, join both readings, fill in your homework sheet, and speak up. Quiet roles get asked the same questions as the leads."
     ],
     "materials": [
@@ -26,28 +26,28 @@
   "principles": [
     {
       "name": "The two-pass read: flat first, over-the-top second",
-      "what": "We open each act with two opposite reads of its key scenes: once completely flat (just the words, no emotion), then once way too big (push everything to the extreme).",
-      "why": "The flat read lets us hear what's actually there and stops anyone fixing a line too soon; the big read finds the ceiling, so the honest version is easy to find later."
+      "what": "Open each act by reading its key scenes twice — first completely flat (no emotion, just the words), then deliberately over-the-top — and then talk about what each read showed.",
+      "why": ""
     },
     {
       "name": "Read to discover, then get up",
-      "what": "Read the scene through before we discuss it, and do only as much table work as we need to agree the facts and the questions.",
-      "why": "Too much sitting and analysing traps actors in their heads; the real discoveries happen on your feet, so we save them for August."
+      "what": "Read a scene before we discuss it, and do only as much talking as we need — then we get up in August.",
+      "why": ""
     },
     {
       "name": "Funny and painful in the same breath",
-      "what": "Don't play it as a farce (the wounds become jokes) or as cold philosophy (the feeling goes dead). Earn the laugh, then let it turn to a lump in the throat.",
-      "why": "This play only works when the audience laughs and then wishes they hadn't. Get the tone wrong and the whole thing falls apart."
+      "what": "Never pure farce (the wounds turn to jokes) or cold philosophy (the feeling goes dead): the audience should laugh, then wish they hadn't.",
+      "why": ""
     },
     {
       "name": "Know which of the four layers you're in",
-      "what": "The play stacks four layers of reality: (1) the company — the Village Players at an ordinary rehearsal; (2) the six Characters who walk in and claim to be more real than any actor; (3) the Characters' own story — the shop, the hundred francs, the two deaths — which they relive in front of everyone; (4) the company then trying to act that story, actors playing the Characters and never quite getting them right. Always know which layer you're standing in.",
-      "why": "The whole play runs on the clash between these layers — who is more real — so if the company blurs them the audience is lost, and the Characters must always feel realer than the actors who try to play them."
+      "what": "Always know which of the play's four layers you are in: (1) the company at rehearsal, (2) the six Characters, (3) their story, (4) the actors trying to play them.",
+      "why": ""
     },
     {
       "name": "Aim outward, not inward",
-      "what": "For each line, name what you want from the other person and pick one strong verb for it (actioning: what am I doing to them?). Turn any \"I feel...\" into \"what am I doing, and to whom?\"",
-      "why": "Feeling comes out of doing. Aiming at the other person keeps the Father from lecturing and the Step-Daughter sharp instead of just angry."
+      "what": "For each line, name what you want from the other person and one strong verb to get it — feeling comes out of doing.",
+      "why": ""
     }
   ],
   "sessions": [

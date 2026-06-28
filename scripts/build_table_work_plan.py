@@ -47,11 +47,9 @@ def build_html(plan):
         f'<div class="g-focus">{esc(s["focus"])}</div></div>'
         for s in sessions)
 
-    # --- principles
+    # --- principles (compact one-liners)
     principles = "".join(
-        f'<div class="prin"><h3>{esc(p["name"])}</h3>'
-        f'<p class="what">{esc(p["what"])}</p>'
-        f'<p class="why"><span class="lbl">WHY</span> {esc(p["why"])}</p></div>'
+        f'<p class="prin"><span class="prin-name">{esc(p["name"])}.</span> {esc(p["what"])}</p>'
         for p in plan["principles"])
 
     # --- sessions
@@ -103,12 +101,6 @@ def build_html(plan):
   <table class="agenda"><tbody>{agenda}</tbody></table>
 
   {parts_html}
-
-  <h4>Exercises at the table</h4>
-  {exercises}
-
-  <h4>Questions to put to the room</h4>
-  {prompts}
 
   <div class="hw"><span class="lbl">HOMEWORK</span> {esc(s['homework'])}</div>
   <div class="outcome"><span class="lbl">BY THE END</span> {esc(s['outcome'])}</div>
@@ -167,10 +159,8 @@ li {{ margin-bottom:1.6mm; line-height:1.46; }}
 .g-focus {{ font-size:8.6pt; color:#5d513f; line-height:1.34; }}
 
 /* principles */
-.prin {{ break-inside:avoid; margin:0 0 2.6mm; padding-bottom:2mm; border-bottom:1px dotted rgba(42,32,26,0.25); }}
-.prin h3 {{ margin:0 0 0.8mm; }}
-.prin .what {{ margin:0 0 1mm; line-height:1.46; }}
-.prin .why {{ margin:0; color:#4a4035; font-size:10.5pt; line-height:1.44; }}
+.prin {{ break-inside:avoid; margin:0 0 1.8mm; line-height:1.46; }}
+.prin-name {{ font-weight:700; color:#8b3a3a; }}
 
 /* sessions */
 .session {{ break-before:page; padding-top:1mm; }}
@@ -232,17 +222,14 @@ Thursdays 2 · 9 · 16 · 23 · 30 July 2026 · 18:00–21:00 · SSA Lausanne</p
   <div class="cadence"><span class="lbl">REMEMBER</span> Table work serves the floor — we read to discover, not to perform, and we get up the moment talk stops earning its keep.</div>
 </div>
 
-<h2>The methods we use</h2>
+<h2>How we work at the table</h2>
 {principles}
 
 <h1 class="section-title">The Sessions</h1>
 {sessions_html}
 
-<h2>Traps to avoid</h2>
+<h2>A few traps to avoid</h2>
 {ul(plan['pitfalls'])}
-
-<h2>Where this comes from — further reading</h2>
-<ul class="sources">{sources}</ul>
 
 <p class="foot">This plan is a researched scaffold, not a script for the evenings. Sessions may run
 longer or shorter inside the 18:00–21:00 window depending on the room; the architecture is what
