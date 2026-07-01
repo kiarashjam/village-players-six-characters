@@ -47,11 +47,9 @@ def build_html(plan):
         f'<div class="g-focus">{esc(s["focus"])}</div></div>'
         for s in sessions)
 
-    # --- principles
+    # --- principles (compact one-liners)
     principles = "".join(
-        f'<div class="prin"><h3>{esc(p["name"])}</h3>'
-        f'<p class="what">{esc(p["what"])}</p>'
-        f'<p class="why"><span class="lbl">WHY</span> {esc(p["why"])}</p></div>'
+        f'<p class="prin"><span class="prin-name">{esc(p["name"])}.</span> {esc(p["what"])}</p>'
         for p in plan["principles"])
 
     # --- sessions
@@ -68,6 +66,25 @@ def build_html(plan):
             f'<p class="ex-purpose"><span class="lbl">YIELDS</span> {esc(e["purpose"])}</p></div>'
             for e in s["exercises"])
         prompts = ul(s["discussion_prompts"], "prompts")
+        parts = s.get("parts")
+        if parts:
+            cards = "".join(
+                f'<div class="part"><div class="part-h">'
+                f'<span class="part-when">{esc(pt["when"])}</span>'
+                f'<span class="part-name">{esc(pt["name"])}</span></div>'
+                f'<div class="part-present">In it: {esc(pt["present"])}</div>'
+                '<ul class="qs">'
+                + "".join(f'<li><span class="q-to">{esc(q["to"])}</span> — {esc(q["ask"])}</li>'
+                          for q in pt["questions"])
+                + "</ul></div>"
+                for pt in parts)
+            parts_html = (
+                '<h4>Part by part — read it flat, then ask</h4>'
+                '<p class="parts-note">After the flat read of each part, put these questions to the '
+                'characters who appear in it. One sentence each, in role — then move on.</p>'
+                f'<div class="parts">{cards}</div>')
+        else:
+            parts_html = ""
         sec.append(f"""
 <section class="session">
   <div class="s-head">
@@ -83,11 +100,7 @@ def build_html(plan):
   <h4>The evening, hour by hour</h4>
   <table class="agenda"><tbody>{agenda}</tbody></table>
 
-  <h4>Exercises at the table</h4>
-  {exercises}
-
-  <h4>Questions to put to the room</h4>
-  {prompts}
+  {parts_html}
 
   <div class="hw"><span class="lbl">HOMEWORK</span> {esc(s['homework'])}</div>
   <div class="outcome"><span class="lbl">BY THE END</span> {esc(s['outcome'])}</div>
@@ -146,10 +159,8 @@ li {{ margin-bottom:1.6mm; line-height:1.46; }}
 .g-focus {{ font-size:8.6pt; color:#5d513f; line-height:1.34; }}
 
 /* principles */
-.prin {{ break-inside:avoid; margin:0 0 2.6mm; padding-bottom:2mm; border-bottom:1px dotted rgba(42,32,26,0.25); }}
-.prin h3 {{ margin:0 0 0.8mm; }}
-.prin .what {{ margin:0 0 1mm; line-height:1.46; }}
-.prin .why {{ margin:0; color:#4a4035; font-size:10.5pt; line-height:1.44; }}
+.prin {{ break-inside:avoid; margin:0 0 1.8mm; line-height:1.46; }}
+.prin-name {{ font-weight:700; color:#8b3a3a; }}
 
 /* sessions */
 .session {{ break-before:page; padding-top:1mm; }}
@@ -177,6 +188,16 @@ table.agenda td.a .d {{ color:#5d513f; font-size:10pt; }}
 
 .sources li {{ line-height:1.42; }}
 .src-note {{ font-style:italic; color:#5d513f; }}
+.parts-note {{ font-style:italic; color:#5d513f; margin:0 0 2mm; font-size:10pt; line-height:1.4; }}
+.parts {{ margin:0 0 2mm; }}
+.part {{ break-inside:avoid; margin:0 0 2.6mm; padding:2mm 0 0; border-top:1px dotted rgba(42,32,26,0.28); }}
+.part-h {{ display:flex; align-items:baseline; gap:3mm; flex-wrap:wrap; }}
+.part-when {{ font-family:Arial; font-weight:700; font-size:8pt; letter-spacing:0.3px; color:#8b3a3a; white-space:nowrap; }}
+.part-name {{ font-family:'Cormorant Garamond',serif; font-weight:600; font-size:12.5pt; }}
+.part-present {{ font-size:9.4pt; color:#5d513f; margin:0.3mm 0 1mm; }}
+.qs {{ margin:0; padding-left:5mm; }}
+.qs li {{ margin-bottom:1mm; line-height:1.4; font-size:10.5pt; }}
+.q-to {{ font-weight:700; color:#2a201a; }}
 .foot {{ margin-top:7mm; padding-top:3mm; border-top:1px solid rgba(42,32,26,0.2);
   font-style:italic; color:#6b5b48; line-height:1.45; }}
 </style></head><body>
@@ -201,17 +222,14 @@ Thursdays 2 · 9 · 16 · 23 · 30 July 2026 · 18:00–21:00 · SSA Lausanne</p
   <div class="cadence"><span class="lbl">REMEMBER</span> Table work serves the floor — we read to discover, not to perform, and we get up the moment talk stops earning its keep.</div>
 </div>
 
-<h2>The methods we use</h2>
+<h2>How we work at the table</h2>
 {principles}
 
 <h1 class="section-title">The Sessions</h1>
 {sessions_html}
 
-<h2>Traps to avoid</h2>
+<h2>A few traps to avoid</h2>
 {ul(plan['pitfalls'])}
-
-<h2>Where this comes from — further reading</h2>
-<ul class="sources">{sources}</ul>
 
 <p class="foot">This plan is a researched scaffold, not a script for the evenings. Sessions may run
 longer or shorter inside the 18:00–21:00 window depending on the room; the architecture is what
