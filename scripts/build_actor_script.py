@@ -173,9 +173,23 @@ def build_actor_html():
     if casting_note is not None:
         casting_note.decompose()
 
-    # --- Drop every part-note aside (narrative prose, stats, beats)
+    # --- Replace each part-note with a slim part heading (eyebrow + title only).
+    #     The narrative prose, stats and beats stay in the Director's Copy; the
+    #     actor script keeps just "Part I — The Rehearsal" so the company can see
+    #     where each part of the act begins.
     for note in soup.select("aside.part-note"):
-        note.decompose()
+        eyebrow = note.select_one(".part-eyebrow")
+        title = note.select_one(".part-title")
+        head_div = soup.new_tag("div", **{"class": "actor-part"})
+        if eyebrow is not None:
+            e = soup.new_tag("div", **{"class": "part-eyebrow"})
+            e.string = eyebrow.get_text(" ", strip=True)
+            head_div.append(e)
+        if title is not None:
+            h = soup.new_tag("h3", **{"class": "part-title"})
+            h.string = title.get_text(" ", strip=True)
+            head_div.append(h)
+        note.replace_with(head_div)
 
     # --- Keep only playable stage directions; the psychology stays in the Director's Copy
     simplify_stage_directions(soup)
@@ -199,6 +213,10 @@ def build_actor_html():
 .actor-production-note h2 { font-family: 'Cormorant Unicase', serif; font-weight: 600; font-size: 11pt; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin: 0 0 18px 0; text-align: center; }
 .actor-production-note p { margin: 0 0 12px 0; line-height: 1.65; font-size: 11pt; }
 .actor-production-note p:last-child { margin-bottom: 0; }
+/* Slim part headings inside each act */
+.actor-part { max-width: 720px; margin: 40px auto 12px; padding-top: 14px; border-top: 1px solid var(--rule); break-after: avoid; break-inside: avoid; }
+.actor-part .part-eyebrow { font-family: 'Cormorant Unicase', serif; font-weight: 600; font-size: 10.5pt; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); margin: 0 0 4px 0; }
+.actor-part .part-title { font-family: 'Cormorant Garamond', serif; font-weight: 600; font-size: 20pt; line-height: 1.05; margin: 0; color: var(--ink); }
 """
     head = soup.find("head")
     if head is not None:
