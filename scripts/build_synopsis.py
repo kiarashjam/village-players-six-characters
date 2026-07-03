@@ -128,7 +128,7 @@ HTML = r"""<!DOCTYPE html>
 
     <p>He told himself, then and afterwards, that what he felt was a father's affection. It is the sort of thing a man can tell himself, in the dark, for a very long time, before he is forced to hear it said back to him by somebody else.</p>
 
-    <p>Some years into all this, the Son's schooling ended and he came back to the Father's house — and found it empty of everyone but the Father. The two of them lived there alone, side by side, "with no tie of intellect or affection," as the Father will himself say. The Son had not been raised by his parents. He had no reason to recognise the man across the table.</p>
+    <p>Some years into all this, the Son's schooling ended and he came back to the Father's house — and found it empty of everyone but the Father. The two of them lived there alone, side by side, with no tie of intellect or affection between them. The Son had not been raised by his parents. He had no reason to recognise the man across the table.</p>
 
     <p>Then the secretary died.</p>
 
