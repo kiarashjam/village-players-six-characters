@@ -374,7 +374,7 @@ def main():
         ("3", "The Son comes downstage-centre to narrate the drowning he could not stop — his one continuous speech."),
         ("4", "Blackout. A real gunshot from behind the basin, where the Boy-chair is."),
         ("5", "The Mother rises and reaches — first for the Child-bundle in the basin, then for the Boy-chair behind it — and cannot hold both."),
-        ("6", "The Manager looks at the empty Boy-chair, says &ldquo;To hell with it all,&rdquo; and walks out the way a man leaves a theatre."),
+        ("6", "The Manager looks at the place where the Boy-chair stood, says &ldquo;To hell with it all,&rdquo; and walks out the way a man leaves a theatre."),
     ]
     P3 = page("Act Three — The Question",
               "A bare stage; one fountain basin. Family stage-right, the company stage-left, the Manager centre.",

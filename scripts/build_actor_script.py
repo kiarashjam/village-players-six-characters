@@ -87,7 +87,7 @@ _ACTION_TRIM = {
         "stung",
     "he is sweating, very slightly, and trying to keep it from being read; the recovery is visible, that is the trouble":
         "he is sweating, very slightly, and trying to keep it from being read",
-    "He stands. He picks up the Boy-chair himself and walks it across the stage. This is the pivot of his arc: until this gesture he has been the audience, watching from a remove. From this gesture forward he is the audience's complicity made physical. He places the Boy-chair behind the fountain basin, where it is partly hidden by the rim. The audience must read the move land.":
+    "He stands. He picks up the Boy-chair himself and walks it across the stage. This is the pivot of his arc: until this gesture he has been the audience, watching from a remove. From this gesture forward he is the audience's complicity made physical. He places the Boy-chair behind the fountain basin, where it is partly hidden by the rim. The audience must see the move land.":
         "He stands. He picks up the Boy-chair himself and walks it across the stage, and places it behind the fountain basin, where it is partly hidden by the rim.",
     "a beat — the smallest pause. He did not, in fact, say \"I'm frightfully sorry.\" He said something else. The audience must see the lie being made in real time.":
         "a beat — the smallest pause.",

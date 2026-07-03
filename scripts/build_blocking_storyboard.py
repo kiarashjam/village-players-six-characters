@@ -613,7 +613,7 @@ def BEATS():
       sd("The Players lift up the Boy-chair and carry it off, handling it as if it were the Boy&#39;s body — heavy, careful, terrible") + ".",
       exit=("BOY", 96, 28), notes=[(88, 20, "carried off · SL · like a body")])
     B("work",
-      f'{who("The Manager")} {sd("a look at the empty Boy-chair, then he turns and leaves the stage the way a man leaves a theatre")}. Pretence? Reality? … To hell with it all.',
+      f'{who("The Manager")} {sd("a look at the place where the Boy-chair stood, then he turns and leaves the stage the way a man leaves a theatre")}. Pretence? Reality? … To hell with it all.',
       exit=("MG", 50, 94), notes=[(62, 90, "leaves toward the house · downstage")])
 
     return S.result()
