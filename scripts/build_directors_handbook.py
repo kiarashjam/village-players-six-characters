@@ -229,7 +229,7 @@ HTML = r"""<!DOCTYPE html>
     <p>Every line in the play sits inside one of these four. The Father's philosophical speeches frequently jump between them mid-sentence. The director's job is to know which level a line is operating from, and to make sure the actor knows too.</p>
 
     <h3>1.4 Why the play resists closure</h3>
-    <p>The Manager closes the play by looking at the empty Boy-chair, saying <em>To hell with it all,</em> and walking out. That is not catharsis. The Boy is dead, or is he. The Step-Daughter has run off, or has she. The Father is still arguing. The Mother is still grieving. The audience leaves without resolution because the play's logic does not allow resolution: a fixed character cannot resolve itself.</p>
+    <p>The Manager closes the play by looking at the place where the Boy-chair stood, saying <em>To hell with it all,</em> and walking out. That is not catharsis. The Boy is dead, or is he. The Step-Daughter has run off, or has she. The Father is still arguing. The Mother is still grieving. The audience leaves without resolution because the play's logic does not allow resolution: a fixed character cannot resolve itself.</p>
     <p>The director's temptation is to provide what the play withholds — a clear sense of what happened, a sense of moral landing. <em>Resist this</em>. The discomfort the audience walks out with is the play. If they walk out comforted, the production has failed.</p>
   </section>
 
@@ -976,7 +976,7 @@ HTML = r"""<!DOCTYPE html>
     <p>You will spend months inside this play. By opening night the play will be inside you. Your last job, on the night, is to sit in the house and witness it as the audience does. That is not abdication; it is what the play has been waiting for.</p>
 
     <h3>27.2 The audience leaves uncomfortable, by design</h3>
-    <p>The Manager's last line — <em>To hell with it all</em>, thrown at the empty Boy-chair as he turns to leave — is not catharsis. The audience walks out into the Lausanne autumn carrying the play with them. Some will be angry. Some will be silent. Some will not know yet what they think. This is the production landing.</p>
+    <p>The Manager's last line — <em>To hell with it all</em>, thrown at the empty space where the Boy-chair stood as he turns to leave — is not catharsis. The audience walks out into the Lausanne autumn carrying the play with them. Some will be angry. Some will be silent. Some will not know yet what they think. This is the production landing.</p>
 
     <h3>27.3 The play survives every staging</h3>
     <p>It has survived a hostile premiere in 1921, a green-spotlit Pitoëff entrance in 1923, a horror-movie Royal Court in 1963, and a century of productions in between. It will survive this one. Your job is not to honour the play. Your job is to stage it. The play will take care of itself.</p>
