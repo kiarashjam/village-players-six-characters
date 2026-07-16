@@ -462,7 +462,7 @@ HTML = r"""<!DOCTYPE html>
 
     <div class="solo">
       <p class="solo-label">Three-sentence solo &nbsp;·&nbsp; read alone</p>
-      <p class="solo-text">"Good morning, good morning, sir — so sorry I am late, the trams in this town, always the same, but here I am, here I am, and Madame Pace she never disappoint a customer. I am a good woman, sir — forty years in this canton and never one bad word about Pace — only, you understand, the lady over there she ruin the silk again, the third time this month, and silk you no pay with the tears, somebody must pay, the mother she pay with the hands or the little one she pay, eh, either way the book she balance. I no wanta be hard — I never wanta be hard — but the polite ones, sir, the ones who keep the count, we are the ones who are still here at the end; the rest, they only weep, and weeping, you will find, it pay nobody nothing."</p>
+      <p class="solo-text">"Good afternoon, good afternoon, sir — so sorry I am late, the trams in this town, always the same, but here I am, here I am, and Madame Pace she never disappoint a customer. I am a good woman, sir — forty years in this canton and never one bad word about Pace — only, you understand, the lady over there she ruin the silk again, the third time this month, and silk you no pay with the tears, somebody must pay, the mother she pay with the hands or the little one she pay, eh, either way the book she balance. I no wanta be hard — I never wanta be hard — but the polite ones, sir, the ones who keep the count, we are the ones who are still here at the end; the rest, they only weep, and weeping, you will find, it pay nobody nothing."</p>
     </div>
 
     <div class="listen">
