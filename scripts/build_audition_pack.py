@@ -40,7 +40,7 @@ SIDES = [
         "from_speaker": "The Father",
         "from_opener": "Of course. — Sir. Before you decide",
         "to_speaker": "The Father",
-        "to_opener": "Fool! That is the proof that I am a man",
+        "to_opener": "Fool! That contradiction, gentlemen",
     },
     {
         "role": "The Mother",
@@ -74,9 +74,9 @@ SIDES = [
         "tag": "the director on a deadline",
         "context": "Act One — the opening rehearsal. He bickers with the Leading Man about the cook's cap, insults the playwright, and sets the company in motion.",
         "from_speaker": "The Manager",
-        "from_opener": "I can't see a thing in here",
+        "from_opener": "No. No. Not another one",
         "to_speaker": "The Manager",
-        "to_opener": "Yes, yes, of course",
+        "to_opener": "Real? God forbid. Real things ruin a rehearsal",
     },
     {
         "role": "Player 1",
@@ -103,14 +103,14 @@ SIDES = [
         "from_speaker": "Player 3",
         "from_opener": '"Leo Gala\'s house. A curious room',
         "to_speaker": "Player 3",
-        "to_opener": "Pardon sir, may I get into my box",
+        "to_opener": "Pardon, sir — may I get into my box",
     },
     {
         "role": "Madame Pace",
         "tag": "the businesswoman of shame",
         "context": "Act Two, Part II — Madame Pace materialises on the platform, conjured by the magic of the stage. She arrives comic, exits chilling. Her own performer carries the whole arc inside one scene.",
         "from_speaker": "Madame Pace",
-        "from_opener": "Good morning, good morning, sir",
+        "from_opener": "Good afternoon, good afternoon, sir",
         "to_speaker": "Madame Pace",
         "to_opener": "Yes yes, of course. I go. I go",
     },
@@ -147,6 +147,11 @@ def _norm(text):
     if not text:
         return ""
     t = text
+    # HTML entities first (the play HTML stores these as entities)
+    for ent, ch in (("&#8217;", "'"), ("&#8216;", "'"), ("&#8220;", '"'),
+                    ("&#8221;", '"'), ("&#8212;", "—"), ("&#8211;", "–"),
+                    ("&#8230;", "…"), ("&amp;", "&")):
+        t = t.replace(ent, ch)
     # Curly apostrophes and quotes
     t = t.replace("’", "'").replace("‘", "'")
     t = t.replace("“", '"').replace("”", '"')

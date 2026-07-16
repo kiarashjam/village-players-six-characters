@@ -457,7 +457,7 @@ def BEATS():
       f'{who("The Step-Daughter")} {sd("turning towards her, running over")}. There she is! There she is!',
       move=("SD", 52, 24))
     B("work",
-      sd("Madame Pace places one hand under the Step-Daughter&#39;s chin to raise her head") + f'. {who("Madame Pace")}. Good morning, good morning, sir! Madame Pace, sir — dresses and coats, off the rue de Bourg.')
+      sd("Madame Pace places one hand under the Step-Daughter&#39;s chin to raise her head") + f'. {who("Madame Pace")}. Good afternoon, good afternoon, sir! Madame Pace, sir — dresses and coats, off the rue de Bourg.')
     B("work",
       f'{who("The Step-Daughter")} {sd("leaving Madame Pace and advancing towards the actors")}. Louder? Louder? What on earth are you talking about?',
       move=("SD", 58, 60), notes=[(58, 68, "down to the actors")])
