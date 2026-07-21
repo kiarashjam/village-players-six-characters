@@ -305,7 +305,7 @@ HTML = r"""<!DOCTYPE html>
     <p>Three parts.</p>
     <h4>4.1.1 Part I (The Rehearsal)</h4>
     <p>White working lights. A scratchy French chanson in the wings. The Players are rehearsing a play they do not like; the Manager is half present. The audience laughs in the first ten minutes. This is committed comedy. Do not undercut it.</p>
-    <h4>4.1.2 Parts II–V (The Interruption, now in four movements: The Arrival · The Veil · His Version · The Son)</h4>
+    <h4>4.1.2 Parts II–V (The Interruption, now in four movements: The Arrival · The Veil · The Defence · The Hinge)</h4>
     <p>The Six walk on, in person, lit by the "tenuous light" Pirandello specifies. The Door-keeper carries the chair-and-coat in and sets it at the edge of the stage; the Step-Daughter is already carrying the wrapped bundle. The white working lights soften to amber. The chanson cuts off mid-bar. The play's tonal hinge is here, in the second part of the first act.</p>
     <h4>4.1.3 Part III (The Bargain)</h4>
     <p>Amber drifts slowly to deep red across the part. The Step-Daughter speaks the words <em>hundred francs</em>; the Father starts to sweat. The act ends in a low blood-coloured wash. No music. The silence is the texture; the next act is the cue.</p>

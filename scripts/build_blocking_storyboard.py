@@ -331,7 +331,7 @@ def BEATS():
     B("amber",
       sd("A tenuous light surrounds the Six, almost as if irradiated by them. It will disappear when they come forward") + ".")
 
-    S.part("Parts II–V — The Arrival · The Veil · His Version · The Son")
+    S.part("Parts II–V — The Arrival · The Veil · The Defence · The Hinge")
     B("amber",
       f'{who("Player 1")} {sd("as Door-keeper, cap in hand")}. Excuse me, sir — these people are asking for you; they insist on coming in. {who("The Manager")} {sd("rudely")}. I am rehearsing — no one is allowed in during rehearsals!',
       notes=[(40, 18, "the Door-keeper announces them")])
