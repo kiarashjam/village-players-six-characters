@@ -89,12 +89,12 @@
         },
         {
           "time": "19:05",
-          "activity": "Part II — The Interruption",
-          "detail": "Read it flat, then the Part II questions. (The six walk in.)"
+          "activity": "Parts II–V — Arrival · Veil · His Version · The Son",
+          "detail": "The Interruption in four movements: read each flat, with its questions. (See “Part by part”.)"
         },
         {
           "time": "19:22",
-          "activity": "Part III — The Bargain",
+          "activity": "Part VI — The Bargain",
           "detail": "Read it flat, then the Part III questions."
         },
         {
@@ -178,28 +178,37 @@
           ]
         },
         {
-          "name": "Part II — The Interruption",
-          "when": "19:05–19:22",
-          "present": "The Father, The Step-Daughter, The Mother, The Son, The Manager",
+          "name": "Part II — The Arrival",
+          "when": "19:00–19:08",
+          "present": "The Father, The Step-Daughter, The Manager, the Players",
           "questions": [
             {
               "to": "The Father",
               "asks": [
                 "What do you need them to believe?",
-                "Which story do you most want told — and why now?",
-                "What are you ashamed of that you'll talk around?",
-                "When you look at the Step-Daughter, what do you feel?"
+                "Which story do you most want told — and why now?"
+              ]
+            },
+            {
+              "to": "The Manager",
+              "asks": [
+                "When do you stop wanting to throw them out?",
+                "What first makes you curious instead of angry?"
               ]
             },
             {
               "to": "The Step-Daughter",
               "asks": [
-                "What do you want them to see that the Father won't say?",
-                "What has he done to you?",
-                "Why is being 'made pretty' worse than being ignored?",
-                "What do you want to happen to him tonight?"
+                "Why sing “Valentine” to a room of strangers?"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "name": "Part III — The Veil",
+          "when": "19:08–19:16",
+          "present": "The Mother, The Father, The Step-Daughter",
+          "questions": [
             {
               "to": "The Mother",
               "asks": [
@@ -208,6 +217,46 @@
                 "Why can't you speak the way the others do?"
               ]
             },
+            {
+              "to": "The Step-Daughter",
+              "asks": [
+                "What do you want them to see that the Father won't say?",
+                "What has he done to you?"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Part IV — His Version",
+          "when": "19:16–19:26",
+          "present": "The Father, The Mother, The Step-Daughter, The Manager",
+          "questions": [
+            {
+              "to": "The Father",
+              "asks": [
+                "What are you ashamed of that you'll talk around?",
+                "When you look at the Step-Daughter, what do you feel?"
+              ]
+            },
+            {
+              "to": "The Mother",
+              "asks": [
+                "What is the one sentence he can never talk you out of?"
+              ]
+            },
+            {
+              "to": "The Step-Daughter",
+              "asks": [
+                "Why is being 'made pretty' worse than being ignored?"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Part V — The Son",
+          "when": "19:26–19:33",
+          "present": "The Son, The Father, The Step-Daughter",
+          "questions": [
             {
               "to": "The Son",
               "asks": [
@@ -219,16 +268,14 @@
             {
               "to": "The Manager",
               "asks": [
-                "When do you stop wanting to throw them out?",
-                "What first makes you curious instead of angry?",
                 "What do you risk if you listen to them?"
               ]
             }
           ]
         },
         {
-          "name": "Part III — The Bargain",
-          "when": "19:22–19:35",
+          "name": "Part VI — The Bargain",
+          "when": "19:33–19:40",
           "present": "The Father, The Manager, The Step-Daughter",
           "questions": [
             {
