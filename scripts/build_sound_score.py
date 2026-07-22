@@ -42,16 +42,16 @@ def chips(*keys):
 # act -> (context line, [ (part, [tagkeys], what-html, cue-html) ])
 SCORE = [
     ("Act One — The Family",
-     "Three colours, one per part. White working light → amber → deep red. No piano in this act.",
+     "Three colours across six parts: white working light for the Rehearsal; amber from the Arrival through the Son; deep red for the Bargain. No piano in this act.",
      [
         ("Part I — The Rehearsal", ["radio"],
          "An old French <strong>chanson</strong> on a small radio in the wings — crackling, low, domestic, as if the company forgot to turn it off. "
          "<em>Suggested:</em> Aznavour, <em>La Bohème</em> (low), or a scratchy Piaf record (<em>La Vie en rose</em>, <em>Sous le ciel de Paris</em>).",
          "Plays under the whole rehearsal. <strong>Cuts off</strong> the instant the Door-keeper speaks."),
-        ("Part II — The Interruption", ["voice"],
+        ("Part II — The Arrival", ["voice"],
          "No instrument — &ldquo;the warmth is the score.&rdquo; The only music is the Step-Daughter&#39;s own: she <strong>sings and dances <em>Valentine</em></strong> (Chevalier, 1925), live — a period café-concert number, cheeky and dated on purpose.",
          "Her song during the dance, where the script places it. Otherwise the amber wash carries the act."),
-        ("Part III — The Bargain", ["silence"],
+        ("Part VI — The Bargain", ["silence"],
          "<strong>No music.</strong> The silence under the deepening red is the texture.",
          "Held to the end of the act — the cue into Act Two is the <em>absence</em> of sound."),
      ]),
@@ -137,7 +137,7 @@ h2 {{ font-family:'Cormorant Garamond',serif; font-weight:600; font-size:19pt; c
   <li><strong>A single struck piano note</strong> {chips("offpno")}<br>Act Three, the Refusal — one note like a slap at &ldquo;You can force him, sir.&rdquo;</li>
   <li><strong>Arvo Pärt — <em>Spiegel im Spiegel</em></strong> (opening phrase) {chips("rec")}<br>Act Three, the Fountain — the closing ten seconds, then blackout.</li>
   <li><strong>French chanson</strong> — <em>suggested:</em> Aznavour, <em>La Bohème</em> (or a scratchy Piaf — <em>La Vie en rose</em>, <em>Sous le ciel de Paris</em>) {chips("radio")}<br>Act One, the Rehearsal — a wings radio, low and crackling.</li>
-  <li><strong><em>Valentine</em></strong> (Maurice Chevalier, 1925) {chips("voice")}<br>Act One, the Interruption — sung and danced live by the Step-Daughter; a period café-concert number, cheeky and dated on purpose.</li>
+  <li><strong><em>Valentine</em></strong> (Maurice Chevalier, 1925) {chips("voice")}<br>Act One, the Arrival — sung and danced live by the Step-Daughter; a period café-concert number, cheeky and dated on purpose.</li>
 </ol>
 <p class="pianonote"><span class="lbl">PIANO</span> The live pianist plays in <strong>Act Two only</strong>: Satie&#39;s <em>Gymnopédie No. 1</em>; the Weimar vamp (Weill / Mistinguett) and its tattered reprise; the single held chord at the curtain. In Act Three the piano is heard just once — one note, offstage or recorded. The <em>Spiegel im Spiegel</em> coda is recorded (piano and violin). Everything else the audience hears — the cello drone, the fountain water, the gunshot — is sound, not music.</p>
 

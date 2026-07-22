@@ -331,7 +331,7 @@ def BEATS():
     B("amber",
       sd("A tenuous light surrounds the Six, almost as if irradiated by them. It will disappear when they come forward") + ".")
 
-    S.part("Part II — The Interruption")
+    S.part("Parts II–V — The Arrival · The Veil · The Defence · The Hinge")
     B("amber",
       f'{who("Player 1")} {sd("as Door-keeper, cap in hand")}. Excuse me, sir — these people are asking for you; they insist on coming in. {who("The Manager")} {sd("rudely")}. I am rehearsing — no one is allowed in during rehearsals!',
       notes=[(40, 18, "the Door-keeper announces them")])
@@ -384,7 +384,7 @@ def BEATS():
       f'{who("Player 1")} {sd("as Leading Man, beginning to relish it — then his eyes reach the Mother, and the rest does not arrive")}. What a spectacle. What an absolute…',
       move=("P1", 12, 84), notes=[(16, 90, "company to the wings · SR")])
 
-    S.part("Part III — The Bargain")
+    S.part("Part VI — The Bargain")
     B("amber",
       f'{who("The Manager")}. I begin to think there&#39;s the stuff for a drama in all this. {who("The Step-Daughter")} {sd("coming forward")}. When you&#39;ve got a character like me. {who("The Father")} {sd("shutting her up")}. You be quiet!',
       move=("SD", 40, 66), notes=[(40, 74, "comes forward")])

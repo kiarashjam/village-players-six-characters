@@ -284,7 +284,7 @@ HTML = """<!DOCTYPE html>
         <tr class="act-row"><td colspan="3">Part I — The Rehearsal</td></tr>
         <tr><td class="cue-id">L01</td><td class="cue-when">Pre-show / curtain up</td><td><em>White working lights up.</em> Cold-white, fluorescent, unflattering — the light of an actual morning rehearsal.</td></tr>
         <tr><td class="cue-id">S01</td><td class="cue-when">Pre-show / curtain up</td><td>Radio in the wings — old French chanson at low volume (Aznavour's <em>La Bohème</em>, or a scratchy Piaf: <em>La Vie en rose</em>, <em>Sous le ciel de Paris</em>). Should feel like the company forgot to turn it off.</td></tr>
-        <tr class="act-row"><td colspan="3">Part II — The Interruption</td></tr>
+        <tr class="act-row"><td colspan="3">Part II — The Arrival</td></tr>
         <tr><td class="cue-id">L02</td><td class="cue-when">Door-keeper steps onto the stage with the chair-and-coat</td><td><em>White softens to amber / honey gold.</em> The "tenuous light" Pirandello specifies for the Six. The four live Characters walk on inside the warmth; the Step-Daughter is already carrying the wrapped bundle.</td></tr>
         <tr><td class="cue-id">S02</td><td class="cue-when">Door-keeper's first line</td><td>Radio cuts off, mid-bar.</td></tr>
         <tr><td class="cue-id">M01 (live)</td><td class="cue-when">Mid-part</td><td>Step-Daughter sings and dances <em>Valentine</em> (Chevalier, 1925). Live, unaccompanied. Not a music cue, but recorded in the prompt book.</td></tr>
