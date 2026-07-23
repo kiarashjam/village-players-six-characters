@@ -1,0 +1,1282 @@
+[
+  {
+    "n": 1,
+    "speaker": "The Manager",
+    "text": ". No. No. Not another one. If it&#8217;s a bill, a complaint, or a note from somebody with &#8220;thoughts about the theatre,&#8221; burn it before I read it."
+  },
+  {
+    "n": 2,
+    "speaker": "Player 2",
+    "text": ". It&#8217;s all three, sir. The same envelope."
+  },
+  {
+    "n": 3,
+    "speaker": "The Manager",
+    "text": ". And who opened this room? It looks like a waiting room for actors nobody called back."
+  },
+  {
+    "n": 4,
+    "speaker": "Player 1",
+    "text": ". Then for once we are perfectly cast."
+  },
+  {
+    "n": 5,
+    "speaker": "The Manager",
+    "text": "Don&#8217;t be charming, sir &#8212; it costs extra, and we can&#8217;t afford it. A little light, please &#8212; if the house has any left to spare us this evening."
+  },
+  {
+    "n": 6,
+    "speaker": "Player 2",
+    "text": ". Half light. It&#8217;s what&#8217;s left."
+  },
+  {
+    "n": 7,
+    "speaker": "The Manager",
+    "text": "Half light, half a company, half a budget. We&#8217;re ready for Pirandello. God help us."
+  },
+  {
+    "n": 8,
+    "speaker": "The Manager",
+    "text": ". Come along! Second act of &#8220;Mixing It Up&#8221; &#8212; and play it, this once, as if you wanted the public back for the third."
+  },
+  {
+    "n": 9,
+    "speaker": "Player 1",
+    "text": ". The public came back for the third act once."
+  },
+  {
+    "n": 10,
+    "speaker": "Player 2",
+    "text": ". For you?"
+  },
+  {
+    "n": 11,
+    "speaker": "Player 1",
+    "text": "During me. There&#8217;s a difference."
+  },
+  {
+    "n": 12,
+    "speaker": "Player 3",
+    "text": ". &#8220;Leo Gala&#8217;s house. A curious room serving as dining-room and study.&#8221;"
+  },
+  {
+    "n": 13,
+    "speaker": "The Manager",
+    "text": ". Fix up the old red room."
+  },
+  {
+    "n": 14,
+    "speaker": "Player 2",
+    "text": ". The red room is blue now. We painted over it in March."
+  },
+  {
+    "n": 15,
+    "speaker": "The Manager",
+    "text": "Then make it red."
+  },
+  {
+    "n": 16,
+    "speaker": "Player 2",
+    "text": "With what, sir? Hope? Same flats as the blue room. I&#8217;ll turn them round."
+  },
+  {
+    "n": 17,
+    "speaker": "Player 3",
+    "text": ". &#8220;When the curtain rises, Leo Gala, in cook&#8217;s cap and apron, is busy beating an egg in a cup&#8230;&#8221;"
+  },
+  {
+    "n": 18,
+    "speaker": "The Manager",
+    "text": ". Yes &#8212; real eggs, if the budget runs to it. Mime them."
+  },
+  {
+    "n": 19,
+    "speaker": "Player 1",
+    "text": ". Excuse me. Must I absolutely wear a cook&#8217;s cap?"
+  },
+  {
+    "n": 20,
+    "speaker": "The Manager",
+    "text": ". It says so there."
+  },
+  {
+    "n": 21,
+    "speaker": "Player 1",
+    "text": "But it&#8217;s ridiculous. I have a reputation in this canton &#8212; fifteen years of it, and not one inch built on a cook&#8217;s cap."
+  },
+  {
+    "n": 22,
+    "speaker": "Player 2",
+    "text": ". Fifteen years. And the cap is what finally finishes you."
+  },
+  {
+    "n": 23,
+    "speaker": "The Manager",
+    "text": ". Ridiculous? Of course it&#8217;s ridiculous &#8212; that is the whole job. We are paid to make ridiculous things look inevitable. So put on the cap, beat the egg, and become the shell."
+  },
+  {
+    "n": 24,
+    "speaker": "Player 1",
+    "text": "The shell?"
+  },
+  {
+    "n": 25,
+    "speaker": "The Manager",
+    "text": "Empty, fragile, and cracked before the public arrives. Try not to overplay it. And is it my fault France keeps its good comedies for Paris and sends us Pirandello &#8212; whom nobody understands, least of all the people paid to perform him?"
+  },
+  {
+    "n": 26,
+    "speaker": "Player 1",
+    "text": ". I&#8217;d sooner resign."
+  },
+  {
+    "n": 27,
+    "speaker": "Player 2",
+    "text": "He resigns every Tuesday."
+  },
+  {
+    "n": 28,
+    "speaker": "Player 1",
+    "text": ". Let the record show I wear it under protest."
+  },
+  {
+    "n": 29,
+    "speaker": "The Manager",
+    "text": "The record is noted. The record is always noted. Chair, book &#8212; and somebody pretend we are a theatre."
+  },
+  {
+    "n": 30,
+    "speaker": "Player 3",
+    "text": "Pardon, sir &#8212; may I get into my box? There&#8217;s a draught off that door they&#8217;ve still not mended, and I&#8217;d rather not be hoarse for my first proper season."
+  },
+  {
+    "n": 31,
+    "speaker": "The Manager",
+    "text": "Yes, yes &#8212; in, in."
+  },
+  {
+    "n": 32,
+    "speaker": "Player 3",
+    "text": ". Do we ever rehearse anything real?"
+  },
+  {
+    "n": 33,
+    "speaker": "The Manager",
+    "text": "Real? God forbid. Real things ruin a rehearsal."
+  },
+  {
+    "n": 34,
+    "speaker": "Player 1",
+    "text": ". Excuse me, sir — désolé to interrupt; I know you don't like the morning's work disturbed…"
+  },
+  {
+    "n": 35,
+    "speaker": "The Manager",
+    "text": ". Eh? What is it?"
+  },
+  {
+    "n": 36,
+    "speaker": "Player 1",
+    "text": ". These people are asking for you, sir. I did tell them you were busy. They insisted."
+  },
+  {
+    "n": 37,
+    "speaker": "The Manager",
+    "text": ". I am rehearsing, and you know perfectly well no one's allowed to come in during rehearsals! Who are you, please? What do you want?"
+  },
+  {
+    "n": 38,
+    "speaker": "The Father",
+    "text": ". Actually… we have come here in search of an author…"
+  },
+  {
+    "n": 39,
+    "speaker": "The Manager",
+    "text": ". An author? What author?"
+  },
+  {
+    "n": 40,
+    "speaker": "The Father",
+    "text": "Any author, sir."
+  },
+  {
+    "n": 41,
+    "speaker": "The Manager",
+    "text": "But there's no author here. We are not rehearsing a new piece."
+  },
+  {
+    "n": 42,
+    "speaker": "The Step-Daughter",
+    "text": ". So much the better, sir, so much the better. You can put us on tonight — we'll draw better than whatever you were rehearsing."
+  },
+  {
+    "n": 43,
+    "speaker": "Player 3",
+    "text": ". Oh — do you hear that?"
+  },
+  {
+    "n": 44,
+    "speaker": "Player 1",
+    "text": ". We were drawing perfectly well. …Adequately."
+  },
+  {
+    "n": 45,
+    "speaker": "The Father",
+    "text": ". Yes, but if the author isn't here… unless you would be willing…"
+  },
+  {
+    "n": 46,
+    "speaker": "The Manager",
+    "text": "You are trying to be funny. We have neither the time nor the budget for funny."
+  },
+  {
+    "n": 47,
+    "speaker": "The Father",
+    "text": "No, for Heaven's sake, what are you saying? We bring you a drama, sir."
+  },
+  {
+    "n": 48,
+    "speaker": "The Step-Daughter",
+    "text": "We may be your fortune, sir — if you have the nerve for us."
+  },
+  {
+    "n": 49,
+    "speaker": "The Manager",
+    "text": "Will you oblige me by going away? Allez, please. We haven't time to waste with mad people. We have our own."
+  },
+  {
+    "n": 50,
+    "speaker": "The Father",
+    "text": ". You call us mad because we come without a book. But isn't that your work — to make invented things seem true? We are true already. We only lack the stage."
+  },
+  {
+    "n": 51,
+    "speaker": "The Manager",
+    "text": ". But I beg you to believe, my dear sir, that the actor's profession is a noble one. If today's playwrights give us stupid comedies to play and puppets instead of real people, remember — we are proud to have given life to immortal works on these very boards."
+  },
+  {
+    "n": 52,
+    "speaker": "The Father",
+    "text": ". Exactly, perfectly. To living beings more alive than those who breathe and wear clothes — beings less real, perhaps, but truer. Truer because they cannot lie about themselves the way we can. I agree with you entirely."
+  },
+  {
+    "n": 53,
+    "speaker": "The Step-Daughter",
+    "text": ". Truer. He has been using that word for years. Ask my mother how true it sounded."
+  },
+  {
+    "n": 54,
+    "speaker": "The Manager",
+    "text": "But what do you mean? Before, you said…"
+  },
+  {
+    "n": 55,
+    "speaker": "The Father",
+    "text": "No, sir. I mean only this: you know better than anyone that imagination gives bodies to things that would otherwise remain invisible."
+  },
+  {
+    "n": 56,
+    "speaker": "The Manager",
+    "text": "Very well, — but where does all this take us?"
+  },
+  {
+    "n": 57,
+    "speaker": "The Father",
+    "text": "Nowhere — only to show you we were born this way. Characters. Alive. And left without a stage."
+  },
+  {
+    "n": 58,
+    "speaker": "The Manager",
+    "text": ". So you and these other friends of yours have been born characters?"
+  },
+  {
+    "n": 59,
+    "speaker": "The Father",
+    "text": "Exactly, and alive as you see!"
+  },
+  {
+    "n": 60,
+    "speaker": "The Father",
+    "text": ". I am sorry you laugh, because we carry in us a drama, as you can guess from this woman here veiled in black."
+  },
+  {
+    "n": 61,
+    "speaker": "The Manager",
+    "text": ". Oh, enough! Out, please! Clear out of here! For Heaven's sake, turn them out!"
+  },
+  {
+    "n": 62,
+    "speaker": "The Father",
+    "text": ". No, no, look here, we…"
+  },
+  {
+    "n": 63,
+    "speaker": "The Manager",
+    "text": ". We come here to work, you know."
+  },
+  {
+    "n": 64,
+    "speaker": "Player 1",
+    "text": "One cannot allow oneself to be made a fool of, not before lunch, anyway."
+  },
+  {
+    "n": 65,
+    "speaker": "The Father",
+    "text": ". Your disbelief amazes me, gentlemen. Aren't you used to seeing the characters created by an author spring to life in yourselves and face each other? Just because there is no \"book\" which contains us, you refuse to believe…"
+  },
+  {
+    "n": 66,
+    "speaker": "The Step-Daughter",
+    "text": ". Believe me, we are really six most interesting characters, sir; side-tracked however."
+  },
+  {
+    "n": 67,
+    "speaker": "The Father",
+    "text": ". Sancho Panza lives. Madame Bovary lives. Their authors died, but they remain. We were born too — but left without a world to hold us."
+  },
+  {
+    "n": 68,
+    "speaker": "The Step-Daughter",
+    "text": ". He has said all this to himself before. Many times."
+  },
+  {
+    "n": 69,
+    "speaker": "The Manager",
+    "text": "That is quite all right. But what do you want here, all of you?"
+  },
+  {
+    "n": 70,
+    "speaker": "The Father",
+    "text": "We want to live."
+  },
+  {
+    "n": 71,
+    "speaker": "The Manager",
+    "text": "For Eternity?"
+  },
+  {
+    "n": 72,
+    "speaker": "The Father",
+    "text": "No, sir, only for a moment… in you."
+  },
+  {
+    "n": 73,
+    "speaker": "Player 2",
+    "text": ". They want to live, in us… as if there were room."
+  },
+  {
+    "n": 74,
+    "speaker": "The Father",
+    "text": "Look here! look here! The comedy has to be made. But if you and your actors are willing, we can soon arrange it among ourselves."
+  },
+  {
+    "n": 75,
+    "speaker": "The Manager",
+    "text": ". But what do you want to arrange? We don't arrange things here. Here we play dramas, comedies, and — once a year, against my better judgment — a musical revue. Not whatever this is."
+  },
+  {
+    "n": 76,
+    "speaker": "The Father",
+    "text": "Exactly! That is just why we have come to you."
+  },
+  {
+    "n": 77,
+    "speaker": "The Manager",
+    "text": "And where is the \"book\"?"
+  },
+  {
+    "n": 78,
+    "speaker": "The Father",
+    "text": "It is in us! The drama is in us, and we are the drama. We are impatient to play it. Our inner passion drives us on to this."
+  },
+  {
+    "n": 79,
+    "speaker": "The Step-Daughter",
+    "text": ". His passion. Always the word passion."
+  },
+  {
+    "n": 80,
+    "speaker": "The Step-Daughter",
+    "text": ". My passion, sir. Ah, if you only knew — my passion for him."
+  },
+  {
+    "n": 81,
+    "speaker": "The Father",
+    "text": ". Behave yourself! And please don't laugh in that fashion."
+  },
+  {
+    "n": 82,
+    "speaker": "The Step-Daughter",
+    "text": "With your permission, gentlemen, I, who am a two months' orphan, will show you how well I can dance and sing. Don't worry — it isn't a hymn."
+  },
+  {
+    "n": 83,
+    "speaker": "Player 1, Player 2 &amp; Player 3",
+    "text": "Bravo! Well done! Encore!"
+  },
+  {
+    "n": 84,
+    "speaker": "The Manager",
+    "text": "Silence! This isn't a café concert, you know! Is she mad?"
+  },
+  {
+    "n": 85,
+    "speaker": "Player 1",
+    "text": ". She has more stage presence than the second act. I'll say that."
+  },
+  {
+    "n": 86,
+    "speaker": "The Father",
+    "text": "Mad? No, she's worse than mad."
+  },
+  {
+    "n": 87,
+    "speaker": "The Step-Daughter",
+    "text": ". Worse? Listen! Stage this drama now, sir! At a certain moment, when we lose this little darling, and this fool here does the stupidest thing — you will see me run away. Yes, gentlemen, I'll be off. But the moment hasn't come yet. After what has taken place between him and me , I can't stay here, watching her anguish over that fool . Look at him — frigid, indifferent, because he is the legitimate son. He despises us all because we are bastards. And he won't even recognise her as his mother. Wretch."
+  },
+  {
+    "n": 88,
+    "speaker": "The Mother",
+    "text": ". In the name of these two little children, I beg you… Oh God!"
+  },
+  {
+    "n": 89,
+    "speaker": "The Father",
+    "text": ". Quick, a chair, a chair for this poor widow!"
+  },
+  {
+    "n": 90,
+    "speaker": "Player 1, Player 2 &amp; Player 3",
+    "text": "Is it true? Has she really fainted?"
+  },
+  {
+    "n": 91,
+    "speaker": "The Manager",
+    "text": "Quick, a chair! Here!"
+  },
+  {
+    "n": 92,
+    "speaker": "The Father",
+    "text": "Look at her! Look at her!"
+  },
+  {
+    "n": 93,
+    "speaker": "The Mother",
+    "text": "No, no; stop it please!"
+  },
+  {
+    "n": 94,
+    "speaker": "The Father",
+    "text": ". Let them see you!"
+  },
+  {
+    "n": 95,
+    "speaker": "The Mother",
+    "text": ". I beg you, sir. Stop him. I cannot bear what he wants to do."
+  },
+  {
+    "n": 96,
+    "speaker": "The Manager",
+    "text": ". I don't understand at all. What is the situation? Is this lady your wife?"
+  },
+  {
+    "n": 97,
+    "speaker": "The Father",
+    "text": "Yes, gentlemen: my wife!"
+  },
+  {
+    "n": 98,
+    "speaker": "The Manager",
+    "text": "But how can she be a widow if you are alive?"
+  },
+  {
+    "n": 99,
+    "speaker": "The Father",
+    "text": "Don't laugh! Don't laugh like that, for Heaven's sake. Her drama lies just here in this: she has had a lover, a man who should be here."
+  },
+  {
+    "n": 100,
+    "speaker": "The Mother",
+    "text": ". No! No!"
+  },
+  {
+    "n": 101,
+    "speaker": "The Step-Daughter",
+    "text": "Fortunately for her, sir, he is dead. Two months ago, as I said. We are in mourning, as you see. Most respectable."
+  },
+  {
+    "n": 102,
+    "speaker": "The Father",
+    "text": "He isn't here, you see, not because he is dead. He isn't here because her drama is not a drama of love at all. She felt nothing for either of us — perhaps a little gratitude, not for me, for the other. She isn't a woman, she is a mother. And her drama — powerful sir, I assure you — lies all in these four children she has had by two men."
+  },
+  {
+    "n": 103,
+    "speaker": "The Mother",
+    "text": "I had them? Have you got the courage to say that I wanted them? It was him. He gave me to that other man. He made me go."
+  },
+  {
+    "n": 104,
+    "speaker": "The Step-Daughter",
+    "text": "It isn't true."
+  },
+  {
+    "n": 105,
+    "speaker": "The Mother",
+    "text": ". Not true, isn't it?"
+  },
+  {
+    "n": 106,
+    "speaker": "The Step-Daughter",
+    "text": "No, it isn't true, it just isn't true."
+  },
+  {
+    "n": 107,
+    "speaker": "The Mother",
+    "text": "And what can you know about it?"
+  },
+  {
+    "n": 108,
+    "speaker": "The Step-Daughter",
+    "text": "It isn't true. Don't believe it. Do you know why she says so? For that fellow there. She tortures herself, destroys herself on account of the neglect of that son there; and she wants him to believe that if she abandoned him when he was only two years old, it was because he made her do so."
+  },
+  {
+    "n": 109,
+    "speaker": "The Mother",
+    "text": ". He forced me to it. And I call God to witness it. Ask him if it isn't true. Let him speak. You are not in a position to know anything about it."
+  },
+  {
+    "n": 110,
+    "speaker": "The Step-Daughter",
+    "text": "I know you lived in peace and happiness with my father while he lived. Can you deny it?"
+  },
+  {
+    "n": 111,
+    "speaker": "The Mother",
+    "text": "No, I don't deny it…"
+  },
+  {
+    "n": 112,
+    "speaker": "The Step-Daughter",
+    "text": "He was always full of affection and kindness for you. It's true, isn't it? Tell them! Why don't you speak, you little fool?"
+  },
+  {
+    "n": 113,
+    "speaker": "The Mother",
+    "text": "Leave him alone. Why do you want to make me appear ungrateful, daughter? I don't want to offend your father. I have told him: I did not leave my house and my son through any fault of mine. Not from any wilful passion."
+  },
+  {
+    "n": 114,
+    "speaker": "The Father",
+    "text": "It's true. It was my doing."
+  },
+  {
+    "n": 115,
+    "speaker": "Player 1",
+    "text": ". What a spectacle. What an absolute…"
+  },
+  {
+    "n": 116,
+    "speaker": "Player 2",
+    "text": ". We are the audience this time."
+  },
+  {
+    "n": 117,
+    "speaker": "Player 3",
+    "text": ". For once."
+  },
+  {
+    "n": 118,
+    "speaker": "The Manager",
+    "text": ". Let's hear them out. Listen!"
+  },
+  {
+    "n": 119,
+    "speaker": "The Son",
+    "text": "Oh yes, you're going to hear a fine bit now. He will talk to you of the Demon of Experiment."
+  },
+  {
+    "n": 120,
+    "speaker": "The Father",
+    "text": "You are a cynical imbecile. I've told you so already a hundred times. He tries to make fun of me on account of this expression which I have found to excuse myself with."
+  },
+  {
+    "n": 121,
+    "speaker": "The Son",
+    "text": ". Yes. Phrases. Phrases."
+  },
+  {
+    "n": 122,
+    "speaker": "The Father",
+    "text": "Phrases! Isn't everyone consoled when faced with a trouble or fact he doesn't understand, by a word, some simple word, which tells us nothing and yet calms us?"
+  },
+  {
+    "n": 123,
+    "speaker": "The Step-Daughter",
+    "text": "Even remorse. Especially remorse."
+  },
+  {
+    "n": 124,
+    "speaker": "The Father",
+    "text": "Remorse? No, that isn't true. I've done more than use words to quieten the remorse in me."
+  },
+  {
+    "n": 125,
+    "speaker": "The Step-Daughter",
+    "text": "Yes, there was money. A nice little bit. The hundred francs he was about to lay down for me, gentlemen — and I two months an orphan."
+  },
+  {
+    "n": 126,
+    "speaker": "The Son",
+    "text": ". This is vile."
+  },
+  {
+    "n": 127,
+    "speaker": "The Step-Daughter",
+    "text": "Vile? There they were in a pale blue envelope on a little mahogany table in the back of Madame Pace's shop. You know Madame Pace, sir — one of those ladies who take in poor girls of good family on the pretext of selling robes et manteaux. The pretext is always robes. The arrangement is always something else."
+  },
+  {
+    "n": 128,
+    "speaker": "The Son",
+    "text": "And he thinks he bought the right to tyrannize over us with that hundred francs. Which — note this, gentlemen — he never got the chance to pay."
+  },
+  {
+    "n": 129,
+    "speaker": "The Step-Daughter",
+    "text": "It was a near thing, though, you know!"
+  },
+  {
+    "n": 130,
+    "speaker": "The Mother",
+    "text": ". Shame, my daughter. Not in front of her."
+  },
+  {
+    "n": 131,
+    "speaker": "The Step-Daughter",
+    "text": "Shame? Oh, the shame is mine — and the revenge. I am dying to live that scene. The room — I see it. Here is the window with the mantles in display, there the divan, the looking-glass, a screen, and in front of the window the little mahogany table with the blue envelope and its hundred francs. I see it. I can almost take hold of it. But you, gentlemen, might look elsewhere for this part of it. I do not blush, however. He does."
+  },
+  {
+    "n": 132,
+    "speaker": "The Manager",
+    "text": ". I don't understand this at all."
+  },
+  {
+    "n": 133,
+    "speaker": "The Father",
+    "text": ". Of course. — Sir. Before you decide what she has just put on me, you must let me explain."
+  },
+  {
+    "n": 134,
+    "speaker": "The Step-Daughter",
+    "text": "Ah yes, explain it in your own way."
+  },
+  {
+    "n": 135,
+    "speaker": "The Father",
+    "text": "Words are the whole trouble. I say one thing, she hears another. I try to explain myself &#8212; and the explanation becomes another crime."
+  },
+  {
+    "n": 136,
+    "speaker": "The Mother",
+    "text": "But you drove me away."
+  },
+  {
+    "n": 137,
+    "speaker": "The Father",
+    "text": "Do you hear her? I drove her away! She believes I really sent her away."
+  },
+  {
+    "n": 138,
+    "speaker": "The Mother",
+    "text": ". You know how to talk, and I don't. But believe me, sir — after he had married me… who knows why?… I was a poor woman. Nothing."
+  },
+  {
+    "n": 139,
+    "speaker": "The Father",
+    "text": "— it was for your humility that I married you. I loved this simplicity in you. You see — she denies it. She cannot hear me. She has never been able to hear me. She has a heart for the children. When I speak — nothing."
+  },
+  {
+    "n": 140,
+    "speaker": "The Step-Daughter",
+    "text": "Yes, but ask him how his intelligence has helped us."
+  },
+  {
+    "n": 141,
+    "speaker": "The Father",
+    "text": "If we could see all the evil that can come from good, what would we do?"
+  },
+  {
+    "n": 142,
+    "speaker": "Player 2",
+    "text": "Excuse me — mais sérieusement — are we going to rehearse today, or have we converted to a lecture series?"
+  },
+  {
+    "n": 143,
+    "speaker": "The Manager",
+    "text": "Of course, of course; but let's hear them out."
+  },
+  {
+    "n": 144,
+    "speaker": "Player 1",
+    "text": ". Most interesting. In a kind of educational way."
+  },
+  {
+    "n": 145,
+    "speaker": "Player 2",
+    "text": "Yes — for the kind of audience that goes in for that kind of evening. The rest of us are working actors. We have rent to pay."
+  },
+  {
+    "n": 146,
+    "speaker": "The Manager",
+    "text": ". You must please explain yourself quite clearly."
+  },
+  {
+    "n": 147,
+    "speaker": "The Father",
+    "text": "Very well then: listen! I had in my service a poor man, a clerk, a secretary of mine, full of devotion, who became friends with her. They understood each other, kindred souls in fact, without the slightest suspicion of evil between them. They were incapable even of thinking of it."
+  },
+  {
+    "n": 148,
+    "speaker": "The Step-Daughter",
+    "text": "So he thought of it — for them!"
+  },
+  {
+    "n": 149,
+    "speaker": "The Father",
+    "text": "That's not true. I meant to do good to them — and to myself, I confess, at the same time. Things had reached the point where I couldn't say a word to either of them without their making a silent appeal to each other with their eyes. I could see them silently asking each other how to keep me calm, how to keep me quiet. And this alone, believe me, was enough to keep me in a constant rage — to exasperate me beyond measure."
+  },
+  {
+    "n": 150,
+    "speaker": "The Manager",
+    "text": "And why didn't you send him away then — this secretary of yours?"
+  },
+  {
+    "n": 151,
+    "speaker": "The Father",
+    "text": "Precisely what I did, sir. And then I had to watch this poor woman wandering the house like an animal without a master. Like an animal one has taken in out of pity."
+  },
+  {
+    "n": 152,
+    "speaker": "The Mother",
+    "text": "Ah yes…"
+  },
+  {
+    "n": 153,
+    "speaker": "The Father",
+    "text": ". It's true about the son anyway, isn't it?"
+  },
+  {
+    "n": 154,
+    "speaker": "The Mother",
+    "text": "He took my son away from me first of all."
+  },
+  {
+    "n": 155,
+    "speaker": "The Father",
+    "text": "But not from cruelty. I did it so that he should grow up healthy and strong by living in the country."
+  },
+  {
+    "n": 156,
+    "speaker": "The Step-Daughter",
+    "text": ". As one can see."
+  },
+  {
+    "n": 157,
+    "speaker": "The Father",
+    "text": ". Is it my fault if he has grown up like this? I sent him to a wet nurse in the country, a peasant, as his mother did not seem strong enough. That, sir, was the reason I married her. Unpleasant — but how can it be helped? All my life I have had these damned aspirations toward a moral sanity I never quite reach."
+  },
+  {
+    "n": 158,
+    "speaker": "The Manager",
+    "text": "Yes, please stop it, for Heaven's sake."
+  },
+  {
+    "n": 159,
+    "speaker": "The Step-Daughter",
+    "text": "But imagine moral sanity from him, if you please — a regular customer of Madame Pace's shop. A very regular customer."
+  },
+  {
+    "n": 160,
+    "speaker": "Player 1",
+    "text": ". — These are not the lines of a play I auditioned for."
+  },
+  {
+    "n": 161,
+    "speaker": "The Father",
+    "text": ". Fool! That is the proof that I am a man. This seeming contradiction, gentlemen, is the strongest proof that I stand here a live man before you. It is precisely this incongruity in my nature that has made me suffer what I have suffered. I couldn't live beside that woman any longer; not so much for the boredom she inspired in me, as for the pity I felt for her."
+  },
+  {
+    "n": 162,
+    "speaker": "The Step-Daughter",
+    "text": ". He calls it pity. He was caught buying his stepdaughter in the back of a dressmaker's shop. He calls it pity."
+  },
+  {
+    "n": 163,
+    "speaker": "The Mother",
+    "text": "And so he turned me out —."
+  },
+  {
+    "n": 164,
+    "speaker": "The Father",
+    "text": "— well provided for! Yes, I sent her to that man, gentlemen… to let her go free of me."
+  },
+  {
+    "n": 165,
+    "speaker": "The Mother",
+    "text": "And to free himself."
+  },
+  {
+    "n": 166,
+    "speaker": "The Father",
+    "text": "Yes. I admit it. It was a liberation, also, for me. But great evil has come of it. I meant well, sir. I did it for her sake more than for mine — I have never once doubted it. Did I ever lose sight of you, until that other man carried you off to another town? Out of pure interest in you, with no base motive in it, I watched — from a long way off — the new family that grew up around her."
+  },
+  {
+    "n": 167,
+    "speaker": "The Step-Daughter",
+    "text": ". Oh yes, that's true enough. When I was little, so high, you know, with plaits over my shoulders and my skirt down past my knees, I used to see him waiting outside the school for me to come out. He came, sir, to see how I was growing up."
+  },
+  {
+    "n": 168,
+    "speaker": "The Father",
+    "text": "This is infamous, shameful!"
+  },
+  {
+    "n": 169,
+    "speaker": "The Step-Daughter",
+    "text": "No. Why?"
+  },
+  {
+    "n": 170,
+    "speaker": "The Father",
+    "text": "Infamous! infamous! After she went away, my house seemed suddenly empty. She had been my nightmare, but she filled my house. I was like a dazed fly alone in the empty rooms. This boy here was educated away from home; when he came back, he seemed to me to be no more mine. With no mother between him and me, he grew up apart, on his own, with no tie of intellect or affection. And then — strange but true — I was driven, by curiosity at first and then by some tender sentiment, toward her family, which had come into being through my will. The thought of her began gradually to fill the emptiness I felt all around me."
+  },
+  {
+    "n": 171,
+    "speaker": "Player 2",
+    "text": ". Should we be writing this down? Some of it sounds important."
+  },
+  {
+    "n": 172,
+    "speaker": "The Step-Daughter",
+    "text": "Yes, yes. True. He used to follow me in the street and smile at me, wave his hand like this. I looked at him, doubtful, wondering who he might be. I told my mother, who guessed at once. Then she wouldn't send me to school for some days. When I went back, there he was again — looking so ridiculous — with a paper parcel: a fine straw hat, a bouquet of flowers, all for me."
+  },
+  {
+    "n": 173,
+    "speaker": "The Manager",
+    "text": "A bit discursive this, you know!"
+  },
+  {
+    "n": 174,
+    "speaker": "The Son",
+    "text": ". Literature. Literature."
+  },
+  {
+    "n": 175,
+    "speaker": "The Father",
+    "text": "Literature indeed! This is life, this is passion!"
+  },
+  {
+    "n": 176,
+    "speaker": "The Manager",
+    "text": "It may be, but it won't act."
+  },
+  {
+    "n": 177,
+    "speaker": "The Father",
+    "text": "I agree. This is only the part leading up. I don't suggest this should be staged. She , as you see, is no longer the schoolgirl with plaits down her back —."
+  },
+  {
+    "n": 178,
+    "speaker": "The Step-Daughter",
+    "text": "— and the skirt down past the knee!"
+  },
+  {
+    "n": 179,
+    "speaker": "The Father",
+    "text": "The drama is coming now, sir; something new, complex, most interesting."
+  },
+  {
+    "n": 180,
+    "speaker": "The Step-Daughter",
+    "text": "As soon as my father died…"
+  },
+  {
+    "n": 181,
+    "speaker": "The Father",
+    "text": "— there was absolute misery for them. They came back here, without my knowing. She can barely write her own name; but she could at least have had her daughter write — to tell me that they were in need."
+  },
+  {
+    "n": 182,
+    "speaker": "The Mother",
+    "text": "And how was I to divine all this sentiment in him?"
+  },
+  {
+    "n": 183,
+    "speaker": "The Father",
+    "text": "That is exactly your mistake, never to have guessed any of my sentiments."
+  },
+  {
+    "n": 184,
+    "speaker": "The Mother",
+    "text": "After so many years apart, and all that had happened…"
+  },
+  {
+    "n": 185,
+    "speaker": "The Father",
+    "text": "Was it my fault if that fellow carried you away? After he had found some job, I could find no trace of them — and, naturally, my interest dwindled. But the drama culminated, unforeseen, on their return — when I was driven by the loneliness that still had its grip on me. Ah, what wretchedness is in the man who is alone, and too proud for the shabby, easy comforts. Not old enough to do without company. Not young enough to seek it without shame. It is worse than misery. Every man carries things in the secrecy of his own heart that he would never say aloud. One gives way to a moment's weakness, and then rises from it, and is himself again — and the moment is not the man. Most men simply haven't the courage to admit the moment was ever there at all. That is the only difference between us. That's all."
+  },
+  {
+    "n": 186,
+    "speaker": "Player 1",
+    "text": ". I have several questions. None of them are polite."
+  },
+  {
+    "n": 187,
+    "speaker": "The Step-Daughter",
+    "text": "All appear to have the courage to do them though."
+  },
+  {
+    "n": 188,
+    "speaker": "The Father",
+    "text": "Yes, but in secret. Let a man only speak them out, and folks at once label him a cynic. But he is like all the others — he only admits, with the light of intelligence, the plain shame in all of us that most men prefer to close their eyes upon. Two people drift toward a thing neither will name; the moment they are caught at it, they both look away. It is the way we tell each other: blind yourself, because I have."
+  },
+  {
+    "n": 189,
+    "speaker": "The Step-Daughter",
+    "text": "Sometimes one of the two cannot look away any more — when she no longer feels the need of hiding her shame from herself, but dry-eyed and dispassionately sees only the shame of the man who has blinded himself without love. Oh, all this philosophy that uncovers the worst in a man and then seeks to excuse him — I can't stand it, sir. When a man simplifies life down to appetite, throwing aside every finer aspiration, every sense of duty, modesty, shame — then nothing is more revolting than the remorse that follows. Crocodile's tears, that's what it is."
+  },
+  {
+    "n": 190,
+    "speaker": "The Manager",
+    "text": "Let's come to the point. This is only discussion."
+  },
+  {
+    "n": 191,
+    "speaker": "The Father",
+    "text": "Very good, sir! A fact is like a sack — it won't stand up when it's empty. For it to stand up, you have to put into it the reason and sentiment which have caused it to exist. I couldn't possibly know that after his death they had decided to come back here, that they were in misery, and that she had gone to work as a seamstress, in a shop of Madame Pace's kind."
+  },
+  {
+    "n": 192,
+    "speaker": "The Step-Daughter",
+    "text": "A real high-class modiste, gentlemen. In appearance she dresses the leaders of the best society — but she arranges matters so those elegant ladies serve her purpose, and the rest of us — well, the rest of us serve a rather different purpose."
+  },
+  {
+    "n": 193,
+    "speaker": "The Mother",
+    "text": "You will believe me, gentlemen, that it never entered my mind that the old hag offered me work because she had her eye on my daughter."
+  },
+  {
+    "n": 194,
+    "speaker": "The Step-Daughter",
+    "text": "Poor Mother! Do you know, sir, what that woman did when I brought her back the work my mother had finished? She would point out to me that I had torn one of my dresses, and she would give it back to my mother to mend. It was I who paid for it, always I; while this poor creature here believed she was sacrificing herself for me and these two children here, sitting up at night sewing Madame Pace's dresses."
+  },
+  {
+    "n": 195,
+    "speaker": "The Manager",
+    "text": "And one day you met there…"
+  },
+  {
+    "n": 196,
+    "speaker": "The Step-Daughter",
+    "text": "Him, him. Yes sir, an old client. There's a scene for you to play! Superb!"
+  },
+  {
+    "n": 197,
+    "speaker": "The Father",
+    "text": "She, the Mother arrived just then…"
+  },
+  {
+    "n": 198,
+    "speaker": "The Step-Daughter",
+    "text": "Almost in time."
+  },
+  {
+    "n": 199,
+    "speaker": "The Father",
+    "text": ". No — in time. In time. Fortunately I recognized her… in time. And I took them back home with me to my house. You can imagine now her position and mine; she, as you see her, and I who cannot look her in the face."
+  },
+  {
+    "n": 200,
+    "speaker": "The Step-Daughter",
+    "text": "Absurd! How can I possibly be expected — after that — to play the modest young miss, fit company for his damned aspirations of \"a solid moral sanity\"?"
+  },
+  {
+    "n": 201,
+    "speaker": "The Father",
+    "text": "One moment is not a whole man. But she wants to nail me forever to that one room, that one table, that one envelope."
+  },
+  {
+    "n": 202,
+    "speaker": "The Step-Daughter",
+    "text": ". You walked into that room by yourself."
+  },
+  {
+    "n": 203,
+    "speaker": "Player 2",
+    "text": "Pardon — did we just witness a confession?"
+  },
+  {
+    "n": 204,
+    "speaker": "The Son",
+    "text": ". Leave me alone. I don't come into this."
+  },
+  {
+    "n": 205,
+    "speaker": "The Father",
+    "text": "What? You don't come into this?"
+  },
+  {
+    "n": 206,
+    "speaker": "The Son",
+    "text": "I've got nothing to do with it. And I don't want to have. You know perfectly well I wasn't made to be mixed up in all this with the rest of you."
+  },
+  {
+    "n": 207,
+    "speaker": "The Step-Daughter",
+    "text": "We are vulgar folk, sir. He is the fine gentleman. You may have noticed, Mr. Manager, that I fix him now and again with a look that makes him lower his eyes — because he knows what he did to me."
+  },
+  {
+    "n": 208,
+    "speaker": "The Son",
+    "text": ". I?"
+  },
+  {
+    "n": 209,
+    "speaker": "The Step-Daughter",
+    "text": "You — you! I owe my life on the streets to you. Did you, or did you not, deny us — I won't say the warmth of home, but even the bare hospitality that makes a guest feel at ease? We were intruders, come to disturb the kingdom of your legitimacy. I'd like Mr. Manager to witness certain scenes between him and me. He says I have tyrannised. It was his behaviour that made me insist on the reason I had come — with my mother, who is his mother too. And I came as mistress of the house."
+  },
+  {
+    "n": 210,
+    "speaker": "The Son",
+    "text": "It's easy for them to put me always in the wrong. But imagine, gentlemen, the position of a son who sees arrive one day at his home a young woman of impudent bearing, asking for his father — with whom, who knows what business she has. Then she returns, bolder, with that child there. He has to watch her treat his father in an equivocal and confidential manner. She asks him for money — in a way that lets one suppose he must give it. Must. Because he has every obligation."
+  },
+  {
+    "n": 211,
+    "speaker": "The Father",
+    "text": "But I have, in fact, this obligation. I owe it to your mother."
+  },
+  {
+    "n": 212,
+    "speaker": "The Son",
+    "text": "How should I know? When had I ever seen or heard of her? One day there arrive with her that lad and this baby here. I am told: \"This is your mother. Also.\" I divine from her manner why they have come home. I had rather not say what I feel about it. I shouldn't even care to confess it to myself. No action can therefore be hoped for from me in this affair. Believe me, sir — I am an \"unrealised\" character. Leave me out of it, I beg you."
+  },
+  {
+    "n": 213,
+    "speaker": "The Father",
+    "text": "What? It is just because you are so that…"
+  },
+  {
+    "n": 214,
+    "speaker": "The Son",
+    "text": "How do you know what I am like? When did you ever bother your head about me?"
+  },
+  {
+    "n": 215,
+    "speaker": "The Son",
+    "text": ". You all need me because somebody must be guilty who did nothing."
+  },
+  {
+    "n": 216,
+    "speaker": "The Father",
+    "text": "I admit it. I admit it. But isn't that a situation in itself? This aloofness of yours, so cruel to me and to your mother, who comes home and sees you almost for the first time as a grown man, who doesn't recognise you but knows you are her son… See, she's crying!"
+  },
+  {
+    "n": 217,
+    "speaker": "The Step-Daughter",
+    "text": ". Like a fool."
+  },
+  {
+    "n": 218,
+    "speaker": "The Father",
+    "text": ". She can't stand him, you know. He says he doesn't come into the affair, whereas he is really the hinge of the whole action. Look at that lad who is always clinging to his mother, frightened and humiliated. It is on account of this fellow here. Possibly his situation is the most painful of all. He feels himself more a stranger than the others — mortified at being brought into a home out of charity, as it were. The image of his father. Hardly talks at all."
+  },
+  {
+    "n": 219,
+    "speaker": "The Manager",
+    "text": "Oh, we'll cut him out. You've no notion what a nuisance boys are on the stage…"
+  },
+  {
+    "n": 220,
+    "speaker": "The Father",
+    "text": "The little girl vanishes first. Then the boy. Then she runs. And what remains? Three people in the same house, unable to belong to one another. A family, perhaps — but without faith, without warmth, without any place where happiness could take root."
+  },
+  {
+    "n": 221,
+    "speaker": "The Manager",
+    "text": "Damn it… there is something in what you say. I don't like it, but it interests me."
+  },
+  {
+    "n": 222,
+    "speaker": "The Step-Daughter",
+    "text": ". When you've got a character like me."
+  },
+  {
+    "n": 223,
+    "speaker": "The Father",
+    "text": ". You be quiet!"
+  },
+  {
+    "n": 224,
+    "speaker": "The Manager",
+    "text": ". It's new… hem… yes… You've got a nerve, though — to come here and fling it at me like this."
+  },
+  {
+    "n": 225,
+    "speaker": "The Father",
+    "text": "You will understand, sir, born as we are for the stage…"
+  },
+  {
+    "n": 226,
+    "speaker": "The Manager",
+    "text": "Are you amateur actors then? Because we, sir, are a professional company, with a season to fill."
+  },
+  {
+    "n": 227,
+    "speaker": "The Father",
+    "text": "No. I say born for the stage, because…"
+  },
+  {
+    "n": 228,
+    "speaker": "The Manager",
+    "text": "Oh, nonsense. You're an old hand, you know."
+  },
+  {
+    "n": 229,
+    "speaker": "The Father",
+    "text": "No, sir. We do not act like amateurs. We live the roles life has cast us in."
+  },
+  {
+    "n": 230,
+    "speaker": "The Manager",
+    "text": "Well, well, that will do. But you see, without an author… I could give you the address of an author if you like…"
+  },
+  {
+    "n": 231,
+    "speaker": "The Father",
+    "text": "No, no. Look here! You must be the author. You need not invent us — only give us form."
+  },
+  {
+    "n": 232,
+    "speaker": "The Manager",
+    "text": "I? What are you talking about?"
+  },
+  {
+    "n": 233,
+    "speaker": "The Father",
+    "text": "Yes, you, you! Why not?"
+  },
+  {
+    "n": 234,
+    "speaker": "The Manager",
+    "text": "Because I have never been an author: that's why."
+  },
+  {
+    "n": 235,
+    "speaker": "The Father",
+    "text": "Then become one now — not by inventing, sir, but by listening. We are already here. You need only take us down."
+  },
+  {
+    "n": 236,
+    "speaker": "The Manager",
+    "text": "It won't do."
+  },
+  {
+    "n": 237,
+    "speaker": "The Father",
+    "text": "What? When you see us live our drama…"
+  },
+  {
+    "n": 238,
+    "speaker": "The Manager",
+    "text": "Yes, that's all right. But you want someone to write it."
+  },
+  {
+    "n": 239,
+    "speaker": "The Father",
+    "text": "No, no. Someone to take it down, possibly, while we play it, scene by scene! It will be enough to sketch it out at first, and then try it over."
+  },
+  {
+    "n": 240,
+    "speaker": "The Manager",
+    "text": "Well… I am almost tempted. It's a bit of an idea. One might have a shot at it."
+  },
+  {
+    "n": 241,
+    "speaker": "The Father",
+    "text": "Of course. You'll see what scenes will come out of it. I can give you one, at once…"
+  },
+  {
+    "n": 242,
+    "speaker": "The Manager",
+    "text": ". God help me, it tempts me. I ought to throw you out — and instead I want to see the first scene. Come to my office. We'll see what can be done."
+  },
+  {
+    "n": 243,
+    "speaker": "The Step-Daughter",
+    "text": ". Extraordinary, yes — if he does not get to tell it alone."
+  },
+  {
+    "n": 244,
+    "speaker": "The Father",
+    "text": "There's no doubt about it. They had better come with us too, hadn't they?"
+  },
+  {
+    "n": 245,
+    "speaker": "The Manager",
+    "text": "Yes, yes. Come on! come on! Be punctual, please!"
+  },
+  {
+    "n": 246,
+    "speaker": "Player 1",
+    "text": "Is he serious? He has taken six strangers into his office and left us standing here like furniture."
+  },
+  {
+    "n": 247,
+    "speaker": "Player 3",
+    "text": "They are not ordinary strangers."
+  },
+  {
+    "n": 248,
+    "speaker": "Player 2",
+    "text": "No. Ordinary strangers do not arrive with a tragedy already rehearsed."
+  },
+  {
+    "n": 249,
+    "speaker": "Player 1",
+    "text": "And now he wants us to make a play out of them. In twenty minutes."
+  },
+  {
+    "n": 250,
+    "speaker": "Player 3",
+    "text": "Perhaps there is a play."
+  },
+  {
+    "n": 251,
+    "speaker": "Player 2",
+    "text": "There is always a play. The question is whether anyone is being paid to be in it."
+  },
+  {
+    "n": 252,
+    "speaker": "Player 1 (as Door-keeper)",
+    "text": ". I only let them in."
+  },
+  {
+    "n": 253,
+    "speaker": "Player 2",
+    "text": "That is not a defence."
+  },
+  {
+    "n": 254,
+    "speaker": "Player 1",
+    "text": "They looked expected."
+  },
+  {
+    "n": 255,
+    "speaker": "Player 3",
+    "text": "Am I taking this down?"
+  },
+  {
+    "n": 256,
+    "speaker": "Player 2",
+    "text": "Take everything down. It may be evidence."
+  }
+]
