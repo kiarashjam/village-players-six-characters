@@ -938,7 +938,7 @@ HTML = r"""<!DOCTYPE html>
     <p>The physical choreography of contact in this play is bounded — see <code>intimacy_protocol.pdf</code>. The moral weight is unbounded. The audience should leave uncomfortable not because the bodies did more, but because everything around the bodies did more. This is the production's first principle, and it shapes every staging decision.</p>
 
     <h3>25.2 The Lausanne anchoring</h3>
-    <p>The play is in Lausanne. The Players are at SSA Lausanne. The Madame Pace shop is above the rue de Bourg. The French chanson in the wings is Aznavour or Piaf. The audience is Swiss-English-speaking and expat. Keep this register in your ear. Do not let the production drift toward generic European.</p>
+    <p>The play is in Lausanne. The Players are at SSA Lausanne. The Madame Pace shop is above the rue de Bourg. The French chanson in the wings is Piaf, <em>La Vie en rose</em>. The audience is Swiss-English-speaking and expat. Keep this register in your ear. Do not let the production drift toward generic European.</p>
 
     <h3>25.3 The Manager — direct the man, not the symbol</h3>
     <p>Play the Manager as a tired director, and the audience-stand-in takes care of itself. He arrives where they arrive — at a working rehearsal, mid-comedy; he is invaded by the Six as they are; he tries to make sense of it as they do; he ends exhausted as they should. Do not direct the symbol; direct the man — practical, selfish, curious, too late — and let the house find itself in him.</p>

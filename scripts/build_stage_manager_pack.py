@@ -248,7 +248,7 @@ HTML = """<!DOCTYPE html>
         <tr><td class="item">Hats (assorted)</td><td>Given by the actresses to the Father across Act One.</td><td class="checkbox">☐</td></tr>
         <tr><td class="item">Cook's cap &amp; apron</td><td>Costume props from the company's rehearsal of <em>Mixing It Up</em> (the play within the play).</td><td class="checkbox">☐</td></tr>
         <tr><td class="item">Madame Pace's silver chain &amp; scissors</td><td>Long silver chain worn at the waist with scissors hanging — Pirandello's original detail. Madame Pace's signature object.</td><td class="checkbox">☐</td></tr>
-        <tr><td class="item">Fountain basin (Act III)</td><td>Short low basin centre-stage. Lit from inside (pale-blue). Live water if possible, recorded if necessary. The Step-Daughter bends over the bundle inside the basin; the drowning is not seen.</td><td class="checkbox">☐</td></tr>
+        <tr><td class="item">Fountain basin (Act III)</td><td>Short low basin centre-stage. Lit from inside (pale-blue). No live water — the basin is carried by light, recorded water and haze. The Step-Daughter bends over the bundle inside the basin; the drowning is not seen.</td><td class="checkbox">☐</td></tr>
         <tr><td class="item">Bare hanging bulb (Act III)</td><td>Single practical bulb above the Manager's table. Swings very slightly throughout the act.</td><td class="checkbox">☐</td></tr>
         <tr><td class="item">Upright piano (Act II)</td><td>Small upright stage-right on the lower floor, visible to the audience throughout Act Two. Played live by the credited pianist.</td><td class="checkbox">☐</td></tr>
         <tr><td class="item">Scripts / notebooks</td><td>The Players' rehearsal scripts and notebooks — visible from Act One onward, the working tools of the company they play.</td><td class="checkbox">☐</td></tr>
@@ -261,7 +261,7 @@ HTML = """<!DOCTYPE html>
     <table class="inv">
       <thead><tr><th>Role</th><th>Costume notes</th><th class="checkbox">✓</th></tr></thead>
       <tbody>
-        <tr><td class="item">Father</td><td>Dark morning coat. Mourning suit. The bearing of a man who has lost a son.</td><td class="checkbox">☐</td></tr>
+        <tr><td class="item">Father</td><td>Light trousers and a dark jacket — the character portrait's original description, confirmed by the director over the earlier "mourning suit" note. He reads against the family's blacks: a man still performing respectability. The bearing of a man who has lost a son.</td><td class="checkbox">☐</td></tr>
         <tr><td class="item">Mother</td><td>Heavy widow's veil — covers most of the face. Full mourning. The veil is half the costume.</td><td class="checkbox">☐</td></tr>
         <tr><td class="item">Step-Daughter</td><td>Black mourning dress; harder line, younger cut. Not a girl in a black dress — a woman in full black.</td><td class="checkbox">☐</td></tr>
         <tr><td class="item">Son</td><td>Dark suit, mourning, withdrawn. Closed posture.</td><td class="checkbox">☐</td></tr>
@@ -283,7 +283,7 @@ HTML = """<!DOCTYPE html>
       <tbody>
         <tr class="act-row"><td colspan="3">Part I — The Rehearsal</td></tr>
         <tr><td class="cue-id">L01</td><td class="cue-when">Pre-show / curtain up</td><td><em>White working lights up.</em> Cold-white, fluorescent, unflattering — the light of an actual morning rehearsal.</td></tr>
-        <tr><td class="cue-id">S01</td><td class="cue-when">Pre-show / curtain up</td><td>Radio in the wings — old French chanson at low volume (Aznavour's <em>La Bohème</em>, or a scratchy Piaf: <em>La Vie en rose</em>, <em>Sous le ciel de Paris</em>). Should feel like the company forgot to turn it off.</td></tr>
+        <tr><td class="cue-id">S01</td><td class="cue-when">Pre-show / curtain up</td><td>Radio in the wings — a scratchy Piaf record of <em>La Vie en rose</em>, at low volume. Should feel like the company forgot to turn it off.</td></tr>
         <tr class="act-row"><td colspan="3">Part II — The Arrival</td></tr>
         <tr><td class="cue-id">L02</td><td class="cue-when">Door-keeper steps onto the stage with the chair-and-coat</td><td><em>White softens to amber / honey gold.</em> The "tenuous light" Pirandello specifies for the Six. The four live Characters walk on inside the warmth; the Step-Daughter is already carrying the wrapped bundle.</td></tr>
         <tr><td class="cue-id">S02</td><td class="cue-when">Door-keeper's first line</td><td>Radio cuts off, mid-bar.</td></tr>
@@ -330,7 +330,7 @@ HTML = """<!DOCTYPE html>
         <tr><td class="cue-id">—</td><td class="cue-when">Entire part</td><td>Silence. No drone, no piano, no underscoring. Only footsteps and breath.</td></tr>
         <tr><td class="cue-id">S04</td><td class="cue-when">Father's line <em>You can force him, sir</em> (as he grabs the Son's arm)</td><td>Single sharp note from the piano — offstage or recorded — like a slap. Then silence again.</td></tr>
         <tr class="act-row"><td colspan="3">Part III — The Fountain</td></tr>
-        <tr><td class="cue-id">S05</td><td class="cue-when">Top of Part III</td><td>Sound of water — fountain live if possible, recorded if necessary — fades in. Stays under the part. Slightly louder as the Step-Daughter approaches the basin.</td></tr>
+        <tr><td class="cue-id">S05</td><td class="cue-when">Top of Part III</td><td>Sound of water — recorded; there is no live water — fades in. Stays under the part. Slightly louder as the Step-Daughter approaches the basin.</td></tr>
         <tr><td class="cue-id">L10-dim</td><td class="cue-when">Beneath the Son's narration</td><td>Stage lights drop slowly, breath by breath. End state: only the fountain's pale-blue interior and the bare bulb above the Manager's table remain. The chair-and-coat is silhouetted behind the basin. Hold the silhouette for ten seconds.</td></tr>
         <tr><td class="cue-id">L10-out</td><td class="cue-when">After the ten-second hold</td><td>Full blackout. Even the fountain light cuts. Total dark.</td></tr>
         <tr><td class="cue-id">S06</td><td class="cue-when">Out of the dark — on cue</td><td>Real gunshot effect in real silence. Water sound briefly stops with it, then resumes. The gunshot comes from where the chair-and-coat is, behind the basin.</td></tr>

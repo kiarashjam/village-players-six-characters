@@ -294,7 +294,7 @@ HTML = r"""<!DOCTYPE html>
     <h2>7. The fountain (water on stage)</h2>
     <div class="flag">
       <p class="flag-label">High priority — safety + budget</p>
-      <p>Act Three centres on a low fountain basin, lit pale-blue from inside, ideally with live, faintly rippling water. The Step-Daughter bends over the bundle inside the basin; the drowning is hidden. This is the production's hardest technical object.</p>
+      <p>Act Three centres on a low fountain basin, lit pale-blue from inside. The director has settled this without live water: the basin is carried by the interior light, recorded water and haze. The Step-Daughter bends over the bundle inside the basin; the drowning is hidden. The remaining questions are build, light and safety rather than plumbing.</p>
     </div>
     <h3>What to ask</h3>
     <ul class="ask">
@@ -467,7 +467,7 @@ HTML = r"""<!DOCTYPE html>
     <h3>What to ask</h3>
     <ul class="ask">
       <li>The base text is the public-domain Storer 1922 translation — confirm we are clear on performance rights for our adapted edition.</li>
-      <li>Music: the Satie is public domain; Weill, Mistinguett, Aznavour/Piaf recordings, and the Arvo Pärt are likely <em>not</em>. What performance/sync licences do we need, and who clears them?</li>
+      <li>Music: the Satie is public domain; Weill, Mistinguett, the Piaf recording, and the Arvo Pärt are likely <em>not</em>. Note that the Chevalier <em>Valentine</em> is sung live and the Weill/Mistinguett vamp is played live — a different licence from recorded playback. What performance/sync licences do we need, and who clears them?</li>
       <li>Any rights / clearance needed for recorded audio cues we produce ourselves (e.g. the cello drone, the gunshot effect)?</li>
     </ul>
     <div class="flag">
