@@ -25,6 +25,16 @@ outputs/
 │                                       the room: cast list, dialogue, necessary stage
 │                                       directions, light and sound cues. No essays.
 │                                       ~55 pages.
+├── actor_script.docx                  The same Actor Rehearsal Script as an editable
+│                                       Microsoft Word file — title page, contents, cast,
+│                                       production note, and the full play, laid out with
+│                                       real Word styles (speaker names in small caps and
+│                                       the house maroon, stage business in italic, a
+│                                       hanging indent under each speech) so anyone can
+│                                       mark it up or restyle it in Word. ~55 pages.
+├── act_one_svo.docx                   Act One actioning worksheet (Word) — every speech in
+│                                       Act One followed by a blank "Action: I ______ you"
+│                                       line, for the transitive-verb pass at the table.
 ├── <role>_part_book.pdf               Part Books — one per speaking role (father, mother,
 │                                       step_daughter, son, manager, player1, player2,
 │                                       player3, madame_pace). Every line that role speaks and
@@ -124,6 +134,8 @@ scripts/                               Build pipeline (Python + Playwright + Chr
 ├── make_pdf.py                        → outputs/directors_copy.pdf
 ├── build_actor_script.py              → actor_script.html (then make_pdf
 │                                       renders it to outputs/actor_script.pdf)
+├── build_actor_script_docx.py         → outputs/actor_script.docx (editable Word script)
+├── build_act_one_svo_docx.py          → outputs/act_one_svo.docx (Act One actioning sheet)
 ├── build_part_books.py                → outputs/<role>_part_book.pdf (×9, one per role)
 ├── build_movement_maps.py             → outputs/movement_maps.pdf (top-down blocking maps)
 ├── build_blocking_storyboard.py       → outputs/blocking_storyboard.pdf (beat-by-beat cards)
